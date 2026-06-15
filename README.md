@@ -85,7 +85,7 @@ Current build-comparison workflow:
 - Use `04_Tools/pc_build_marimo_WASM_SAFE.py` for GitHub Pages / Dad sharing. This file embeds the CSV data because browser/WASM export cannot reliably read live local project files.
 - Use Excel only as an export/presentation option later, not as the main working model.
 - Exchange-rate logic matters because the real payment path may be EUR salary -> UAH card, EUR cash/card in Hungary, Hungarian card, or Polish PLN card/payment conversion. The Marimo app now has live/default rates plus manual override controls.
-- GitHub Pages is published from `docs/`. The working share link should point to `docs/planner.html`, generated from the WASM-safe file.
+- GitHub Pages is published from `docs/`. The working share link points to `docs/planner.html`, generated from the WASM-safe file. The root `docs/index.html` is now only a redirect to `planner.html`.
 
 ## Project Structure Index
 
@@ -106,7 +106,7 @@ Use this as the map of the project:
 | `04_Tools/pc_build_marimo_WASM_SAFE.py` | GitHub Pages dashboard app | Embeds CSV data; use for Dad/public browser export |
 | `04_Tools/PC_BUILD_TOOLING.md` | Tooling and dashboard logic | Track app design, GitHub Pages, FX logic, and known issues |
 | `docs/planner.html` | Published Dad-facing page | Generated from `pc_build_marimo_WASM_SAFE.py`; this is the safe share link |
-| `docs/index.html` | Old/root export | Treat as risky until replaced/redirected; opening root can show old Marimo errors |
+| `docs/index.html` | Root redirect | Tiny redirect to `planner.html`; keep it simple |
 | `00_Hub/` | Temporary inbox | Empty after sorting, except files Roman is actively using |
 
 Current data flow:
@@ -123,7 +123,7 @@ Current data flow:
 Known cleanup / improvement list:
 
 - Do not expect GitHub Pages/WASM to read the live CSV. The WASM-safe file must embed the current CSV or use a future generated browser-safe data asset.
-- Replace or redirect `docs/index.html` so the root GitHub Pages URL does not open the old broken export.
+- Keep `docs/index.html` as a tiny redirect to `planner.html` so the root GitHub Pages URL does not open an old export.
 - Add a clearer "last updated" line in the dashboard that includes the price-data date and exchange-rate date separately.
 - Add source links to the parts database only when the dashboard needs them; keep the Dad view simple.
 - Decide whether CPU/motherboard/PSU from Poland are "default buy" or only "bundle if already ordering RAM/GPU/SSD."

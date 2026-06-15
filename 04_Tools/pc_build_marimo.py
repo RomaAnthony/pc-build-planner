@@ -559,8 +559,8 @@ def _(builds, compare_ids, build_table, huf_text, mo, number_text, rates, select
             Exchange assumption: 1 PLN = {rates["pln_to_huf"]:.2f} HUF. Source: {rates["source"]}. Checked: {rates["checked"]}.
           </div>
           
-          <h2 style="margin-top: 40px; color: #ffffff;">Payment Options (Your Cards)</h2>
-          <p style="color: #a0aec0; margin-bottom: 16px;">Compare what you pay with different cards</p>
+          <h2 style="margin-top: 40px;">Payment Options (Your Cards)</h2>
+          <p class="pc-muted" style="margin-bottom: 16px;">Compare what you pay with different cards</p>
           <table class="pc-table">
             <thead>
               <tr>
@@ -584,8 +584,8 @@ def _(builds, compare_ids, build_table, huf_text, mo, number_text, rates, select
               </tr>
             </tbody>
           </table>
-          <div class="pc-note" style="background: rgba(66,153,225,.1); border-left: 3px solid #4299e1; color: #cbd5e1;">
-            💡 <strong>Tip:</strong> Your HUF card is better for this build. You save {huf_text(total_saving)} HUF by buying from Poland instead of Hungary.
+          <div class="pc-note">
+            <strong>Tip:</strong> Check the real card rate before purchase. The current build saves {huf_text(total_saving)} by buying selected parts from Poland instead of Hungarian reference prices.
           </div>
         </div>
         """

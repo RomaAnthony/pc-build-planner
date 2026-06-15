@@ -26,6 +26,7 @@ Current source of truth:
 - Local dashboard logic lives in `04_Tools/pc_build_marimo.py`.
 - GitHub Pages/browser dashboard logic lives in `04_Tools/pc_build_marimo_WASM_SAFE.py`.
 - Published static page lives at `docs/planner.html`.
+- Root page `docs/index.html` is only a redirect to `planner.html`.
 
 Important rule:
 
@@ -182,7 +183,7 @@ Important:
 
 - The exported Marimo assets are large and generated; do not edit generated HTML by hand.
 - Browser-based live exchange-rate fetching may depend on API/CORS behavior. The app has fallback rates, but final sharing should be tested from the published link.
-- `docs/index.html` is risky/stale if it was generated from the local CSV-reading file. Use or share `docs/planner.html` until `index.html` is replaced with a redirect or a WASM-safe export.
+- `docs/index.html` redirects to `planner.html`. If the root GitHub link looks wrong, the likely cause is Pages cache or an unpushed commit.
 
 ## Active Files
 
@@ -191,6 +192,7 @@ Important:
 - `04_Tools/pc_build_marimo_WASM_SAFE.py` - GitHub Pages / Dad app; embedded CSV snapshot
 - `04_Tools/requirements-marimo.txt` - minimal install list
 - `docs/planner.html` - generated GitHub Pages export; rebuild after WASM-safe app changes
+- `docs/index.html` - root redirect to `planner.html`
 
 ## Start App
 
@@ -260,7 +262,7 @@ Before improving the app design, audit the source data:
 - Live exchange-rate loading is now started in the Marimo app: Monobank/card path, ECB reference, and manual override controls.
 - Redesign the Marimo view for a non-technical reader: fewer columns, bigger decision cards, clear "buy in Hungary" / "buy in Poland" labels, and one simple total.
 - Verify the published Pages link after every export. The app should load without the red Marimo internal-error box.
-- Verify the exact Dad link is `/planner.html`; the root URL may still serve stale `index.html`.
+- Verify the exact Dad link is `/planner.html`; the root URL should redirect there after the latest commit is pushed and Pages refreshes.
 - Check whether old unpublished commits in GitHub Desktop need to be pushed before presenting to Dad.
 
 Patriot update on 2026-06-15:
