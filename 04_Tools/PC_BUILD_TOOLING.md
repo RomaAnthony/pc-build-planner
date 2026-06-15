@@ -16,6 +16,28 @@ Reason:
 - Python/SQL workflow is useful for Roman's finance, SQL, database, and AI-learning goals
 - output can later be exported to Excel/PDF only when needed
 
+## Current Architecture Rule
+
+Date: 2026-06-15
+
+Current source of truth:
+
+- Product data lives in `02_PC_Builds/parts_options_seed.csv`.
+- Dashboard logic lives in `04_Tools/pc_build_marimo.py`.
+- Published static site lives in `docs/`.
+
+Important rule:
+
+- Do not duplicate the full parts database inside `pc_build_marimo.py`.
+- If the GitHub Pages export needs a browser-readable data file, generate/copy a small data asset into `docs/` during export instead of embedding all rows into the Python source.
+- Keep the app source readable because this project will be updated often with new captures and price changes.
+
+Why this matters:
+
+- CSV is easy for Roman/Codex to update.
+- A duplicated embedded table will drift from the CSV.
+- The dashboard should be a calculator over the database, not a second database.
+
 ## Payment / FX Logic
 
 Date: 2026-06-15
@@ -159,12 +181,14 @@ Important:
 
 - The exported site is about 27 MB and contains hundreds of static assets.
 - Browser-based live exchange-rate fetching may depend on API/CORS behavior. The app has fallback rates, but final sharing should be tested from the published link.
+- GitHub Pages now appears to read the CSV correctly, so the temporary embedded-data fallback was removed. If this changes, use a generated `docs` data asset rather than embedding rows in the app source.
 
 ## Active Files
 
 - `02_PC_Builds/parts_options_seed.csv` - current parts database
 - `04_Tools/pc_build_marimo.py` - first Marimo build comparison app
 - `04_Tools/requirements-marimo.txt` - minimal install list
+- `docs/` - generated GitHub Pages export; rebuild after app/CSV changes
 
 ## Start App
 
@@ -233,6 +257,8 @@ Before improving the app design, audit the source data:
 - Fix the RAM saving logic labels: Patriot Viper Venom 64GB Poland can now be compared to Hungary as a same-model comparison using the cleaner Elektroshock Hungary offer. Patriot Viper Venom 32GB Poland can now be compared to Hungary using the Alza Hungary offer from the new Arukereso capture.
 - Live exchange-rate loading is now started in the Marimo app: Monobank/card path, ECB reference, and manual override controls.
 - Redesign the Marimo view for a non-technical reader: fewer columns, bigger decision cards, clear "buy in Hungary" / "buy in Poland" labels, and one simple total.
+- Verify the published Pages link after every export. The app should load without the red Marimo internal-error box.
+- Check whether old unpublished commits in GitHub Desktop need to be pushed before presenting to Dad.
 
 Patriot update on 2026-06-15:
 

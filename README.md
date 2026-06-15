@@ -84,6 +84,44 @@ Current build-comparison workflow:
 - Use `04_Tools/pc_build_marimo.py` for live build scenarios, totals, currency estimates, and Poland/Hungary savings.
 - Use Excel only as an export/presentation option later, not as the main working model.
 - Exchange-rate logic matters because the real payment path may be EUR salary -> UAH card, EUR cash/card in Hungary, Hungarian card, or Polish PLN card/payment conversion. The Marimo app now has live/default rates plus manual override controls.
+- GitHub Pages is published from `docs/`, which is generated from the Marimo app. The app source should read the CSV directly; do not duplicate the full parts database inside the Python file.
+
+## Project Structure Index
+
+Date: 2026-06-15
+
+Use this as the map of the project:
+
+| Path | Role | Current rule |
+|---|---|---|
+| `README.md` | Main project memory and handoff | Keep short current state here; do not dump raw market captures here |
+| `02_PC_Builds/parts_options_seed.csv` | Main parts database | Single source of truth for dashboard product rows, prices, market, seller, risk, and notes |
+| `02_PC_Builds/DAD_PC_BUILD_SUMMARY.md` | Dad-facing explanation | Use for the story and logic, not raw data |
+| `02_PC_Builds/99_Archive_Excel_Attempt/` | Old Excel attempt | Archive only; do not use as current model |
+| `03_Research_Notes/00_Working_Shortlists/` | Clean category conclusions | One working shortlist per part category |
+| `03_Research_Notes/01_Raw_Captures/` | Captured market pages | Store Arukereso/Ceneo/retailer captures here by category |
+| `03_Research_Notes/99_Imported_Research/` | Imported outside research | Keep separated from current conclusions |
+| `04_Tools/pc_build_marimo.py` | Active dashboard app | Reads the CSV and calculates build totals |
+| `04_Tools/PC_BUILD_TOOLING.md` | Tooling and dashboard logic | Track app design, GitHub Pages, FX logic, and known issues |
+| `docs/` | Published website export | Generated output; rebuild after changing the app or CSV |
+| `00_Hub/` | Temporary inbox | Empty after sorting, except files Roman is actively using |
+
+Current data flow:
+
+1. Capture market pages into `00_Hub/`.
+2. Move useful captures into `03_Research_Notes/01_Raw_Captures/<category>/`.
+3. Update the clean category shortlist in `03_Research_Notes/00_Working_Shortlists/`.
+4. Update the exact rows in `02_PC_Builds/parts_options_seed.csv`.
+5. Run/export the Marimo dashboard into `docs/`.
+6. Push to GitHub so Pages refreshes.
+
+Known cleanup / improvement list:
+
+- Confirm GitHub Pages reliably reads the CSV after export. If it breaks again, prefer a small generated JSON/CSV asset in `docs/`, not a duplicated table inside `pc_build_marimo.py`.
+- Add a clearer "last updated" line in the dashboard that includes the price-data date and exchange-rate date separately.
+- Add source links to the parts database only when the dashboard needs them; keep the Dad view simple.
+- Decide whether CPU/motherboard/PSU from Poland are "default buy" or only "bundle if already ordering RAM/GPU/SSD."
+- Keep the public/shared dashboard simple: one build selected, one parts table, numbers at the end.
 
 Start the current Marimo app from the project folder:
 
