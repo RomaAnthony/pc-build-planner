@@ -119,6 +119,7 @@ def _():
         "RAM_01_PL": "RAM_01_HU",
         "RAM_02_PL": "RAM_02_HU",
         "RAM_03_PL": "RAM_03_HU",
+        "RAM_04_PL": "RAM_04_HU",
         "SSD_01_PL": "SSD_01_HU",
         "SSD_02_PL": "SSD_02_HU",
         "PSU_02_PL": "PSU_02_HU",

@@ -70,7 +70,7 @@ Using Monobank-style PLN path around `1 PLN = 82.87 HUF`, current savings versus
 | Part | Poland logic | Approx. saving |
 |---|---|---:|
 | RAM 64GB Patriot | Definitely worth Poland if seller/warranty are clean | 84,600 HUF |
-| RAM 32GB Patriot | Budget branch only; do not count as clean same-model Hungary saving until Patriot 32GB Hungary is captured | n/a |
+| RAM 32GB Patriot | Budget branch only; now has a clean same-model Hungary reference from Alza | ~18,500 HUF |
 | SSD Kingston KC3000 2TB | Definitely worth Poland; small and easy to transport | 28,500 HUF |
 | RTX 5080 MSI Ventus | Definitely worth Poland if x-kom/warranty remains clean | 93,100 HUF |
 | CPU Ryzen 9 9900X | Worth considering if bundled with Poland order | 12,000 HUF |
@@ -230,7 +230,7 @@ Before improving the app design, audit the source data:
 
 - Recheck every row in `02_PC_Builds/parts_options_seed.csv` against the working Markdown notes.
 - Confirm which savings are exact same-model comparisons and which are only equivalent-part comparisons.
-- Fix the RAM saving logic labels: Patriot Viper Venom Poland can now be compared to Hungary as a same-model comparison, because Roman captured the exact Arukereso product page. Use the cleaner Elektroshock Hungary offer as the Dad-facing comparison unless the cheapest marketplace seller is verified.
+- Fix the RAM saving logic labels: Patriot Viper Venom 64GB Poland can now be compared to Hungary as a same-model comparison using the cleaner Elektroshock Hungary offer. Patriot Viper Venom 32GB Poland can now be compared to Hungary using the Alza Hungary offer from the new Arukereso capture.
 - Live exchange-rate loading is now started in the Marimo app: Monobank/card path, ECB reference, and manual override controls.
 - Redesign the Marimo view for a non-technical reader: fewer columns, bigger decision cards, clear "buy in Hungary" / "buy in Poland" labels, and one simple total.
 

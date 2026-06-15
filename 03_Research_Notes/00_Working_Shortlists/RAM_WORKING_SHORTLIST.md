@@ -88,15 +88,16 @@ Roman's preferred direction is still 64GB because of SQL/database/productivity w
 | Rank | Model | Market / page | Captured price | HUF estimate at 1 PLN = 93 HUF | Read |
 |---:|---|---|---:|---:|---|
 | 1 | Patriot Viper Venom 32GB 2x16 DDR5-6000 CL30, PVV532G600C30K | Poland / Ceneo | 1,589.90 PLN | ~147,861 HUF | Best 32GB value lead. Keep as budget-only option. |
-| 2 | Kingston Fury Beast EXPO 32GB 2x16 DDR5-6000 CL30, KF560C30BBEK2-32 | Hungary / Arukereso | 167,990 HUF | 167,990 HUF | Safer Kingston/spec route, but more expensive than Patriot Poland. |
-| 3 | Kingston Fury Beast EXPO 32GB 2x16 DDR5-6000 CL30 | Poland / Allegro | 1,850.96 PLN | ~172,139 HUF | Too expensive versus Hungary Kingston. |
-| 4 | G.Skill Flare X5 32GB 2x16 DDR5-6000 CL36 EXPO | Poland / Allegro | 1,835.55 PLN | ~170,706 HUF | CL36 and not cheap enough; not first. |
+| 2 | Patriot Viper Venom 32GB 2x16 DDR5-6000 CL30, PVV532G600C30K | Hungary / Arukereso / Alza | 150,290 HUF | 150,290 HUF | Same-model Hungary comparison; Alza stock offer, plus 1,390 HUF delivery. |
+| 3 | Kingston Fury Beast EXPO 32GB 2x16 DDR5-6000 CL30, KF560C30BBEK2-32 | Hungary / Arukereso | 167,990 HUF | 167,990 HUF | Safer Kingston/spec route, but more expensive than Patriot. |
+| 4 | Kingston Fury Beast EXPO 32GB 2x16 DDR5-6000 CL30 | Poland / Allegro | 1,850.96 PLN | ~172,139 HUF | Too expensive versus Hungary Kingston. |
+| 5 | G.Skill Flare X5 32GB 2x16 DDR5-6000 CL36 EXPO | Poland / Allegro | 1,835.55 PLN | ~170,706 HUF | CL36 and not cheap enough; not first. |
 
 32GB read:
 - Dropping from Patriot 64GB Poland at 2,941.98 PLN to Patriot 32GB Poland at 1,589.90 PLN saves about **1,352 PLN**, roughly **125,700 HUF**.
 - That saving is real, but it halves RAM. For Roman's build, 64GB remains preferred unless the budget needs a clear rescue.
-- If choosing 32GB, Patriot Poland is the price pick; Kingston Hungary is the safer/simple pick.
-- Do not present Patriot 32GB Poland versus Kingston 32GB Hungary as a clean same-model saving. It is a budget alternative comparison unless we capture the exact Patriot 32GB kit in Hungary.
+- If choosing 32GB, Patriot Poland is still the price pick; Patriot Hungary from Alza is now the clean same-model local reference.
+- Do not compare Patriot 32GB Poland against Kingston 32GB Hungary as a same-model saving. Use Patriot Poland versus Patriot Hungary for the dashboard.
 
 ## Patriot Viper Venom Deep Check
 

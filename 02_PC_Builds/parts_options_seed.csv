@@ -16,7 +16,7 @@ RAM_02_PL,RAM,2,Kingston Fury Beast EXPO 64GB 2x32 DDR5-6000 CL30,Poland,KR Syst
 RAM_03_PL,RAM,3,GOODRAM IRDM 64GB 2x32 DDR5-6000 CL30,Poland,Allegro,3333,PLN,276872,Backup,Medium,Third practical 64GB option,Raw_Captures/RAM
 RAM_03_HU,RAM,3,GOODRAM IRDM 64GB 2x32 DDR5-6000 CL30,Hungary,sky-frames.hu,332760,HUF,332760,Backup,Medium,Local GOODRAM option; not cheaper than Kingston enough,Raw_Captures/RAM
 RAM_04_PL,RAM,4,Patriot Viper Venom 32GB 2x16 DDR5-6000 CL30,Poland,Ceneo lead,1589.9,PLN,132073,Watch,Medium,Budget branch; saves money but halves RAM,Raw_Captures/RAM
-RAM_04_HU,RAM,4,Kingston Fury Beast EXPO 32GB 2x16 DDR5-6000 CL30,Hungary,Arukereso lead,167990,HUF,167990,Watch,Low,Safer 32GB branch but worse value than Patriot Poland,Raw_Captures/RAM
+RAM_04_HU,RAM,4,Patriot Viper Venom 32GB 2x16 DDR5-6000 CL30,Hungary,alza.hu,150290,HUF,150290,Compare,Low,Same model local comparison from Arukereso capture; Alza stock offer plus 1390 HUF delivery,Raw_Captures/RAM
 SSD_01_PL,SSD,1,Kingston KC3000 2TB,Poland,Ceneo lead,939,PLN,78003,Pick,Medium,Best current SSD value from Poland,Raw_Captures/SSD
 SSD_01_HU,SSD,1,Kingston KC3000 2TB,Hungary,Arukereso lead,106336,HUF,106336,Compare,Low,Same SSD local route; more expensive but simpler warranty,Raw_Captures/SSD
 SSD_02_HU,SSD,2,Lexar NM790 2TB,Hungary,Arukereso lead,96695,HUF,96695,Backup,Low,Best Hungary SSD value; DRAM-less/HMB,Raw_Captures/SSD
