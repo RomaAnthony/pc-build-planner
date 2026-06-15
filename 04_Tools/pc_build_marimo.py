@@ -201,6 +201,16 @@ def _(mo):
             color: #111111;
             margin: 0;
             padding: 0;
+            font-family: system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
+          }
+
+          h1, h2, h3, p, label, select, button {
+            font-family: system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif !important;
+          }
+          h2 {
+            color: #111111;
+            font-weight: 650;
+            letter-spacing: 0;
           }
 
           .pc-wrap {
@@ -279,6 +289,16 @@ def _(mo):
             border-bottom: 1px solid #e2e8f0;
             vertical-align: top;
             color: #111111;
+          }
+          .pc-table tfoot td {
+            background: #f8fafc;
+            border-top: 2px solid #cbd5e1;
+            font-weight: 750;
+          }
+          .pc-num {
+            text-align: right;
+            white-space: nowrap;
+            font-variant-numeric: tabular-nums;
           }
           .pc-pill {
             display: inline-block;
@@ -472,6 +492,7 @@ def _(
 @app.cell
 def _(esc, mo, number_text, selected_description, selected_name, selected_table):
     body_rows = []
+    _total_uah = int(selected_table["UAH"].sum())
     for _, row in selected_table.iterrows():
         market_class = "pc-pol" if row["Market"] == "Poland" else "pc-hu"
         if row["Market"] == "No GPU":
@@ -483,8 +504,8 @@ def _(esc, mo, number_text, selected_description, selected_name, selected_table)
               <td>{esc(row["Model"])}</td>
               <td><span class="pc-pill {market_class}">{esc(row["Market"])}</span></td>
               <td>{esc(row["Store"])}</td>
-              <td>{esc(row["Price"])}</td>
-              <td>{number_text(row["UAH"])} UAH</td>
+              <td class="pc-num">{esc(row["Price"])}</td>
+              <td class="pc-num">{number_text(row["UAH"])} UAH</td>
             </tr>
             """
         )
@@ -496,9 +517,12 @@ def _(esc, mo, number_text, selected_description, selected_name, selected_table)
           <div class="pc-note">{esc(selected_description)}</div>
           <table class="pc-table">
             <thead>
-              <tr><th>Part</th><th>Selected model</th><th>Buy from</th><th>Store</th><th>Store price</th><th>UAH estimate</th></tr>
+              <tr><th>Part</th><th>Selected model</th><th>Buy from</th><th>Store</th><th class="pc-num">Store price</th><th class="pc-num">UAH estimate</th></tr>
             </thead>
             <tbody>{''.join(body_rows)}</tbody>
+            <tfoot>
+              <tr><td colspan="5">Total UAH estimate</td><td class="pc-num">{number_text(_total_uah)} UAH</td></tr>
+            </tfoot>
           </table>
         </div>
         """
@@ -510,7 +534,7 @@ def _(esc, mo, number_text, selected_description, selected_name, selected_table)
 def _(huf_text, mo, number_text, rates, selected_table):
     total_huf = int(selected_table["HUF"].sum())
     total_eur = int(round(total_huf / rates["eur_to_huf"]))
-    total_uah = int(round(total_huf * rates["huf_to_uah"]))
+    total_uah = int(selected_table["UAH"].sum())
     total_saving = int(selected_table["Saving"].sum())
     pay_poland = int(selected_table.loc[selected_table["Market"].eq("Poland"), "HUF"].sum())
     pay_hungary = int(selected_table.loc[selected_table["Market"].eq("Hungary"), "HUF"].sum())
