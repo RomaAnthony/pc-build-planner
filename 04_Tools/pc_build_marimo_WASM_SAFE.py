@@ -551,7 +551,7 @@ def _(esc, mo, number_text, selected_description, selected_name, selected_table)
 
 
 @app.cell
-def _(builds, compare_ids, build_table, huf_text, mo, number_text, rates, selected_table):
+def _(huf_text, mo, number_text, rates, selected_table):
     total_huf = int(selected_table["HUF"].sum())
     total_eur = int(round(total_huf / rates["eur_to_huf"]))
     total_uah = int(round(total_huf * rates["huf_to_uah"]))
@@ -559,25 +559,9 @@ def _(builds, compare_ids, build_table, huf_text, mo, number_text, rates, select
     pay_poland = int(selected_table.loc[selected_table["Market"].eq("Poland"), "HUF"].sum())
     pay_hungary = int(selected_table.loc[selected_table["Market"].eq("Hungary"), "HUF"].sum())
 
-    scenario_rows = []
-    for scenario_name, scenario_parts in builds.items():
-        scenario_table = build_table(scenario_parts, compare_ids)
-        scenario_total = int(scenario_table["HUF"].sum())
-        scenario_rows.append(
-            f"""
-            <tr>
-              <td>{scenario_name}</td>
-              <td>{huf_text(scenario_total)}</td>
-              <td>{number_text(scenario_total / rates["eur_to_huf"])} EUR</td>
-              <td>{huf_text(int(scenario_table["Saving"].sum()))}</td>
-            </tr>
-            """
-        )
-
     mo.Html(
         f"""
-        <div class="pc-wrap pc-section">
-          <h2>Numbers</h2>
+        <div class="pc-wrap" style="padding-top: 8px;">
           <div class="pc-card-row">
             <div class="pc-card">
               <div class="pc-label">Total price</div>
@@ -595,11 +579,7 @@ def _(builds, compare_ids, build_table, huf_text, mo, number_text, rates, select
               <div class="pc-muted">Compared with Hungarian reference prices</div>
             </div>
           </div>
-          <table class="pc-table">
-            <thead><tr><th>Build</th><th>Total</th><th>EUR view</th><th>Estimated saving</th></tr></thead>
-            <tbody>{''.join(scenario_rows)}</tbody>
-          </table>
-          <div class="pc-note">
+          <div class="pc-note" style="margin-top: 14px;">
             Exchange assumption: 1 PLN = {rates["pln_to_huf"]:.2f} HUF. Source: {rates["source"]}. Checked: {rates["checked"]}.
           </div>
           
