@@ -85,6 +85,25 @@ Do not use it as:
 
 - final buy decision without checking exact seller, shipping, return, warranty, and payment route.
 
+Dashboard data file:
+
+- `02_PC_Builds/eu_lowest_price_seed.csv` stores wider-EU lowest-price sanity checks.
+- The table joins by selected product ID, so when Roman changes RAM/GPU/SSD/etc. in the dashboard, the EU-lowest row changes too.
+- Use exact-model captures when possible. If only a broad search page exists, keep the row as `Need exact capture`.
+
+Current EU-lowest data quality:
+
+- GPU: good enough for `GPU_01_PL` / MSI RTX 5080 Ventus 3X OC as a sanity check. Wider EU tracker showed this exact model around 1,332-1,373 EUR.
+- RAM: not good enough yet for exact EU-lowest numbers. The broad 64GB DDR5 page includes laptop SO-DIMM, slower CL40/CL46 kits, and non-target specs.
+
+Next exact EU captures to add:
+
+- `RAM_01_PL`: Patriot Viper Venom 64GB `PVV564G600C30K`.
+- `RAM_04_PL`: Patriot Viper Venom 32GB `PVV532G600C30K`.
+- `RAM_02_PL`: Kingston Fury Beast EXPO 64GB 6000 CL30, verify exact SKU.
+- `RAM_03_PL`: GOODRAM IRDM 64GB 6000 CL30, verify exact SKU.
+- Optional GPU rows: MSI Gaming Trio OC, Gigabyte Gaming OC, Gigabyte Windforce OC SFF, Inno3D X3 OC if Roman wants EU-wide comparison for each GPU option.
+
 ## Current Poland-Buy Logic
 
 Date: 2026-06-15

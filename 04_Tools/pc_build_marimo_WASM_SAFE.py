@@ -63,12 +63,22 @@ GPU_04_HU,GPU,4,Inno3D RTX 5080 X3 OC 16GB,Hungary,Arukereso lead,465640,HUF,465
 GPU_05_PL,GPU,5,Gigabyte RTX 5080 Windforce OC SFF 16GB,Poland,Ceneo lead,5343.54,PLN,443888,Watch,High,Cheap but SFF/basic cooler risk; not first long-term choice,Raw_Captures/GPU
 GPU_05_HU,GPU,5,Gigabyte RTX 5080 Windforce OC SFF 16GB,Hungary,Arukereso lead,470000,HUF,470000,Watch,High,Cheap local option but SFF cooler risk,RTX5080_WORKING_SHORTLIST"""
 
+    EU_LOWEST_CSV_DATA = """Selected_ID,EU_Model,EU_Price,EU_Currency,EU_Store,EU_Country,Match_Quality,Note,Source
+GPU_01_PL,MSI RTX 5080 Ventus 3X OC 16GB,1332,EUR,GPUTracker low range,EU market,Good,"Exact model appeared around 1332-1373 EUR in wider EU tracker listings; verify seller/shipping/warranty before treating as buyable.",PC_BUILD_TOOLING.md
+RAM_01_PL,Patriot Viper Venom 64GB 2x32 DDR5-6000 CL30,,,,,Need exact capture,"Current EU-wide RAM capture is too broad; many listings are laptop SO-DIMM or wrong speed/latency. Need exact PVV564G600C30K EU-low capture.",PC_BUILD_TOOLING.md
+RAM_02_PL,Kingston Fury Beast EXPO 64GB 2x32 DDR5-6000 CL30,,,,,Need exact capture,"Need exact EU-low capture for Kingston 64GB DDR5-6000 CL30 EXPO kit, not generic 64GB DDR5 search.",PC_BUILD_TOOLING.md
+RAM_03_PL,GOODRAM IRDM 64GB 2x32 DDR5-6000 CL30,,,,,Need exact capture,"Need exact EU-low capture for GOODRAM IRDM 64GB 6000 CL30 kit.",PC_BUILD_TOOLING.md
+RAM_04_PL,Patriot Viper Venom 32GB 2x16 DDR5-6000 CL30,,,,,Need exact capture,"Need exact PVV532G600C30K EU-low capture. Current Poland/Hungary comparison exists, but wider EU-low is not locked.",PC_BUILD_TOOLING.md"""
+
     # Parse CSV from embedded string (no filesystem)
     parts = pd.read_csv(StringIO(PARTS_CSV_DATA))
     parts["Price"] = pd.to_numeric(parts["Price"], errors="coerce").fillna(0)
     parts["HUF_Est"] = pd.to_numeric(parts["HUF_Est"], errors="coerce").fillna(0)
+
+    eu_lowest = pd.read_csv(StringIO(EU_LOWEST_CSV_DATA))
+    eu_lowest["EU_Price"] = pd.to_numeric(eu_lowest["EU_Price"], errors="coerce")
     
-    return datetime, html, json, mo, parts, pd, StringIO
+    return datetime, eu_lowest, html, json, mo, parts, pd, StringIO
 
 
 @app.cell
@@ -186,8 +196,9 @@ def _():
 
 
 @app.cell
-def _(html, parts, pd, rates):
+def _(eu_lowest, html, parts, pd, rates):
     parts_by_id = parts.set_index("ID")
+    eu_lowest_by_id = eu_lowest.set_index("Selected_ID")
 
     def esc(value):
         return html.escape(str(value))
@@ -198,16 +209,19 @@ def _(html, parts, pd, rates):
     def number_text(value):
         return f"{int(round(value)):,.0f}"
 
-    def price_to_huf(item):
-        currency = str(item["Currency"]).upper()
-        price = float(item["Price"])
+    def price_value_to_huf(price, currency, fallback=0):
+        currency = str(currency).upper()
+        price = float(price)
         if currency == "HUF":
             return price
         if currency == "PLN":
             return price * rates["pln_to_huf"]
         if currency == "EUR":
             return price * rates["eur_to_huf"]
-        return float(item["HUF_Est"])
+        return float(fallback)
+
+    def price_to_huf(item):
+        return price_value_to_huf(item["Price"], item["Currency"], item["HUF_Est"])
 
     def original_price(item):
         currency = str(item["Currency"]).upper()
@@ -229,6 +243,7 @@ def _(html, parts, pd, rates):
             saving = max(0, compare_huf - huf) if compare_huf else 0
             rows.append(
                 {
+                    "ID": item_id,
                     "Part": part_name,
                     "Model": item["Option"],
                     "Market": item["Market"],
@@ -241,7 +256,64 @@ def _(html, parts, pd, rates):
             )
         return pd.DataFrame(rows)
 
-    return build_table, esc, huf_text, number_text
+    def eu_lowest_table(selected_df):
+        rows = []
+        for _, selected in selected_df.iterrows():
+            item_id = selected["ID"]
+            own_huf = float(selected["HUF"])
+            own_uah = float(selected["UAH"])
+            if item_id in eu_lowest_by_id.index:
+                market = eu_lowest_by_id.loc[item_id]
+                eu_price = market.get("EU_Price")
+                eu_currency = str(market.get("EU_Currency") or "").upper()
+                if pd.notna(eu_price) and eu_currency:
+                    eu_huf = price_value_to_huf(eu_price, eu_currency)
+                    eu_uah = eu_huf * rates["huf_to_uah"]
+                    eu_text = f"{float(eu_price):,.0f} {eu_currency}"
+                    diff_huf = own_huf - eu_huf
+                    diff_uah = own_uah - eu_uah
+                else:
+                    eu_huf = None
+                    eu_uah = None
+                    eu_text = "Need capture"
+                    diff_huf = None
+                    diff_uah = None
+                rows.append(
+                    {
+                        "Part": selected["Part"],
+                        "Selected": selected["Model"],
+                        "Our_Price": selected["Price"],
+                        "Our_HUF": int(round(own_huf)),
+                        "Our_UAH": int(round(own_uah)),
+                        "EU_Low": eu_text,
+                        "EU_HUF": int(round(eu_huf)) if eu_huf is not None else None,
+                        "EU_UAH": int(round(eu_uah)) if eu_uah is not None else None,
+                        "Difference_HUF": int(round(diff_huf)) if diff_huf is not None else None,
+                        "Difference_UAH": int(round(diff_uah)) if diff_uah is not None else None,
+                        "Match": market.get("Match_Quality", ""),
+                        "Note": market.get("Note", ""),
+                    }
+                )
+            else:
+                rows.append(
+                    {
+                        "Part": selected["Part"],
+                        "Selected": selected["Model"],
+                        "Our_Price": selected["Price"],
+                        "Our_HUF": int(round(own_huf)),
+                        "Our_UAH": int(round(own_uah)),
+                        "EU_Low": "Need capture",
+                        "EU_HUF": None,
+                        "EU_UAH": None,
+                        "Difference_HUF": None,
+                        "Difference_UAH": None,
+                        "Match": "Missing",
+                        "Note": "No wider-EU lowest-price capture yet for this selected option.",
+                    }
+                )
+        return pd.DataFrame(rows)
+
+    return build_table, esc, eu_lowest_table, huf_text, number_text
 
 
 @app.cell
@@ -516,6 +588,7 @@ def _(
     psu_choice,
     storage_choice,
     build_table,
+    eu_lowest_table,
 ):
     selected_name = build_choice.value
     selected_parts = {
@@ -529,8 +602,9 @@ def _(
         "Graphics card": gpu_choice.value,
     }
     selected_table = build_table(selected_parts, compare_ids)
+    selected_eu_table = eu_lowest_table(selected_table)
     selected_description = build_descriptions[selected_name]
-    return selected_description, selected_name, selected_table
+    return selected_description, selected_eu_table, selected_name, selected_table
 
 
 @app.cell
@@ -639,6 +713,67 @@ def _(huf_text, mo, number_text, rates, selected_table):
         """
     )
     return pay_hungary, pay_poland, total_huf, total_saving
+
+
+@app.cell
+def _(esc, huf_text, mo, number_text, selected_eu_table):
+    rows = []
+    for _, _row in selected_eu_table.iterrows():
+        if _row["Difference_HUF"] is None or str(_row["Difference_HUF"]) == "nan":
+            diff_text = "-"
+            eu_huf_text = "-"
+            eu_uah_text = "-"
+        else:
+            diff_value = int(_row["Difference_HUF"])
+            diff_text = (
+                f"+{huf_text(diff_value)}"
+                if diff_value > 0
+                else huf_text(diff_value)
+            )
+            eu_huf_text = huf_text(_row["EU_HUF"])
+            eu_uah_text = f'{number_text(_row["EU_UAH"])} UAH'
+
+        rows.append(
+            f"""
+            <tr>
+              <td>{esc(_row["Part"])}</td>
+              <td>{esc(_row["Selected"])}</td>
+              <td class="pc-num">{esc(_row["Our_Price"])}</td>
+              <td class="pc-num">{esc(_row["EU_Low"])}</td>
+              <td class="pc-num">{eu_huf_text}</td>
+              <td class="pc-num">{eu_uah_text}</td>
+              <td class="pc-num">{diff_text}</td>
+              <td>{esc(_row["Match"])}</td>
+            </tr>
+            """
+        )
+
+    mo.Html(
+        f"""
+        <div class="pc-wrap pc-section">
+          <h2>EU lowest-price check</h2>
+          <div class="pc-muted">
+            This is only a sanity check: it shows whether the selected part looks expensive compared with wider EU listings.
+          </div>
+          <table class="pc-table">
+            <thead>
+              <tr>
+                <th>Part</th>
+                <th>Selected model</th>
+                <th class="pc-num">Our store price</th>
+                <th class="pc-num">Lowest EU seen</th>
+                <th class="pc-num">EU in HUF</th>
+                <th class="pc-num">EU in UAH</th>
+                <th class="pc-num">Gap</th>
+                <th>Data</th>
+              </tr>
+            </thead>
+            <tbody>{''.join(rows)}</tbody>
+          </table>
+        </div>
+        """
+    )
+    return
 
 
 @app.cell
