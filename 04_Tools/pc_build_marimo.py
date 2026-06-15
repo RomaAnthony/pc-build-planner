@@ -195,44 +195,121 @@ def _(mo):
     mo.Html(
         """
         <style>
-          /* DARK MODE THEME - FORCE DARK */
-          :root { color-scheme: dark; }
-          html { background: #0f1419 !important; }
-          body { 
-            background: #0f1419 !important; 
-            color: #e3e8ef !important;
+          /* LIGHT, HIGH-CONTRAST THEME – WORKS IN ANY BROWSER */
+          body {
+            background: #ffffff;
+            color: #111111;
             margin: 0;
             padding: 0;
           }
-          * { color-scheme: dark !important; }
-          
-          .pc-wrap { max-width: 1080px; }
-          .pc-title { font-size: 42px; font-weight: 760; margin: 8px 0 8px; color: #ffffff; }
-          .pc-subtitle { color: #a0aec0; font-size: 16px; max-width: 780px; margin-bottom: 24px; }
-          .pc-section { margin-top: 30px; }
-          
-          .pc-card-row { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 14px; margin-top: 14px; }
-          .pc-card { border: 1px solid #2d3748; border-radius: 12px; background: #1a202c; padding: 16px; }
-          .pc-label { color: #a0aec0; font-size: 12px; text-transform: uppercase; letter-spacing: .03em; }
-          .pc-value { color: #ffffff; font-size: 26px; font-weight: 800; margin-top: 8px; }
-          .pc-muted { color: #a0aec0; font-size: 13px; margin-top: 6px; }
-          .pc-save { color: #68d391; font-weight: 800; }
-          
-          .pc-table { width: 100%; border-collapse: collapse; margin-top: 16px; font-size: 15px; }
-          .pc-table th { color: #a0aec0; text-align: left; padding: 10px 8px; border-bottom: 1px solid #2d3748; background: #111827; }
-          .pc-table td { padding: 11px 8px; border-bottom: 1px solid #2d3748; vertical-align: top; color: #e3e8ef; }
-          
-          .pc-pill { display: inline-block; padding: 3px 9px; border-radius: 999px; font-size: 12px; background: #2d3748; }
-          .pc-pol { color: #9ae6b4; background: rgba(56,178,72,.2); }
-          .pc-hu { color: #90cdf4; background: rgba(66,153,225,.2); }
-          
-          .pc-note { border-left: 3px solid #4299e1; padding-left: 12px; color: #cbd5e1; margin-top: 10px; background: rgba(66,153,225,.1); padding: 10px; border-radius: 4px; }
-          .pc-editor { display: grid; grid-template-columns: 160px 1fr; gap: 10px 14px; align-items: center; margin-top: 14px; }
-          .pc-editor-label { color: #cbd5e1; font-weight: 700; }
-          
-          /* Marimo input styling */
-          input, select, textarea { background: #2d3748 !important; color: #e3e8ef !important; border: 1px solid #4a5568 !important; }
-          input::placeholder { color: #718096; }
+
+          .pc-wrap {
+            max-width: 1080px;
+            margin: 0 auto;
+            padding: 20px;
+            background: #ffffff;
+            color: #111111;
+            font-family: system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
+          }
+          .pc-title {
+            font-size: 42px;
+            font-weight: 700;
+            margin: 8px 0 8px;
+            color: #111111;
+          }
+          .pc-subtitle {
+            color: #4a5568;
+            font-size: 16px;
+            max-width: 780px;
+            margin-bottom: 24px;
+          }
+          .pc-section {
+            margin-top: 30px;
+          }
+          .pc-card-row {
+            display: grid;
+            grid-template-columns: repeat(3, minmax(0, 1fr));
+            gap: 14px;
+            margin-top: 14px;
+          }
+          .pc-card {
+            border: 1px solid #e2e8f0;
+            border-radius: 12px;
+            background: #f7fafc;
+            padding: 16px;
+            box-shadow: 0 1px 2px rgba(0,0,0,0.05);
+          }
+          .pc-label {
+            color: #4a5568;
+            font-size: 12px;
+            text-transform: uppercase;
+            letter-spacing: .03em;
+          }
+          .pc-value {
+            color: #111111;
+            font-size: 26px;
+            font-weight: 800;
+            margin-top: 8px;
+          }
+          .pc-muted {
+            color: #718096;
+            font-size: 13px;
+            margin-top: 6px;
+          }
+          .pc-save {
+            color: #2c7a4d;
+            font-weight: 800;
+          }
+          .pc-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 16px;
+            font-size: 15px;
+            background: #ffffff;
+          }
+          .pc-table th {
+            color: #4a5568;
+            text-align: left;
+            padding: 10px 8px;
+            border-bottom: 1px solid #e2e8f0;
+            background: #f8fafc;
+          }
+          .pc-table td {
+            padding: 11px 8px;
+            border-bottom: 1px solid #e2e8f0;
+            vertical-align: top;
+            color: #111111;
+          }
+          .pc-pill {
+            display: inline-block;
+            padding: 3px 9px;
+            border-radius: 999px;
+            font-size: 12px;
+            background: #e2e8f0;
+            color: #111111;
+          }
+          .pc-pol {
+            background: #e6fffa;
+            color: #234e52;
+          }
+          .pc-hu {
+            background: #e0f2fe;
+            color: #075985;
+          }
+          .pc-note {
+            border-left: 3px solid #3182ce;
+            padding-left: 12px;
+            color: #2d3748;
+            margin-top: 10px;
+            background: #ebf8ff;
+            padding: 10px;
+            border-radius: 4px;
+          }
+          input, select, textarea {
+            background: #ffffff !important;
+            color: #111111 !important;
+            border: 1px solid #cbd5e1 !important;
+          }
         </style>
         <div class="pc-wrap">
           <div class="pc-title">PC Build Planner</div>

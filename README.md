@@ -81,10 +81,11 @@ Date: 2026-06-15
 Current build-comparison workflow:
 
 - Keep product options in `02_PC_Builds/parts_options_seed.csv`.
-- Use `04_Tools/pc_build_marimo.py` for live build scenarios, totals, currency estimates, and Poland/Hungary savings.
+- Use `04_Tools/pc_build_marimo.py` for local work. This file reads `02_PC_Builds/parts_options_seed.csv` directly and is the fast development version.
+- Use `04_Tools/pc_build_marimo_WASM_SAFE.py` for GitHub Pages / Dad sharing. This file embeds the CSV data because browser/WASM export cannot reliably read live local project files.
 - Use Excel only as an export/presentation option later, not as the main working model.
 - Exchange-rate logic matters because the real payment path may be EUR salary -> UAH card, EUR cash/card in Hungary, Hungarian card, or Polish PLN card/payment conversion. The Marimo app now has live/default rates plus manual override controls.
-- GitHub Pages is published from `docs/`, which is generated from the Marimo app. The app source should read the CSV directly; do not duplicate the full parts database inside the Python file.
+- GitHub Pages is published from `docs/`. The working share link should point to `docs/planner.html`, generated from the WASM-safe file.
 
 ## Project Structure Index
 
@@ -101,9 +102,11 @@ Use this as the map of the project:
 | `03_Research_Notes/00_Working_Shortlists/` | Clean category conclusions | One working shortlist per part category |
 | `03_Research_Notes/01_Raw_Captures/` | Captured market pages | Store Arukereso/Ceneo/retailer captures here by category |
 | `03_Research_Notes/99_Imported_Research/` | Imported outside research | Keep separated from current conclusions |
-| `04_Tools/pc_build_marimo.py` | Active dashboard app | Reads the CSV and calculates build totals |
+| `04_Tools/pc_build_marimo.py` | Local dashboard app | Reads the CSV directly; use for daily work |
+| `04_Tools/pc_build_marimo_WASM_SAFE.py` | GitHub Pages dashboard app | Embeds CSV data; use for Dad/public browser export |
 | `04_Tools/PC_BUILD_TOOLING.md` | Tooling and dashboard logic | Track app design, GitHub Pages, FX logic, and known issues |
-| `docs/` | Published website export | Generated output; rebuild after changing the app or CSV |
+| `docs/planner.html` | Published Dad-facing page | Generated from `pc_build_marimo_WASM_SAFE.py`; this is the safe share link |
+| `docs/index.html` | Old/root export | Treat as risky until replaced/redirected; opening root can show old Marimo errors |
 | `00_Hub/` | Temporary inbox | Empty after sorting, except files Roman is actively using |
 
 Current data flow:
@@ -112,12 +115,15 @@ Current data flow:
 2. Move useful captures into `03_Research_Notes/01_Raw_Captures/<category>/`.
 3. Update the clean category shortlist in `03_Research_Notes/00_Working_Shortlists/`.
 4. Update the exact rows in `02_PC_Builds/parts_options_seed.csv`.
-5. Run/export the Marimo dashboard into `docs/`.
-6. Push to GitHub so Pages refreshes.
+5. Test locally with `04_Tools/pc_build_marimo.py`.
+6. Copy/sync the updated CSV into `04_Tools/pc_build_marimo_WASM_SAFE.py`.
+7. Export `04_Tools/pc_build_marimo_WASM_SAFE.py` to `docs/planner.html`.
+8. Push to GitHub so Pages refreshes.
 
 Known cleanup / improvement list:
 
-- Confirm GitHub Pages reliably reads the CSV after export. If it breaks again, prefer a small generated JSON/CSV asset in `docs/`, not a duplicated table inside `pc_build_marimo.py`.
+- Do not expect GitHub Pages/WASM to read the live CSV. The WASM-safe file must embed the current CSV or use a future generated browser-safe data asset.
+- Replace or redirect `docs/index.html` so the root GitHub Pages URL does not open the old broken export.
 - Add a clearer "last updated" line in the dashboard that includes the price-data date and exchange-rate date separately.
 - Add source links to the parts database only when the dashboard needs them; keep the Dad view simple.
 - Decide whether CPU/motherboard/PSU from Poland are "default buy" or only "bundle if already ordering RAM/GPU/SSD."

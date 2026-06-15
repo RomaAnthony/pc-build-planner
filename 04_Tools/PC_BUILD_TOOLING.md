@@ -23,20 +23,21 @@ Date: 2026-06-15
 Current source of truth:
 
 - Product data lives in `02_PC_Builds/parts_options_seed.csv`.
-- Dashboard logic lives in `04_Tools/pc_build_marimo.py`.
-- Published static site lives in `docs/`.
+- Local dashboard logic lives in `04_Tools/pc_build_marimo.py`.
+- GitHub Pages/browser dashboard logic lives in `04_Tools/pc_build_marimo_WASM_SAFE.py`.
+- Published static page lives at `docs/planner.html`.
 
 Important rule:
 
-- Do not duplicate the full parts database inside `pc_build_marimo.py`.
-- If the GitHub Pages export needs a browser-readable data file, generate/copy a small data asset into `docs/` during export instead of embedding all rows into the Python source.
-- Keep the app source readable because this project will be updated often with new captures and price changes.
+- Do not embed the parts database inside `pc_build_marimo.py`; that file is for local work and should read the CSV directly.
+- It is acceptable for `pc_build_marimo_WASM_SAFE.py` to embed the parts database, because GitHub Pages / browser WASM cannot reliably read Roman's live local CSV file.
+- Keep the two-file boundary explicit: local file = live CSV, WASM-safe file = browser-safe snapshot.
 
 Why this matters:
 
 - CSV is easy for Roman/Codex to update.
-- A duplicated embedded table will drift from the CSV.
-- The dashboard should be a calculator over the database, not a second database.
+- The embedded WASM table can drift from the CSV, so the update workflow must include a sync/copy step before export.
+- The long-term improvement is to automate CSV-to-WASM sync, but for now manual sync is acceptable because it is the only proven GitHub Pages route.
 
 ## Payment / FX Logic
 
@@ -152,16 +153,16 @@ Current status:
 - GitHub CLI (`gh`) is not installed in the local environment.
 - The GitHub connector available in Codex can create/update text files in existing repositories, but the Marimo WASM export includes many binary assets, so the connector is not the best way to upload the whole site.
 
-Export command:
+Local desktop command:
 
 ```bash
-.venv_marimo/bin/marimo export html-wasm 04_Tools/pc_build_marimo.py -o docs
+.venv_marimo/bin/marimo run 04_Tools/pc_build_marimo.py --host 127.0.0.1 --port 2718
 ```
 
-Local preview command:
+GitHub Pages export command:
 
 ```bash
-python3 -m http.server --directory docs 8080
+.venv_marimo/bin/marimo export html-wasm 04_Tools/pc_build_marimo_WASM_SAFE.py -o docs/planner.html
 ```
 
 GitHub Pages setup:
@@ -171,24 +172,25 @@ GitHub Pages setup:
 3. In GitHub repository settings, enable Pages from the `docs` folder on the main branch.
 4. Share the Pages link with Dad.
 
-Expected link format:
+Current working share link:
 
 ```text
-https://romaanthony.github.io/pc-build-planner/
+https://romaanthony.github.io/pc-build-planner/planner.html
 ```
 
 Important:
 
-- The exported site is about 27 MB and contains hundreds of static assets.
+- The exported Marimo assets are large and generated; do not edit generated HTML by hand.
 - Browser-based live exchange-rate fetching may depend on API/CORS behavior. The app has fallback rates, but final sharing should be tested from the published link.
-- GitHub Pages now appears to read the CSV correctly, so the temporary embedded-data fallback was removed. If this changes, use a generated `docs` data asset rather than embedding rows in the app source.
+- `docs/index.html` is risky/stale if it was generated from the local CSV-reading file. Use or share `docs/planner.html` until `index.html` is replaced with a redirect or a WASM-safe export.
 
 ## Active Files
 
 - `02_PC_Builds/parts_options_seed.csv` - current parts database
-- `04_Tools/pc_build_marimo.py` - first Marimo build comparison app
+- `04_Tools/pc_build_marimo.py` - local Marimo build comparison app; reads CSV
+- `04_Tools/pc_build_marimo_WASM_SAFE.py` - GitHub Pages / Dad app; embedded CSV snapshot
 - `04_Tools/requirements-marimo.txt` - minimal install list
-- `docs/` - generated GitHub Pages export; rebuild after app/CSV changes
+- `docs/planner.html` - generated GitHub Pages export; rebuild after WASM-safe app changes
 
 ## Start App
 
@@ -258,6 +260,7 @@ Before improving the app design, audit the source data:
 - Live exchange-rate loading is now started in the Marimo app: Monobank/card path, ECB reference, and manual override controls.
 - Redesign the Marimo view for a non-technical reader: fewer columns, bigger decision cards, clear "buy in Hungary" / "buy in Poland" labels, and one simple total.
 - Verify the published Pages link after every export. The app should load without the red Marimo internal-error box.
+- Verify the exact Dad link is `/planner.html`; the root URL may still serve stale `index.html`.
 - Check whether old unpublished commits in GitHub Desktop need to be pushed before presenting to Dad.
 
 Patriot update on 2026-06-15:

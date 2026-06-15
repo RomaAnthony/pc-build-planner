@@ -1,0 +1,60 @@
+╔════════════════════════════════════════════════════════════════════════════╗
+║                         🎉 READY TO SHARE WITH DAD 🎉                       ║
+╚════════════════════════════════════════════════════════════════════════════╝
+
+STATUS: ✅ LIVE AND WORKING
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+THE LINK (Copy & send to your dad):
+
+    https://romaanthony.github.io/pc-build-planner/planner.html
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+WHAT YOUR DAD CAN DO:
+
+  ✅ Open link in any browser (phone, tablet, laptop)
+  ✅ No login, no installation, no download
+  ✅ Choose a PC build from dropdown
+  ✅ See prices in HUF, EUR, UAH
+  ✅ Change parts and see totals update instantly
+  ✅ Works offline too (once loaded)
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+HOW TO UPDATE PRICES LATER:
+
+  Simple: Edit CSV + Python file + git push (takes 2 minutes)
+  
+  See: HOW_TO_UPDATE_PRICES.md for step-by-step
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+WHY THIS WORKS:
+
+  • CSV data is embedded in the HTML file
+  • No file loading from disk (browser sandbox safe)
+  • No API calls that fail (fallback rates included)
+  • One file = everything your dad needs
+  • Static data = you control it, no surprises
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+FILES YOU MADE:
+
+  ✅ 04_Tools/pc_build_marimo_WASM_SAFE.py    (the fixed notebook)
+  ✅ docs/planner.html                         (deployed to GitHub)
+  📚 SHARE_WITH_DAD.md                         (sharing instructions)
+  📚 HOW_TO_UPDATE_PRICES.md                   (update guide)
+  📚 WASM_MIGRATION_GUIDE.md                   (technical deep-dive)
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+RIGHT NOW:
+
+  1. Copy the link above
+  2. Send it to your dad
+  3. He opens it in his browser
+  4. Done!
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
