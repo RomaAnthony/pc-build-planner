@@ -374,7 +374,7 @@ def _(
 
 
 @app.cell
-def _(esc, mo, selected_description, selected_name, selected_table):
+def _(esc, mo, number_text, selected_description, selected_name, selected_table):
     body_rows = []
     for _, row in selected_table.iterrows():
         market_class = "pc-pol" if row["Market"] == "Poland" else "pc-hu"
