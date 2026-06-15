@@ -195,8 +195,16 @@ def _(mo):
     mo.Html(
         """
         <style>
-          /* DARK MODE THEME */
-          body { background: #0f1419; color: #e3e8ef; }
+          /* DARK MODE THEME - FORCE DARK */
+          :root { color-scheme: dark; }
+          html { background: #0f1419 !important; }
+          body { 
+            background: #0f1419 !important; 
+            color: #e3e8ef !important;
+            margin: 0;
+            padding: 0;
+          }
+          * { color-scheme: dark !important; }
           
           .pc-wrap { max-width: 1080px; }
           .pc-title { font-size: 42px; font-weight: 760; margin: 8px 0 8px; color: #ffffff; }
