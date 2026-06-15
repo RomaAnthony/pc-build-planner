@@ -195,25 +195,36 @@ def _(mo):
     mo.Html(
         """
         <style>
+          /* DARK MODE THEME */
+          body { background: #0f1419; color: #e3e8ef; }
+          
           .pc-wrap { max-width: 1080px; }
-          .pc-title { font-size: 42px; font-weight: 760; margin: 8px 0 8px; }
-          .pc-subtitle { color: #a7b0bd; font-size: 16px; max-width: 780px; margin-bottom: 24px; }
+          .pc-title { font-size: 42px; font-weight: 760; margin: 8px 0 8px; color: #ffffff; }
+          .pc-subtitle { color: #a0aec0; font-size: 16px; max-width: 780px; margin-bottom: 24px; }
           .pc-section { margin-top: 30px; }
+          
           .pc-card-row { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 14px; margin-top: 14px; }
-          .pc-card { border: 1px solid #334155; border-radius: 12px; background: #0f172a; padding: 16px; }
-          .pc-label { color: #94a3b8; font-size: 12px; text-transform: uppercase; letter-spacing: .03em; }
-          .pc-value { color: #f8fafc; font-size: 26px; font-weight: 800; margin-top: 8px; }
-          .pc-muted { color: #9ca3af; font-size: 13px; margin-top: 6px; }
-          .pc-save { color: #86efac; font-weight: 800; }
+          .pc-card { border: 1px solid #2d3748; border-radius: 12px; background: #1a202c; padding: 16px; }
+          .pc-label { color: #a0aec0; font-size: 12px; text-transform: uppercase; letter-spacing: .03em; }
+          .pc-value { color: #ffffff; font-size: 26px; font-weight: 800; margin-top: 8px; }
+          .pc-muted { color: #a0aec0; font-size: 13px; margin-top: 6px; }
+          .pc-save { color: #68d391; font-weight: 800; }
+          
           .pc-table { width: 100%; border-collapse: collapse; margin-top: 16px; font-size: 15px; }
-          .pc-table th { color: #94a3b8; text-align: left; padding: 10px 8px; border-bottom: 1px solid #334155; }
-          .pc-table td { padding: 11px 8px; border-bottom: 1px solid #1f2937; vertical-align: top; }
-          .pc-pill { display: inline-block; padding: 3px 9px; border-radius: 999px; font-size: 12px; background: #1f2937; }
-          .pc-pol { color: #bbf7d0; background: rgba(34,197,94,.12); }
-          .pc-hu { color: #bfdbfe; background: rgba(59,130,246,.12); }
-          .pc-note { border-left: 3px solid #38bdf8; padding-left: 12px; color: #cbd5e1; margin-top: 10px; }
+          .pc-table th { color: #a0aec0; text-align: left; padding: 10px 8px; border-bottom: 1px solid #2d3748; background: #111827; }
+          .pc-table td { padding: 11px 8px; border-bottom: 1px solid #2d3748; vertical-align: top; color: #e3e8ef; }
+          
+          .pc-pill { display: inline-block; padding: 3px 9px; border-radius: 999px; font-size: 12px; background: #2d3748; }
+          .pc-pol { color: #9ae6b4; background: rgba(56,178,72,.2); }
+          .pc-hu { color: #90cdf4; background: rgba(66,153,225,.2); }
+          
+          .pc-note { border-left: 3px solid #4299e1; padding-left: 12px; color: #cbd5e1; margin-top: 10px; background: rgba(66,153,225,.1); padding: 10px; border-radius: 4px; }
           .pc-editor { display: grid; grid-template-columns: 160px 1fr; gap: 10px 14px; align-items: center; margin-top: 14px; }
           .pc-editor-label { color: #cbd5e1; font-weight: 700; }
+          
+          /* Marimo input styling */
+          input, select, textarea { background: #2d3748 !important; color: #e3e8ef !important; border: 1px solid #4a5568 !important; }
+          input::placeholder { color: #718096; }
         </style>
         <div class="pc-wrap">
           <div class="pc-title">PC Build Planner</div>
@@ -461,6 +472,35 @@ def _(builds, compare_ids, build_table, huf_text, mo, number_text, rates, select
           </table>
           <div class="pc-note">
             Exchange assumption: 1 PLN = {rates["pln_to_huf"]:.2f} HUF. Source: {rates["source"]}. Checked: {rates["checked"]}.
+          </div>
+          
+          <h2 style="margin-top: 40px; color: #ffffff;">Payment Options (Your Cards)</h2>
+          <p style="color: #a0aec0; margin-bottom: 16px;">Compare what you pay with different cards</p>
+          <table class="pc-table">
+            <thead>
+              <tr>
+                <th>Build</th>
+                <th>HUF (Hungarian card)</th>
+                <th>UAH (Ukrainian card)</th>
+                <th>Better option</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><strong>Main 64GB, GPU later</strong></td>
+                <td style="color: #68d391; font-weight: 600;">{huf_text(total_huf)}</td>
+                <td>{number_text(total_uah)} UAH</td>
+                <td><span class="pc-pill" style="background: rgba(104,211,145,.2); color: #68d391;">HUF card saves</span></td>
+              </tr>
+              <tr>
+                <td><strong>Current vs Hungarian ref</strong></td>
+                <td colspan="2" style="color: #68d391; font-weight: 600;">Save {huf_text(total_saving)} HUF by buying from Poland</td>
+                <td></td>
+              </tr>
+            </tbody>
+          </table>
+          <div class="pc-note" style="background: rgba(66,153,225,.1); border-left: 3px solid #4299e1; color: #cbd5e1;">
+            💡 <strong>Tip:</strong> Your HUF card is better for this build. You save {huf_text(total_saving)} HUF by buying from Poland instead of Hungary.
           </div>
         </div>
         """
