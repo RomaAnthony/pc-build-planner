@@ -1,0 +1,651 @@
+---
+title: "FURY Beast 32GB (2x16GB) DDR5 6000MHz KF560C30BBEK2-32 az Árukeresőn"
+source: "https://www.arukereso.hu/memoria-modul-c3577/kingston/fury-beast-32gb-2x16gb-ddr5-6000mhz-kf560c30bbek2-32-p1062777223/"
+author:
+published:
+created: 2026-06-13
+description: "Kingston FURY Beast 32GB (2x16GB) DDR5 6000MHz KF560C30BBEK2-32 memória modul vásárlás: Kingston FURY Beast 32GB (2x16GB) DDR5 6000MHz KF560C30BBEK2-32 árak összehasonlítása, Kingston FURY Beast 32GB (2x16GB) DDR5 6000MHz KF560C30BBEK2-32 akció!  Memória modul boltok, képek. Olcsó Kingston FURY Beast 32GB (2x16GB) DDR5 6000MHz KF560C30BBEK2-32 memó"
+tags:
+  - "clippings"
+---
+[Főoldal](https://www.arukereso.hu/ "Főoldal") > [Számítógép](https://www.arukereso.hu/szamitastechnika-c3067/ "Számítógép") > [DDR5 Kingston memória](https://www.arukereso.hu/memoria-modul-c3577/f:kingston,memoria-tipusa-ddr5/ "DDR5 Kingston memória") > Kingston FURY Beast 32GB (2x16GB) DDR5 6000MHz KF560C30BBEK2-32
+
+## Kingston FURY Beast 32GB (2x16GB) DDR5 6000MHz KF560C30BBEK2-32
+
+[(2) TOP1](https://p1.akcdn.net/full/1269925390.kingston-fury-beast-32gb-2x16gb-ddr5-6000mhz-kf560c30bbek2-32.jpg)
+
+## Kingston FURY Beast 32GB (2x16GB) DDR5 6000MHz KF560C30BBEK2-32
+
+[(33 vélemény)](# "4.8")
+
+194 183 Ft Raktáron
+
+[Megvásárolom](#)
+
+Vásárlás az Árukeresőn?
+
+Házhozszállítás: 1 990 Ft-tól
+
+Személyes átvétel: 0 Ft
+
+Átvevőpont: 0 Ft
+
+A termék eladója:
+
+194 183 Ft Raktáron
+
+[Megvásárolom](#) Vásárlás az Árukeresőn?
+
+Házhozszállítás: 1 990 Ft-tól
+
+Személyes átvétel: 0 Ft
+
+Átvevőpont: 0 Ft
+
+167 990 Ft-tól
+
+33 ajánlat
+
+[(33 vélemény)](# "4.8")
+
+#### További kiindulási lehetőségek
+
+> [!warning] Warning
+> Az Ön által beírt címet nem sikerült beazonosítani. Kérjük, pontosítsa a kiindulási címet!
+
+## Kiemelt ajánlataink Kingston FURY Beast 32GB (2x16GB) DDR5 6000MHz KF560C30BBEK2-32 termékre
+
+## Kiemelt ajánlataink
+
+#### Kingston FURY 32GB KIT DDR5 6000MT/s CL30 Beast Black EXPO (KF560C30BBEK2-32)
+
+Itt vannak az Alza Napok! Több ezer termék vár szuper áron.
+
+167 990 Ft
+
+\+ 1 390 Ft szállítási díj
+
+Raktáron
+
+irány a bolt »
+
+alza.hu
+
+#### Kingston DDR5 KINGSTON FURY Beast 6000MHz (AMD EXPO) 32GB - KF560C30BBEK2-32 (KIT 2DB) (KF560C30BBEK2-32)
+
+175 510 Ft
+
+Raktáron
+
+irány a bolt »
+
+firstshop.hu
+
+#### Kingston 32GB DDR5 6000MHz Kit(2x16GB) Fury Beast fekete (KF560C30BBEK2-32)
+
+186 130 Ft
+
+\+ 990 Ft szállítási díj
+
+Szállítás: max 1 hét
+
+irány a bolt »
+
+pcland.hu
+
+#### Mi alapján válogatunk?
+
+#### Hogy választjuk ki az ajánlatokat?
+
+Az Árukereső célja megkönnyíteni a vásárlást és tanácsot adni a megfelelő bolt kiválasztásában. Nem mindig a legolcsóbb ajánlat a legjobb, az ár mellett kiemelten fontosnak tartjuk a minőségi szempontokat is, a vásárlók elégedettségét, ezért előre soroltunk Önnek 3 ajánlatot az alábbi szempontok szerint:
+
+- konkrét vásárlások és látogatói vélemények alapján a termék forgalmazója rendelkezik-e a Megbízható Bolt emblémák valamelyikével
+- a forgalmazó átlagos értékelése
+- a forgalmazott ajánlat árának viszonya a többi ajánlat árához
+
+A fenti szempontok és a forgalmazók által opcionálisan megadható kiemelési ár figyelembe vételével alakul ki a boltok megjelenési sorrendje.
+
+## Az Árukereső.hu-n megvásárolható ajánlataink
+
+## További információk a Vásárlási Garanciáról Vásárlási Garancia
+
+#### Kingston RAM Kingston 32GB DDR5 6000MHz Kit(2x16GB) Fury Beast Expo Black KF560C30BBEK232 (KF560C30BBEK2-32)
+
+Mi ez?
+
+194 183 Ft
+
+\+ 1 990 Ft szállítási díj
+
+Raktáron
+
+[megvásárolom](#) irány a bolt >
+
+goldenit.hu
+
+## További ajánlataink Kingston FURY Beast 32GB (2x16GB) DDR5 6000MHz KF560C30BBEK2-32 termékre
+
+## További ajánlataink
+
+#### Kingston FURY Beast 32GB (2x16GB) DDR5 6000MHz KF560C30BBEK2-32 (KF560C30BBEK2-32)
+
+Minden ami gaming!
+
+167 990 Ft
+
+\+ 999 Ft szállítási díj
+
+Raktáron
+
+irány a bolt »
+
+konzolvilag.hu
+
+HIVATALOS PARTNER
+
+#### Kingston 32GB 6000MHz DDR5 RAM Kingston Fury Beast Black EXPO CL30 (2x16GB) (KF560C30BBEK2-32) (KF560C30BBEK2-32)
+
+Több ezer termék készletről, részletfizetésre is, 0% THM-el
+
+175 510 Ft
+
+Szállítás: max 3 nap
+
+irány a bolt »
+
+aqua.hu
+
+#### Kingston FURY Memória DDR5 32GB 6000MHz CL30 DIMM (Kit of 2) Beast Black EXPO - KF560C30BBEK2-32 (KF560C30BBEK2-32)
+
+175 990 Ft
+
+Raktáron
+
+irány a bolt »
+
+foramax.hu
+
+#### Kingston 32GB DDR5 6000MHz CL30 Kit - Fekete (KF560C30BBEK2-32)
+
+A raktáron lévő termékeket azonnal átveheti üzletünkben.
+
+177 900 Ft
+
+\+ 1 090 Ft szállítási díj
+
+Szállítás: max 3 nap
+
+irány a bolt »
+
+oaziscomputer.hu
+
+#### KINGSTON Fury Memória DDR5 32GB, 6000MT/s CL30 DIMM (Kit of 2) Beast Black EXPO (KF560C30BBEK2-32) (KF560C30BBEK2-32)
+
+179 790 Ft
+
+\+ 1 290 Ft szállítási díj
+
+Szállítás: max 1 hét
+
+irány a bolt »
+
+megaplace.hu
+
+#### KINGSTON 32GB 6000MHz DDR-5 Fury Beast Black EXPO (Kit! 2db 16GB) (KF560C30BBEK2-32) memória (KF560C30BBEK2-32)
+
+179 790 Ft
+
+Részletek a boltban
+
+irány a bolt »
+
+pcx.hu
+
+#### KINGSTON Fury Beast DDR5 6000MHz CL30 32GB expo (kit2) (KF560C30BBEK2-32)
+
+179 901 Ft
+
+\+ 1 955 Ft szállítási díj
+
+Szállítás: max 3 nap
+
+irány a bolt »
+
+bluechip.hu
+
+HIVATALOS PARTNER
+
+#### Kingston Fury 32GB Beast EXPO DDR5 6000MHz CL30 KIT KF560C30BBEK2-32 (KF560C30BBEK2-32)
+
+181 990 Ft
+
+\+ 1 990 Ft szállítási díj
+
+Raktáron
+
+irány a bolt »
+
+ipon.hu
+
+#### Kingston FURY Beast Black 32GB 6000MT/s CL30 DIMM (Kit of 2) EXPO Memória DDR5 (KF560C30BBEK2-32)
+
+1 300,-ft szállítási díj MPL csomagpontra és automatába!
+
+184 500 Ft
+
+Szállítás: max 3 nap
+
+irány a bolt »
+
+younit.hu
+
+#### KINGSTON FURY Memória DDR5 32GB 6000MT/s CL30 DIMM (Kit of 2) Beast Black EXPO (KF560C30BBEK2-32)
+
+187 390 Ft
+
+Részletek a boltban
+
+irány a bolt »
+
+oneclick.hu
+
+#### Kingston DDR5 6000MHz 32GB (2x16GB) FURY Beast Black CL30 1, 1V (KF560C30BBEK2-32)
+
+189 190 Ft
+
+\+ 1 900 Ft szállítási díj
+
+Részletek a boltban
+
+irány a bolt »
+
+bbmarket.hu
+
+#### Kingston 32 GB DDR5 6000 MHz CL30 RAM Kingston Fury Beast Black EXPO (2x16 GB) (KF560C30BBEK2-32)
+
+50000 Ft felett ingyenes szállítás csomagpontokra!
+
+190 650 Ft
+
+\+ 1 900 Ft szállítási díj
+
+Szállítás: max 3 nap
+
+irány a bolt »
+
+rufusz.hu
+
+#### Kingston fury memória ddr5 32gb 6000mt/s cl30 dimm (kit of 2) beast black expo KF560C30BBEK2-32 (KF560C30BBEK2-32)
+
+190 690 Ft
+
+\+ 1 190 Ft szállítási díj
+
+Szállítás: max 1 hét
+
+irány a bolt »
+
+Lehetséges Piactéri Ajánlat
+
+#### Kingston FURY Beast Black 32GB DDR5 6000Mhz CL30 (Kit of 2) Memória (KF560C30BBEK2-32)
+
+Bankmentes, 0%THM részletre, 100% online, 8 perces bírálat!
+
+190 900 Ft
+
+Szállítás: max 3 nap
+
+irány a bolt »
+
+notebook.hu
+
+#### Kingston FURY Beast Black 32GB DDR5 6000Mhz CL30 (Kit of 2) Memória (KF560C30BBEK2-32) (KF560C30BBEK2-32)
+
+Bank- és kamatmentes (0%THM) részletre, 100% online, 7 perc!
+
+190 900 Ft
+
+Szállítás: max 3 nap
+
+irány a bolt »
+
+elvo.hu
+
+#### KINGSTON FURY Memória DDR5 32GB 6000MT/s CL30 DIMM (Kit of 2) Beast Black EXPO (KF560C30BBEK2-32)
+
+191 630 Ft
+
+Részletek a boltban
+
+irány a bolt »
+
+prodots.hu
+
+#### Kingston FURY Memória DDR5 32GB 6000MT/s CL30 DIMM (Kit of 2) Beast Black EXPO (KF560C30BBEK2-32)
+
+Személyes átvétel Veresegyházon!
+
+192 380 Ft
+
+Szállítás: max 3 nap
+
+irány a bolt »
+
+sky-frames.hu
+
+#### KINGSTON Fury Beast EXPO 32GB DDR5 6000MHz Kit (2x16GB) KF560C30BBEK2-32 (KF560C30BBEK2-32)
+
+22 év tapasztalattal a vevők szolgálatában.
+
+192 975 Ft
+
+Raktáron
+
+irány a bolt »
+
+magicomp.hu
+
+#### Kingston RAM Kingston 32GB DDR5 6000MHz Kit(2x16GB) Fury Beast Expo Black KF560C30BBEK232 (KF560C30BBEK2-32)
+
+Mi ez?
+
+194 183 Ft
+
+\+ 1 990 Ft szállítási díj
+
+Raktáron
+
+[megvásárolom](#) irány a bolt >
+
+goldenit.hu
+
+#### Kingston DDR5 6000MHz 32GB (2x16GB) FURY Beast Black CL30 1, 1V (KF560C30BBEK2-32)
+
+194 590 Ft
+
+\+ 990 Ft szállítási díj
+
+Részletek a boltban
+
+irány a bolt »
+
+bstrade.hu
+
+#### Kingston FURY Beast Black EXPO 32GB (2x16GB) DDR5 6000MHz CL30 RAM memória (KF560C30BBEK2-32) (KF560C30BBEK2-32)
+
+Szaküzlet és szerviz 26 éve. Hivatalos magyar garancia.
+
+194 900 Ft
+
+**Ingyenes kiszállítás**
+
+Szállítás: max 3 nap
+
+irány a bolt »
+
+megaram.hu
+
+#### Kingston DDR5 6000MHz 32GB (2x16GB) FURY Beast Black CL30 1, 1V (KF560C30BBEK2-32)
+
+196 359 Ft
+
+\+ 2 100 Ft szállítási díj
+
+Részletek a boltban
+
+irány a bolt »
+
+mzona.hu
+
+#### KINGSTON DDR5 6000MHz 32GB (2x16GB) FURY Beast Black CL30 1, 1V (KF560C30BBEK2-32)
+
+Döntsön okosan! Válassza a megbízható beszerzési forrást!
+
+További 1 ajánlat Ajánlatok elrejtése
+
+196 390 Ft
+
+\+ 1 390 Ft szállítási díj
+
+Raktáron
+
+irány a bolt »
+
+scom.hu
+
+#### KINGSTON FURY Memória DDR5 32GB 6000MT/s CL30 DIMM (Kit of 2) Beast Black EXPO (KF560C30BBEK2-32)
+
+202 300 Ft
+
+Részletek a boltban
+
+irány a bolt »
+
+koronaphone.hu
+
+#### KINGSTON RAM FURY Beast - 32 GB (2 x 16 GB Kit) - DDR5 6000 DIMM CL30 (KF560C30BBEK2-32)
+
+202 394 Ft
+
+Raktáron
+
+irány a bolt »
+
+procompkft.hu
+
+#### KINGSTON DIMM memória 2X16GB DDR5 6000MHz CL30 FURY Beast Black EXPO (KF560C30BBEK2-32) (KF560C30BBEK2-32)
+
+GLS kiszállítás vagy átvétel a XIII. kerületben
+
+204 000 Ft
+
+\+ 2 490 Ft szállítási díj
+
+Raktáron
+
+irány a bolt »
+
+mysoft.hu
+
+#### Kingston Technology FURY Beast 32GB 6000MT/s DDR5 CL30 DIMM (Kit of 2) Black EXPO (KF560C30BBEK2-32)
+
+OnlinePénztárca kedvezmény & kamatmentes részletfizetés.
+
+221 390 Ft
+
+**Ingyenes kiszállítás**
+
+Részletek a boltban
+
+irány a bolt »
+
+kontaktor.hu
+
+#### Kingston Technology FURY Beast, 32 GB, 2 x 16 GB, DDR5, 288-pin DIMM, Fekete (KF560C30BBEK2-32)
+
+221 640 Ft
+
+\+ 990 Ft szállítási díj
+
+Szállítás: max 1 hét
+
+irány a bolt »
+
+tech-heaven.hu
+
+#### KINGSTON FURY Memória DDR5 32GB 6000MT/s CL30 DIMM (Kit of 2) Beast Black EXPO (KF560C30BBEK2-32)
+
+234 450 Ft
+
+Részletek a boltban
+
+irány a bolt »
+
+snaigeshop.hu
+
+#### Kingston FURY Beast 32GB (2x16GB) DDR5 6000MHz KF560C30BBEK2-32
+
+Használt informatikai eszközét kedvezményesen beszámítjuk!
+
+236 231 Ft
+
+\+ 2 000 Ft szállítási díj
+
+Raktáron
+
+irány a bolt »
+
+pcgo.hu
+
+## Paraméterek, termékleírás - Kingston FURY Beast 32GB (2x16GB) DDR5 6000MHz KF560C30BBEK2-32
+
+| Típus | PC memória |
+| --- | --- |
+| Kapacitás | 32 GB |
+| Kiszerelés | 2x16GB |
+| Memória típusa | DDR5 |
+| Sebesség | 6000 MHz |
+| Többcsatornás kiszerelés | Dual-channel kiszerelés |
+| Memóriakésleltetés | CL 30 |
+| Hűtőborda | Van |
+
+Gyártó: Kingston  
+Modell: FURY Beast 32GB (2x16GB) DDR5 6000MHz KF560C30BBEK2-32  
+  
+Leírás:  
+  
+Ismerje meg a következő generációs teljesítményt a Kingston Fury Beast Black EXPO memóriakészlettel! Ez a kiemelkedő memóriakészlet lenyűgöző sebességet, nagy kapacitást és elegáns stílust biztosít a játékok és más teljesítményigényes szoftverek számára.  
+  
+A hihetetlen 6000 MHz-es órajel és a CL30 késleltetés páratlan kombinációja zökkenőmentes játékélményt...  
+[Kingston FURY Beast 32GB (2x16GB) DDR5 6000MHz KF560C30BBEK2-32 teljes leírás »](#)
+
+## Galéria - Kingston FURY Beast 32GB (2x16GB) DDR5 6000MHz KF560C30BBEK2-32
+
+[![Kingston FURY Beast 32GB (2x16GB) DDR5 6000MHz KF560C30BBEK2-32 0. kép](https://p1.akcdn.net/thumb/1269925390.kingston-fury-beast-32gb-2x16gb-ddr5-6000mhz-kf560c30bbek2-32.jpg)](https://p1.akcdn.net/full/1269925390.kingston-fury-beast-32gb-2x16gb-ddr5-6000mhz-kf560c30bbek2-32.jpg)
+
+[![Kingston FURY Beast 32GB (2x16GB) DDR5 6000MHz KF560C30BBEK2-32 1. kép](https://p1.akcdn.net/gallery/1062777223/thumb/2964238.kingston-fury-beast-32gb-2x16gb-ddr5-6000mhz-kf560c30bbek2-32.jpg)](https://p1.akcdn.net/gallery/1062777223/full/2964238.kingston-fury-beast-32gb-2x16gb-ddr5-6000mhz-kf560c30bbek2-32.jpg)
+
+## Árdiagram
+
+minimum ár
+
+átlagár
+
+## Árfigyelő
+
+Árfigyelő szolgáltatásunk értesíti, ha a termék a megjelölt összeg alá esik.  
+Aktuális legalacsonyabb ár: 167 990 Ft
+
+[Állítson be Árfigyelőt](#)
+
+## Vélemények - Kingston FURY Beast 32GB (2x16GB) DDR5 6000MHz KF560C30BBEK2-32
+
+**Értékelés**
+
+%
+
+[33](#)
+
+81.8 %
+
+[27](#)
+
+15.2 %
+
+[5](#)
+
+3.0 %
+
+[1](#)
+
+0.0 %
+
+0
+
+0.0 %
+
+0
+
+A termék kiválasztásának fő szempontjai:
+
+Majdnem ide írtam, hogy jó ár-érték arány: )
+
+Előnyök:
+
+Teljesen alap DDR5 memória. Olcsóbb volt mint a Corsair Vengeance
+
+Hátrányok:
+
+Köszönhetően Sam, Jensen és társainak, egy pöppet drágább, mint ame...
+
+[Bővebben »](#)
+
+[Kingston FURY Beast 32GB (2x16GB) DDR5 6000MHz KF560C30BBEK2-32 további vélemények »](#)
+
+## További termékek a kategóriából
+
+[214 000 Ft-tól G.SKILL Ripjaws S5 32GB (2x16GB) DDR5 6000MHz F5-6000J3040F16GX2-RS5K (1 vélemény)](https://www.arukereso.hu/memoria-modul-c3577/g-skill/ripjaws-s5-32gb-2x16gb-ddr5-6000mhz-f5-6000j3040f16gx2-rs5k-p818973717/ "G.SKILL Ripjaws S5 32GB (2x16GB) DDR5 6000MHz F5-6000J3040F16GX2-RS5K") [184 901 Ft-tól G.SKILL Trident Z5 32GB (2x16GB) DDR5 6000MHz F5-6000J3038F16GX2-TZ5N (10 vélemény)](https://www.arukereso.hu/memoria-modul-c3577/g-skill/trident-z5-32gb-2x16gb-ddr5-6000mhz-f5-6000j3038f16gx2-tz5n-p861077151/ "G.SKILL Trident Z5 32GB (2x16GB) DDR5 6000MHz F5-6000J3038F16GX2-TZ5N") [255 900 Ft-tól G.SKILL Trident Z 32GB (2x16GB) DDR5 6000MHz F5-6000J3040F16GX2-TZ5K (0 vélemény)](https://www.arukereso.hu/memoria-modul-c3577/g-skill/trident-z-32gb-2x16gb-ddr5-6000mhz-f5-6000j3040f16gx2-tz5k-p900660291/ "G.SKILL Trident Z 32GB (2x16GB) DDR5 6000MHz F5-6000J3040F16GX2-TZ5K") [219 490 Ft G.SKILL Trident Z5 32GB (2x16GB) DDR5 6000MHz F5-6000J3040F16GA2-TZ5S (0 vélemény)](https://www.arukereso.hu/memoria-modul-c3577/g-skill/trident-z5-32gb-2x16gb-ddr5-6000mhz-f5-6000j3040f16ga2-tz5s-p922930584/ "G.SKILL Trident Z5 32GB (2x16GB) DDR5 6000MHz F5-6000J3040F16GA2-TZ5S")
+
+## A Kingston FURY Beast 32GB (2x16GB) DDR5 6000MHz KF560C30BBEK2-32 termék legjobb árai az alábbi országok áruházaiban:
+
+[Kingston FURY Beast 32GB (2x16GB) DDR5 6000MHz KF560C30BBEK2-32](https://www.pazaruvaj.com/p/fury-beast-32gb-2x16gb-ddr5-6000mhz-kf560c30bbek2-32-pP1062777223/ "Kingston FURY Beast 32GB (2x16GB) DDR5 6000MHz KF560C30BBEK2-32")
+
+[Bulgária](https://www.pazaruvaj.com/p/fury-beast-32gb-2x16gb-ddr5-6000mhz-kf560c30bbek2-32-pP1062777223/ "Kingston FURY Beast 32GB (2x16GB) DDR5 6000MHz KF560C30BBEK2-32")
+
+165 472 Ft
+
+[árak összevetése](https://www.pazaruvaj.com/p/fury-beast-32gb-2x16gb-ddr5-6000mhz-kf560c30bbek2-32-pP1062777223/ "Kingston FURY Beast 32GB (2x16GB) DDR5 6000MHz KF560C30BBEK2-32")
+
+[Kingston FURY Beast 32GB (2x16GB) DDR5 6000MHz KF560C30BBEK2-32](https://www.compari.ro/memorii-c3577/kingston/fury-beast-32gb-2x16gb-ddr5-6000mhz-kf560c30bbek2-32-p1062777223/ "Kingston FURY Beast 32GB (2x16GB) DDR5 6000MHz KF560C30BBEK2-32")
+
+[Románia](https://www.compari.ro/memorii-c3577/kingston/fury-beast-32gb-2x16gb-ddr5-6000mhz-kf560c30bbek2-32-p1062777223/ "Kingston FURY Beast 32GB (2x16GB) DDR5 6000MHz KF560C30BBEK2-32")
+
+167 751 Ft
+
+[árak összevetése](https://www.compari.ro/memorii-c3577/kingston/fury-beast-32gb-2x16gb-ddr5-6000mhz-kf560c30bbek2-32-p1062777223/ "Kingston FURY Beast 32GB (2x16GB) DDR5 6000MHz KF560C30BBEK2-32")
+
+Termékleírás
+
+| Típus | PC memória |
+| --- | --- |
+| Kapacitás | 32 GB |
+| Kiszerelés | 2x16GB |
+| Memória típusa | DDR5 |
+| Sebesség | 6000 MHz |
+| Többcsatornás kiszerelés | Dual-channel kiszerelés |
+| Memóriakésleltetés | CL 30 |
+| Hűtőborda | Van |
+| LED megvilágítás | Nincs |
+| Feszültség | 1.1 V |
+
+**Hibát talált a leírásban vagy az adatlapon? [Jelezze nekünk!](#)**
+
+**Gyártó: Kingston  
+Modell: **FURY Beast 32GB (2x16GB) DDR5 6000MHz KF560C30BBEK2-32****  
+  
+**Leírás:**  
+  
+Ismerje meg a következő generációs teljesítményt a Kingston Fury Beast Black EXPO memóriakészlettel! Ez a kiemelkedő memóriakészlet lenyűgöző sebességet, nagy kapacitást és elegáns stílust biztosít a játékok és más teljesítményigényes szoftverek számára.  
+  
+A hihetetlen 6000 MHz-es órajel és a CL30 késleltetés páratlan kombinációja zökkenőmentes játékélményt kínál akadozás és késés nélkül, miközben a 32 GB kapacitás lehetővé teszi több alkalmazás egyidejű futtatását a háttérben.  
+  
+A DDR5 technológia nagyobb sávszélességet és alacsonyabb fogyasztást biztosít. Ez a modul kompatibilis az Intel® XMP 3.0-val, így könnyedén túlhajtja a memóriát a maximális teljesítmény eléréséhez.  
+  
+A Kingston Fury Beast Black EXPO nem csak gyors, de lenyűgöző is. A stílusos hűtőborda kifinomult megjelenést kölcsönöz a számítógépének.  
+  
+A Kingston Fury Beast Black EXPO memóriát a legmagasabb minőségű alkatrészekből gyártják, és szigorú tesztelésen esik át, hogy megbízható és tartós legyen. Biztos lehet benne, hogy ez a modul évekig hibamentesen fog működni.  
+  
+Így is ismerheti: FURY Beast 32 GB 2 x 16 GB DDR 5 6000 MHz KF 560 C 30 BBEK 2 32, FURYBeast32GB2x16GBDDR56000MHzKF560C30BBEK232, FURY Beast 32GB (2x16GB) DDR5 6000MHz KF560C30BBEK2 32, FURYBeast32GB2x16GBDDR56000MHzKF560C30BBEK2-32  
+  
+
+**Galéria**
+
+[![Kingston FURY Beast 32GB (2x16GB) DDR5 6000MHz KF560C30BBEK2-32 0. kép](https://p1.akcdn.net/thumb/1269925390.kingston-fury-beast-32gb-2x16gb-ddr5-6000mhz-kf560c30bbek2-32.jpg)](https://p1.akcdn.net/full/1269925390.kingston-fury-beast-32gb-2x16gb-ddr5-6000mhz-kf560c30bbek2-32.jpg)
+
+[![Kingston FURY Beast 32GB (2x16GB) DDR5 6000MHz KF560C30BBEK2-32 1. kép](https://p1.akcdn.net/gallery/1062777223/thumb/2964238.kingston-fury-beast-32gb-2x16gb-ddr5-6000mhz-kf560c30bbek2-32.jpg)](https://p1.akcdn.net/gallery/1062777223/full/2964238.kingston-fury-beast-32gb-2x16gb-ddr5-6000mhz-kf560c30bbek2-32.jpg)
+
+[Vélemények](#) [Kérdezz-felelek](#)
+
+Oldalainkon a partnereink által szolgáltatott információk és árak tájékoztató jellegűek, melyek esetlegesen tartalmazhatnak téves információkat. A képek csak tájékoztató jellegűek és tartalmazhatnak tartozékokat, amelyek nem szerepelnek az alapcsomagban. A termékinformációk (kép, leírás vagy ár) előzetes értesítés nélkül megváltozhatnak. Az esetleges hibákért, elírásokért az Árukereső nem felel.
+
+![](https://static.arukereso.hu/images/ve89ba911d6ee4d0f7d2844bb781d960c_bg.gif)

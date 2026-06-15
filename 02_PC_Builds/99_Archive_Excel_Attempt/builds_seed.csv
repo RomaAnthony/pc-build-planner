@@ -1,0 +1,31 @@
+Build,Line_Type,Order,Category,Selected_ID,Part,Market,Store,HUF,EUR,UAH,Poland_Saving_HUF,Comment
+Main 64GB No GPU,Part,1,CPU,CPU_01_HU,AMD Ryzen 9 9900X Box,Hungary,landcomputer.hu,123750,350.69,18198.53,0,Local warranty route; current target CPU
+Main 64GB No GPU,Part,2,Motherboard,MB_01_HU,MSI MAG B850 Tomahawk MAX WiFi,Hungary,Arukereso lead,82340,233.34,12108.82,0,Default motherboard choice
+Main 64GB No GPU,Part,3,RAM,RAM_01_PL,Patriot Viper Venom 64GB 2x32 DDR5-6000 CL30,Poland,Allegro,244390,692.56,35939.71,82900,Best value 64GB RAM if seller/warranty clean
+Main 64GB No GPU,Part,4,SSD,SSD_01_PL,Kingston KC3000 2TB,Poland,Ceneo lead,78003,221.05,11471.03,28333,Best current SSD value
+Main 64GB No GPU,Part,5,PSU,PSU_01_HU,be quiet! Pure Power 13 M 1000W,Hungary,Arukereso lead,49100,139.14,7220.59,0,Future-ready PSU for RTX 5080 later
+Main 64GB No GPU,Part,6,Cooler,COOL_01_HU,Arctic Liquid Freezer III Pro 360 A-RGB Black,Hungary,Arukereso lead,31500,89.27,4632.35,0,Clean visual cooler
+Main 64GB No GPU,Part,7,Case,CASE_01_HU,Corsair 3500X ARGB Black,Hungary/local,Arukereso lead,31990,90.65,4704.41,0,Local case route because glass case logistics
+Main 64GB No GPU,Part,8,GPU,GPU_00_NONE,No GPU yet - use Ryzen integrated graphics,Local,None,0,0.0,0.0,0,First purchase excludes expensive GPU
+Main 64GB No GPU,Total,99,TOTAL,,Total build cost,,,641073,1816.69,94275.44,111233,Estimated total using current planning rates
+Main 64GB No GPU,Note,100,NOTE,,,,,,,,,GPU is delayed; first purchase works with integrated graphics
+Budget 32GB No GPU,Part,1,CPU,CPU_01_HU,AMD Ryzen 9 9900X Box,Hungary,landcomputer.hu,123750,350.69,18198.53,0,Local warranty route; current target CPU
+Budget 32GB No GPU,Part,2,Motherboard,MB_01_HU,MSI MAG B850 Tomahawk MAX WiFi,Hungary,Arukereso lead,82340,233.34,12108.82,0,Default motherboard choice
+Budget 32GB No GPU,Part,3,RAM,RAM_04_PL,Patriot Viper Venom 32GB 2x16 DDR5-6000 CL30,Poland,Ceneo lead,132073,374.27,19422.5,35917,Budget branch; cheaper but halves RAM
+Budget 32GB No GPU,Part,4,SSD,SSD_01_PL,Kingston KC3000 2TB,Poland,Ceneo lead,78003,221.05,11471.03,28333,Best current SSD value
+Budget 32GB No GPU,Part,5,PSU,PSU_01_HU,be quiet! Pure Power 13 M 1000W,Hungary,Arukereso lead,49100,139.14,7220.59,0,Future-ready PSU for RTX 5080 later
+Budget 32GB No GPU,Part,6,Cooler,COOL_01_HU,Arctic Liquid Freezer III Pro 360 A-RGB Black,Hungary,Arukereso lead,31500,89.27,4632.35,0,Clean visual cooler
+Budget 32GB No GPU,Part,7,Case,CASE_01_HU,Corsair 3500X ARGB Black,Hungary/local,Arukereso lead,31990,90.65,4704.41,0,Local case route because glass case logistics
+Budget 32GB No GPU,Part,8,GPU,GPU_00_NONE,No GPU yet - use Ryzen integrated graphics,Local,None,0,0.0,0.0,0,First purchase excludes expensive GPU
+Budget 32GB No GPU,Total,99,TOTAL,,Total build cost,,,528756,1498.4,77758.24,64250,Estimated total using current planning rates
+Budget 32GB No GPU,Note,100,NOTE,,,,,,,,,GPU is delayed; first purchase works with integrated graphics
+Full RTX 5080 Later,Part,1,CPU,CPU_01_HU,AMD Ryzen 9 9900X Box,Hungary,landcomputer.hu,123750,350.69,18198.53,0,Local warranty route; current target CPU
+Full RTX 5080 Later,Part,2,Motherboard,MB_01_HU,MSI MAG B850 Tomahawk MAX WiFi,Hungary,Arukereso lead,82340,233.34,12108.82,0,Default motherboard choice
+Full RTX 5080 Later,Part,3,RAM,RAM_01_PL,Patriot Viper Venom 64GB 2x32 DDR5-6000 CL30,Poland,Allegro,244390,692.56,35939.71,82900,Best value 64GB RAM if seller/warranty clean
+Full RTX 5080 Later,Part,4,SSD,SSD_01_PL,Kingston KC3000 2TB,Poland,Ceneo lead,78003,221.05,11471.03,28333,Best current SSD value
+Full RTX 5080 Later,Part,5,PSU,PSU_01_HU,be quiet! Pure Power 13 M 1000W,Hungary,Arukereso lead,49100,139.14,7220.59,0,Future-ready PSU for RTX 5080 later
+Full RTX 5080 Later,Part,6,Cooler,COOL_01_HU,Arctic Liquid Freezer III Pro 360 A-RGB Black,Hungary,Arukereso lead,31500,89.27,4632.35,0,Clean visual cooler
+Full RTX 5080 Later,Part,7,Case,CASE_01_HU,Corsair 3500X ARGB Black,Hungary/local,Arukereso lead,31990,90.65,4704.41,0,Local case route because glass case logistics
+Full RTX 5080 Later,Part,8,GPU,GPU_01_PL,MSI RTX 5080 Ventus 3X OC 16GB,Poland,x-kom.pl,406960,1153.25,59847.06,92130,Later GPU target if price/warranty stay good
+Full RTX 5080 Later,Total,99,TOTAL,,Total build cost,,,1048033,2969.94,154122.5,203363,Estimated total using current planning rates
+Full RTX 5080 Later,Note,100,NOTE,,,,,,,,,"This is the later complete scenario, not the first purchase"

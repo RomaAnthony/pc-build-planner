@@ -1,0 +1,7 @@
+.venv_marimo/
+.config/
+__pycache__/
+*.pyc
+.DS_Store
+00_Hub/
+docs_tmp/

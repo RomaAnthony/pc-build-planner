@@ -1,0 +1,47 @@
+ID,Part,Priority,Option,Market,Store,Price,Currency,HUF_Est,Status,Risk,Note,Source
+CPU_01_HU,CPU,1,AMD Ryzen 9 9900X Box,Hungary,landcomputer.hu,123750,HUF,123750,Pick,Low,Current target CPU; local warranty route is simple,Raw_Captures/CPU
+CPU_01_PL,CPU,1,AMD Ryzen 9 9900X Box,Poland,x-kom.pl,1349,PLN,112061,Compare,Medium,Same CPU cheaper at current FX; compare warranty/logistics before choosing Poland,Raw_Captures/CPU
+CPU_01_PL_AMZ,CPU,1,AMD Ryzen 9 9900X Box,Poland,Amazon.pl,1398.99,PLN,116214,Backup,Low,Safe seller but worse than x-kom and local warranty still matters,Raw_Captures/CPU
+CPU_02_HU,CPU,2,AMD Ryzen 7 9700X Box,Hungary,Arukereso lead,103490,HUF,103490,Backup,Low,Budget fallback if platform cost must drop,CPU_WORKING_SHORTLIST
+CPU_03_HU,CPU,3,AMD Ryzen 9 9950X Box,Hungary,Konzolvilag,174090,HUF,174090,Watch,Medium,16-core productivity upgrade; not default value choice,Raw_Captures/CPU
+MB_01_HU,Motherboard,1,MSI MAG B850 Tomahawk MAX WiFi,Hungary,Arukereso lead,82340,HUF,82340,Pick,Low,Default motherboard choice,Raw_Captures/Motherboard
+MB_01_PL,Motherboard,1,MSI MAG B850 Tomahawk MAX WiFi,Poland,Amazon.pl,792.95,PLN,65870,Compare,Medium,Cheaper at current FX; verify exact MAX model and warranty route,Raw_Captures/Motherboard
+MB_02_HU,Motherboard,2,ASRock X870 PRO RS WiFi,Hungary,Arukereso lead,72290,HUF,72290,Backup,Medium,Strong value challenger if comfortable with ASRock,Raw_Captures/Motherboard
+MB_03_HU,Motherboard,3,MSI MAG B850 Tomahawk WiFi non-MAX,Hungary,Arukereso lead,68590,HUF,68590,Watch,Medium,Cheaper MSI path; check what is lost vs MAX,Raw_Captures/Motherboard
+MB_04_HU,Motherboard,4,Gigabyte X870E AORUS Elite WiFi7,Hungary,Arukereso lead,109899,HUF,109899,Watch,Medium,Premium board; probably unnecessary unless features matter,Raw_Captures/Motherboard
+RAM_01_PL,RAM,1,Patriot Viper Venom 64GB 2x32 DDR5-6000 CL30,Poland,Allegro,2941.98,PLN,244390,Pick,Medium,Best value RAM if seller/warranty are clean,Raw_Captures/RAM
+RAM_01_HU,RAM,1,Patriot Viper Venom 64GB 2x32 DDR5-6000 CL30,Hungary,elektroshock.hu,328435,HUF,328435,Compare,Medium,Same model local comparison; Arukereso capture shows 36-month warranty plus EU and 2-3 day delivery,Raw_Captures/RAM
+RAM_02_HU,RAM,2,Kingston Fury Beast EXPO 64GB 2x32 DDR5-6000 CL30,Hungary,foramax.hu,339890,HUF,339890,Backup,Low,Safest RAM option; better warranty comfort,Raw_Captures/RAM
+RAM_02_PL,RAM,2,Kingston Fury Beast EXPO 64GB 2x32 DDR5-6000 CL30,Poland,KR System / Ceneo lead,3635.5,PLN,302001,Backup,Medium,Safer RAM option from Poland but not as cheap as Patriot,Raw_Captures/RAM
+RAM_03_PL,RAM,3,GOODRAM IRDM 64GB 2x32 DDR5-6000 CL30,Poland,Allegro,3333,PLN,276872,Backup,Medium,Third practical 64GB option,Raw_Captures/RAM
+RAM_03_HU,RAM,3,GOODRAM IRDM 64GB 2x32 DDR5-6000 CL30,Hungary,sky-frames.hu,332760,HUF,332760,Backup,Medium,Local GOODRAM option; not cheaper than Kingston enough,Raw_Captures/RAM
+RAM_04_PL,RAM,4,Patriot Viper Venom 32GB 2x16 DDR5-6000 CL30,Poland,Ceneo lead,1589.9,PLN,132073,Watch,Medium,Budget branch; saves money but halves RAM,Raw_Captures/RAM
+RAM_04_HU,RAM,4,Kingston Fury Beast EXPO 32GB 2x16 DDR5-6000 CL30,Hungary,Arukereso lead,167990,HUF,167990,Watch,Low,Safer 32GB branch but worse value than Patriot Poland,Raw_Captures/RAM
+SSD_01_PL,SSD,1,Kingston KC3000 2TB,Poland,Ceneo lead,939,PLN,78003,Pick,Medium,Best current SSD value from Poland,Raw_Captures/SSD
+SSD_01_HU,SSD,1,Kingston KC3000 2TB,Hungary,Arukereso lead,106336,HUF,106336,Compare,Low,Same SSD local route; more expensive but simpler warranty,Raw_Captures/SSD
+SSD_02_HU,SSD,2,Lexar NM790 2TB,Hungary,Arukereso lead,96695,HUF,96695,Backup,Low,Best Hungary SSD value; DRAM-less/HMB,Raw_Captures/SSD
+SSD_02_PL,SSD,2,Lexar NM790 2TB,Poland,Ceneo lead,1038.03,PLN,86229,Backup,Medium,Good SSD but KC3000 Poland is cleaner value,Raw_Captures/SSD
+SSD_03_HU,SSD,3,Samsung 990 PRO 2TB,Hungary,Alza / Arukereso lead,119990,HUF,119990,Watch,Low,Premium SSD; only if close to KC3000 price,Raw_Captures/SSD
+SSD_03_PL,SSD,3,Samsung 990 PRO 2TB,Poland,Ceneo lead,1469,PLN,122030,Avoid,Medium,Too expensive versus KC3000,Raw_Captures/SSD
+PSU_01_HU,PSU,1,be quiet! Pure Power 13 M 1000W,Hungary,Arukereso lead,49100,HUF,49100,Pick,Low,Current value PSU; 1000W ATX 3.1 / PCIe 5.1 direction,Raw_Captures/PSU
+PSU_02_HU,PSU,2,Seasonic Focus GX-1000 2024,Hungary,Arukereso lead,59990,HUF,59990,Backup,Low,Safer premium PSU option,Raw_Captures/PSU
+PSU_02_PL,PSU,2,Seasonic Focus GX-1000 v4,Poland,Ceneo lead,687,PLN,57069,Compare,Medium,Good unit; Poland price now competitive but warranty/logistics decide,Raw_Captures/PSU
+PSU_03_HU,PSU,3,Corsair RM1000x ATX 3.1,Hungary,Arukereso lead,66200,HUF,66200,Watch,Low,Strong premium PSU but pricier,Raw_Captures/PSU
+PSU_03_PL,PSU,3,Corsair RM1000x ATX 3.1,Poland,Ceneo lead,647,PLN,53746,Backup,Medium,Strong Poland PSU option if bundling,Raw_Captures/PSU
+COOL_01_HU,Cooler,1,Arctic Liquid Freezer III Pro 360 A-RGB Black,Hungary,Arukereso lead,31500,HUF,31500,Pick,Low,Preferred clean visual cooler,Raw_Captures/Case_Cooling
+COOL_02_HU,Cooler,2,Arctic Liquid Freezer III Pro 360 Black,Hungary,Arukereso lead,29200,HUF,29200,Backup,Low,Saves little versus A-RGB; good if lights do not matter,Raw_Captures/Case_Cooling
+COOL_02_PL,Cooler,2,Arctic Liquid Freezer III Pro 360 Black,Poland,Ceneo lead,324,PLN,26915,Compare,Medium,Cheap but cooler is easy to buy locally; not worth trouble alone,Raw_Captures/Case_Cooling
+CASE_01_HU,Case,1,Corsair 3500X ARGB Black,Hungary,Arukereso lead,31990,HUF,31990,Pick,Low,Current case baseline; local because glass case logistics,Raw_Captures/Case_Cooling
+CASE_02_HU,Case,2,Corsair 3500X Black plain,Hungary,Arukereso lead,21326,HUF,21326,Watch,Low,Cheapest Corsair path; fan planning needed,Raw_Captures/Case_Cooling
+CASE_03_HU,Case,3,Phanteks XT View TG D-RGB Black,Hungary,Arukereso lead,27901,HUF,27901,Backup,Medium,Cheap visual backup; check clearance/build quality,Raw_Captures/Case_Cooling
+CASE_04_HU,Case,4,NZXT H6 Flow RGB All Black,Hungary,Arukereso lead,44444,HUF,44444,Watch,Low,Nice case but Corsair is cheaper,Raw_Captures/Case_Cooling
+GPU_00_NONE,GPU,0,No GPU yet,No GPU,Local,0,HUF,0,Pick,Low,First purchase excludes expensive GPU; phase 1 uses Ryzen integrated graphics,RTX5080_WORKING_SHORTLIST
+GPU_01_PL,GPU,1,MSI RTX 5080 Ventus 3X OC 16GB,Poland,x-kom.pl,4899,PLN,406960,Watch,Medium,Best RTX 5080 value lead; 303mm 16-pin 36-month warranty shown,Raw_Captures/GPU
+GPU_01_HU,GPU,1,MSI RTX 5080 Ventus 3X OC 16GB,Hungary,Arukereso lead,499090,HUF,499090,Compare,Medium,Same model local route; much more expensive at current FX,Raw_Captures/GPU
+GPU_02_PL,GPU,2,MSI RTX 5080 Gaming Trio OC 16GB,Poland,Ceneo lead,5599,PLN,465109,Backup,Medium,Better cooler/class than Ventus; costs more,Raw_Captures/GPU
+GPU_02_HU,GPU,2,MSI RTX 5080 Gaming Trio OC 16GB,Hungary,Arukereso lead,528465,HUF,528465,Compare,Medium,Premium MSI local comparison,Raw_Captures/GPU
+GPU_03_PL,GPU,3,Gigabyte RTX 5080 Gaming OC 16GB,Poland,Ceneo lead,5799,PLN,481723,Backup,Medium,Good long-term Gigabyte option; compare seller/warranty,Raw_Captures/GPU
+GPU_03_HU,GPU,3,Gigabyte RTX 5080 Gaming OC 16GB,Hungary,Arukereso lead,526400,HUF,526400,Compare,Medium,Best Gigabyte Hungary premium-value comparison,Raw_Captures/GPU
+GPU_04_HU,GPU,4,Inno3D RTX 5080 X3 OC 16GB,Hungary,Arukereso lead,465640,HUF,465640,Backup,Medium,Best cheap Hungary RTX 5080 value lead,RTX5080_WORKING_SHORTLIST
+GPU_05_PL,GPU,5,Gigabyte RTX 5080 Windforce OC SFF 16GB,Poland,Ceneo lead,5343.54,PLN,443888,Watch,High,Cheap but SFF/basic cooler risk; not first long-term choice,Raw_Captures/GPU
+GPU_05_HU,GPU,5,Gigabyte RTX 5080 Windforce OC SFF 16GB,Hungary,Arukereso lead,470000,HUF,470000,Watch,High,Cheap local option but SFF cooler risk,RTX5080_WORKING_SHORTLIST

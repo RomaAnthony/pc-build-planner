@@ -1,0 +1,248 @@
+---
+title: "Procesor AMD Ryzen 9 9900X 4.4 GHz BOX (100-000000662) - Opinie i ceny na Ceneo.pl"
+source: "https://www.ceneo.pl/171280249"
+author:
+  - "[[o...r]]"
+published: 2026-02-06
+created: 2026-06-12
+description: "Procesor AMD Ryzen 9 9900X 4.4 GHz BOX (100-000000662) - od 1349,00 zł, porównanie cen w 33 sklepach. Zobacz inne Procesory, najtańsze i najlepsze oferty, opinie."
+tags:
+  - "clippings"
+---
+[![Procesor AMD Ryzen 9 9900X 4.4 GHz BOX (100-000000662) - zdjęcie 1](https://image.ceneostatic.pl/data/products/171280249/f-amd-ryzen-9-9900x-4-4-ghz-box-100-000000662.jpg "Procesor AMD Ryzen 9 9900X 4.4 GHz BOX (100-000000662) - zdjęcie 1")](https://image.ceneostatic.pl/data/products/171280249/i-amd-ryzen-9-9900x-4-4-ghz-box-100-000000662.jpg "Powiększ zdjęcie")
+
+10+ kupionych ostatnio
+
+1 399,00zł
+
+[Kup teraz](#)
+
+Darmowa wysyłka
+
+Wysyłka w 1 dzień
+
+nawet 15 rat 0%!
+
+## Wybrane oferty firm
+
+- 1551 opinii
+	[Procesor AMD Ryzen 9 9900X, 4.4 GHz, 64 MB, BOX (100-100000662WOF)](https://www.ceneo.pl/Click/Offer/?e=FGscZDfWoLlzL7LX731tPfOPhVYF3WayHRVAhmijASA6Mb_k9f3L5UCWNT5N0cbn9WojIroXu7uvpwuIzze8A-xMnWRgZZHCPZWskOH_vVZaA62AH2mNNbQ9Sq69SoZ5kzschhwxkmpHc7ISG_YBi4CPkMaWu7r2uCLuo9DvKRA3c95PNgc1lZgHUZe-szT7kKw-JJEk_M4TEmZCrTb7NoWC2hgW2ze91YE3EXH6Ok-lUEzCWQUN3bBFR-Z7vht100w99qsQ9ANy2417N7heMB_32FhBFH3E7rnhCqFQOrrahOs3LTeTo0z6qPl5ZzCp0zzERM3YTTSEMyhMCM5Zkgj9LUVZ0S67Kx9tRhtnfPkj1VAeh30sEw==&ctx=CgsIsoq268ippD8QBRIkYTkzNjE0N2QtNjY1Zi0xMWYxLTg3MmUtZTI2NmI1OTMyYWViGiQ1YTM3YjQzZC02Njc4LTExZjEtYmRmNC1kMmIwZWQ0N2QwMmQ=&a=2 "Procesor AMD Ryzen 9 9900X, 4.4 GHz, 64 MB, BOX (100-100000662WOF)")
+	BEZPŁATNA DOSTAWA Z MORELE MAX
+	[1 418,55zł](https://www.ceneo.pl/Click/Offer/?e=FGscZDfWoLlzL7LX731tPfOPhVYF3WayHRVAhmijASA6Mb_k9f3L5UCWNT5N0cbn9WojIroXu7uvpwuIzze8A-xMnWRgZZHCPZWskOH_vVZaA62AH2mNNbQ9Sq69SoZ5kzschhwxkmpHc7ISG_YBi4CPkMaWu7r2uCLuo9DvKRA3c95PNgc1lZgHUZe-szT7kKw-JJEk_M4TEmZCrTb7NoWC2hgW2ze91YE3EXH6Ok-lUEzCWQUN3bBFR-Z7vht100w99qsQ9ANy2417N7heMB_32FhBFH3E7rnhCqFQOrrahOs3LTeTo0z6qPl5ZzCp0zzERM3YTTSEMyhMCM5Zkgj9LUVZ0S67Kx9tRhtnfPkj1VAeh30sEw==&ctx=CgsIsoq268ippD8QBRIkYTkzNjE0N2QtNjY1Zi0xMWYxLTg3MmUtZTI2NmI1OTMyYWViGiQ1YTM3YjQzZC02Njc4LTExZjEtYmRmNC1kMmIwZWQ0N2QwMmQ=&a=2)
+	Darmowa wysyłka
+	Wysyłka w 1 dzień
+	[Idź do sklepu](https://www.ceneo.pl/Click/Offer/?e=FGscZDfWoLlzL7LX731tPfOPhVYF3WayHRVAhmijASA6Mb_k9f3L5UCWNT5N0cbn9WojIroXu7uvpwuIzze8A-xMnWRgZZHCPZWskOH_vVZaA62AH2mNNbQ9Sq69SoZ5kzschhwxkmpHc7ISG_YBi4CPkMaWu7r2uCLuo9DvKRA3c95PNgc1lZgHUZe-szT7kKw-JJEk_M4TEmZCrTb7NoWC2hgW2ze91YE3EXH6Ok-lUEzCWQUN3bBFR-Z7vht100w99qsQ9ANy2417N7heMB_32FhBFH3E7rnhCqFQOrrahOs3LTeTo0z6qPl5ZzCp0zzERM3YTTSEMyhMCM5Zkgj9LUVZ0S67Kx9tRhtnfPkj1VAeh30sEw==&ctx=CgsIsoq268ippD8QBRIkYTkzNjE0N2QtNjY1Zi0xMWYxLTg3MmUtZTI2NmI1OTMyYWViGiQ1YTM3YjQzZC02Njc4LTExZjEtYmRmNC1kMmIwZWQ0N2QwMmQ=&a=2)
+	- [Dane i opinie o Morele.net](https://www.ceneo.pl/sklepy/morele.net-s379#tab=info)
+	- Zobacz ofertę
+	- Zgłoś uwagi
+	Dokonując zakupu akceptujesz poniższą ofertę:
+	Sprzedawca nie udostępnił dodatkowego opisu oferty.
+- 8718 opinii
+	[Amd Ryzen 9 9900X (64MB Catche, 12x 5.6GHz) 100-000000662](https://www.ceneo.pl/Click/Offer/?e=fPgLqvGWLPhMX8_XN2en6IqTPahndn-LZrbvSsY7eyjffAMGxO8q0MsLFSWOrGUQN3hqmewWebezMDkAi06PS7ooKTGHI9NvEdeAs4EtNmLnB_dJrxcKSNLAqQlpUd81Xrwi4d8BTj1i-nwGhuPbrbHg9jom-8MH5elWiccDpLjt9ZRfeYDWpEHLjr74PYo36nt5kwZpYZf7sZQ_fnTKm8mct4RfrNCQjphYHW-_v3uPV8zlKML_qS8RZYuhU7YCpVBMwlkFDd2mLEbxghakLYYd0DNH9mPApVBMwlkFDd2lUEzCWQUN3eS8ecAwmjRCI9Q20aNDMFpEXveF1GHygu83kCdw-QVivPVt1pyfUKc0_TVNyRVGLWJ9BDLYgJS9hHDjWs5miy07YbRFWHR5IQPN445Ye4KKVcw6kBQ6Iho-xarwB1c26w==&ctx=CgsIsoq268ippD8QBRIkYTkzNjE0N2QtNjY1Zi0xMWYxLTg3MmUtZTI2NmI1OTMyYWViGiQ1YTM3YjQzZC02Njc4LTExZjEtYmRmNC1kMmIwZWQ0N2QwMmQ=&a=2 "Amd Ryzen 9 9900X (64MB Catche, 12x 5.6GHz) 100-000000662")
+	8-15.06 Allegro Days do -40%
+	[1 642,75zł](https://www.ceneo.pl/Click/Offer/?e=fPgLqvGWLPhMX8_XN2en6IqTPahndn-LZrbvSsY7eyjffAMGxO8q0MsLFSWOrGUQN3hqmewWebezMDkAi06PS7ooKTGHI9NvEdeAs4EtNmLnB_dJrxcKSNLAqQlpUd81Xrwi4d8BTj1i-nwGhuPbrbHg9jom-8MH5elWiccDpLjt9ZRfeYDWpEHLjr74PYo36nt5kwZpYZf7sZQ_fnTKm8mct4RfrNCQjphYHW-_v3uPV8zlKML_qS8RZYuhU7YCpVBMwlkFDd2mLEbxghakLYYd0DNH9mPApVBMwlkFDd2lUEzCWQUN3eS8ecAwmjRCI9Q20aNDMFpEXveF1GHygu83kCdw-QVivPVt1pyfUKc0_TVNyRVGLWJ9BDLYgJS9hHDjWs5miy07YbRFWHR5IQPN445Ye4KKVcw6kBQ6Iho-xarwB1c26w==&ctx=CgsIsoq268ippD8QBRIkYTkzNjE0N2QtNjY1Zi0xMWYxLTg3MmUtZTI2NmI1OTMyYWViGiQ1YTM3YjQzZC02Njc4LTExZjEtYmRmNC1kMmIwZWQ0N2QwMmQ=&a=2)
+	Wysyłka od 10,49 zł
+	Wysyłka do 7 dni
+	[Idź do sklepu](https://www.ceneo.pl/Click/Offer/?e=fPgLqvGWLPhMX8_XN2en6IqTPahndn-LZrbvSsY7eyjffAMGxO8q0MsLFSWOrGUQN3hqmewWebezMDkAi06PS7ooKTGHI9NvEdeAs4EtNmLnB_dJrxcKSNLAqQlpUd81Xrwi4d8BTj1i-nwGhuPbrbHg9jom-8MH5elWiccDpLjt9ZRfeYDWpEHLjr74PYo36nt5kwZpYZf7sZQ_fnTKm8mct4RfrNCQjphYHW-_v3uPV8zlKML_qS8RZYuhU7YCpVBMwlkFDd2mLEbxghakLYYd0DNH9mPApVBMwlkFDd2lUEzCWQUN3eS8ecAwmjRCI9Q20aNDMFpEXveF1GHygu83kCdw-QVivPVt1pyfUKc0_TVNyRVGLWJ9BDLYgJS9hHDjWs5miy07YbRFWHR5IQPN445Ye4KKVcw6kBQ6Iho-xarwB1c26w==&ctx=CgsIsoq268ippD8QBRIkYTkzNjE0N2QtNjY1Zi0xMWYxLTg3MmUtZTI2NmI1OTMyYWViGiQ1YTM3YjQzZC02Njc4LTExZjEtYmRmNC1kMmIwZWQ0N2QwMmQ=&a=2)
+	- [Dane i opinie o allegro.pl](https://www.ceneo.pl/sklepy/allegro.pl-s20136#tab=info)
+	- Zobacz ofertę
+	- Zgłoś uwagi
+	Dokonując zakupu akceptujesz poniższą ofertę:
+	Sprzedawca nie udostępnił dodatkowego opisu oferty.
+
+## \- Oferty firm
+
+- 6105 opinii
+	[AMD Ryzen 9 9900X - szybka bezpieczna dostawa lub możliwość darmowego odbioru w 22 miastach](https://www.ceneo.pl/Click/Offer/?e=Zey0TG1zAAtzL7LX731tPWwE_NXL5FqqG34jiHuASuwCCkmu7Cda2joxv-T1_cvlQJY1Pk3RxucjCpSnx7Zda6P1OQZ0tTpfhy6np0fSfYcmVDoFCSyQoGujrp6IotbwyzADCGg3uA9kvYZqD0q1JbZflzZ71TOppVBMwlkFDd2lUEzCWQUN3dR_PgKROHW8PmhGx7LpgBelUEzCWQUN3aVQTMJZBQ3d1vkLL-yBmXw2wxE5PtRSqMnkIbLIXvkmKxBUsW7HTt10YYQpstg3Vev1hqhNxAzTe60GVCDZecBNKP5e4N0t5TthtEVYdHkhlG0BoNitXrgT-0nBImlWig==&ctx=CgsIsoq268ippD8QBRIkYTkzNjE0N2QtNjY1Zi0xMWYxLTg3MmUtZTI2NmI1OTMyYWViGiQ1YTM3YjQzZC02Njc4LTExZjEtYmRmNC1kMmIwZWQ0N2QwMmQ=&a=2 "AMD Ryzen 9 9900X  - szybka bezpieczna dostawa lub możliwość darmowego odbioru w 22 miastach")
+	10 rat 0%
+	[1 349,00zł](https://www.ceneo.pl/Click/Offer/?e=Zey0TG1zAAtzL7LX731tPWwE_NXL5FqqG34jiHuASuwCCkmu7Cda2joxv-T1_cvlQJY1Pk3RxucjCpSnx7Zda6P1OQZ0tTpfhy6np0fSfYcmVDoFCSyQoGujrp6IotbwyzADCGg3uA9kvYZqD0q1JbZflzZ71TOppVBMwlkFDd2lUEzCWQUN3dR_PgKROHW8PmhGx7LpgBelUEzCWQUN3aVQTMJZBQ3d1vkLL-yBmXw2wxE5PtRSqMnkIbLIXvkmKxBUsW7HTt10YYQpstg3Vev1hqhNxAzTe60GVCDZecBNKP5e4N0t5TthtEVYdHkhlG0BoNitXrgT-0nBImlWig==&ctx=CgsIsoq268ippD8QBRIkYTkzNjE0N2QtNjY1Zi0xMWYxLTg3MmUtZTI2NmI1OTMyYWViGiQ1YTM3YjQzZC02Njc4LTExZjEtYmRmNC1kMmIwZWQ0N2QwMmQ=&a=2)
+	Darmowa wysyłka
+	Wysyłka w 1 dzień
+	[Idź do sklepu](https://www.ceneo.pl/Click/Offer/?e=Zey0TG1zAAtzL7LX731tPWwE_NXL5FqqG34jiHuASuwCCkmu7Cda2joxv-T1_cvlQJY1Pk3RxucjCpSnx7Zda6P1OQZ0tTpfhy6np0fSfYcmVDoFCSyQoGujrp6IotbwyzADCGg3uA9kvYZqD0q1JbZflzZ71TOppVBMwlkFDd2lUEzCWQUN3dR_PgKROHW8PmhGx7LpgBelUEzCWQUN3aVQTMJZBQ3d1vkLL-yBmXw2wxE5PtRSqMnkIbLIXvkmKxBUsW7HTt10YYQpstg3Vev1hqhNxAzTe60GVCDZecBNKP5e4N0t5TthtEVYdHkhlG0BoNitXrgT-0nBImlWig==&ctx=CgsIsoq268ippD8QBRIkYTkzNjE0N2QtNjY1Zi0xMWYxLTg3MmUtZTI2NmI1OTMyYWViGiQ1YTM3YjQzZC02Njc4LTExZjEtYmRmNC1kMmIwZWQ0N2QwMmQ=&a=2)
+	- [Dane i opinie o x-kom.pl](https://www.ceneo.pl/sklepy/x-kom.pl-s1078#tab=info)
+	- Zobacz ofertę
+	- Zgłoś uwagi
+	Dokonując zakupu akceptujesz poniższą ofertę:
+	Sprzedawca nie udostępnił dodatkowego opisu oferty.
+- 80 opinii
+	[AMD Procesor Ryzen™ 9900X, 12 rdzeni/24 nieuszkodzone wątki, architektura Zen 5, pamięć podręczna 76MB L3, 120 W TDP, do 5,6 GHz, gniazdo AM5, DDR5 i](https://www.ceneo.pl/Click/Offer/?e=2tCmqH0V4m9o4kUUuzcMCPpzCxOcWzVVqZZRp73Rd0bPIlhuci13-TDyBhZZJEDz-a7aGNxS8oD-rJsqOyR97Jk2Q_8ZWPN3_qybKjskfezJo1L8zea4ls8iWG5yLXf5XG6_p-IxqmrlxD3mITdkIZA0Geuam9w0VmCJLjiaOU1aGNuVZDcvh0TvvJvQVgrXOXhc5iODnwylUEzCWQUN3aVQTMJZBQ3dEDhq7iTphRr5ubOyFrSrCqVQTMJZBQ3dVvPEpqLElbi8Pl-7zHAYbBqRSa-3IfMrjNOD-yGTUzEAhOikg1OVRC1e67B0YhPHasn150KmIwXnmcQPqdgvxObUtDqj_FCA_JlkL8g29EU6-bSMxHGuCswLguZ5k6as&ctx=CgsIsoq268ippD8QBRIkYTkzNjE0N2QtNjY1Zi0xMWYxLTg3MmUtZTI2NmI1OTMyYWViGiQ1YTM3YjQzZC02Njc4LTExZjEtYmRmNC1kMmIwZWQ0N2QwMmQ=&a=2 "AMD Procesor Ryzen™ 9900X, 12 rdzeni/24 nieuszkodzone wątki, architektura Zen 5, pamięć podręczna 76MB L3, 120 W TDP, do 5,6 GHz, gniazdo AM5, DDR5 i")
+	Dołącz do Amazon Prime
+	[1 398,99zł](https://www.ceneo.pl/Click/Offer/?e=2tCmqH0V4m9o4kUUuzcMCPpzCxOcWzVVqZZRp73Rd0bPIlhuci13-TDyBhZZJEDz-a7aGNxS8oD-rJsqOyR97Jk2Q_8ZWPN3_qybKjskfezJo1L8zea4ls8iWG5yLXf5XG6_p-IxqmrlxD3mITdkIZA0Geuam9w0VmCJLjiaOU1aGNuVZDcvh0TvvJvQVgrXOXhc5iODnwylUEzCWQUN3aVQTMJZBQ3dEDhq7iTphRr5ubOyFrSrCqVQTMJZBQ3dVvPEpqLElbi8Pl-7zHAYbBqRSa-3IfMrjNOD-yGTUzEAhOikg1OVRC1e67B0YhPHasn150KmIwXnmcQPqdgvxObUtDqj_FCA_JlkL8g29EU6-bSMxHGuCswLguZ5k6as&ctx=CgsIsoq268ippD8QBRIkYTkzNjE0N2QtNjY1Zi0xMWYxLTg3MmUtZTI2NmI1OTMyYWViGiQ1YTM3YjQzZC02Njc4LTExZjEtYmRmNC1kMmIwZWQ0N2QwMmQ=&a=2)
+	Darmowa wysyłka
+	Wysyłka w 1 dzień
+	[Idź do sklepu](https://www.ceneo.pl/Click/Offer/?e=2tCmqH0V4m9o4kUUuzcMCPpzCxOcWzVVqZZRp73Rd0bPIlhuci13-TDyBhZZJEDz-a7aGNxS8oD-rJsqOyR97Jk2Q_8ZWPN3_qybKjskfezJo1L8zea4ls8iWG5yLXf5XG6_p-IxqmrlxD3mITdkIZA0Geuam9w0VmCJLjiaOU1aGNuVZDcvh0TvvJvQVgrXOXhc5iODnwylUEzCWQUN3aVQTMJZBQ3dEDhq7iTphRr5ubOyFrSrCqVQTMJZBQ3dVvPEpqLElbi8Pl-7zHAYbBqRSa-3IfMrjNOD-yGTUzEAhOikg1OVRC1e67B0YhPHasn150KmIwXnmcQPqdgvxObUtDqj_FCA_JlkL8g29EU6-bSMxHGuCswLguZ5k6as&ctx=CgsIsoq268ippD8QBRIkYTkzNjE0N2QtNjY1Zi0xMWYxLTg3MmUtZTI2NmI1OTMyYWViGiQ1YTM3YjQzZC02Njc4LTExZjEtYmRmNC1kMmIwZWQ0N2QwMmQ=&a=2)
+	- [Dane i opinie o Amazon](https://www.ceneo.pl/sklepy/amazon.pl-s42774#tab=info)
+	- Zobacz ofertę
+	- Zgłoś uwagi
+	Dokonując zakupu akceptujesz poniższą ofertę:
+	Sprzedawca nie udostępnił dodatkowego opisu oferty.
+- 3307 opinii
+	[Procesor AMD Ryzen 9 9900X 100-100000662WOF | Do 40 rat 0% i do września nie płacisz RRSO 0% | DARMOWY TRANSPORT!](https://www.ceneo.pl/Click/Offer/?e=7ePcH0eHuRFG5U71ADWJSfM2Ak8_suKPDJ8ArxnnHpeWA8uXT7kHWSeycc-qkoFzDG58x7G-dQtRHyJl1fCJIvaFDiGySVQR0IFHMiT2VfLgmppBrIfzUbt1Lf7Mt32s03vXyY1cTFJcZycGEoTFpzqGprZ-NUOco8d94ts6wH5PWQ-acV1EwtQZ7aC7VbeZmBHMOEqrItmZH2c-FlxbmAoO3kG3O1gojqWk8UAAI1HQE9h2nqMaJRzoLk3Gfkkv5OrRc9BYM9Nlytxk962JeJA0Geuam9w0VmCJLjiaOU1aGNuVZDcvh8aR9PUowyBAOXhc5iODnwylUEzCWQUN3aVQTMJZBQ3dEDhq7iTphRr5ubOyFrSrCqVQTMJZBQ3dpcTOUHVU12i541rfkgO9oHeBC7JZyNDrjNOD-yGTUzEAhOikg1OVRC1e67B0YhPHasn150KmIwXnmcQPqdgvxObUtDqj_FCA_JlkL8g29EU6-bSMxHGuCswLguZ5k6as&ctx=CgsIsoq268ippD8QBRIkYTkzNjE0N2QtNjY1Zi0xMWYxLTg3MmUtZTI2NmI1OTMyYWViGiQ1YTM3YjQzZC02Njc4LTExZjEtYmRmNC1kMmIwZWQ0N2QwMmQ=&a=2 "Procesor AMD Ryzen 9 9900X 100-100000662WOF | Do 40 rat 0% i do września nie płacisz RRSO 0% | DARMOWY TRANSPORT!")
+	nawet 30 rat 0%! RRSO 0%
+	[1 399,00zł](https://www.ceneo.pl/Click/Offer/?e=7ePcH0eHuRFG5U71ADWJSfM2Ak8_suKPDJ8ArxnnHpeWA8uXT7kHWSeycc-qkoFzDG58x7G-dQtRHyJl1fCJIvaFDiGySVQR0IFHMiT2VfLgmppBrIfzUbt1Lf7Mt32s03vXyY1cTFJcZycGEoTFpzqGprZ-NUOco8d94ts6wH5PWQ-acV1EwtQZ7aC7VbeZmBHMOEqrItmZH2c-FlxbmAoO3kG3O1gojqWk8UAAI1HQE9h2nqMaJRzoLk3Gfkkv5OrRc9BYM9Nlytxk962JeJA0Geuam9w0VmCJLjiaOU1aGNuVZDcvh8aR9PUowyBAOXhc5iODnwylUEzCWQUN3aVQTMJZBQ3dEDhq7iTphRr5ubOyFrSrCqVQTMJZBQ3dpcTOUHVU12i541rfkgO9oHeBC7JZyNDrjNOD-yGTUzEAhOikg1OVRC1e67B0YhPHasn150KmIwXnmcQPqdgvxObUtDqj_FCA_JlkL8g29EU6-bSMxHGuCswLguZ5k6as&ctx=CgsIsoq268ippD8QBRIkYTkzNjE0N2QtNjY1Zi0xMWYxLTg3MmUtZTI2NmI1OTMyYWViGiQ1YTM3YjQzZC02Njc4LTExZjEtYmRmNC1kMmIwZWQ0N2QwMmQ=&a=2)
+	Darmowa wysyłka
+	Wysyłka w 1 dzień
+	[Idź do sklepu](https://www.ceneo.pl/Click/Offer/?e=7ePcH0eHuRFG5U71ADWJSfM2Ak8_suKPDJ8ArxnnHpeWA8uXT7kHWSeycc-qkoFzDG58x7G-dQtRHyJl1fCJIvaFDiGySVQR0IFHMiT2VfLgmppBrIfzUbt1Lf7Mt32s03vXyY1cTFJcZycGEoTFpzqGprZ-NUOco8d94ts6wH5PWQ-acV1EwtQZ7aC7VbeZmBHMOEqrItmZH2c-FlxbmAoO3kG3O1gojqWk8UAAI1HQE9h2nqMaJRzoLk3Gfkkv5OrRc9BYM9Nlytxk962JeJA0Geuam9w0VmCJLjiaOU1aGNuVZDcvh8aR9PUowyBAOXhc5iODnwylUEzCWQUN3aVQTMJZBQ3dEDhq7iTphRr5ubOyFrSrCqVQTMJZBQ3dpcTOUHVU12i541rfkgO9oHeBC7JZyNDrjNOD-yGTUzEAhOikg1OVRC1e67B0YhPHasn150KmIwXnmcQPqdgvxObUtDqj_FCA_JlkL8g29EU6-bSMxHGuCswLguZ5k6as&ctx=CgsIsoq268ippD8QBRIkYTkzNjE0N2QtNjY1Zi0xMWYxLTg3MmUtZTI2NmI1OTMyYWViGiQ1YTM3YjQzZC02Njc4LTExZjEtYmRmNC1kMmIwZWQ0N2QwMmQ=&a=2)
+	- [Dane i opinie o Media Expert](https://www.ceneo.pl/sklepy/mediaexpert.pl-s10772#tab=info)
+	- Zobacz ofertę
+	- Zgłoś uwagi
+	Dokonując zakupu akceptujesz poniższą ofertę:
+	Sprzedawca nie udostępnił dodatkowego opisu oferty.
+- 6503 opinie
+	[Procesor AMD Ryzen 9 9900X 100-100000662WOF](https://www.ceneo.pl/Click/Offer/?e=47SpDqnGyx1G5U71ADWJSd5B5CRQIv3f_o708KZhbRzrb2IVkMNeY3ZwhpCrqKa0Q6nqWYWWKQI86E4Wxu8gBTWvLzbJbZe1LV7rsHRiE8cMeIID0VBezg-n_X7X7c_wo_U5BnS1Ol_oczF9QRnNmf0jMQT59tTPPyMR1Fx9h2kaGUm3sVWVGp4m8dmNslOjP1v_OLSPGOgMrxWs0xjZMxKx0hYjJMnlNGRnKWJHYL1JySPsoyW8MYBqI9UwT1ps8hQjwdDWzr7LzBbI9YeDCpmpO6EuykHQGF8jcPImSeDFzYMnnkgXtSVYwhRBDeQhpVBMwlkFDd2lUEzCWQUN3VdxGZKEYfDpH5r0V3snU1SlUEzCWQUN3TKqJd_AWN7a5C-6lU8tlPu3WqeT-rdKXEhmaFlFRZEdhyoAJo8U01x0hENlJtVV7OSC5IhgXyCX75SL4TpWwrie6Oe54ZQTzkOzvu8DZewJgiuy8UNzdHE-xarwB1c26w==&ctx=CgsIsoq268ippD8QBRIkYTkzNjE0N2QtNjY1Zi0xMWYxLTg3MmUtZTI2NmI1OTMyYWViGiQ1YTM3YjQzZC02Njc4LTExZjEtYmRmNC1kMmIwZWQ0N2QwMmQ=&a=2 "Procesor AMD Ryzen 9 9900X 100-100000662WOF")
+	nawet 15 rat 0%!
+	[1 399,00zł](https://www.ceneo.pl/Click/Offer/?e=47SpDqnGyx1G5U71ADWJSd5B5CRQIv3f_o708KZhbRzrb2IVkMNeY3ZwhpCrqKa0Q6nqWYWWKQI86E4Wxu8gBTWvLzbJbZe1LV7rsHRiE8cMeIID0VBezg-n_X7X7c_wo_U5BnS1Ol_oczF9QRnNmf0jMQT59tTPPyMR1Fx9h2kaGUm3sVWVGp4m8dmNslOjP1v_OLSPGOgMrxWs0xjZMxKx0hYjJMnlNGRnKWJHYL1JySPsoyW8MYBqI9UwT1ps8hQjwdDWzr7LzBbI9YeDCpmpO6EuykHQGF8jcPImSeDFzYMnnkgXtSVYwhRBDeQhpVBMwlkFDd2lUEzCWQUN3VdxGZKEYfDpH5r0V3snU1SlUEzCWQUN3TKqJd_AWN7a5C-6lU8tlPu3WqeT-rdKXEhmaFlFRZEdhyoAJo8U01x0hENlJtVV7OSC5IhgXyCX75SL4TpWwrie6Oe54ZQTzkOzvu8DZewJgiuy8UNzdHE-xarwB1c26w==&ctx=CgsIsoq268ippD8QBRIkYTkzNjE0N2QtNjY1Zi0xMWYxLTg3MmUtZTI2NmI1OTMyYWViGiQ1YTM3YjQzZC02Njc4LTExZjEtYmRmNC1kMmIwZWQ0N2QwMmQ=&a=2)
+	Darmowa wysyłka
+	Wysyłka w 1 dzień
+	[Idź do sklepu](https://www.ceneo.pl/Click/Offer/?e=47SpDqnGyx1G5U71ADWJSd5B5CRQIv3f_o708KZhbRzrb2IVkMNeY3ZwhpCrqKa0Q6nqWYWWKQI86E4Wxu8gBTWvLzbJbZe1LV7rsHRiE8cMeIID0VBezg-n_X7X7c_wo_U5BnS1Ol_oczF9QRnNmf0jMQT59tTPPyMR1Fx9h2kaGUm3sVWVGp4m8dmNslOjP1v_OLSPGOgMrxWs0xjZMxKx0hYjJMnlNGRnKWJHYL1JySPsoyW8MYBqI9UwT1ps8hQjwdDWzr7LzBbI9YeDCpmpO6EuykHQGF8jcPImSeDFzYMnnkgXtSVYwhRBDeQhpVBMwlkFDd2lUEzCWQUN3VdxGZKEYfDpH5r0V3snU1SlUEzCWQUN3TKqJd_AWN7a5C-6lU8tlPu3WqeT-rdKXEhmaFlFRZEdhyoAJo8U01x0hENlJtVV7OSC5IhgXyCX75SL4TpWwrie6Oe54ZQTzkOzvu8DZewJgiuy8UNzdHE-xarwB1c26w==&ctx=CgsIsoq268ippD8QBRIkYTkzNjE0N2QtNjY1Zi0xMWYxLTg3MmUtZTI2NmI1OTMyYWViGiQ1YTM3YjQzZC02Njc4LTExZjEtYmRmNC1kMmIwZWQ0N2QwMmQ=&a=2)
+	- [Dane i opinie o Avans](https://www.ceneo.pl/sklepy/avans.pl-s18601#tab=info)
+	- Zobacz ofertę
+	- Zgłoś uwagi
+	Dokonując zakupu akceptujesz poniższą ofertę:
+	Sprzedawca nie udostępnił dodatkowego opisu oferty.
+- 23 opinie
+	[Procesor AMD Ryzen 9 9900X 100-100000662WOF DARMOWY TRANSPORT](https://www.ceneo.pl/Click/Offer/?e=y-7SB-aKkVBG5U71ADWJSZZOrrhowJD-b27yBU--VoqLFP-3QxeoqQJWu61ijwwOEUW-EJEGYv2xy6ovG6EP5VWmqfrl1G95DHiCA9FQXs6wLPQGbibLIBQxWg4EqOkfuxfJrmhL0ZmFVN0KEjVIACLtaeW5G21eU5ZZuZoqDnTGQD2AdoBfjKft1oz4ZBPR3U0bso2p1oAAtlbWJ43ihQnFEqhDOYSOtwMeX8C3q723a9-Li9AjZkzDJ5sQAt_fdIRDZSbVVeyA_pPu9koLTfuxlD9-dMqbAAm2yT-esNYMn9reaPBWK49XzOUowv-ppVBMwlkFDd2lUEzCWQUN3Q7q8m3sgx-Ahh3QM0f2Y8ClUEzCWQUN3aVQTMJZBQ3dx-baCATTq3fOyviK9t6jrERe94XUYfKC7zeQJ3D5BWK89W3WnJ9QpzT9NU3JFUYtYn0EMtiAlL2CnMVQeO1lVfsHpQYq9BK3ERlF9lLBRAzvvtuGddNefw==&ctx=CgsIsoq268ippD8QBRIkYTkzNjE0N2QtNjY1Zi0xMWYxLTg3MmUtZTI2NmI1OTMyYWViGiQ1YTM3YjQzZC02Njc4LTExZjEtYmRmNC1kMmIwZWQ0N2QwMmQ=&a=2 "Procesor AMD Ryzen 9 9900X 100-100000662WOF DARMOWY TRANSPORT")
+	nawet 15 rat 0%!
+	[1 399,00zł](https://www.ceneo.pl/Click/Offer/?e=y-7SB-aKkVBG5U71ADWJSZZOrrhowJD-b27yBU--VoqLFP-3QxeoqQJWu61ijwwOEUW-EJEGYv2xy6ovG6EP5VWmqfrl1G95DHiCA9FQXs6wLPQGbibLIBQxWg4EqOkfuxfJrmhL0ZmFVN0KEjVIACLtaeW5G21eU5ZZuZoqDnTGQD2AdoBfjKft1oz4ZBPR3U0bso2p1oAAtlbWJ43ihQnFEqhDOYSOtwMeX8C3q723a9-Li9AjZkzDJ5sQAt_fdIRDZSbVVeyA_pPu9koLTfuxlD9-dMqbAAm2yT-esNYMn9reaPBWK49XzOUowv-ppVBMwlkFDd2lUEzCWQUN3Q7q8m3sgx-Ahh3QM0f2Y8ClUEzCWQUN3aVQTMJZBQ3dx-baCATTq3fOyviK9t6jrERe94XUYfKC7zeQJ3D5BWK89W3WnJ9QpzT9NU3JFUYtYn0EMtiAlL2CnMVQeO1lVfsHpQYq9BK3ERlF9lLBRAzvvtuGddNefw==&ctx=CgsIsoq268ippD8QBRIkYTkzNjE0N2QtNjY1Zi0xMWYxLTg3MmUtZTI2NmI1OTMyYWViGiQ1YTM3YjQzZC02Njc4LTExZjEtYmRmNC1kMmIwZWQ0N2QwMmQ=&a=2)
+	Darmowa wysyłka
+	Wysyłka w 1 dzień
+	[Idź do sklepu](https://www.ceneo.pl/Click/Offer/?e=y-7SB-aKkVBG5U71ADWJSZZOrrhowJD-b27yBU--VoqLFP-3QxeoqQJWu61ijwwOEUW-EJEGYv2xy6ovG6EP5VWmqfrl1G95DHiCA9FQXs6wLPQGbibLIBQxWg4EqOkfuxfJrmhL0ZmFVN0KEjVIACLtaeW5G21eU5ZZuZoqDnTGQD2AdoBfjKft1oz4ZBPR3U0bso2p1oAAtlbWJ43ihQnFEqhDOYSOtwMeX8C3q723a9-Li9AjZkzDJ5sQAt_fdIRDZSbVVeyA_pPu9koLTfuxlD9-dMqbAAm2yT-esNYMn9reaPBWK49XzOUowv-ppVBMwlkFDd2lUEzCWQUN3Q7q8m3sgx-Ahh3QM0f2Y8ClUEzCWQUN3aVQTMJZBQ3dx-baCATTq3fOyviK9t6jrERe94XUYfKC7zeQJ3D5BWK89W3WnJ9QpzT9NU3JFUYtYn0EMtiAlL2CnMVQeO1lVfsHpQYq9BK3ERlF9lLBRAzvvtuGddNefw==&ctx=CgsIsoq268ippD8QBRIkYTkzNjE0N2QtNjY1Zi0xMWYxLTg3MmUtZTI2NmI1OTMyYWViGiQ1YTM3YjQzZC02Njc4LTExZjEtYmRmNC1kMmIwZWQ0N2QwMmQ=&a=2)
+	- [Dane i opinie o electro.pl](https://www.ceneo.pl/sklepy/electro.pl-s16202#tab=info)
+	- Zobacz ofertę
+	- Zgłoś uwagi
+	Dokonując zakupu akceptujesz poniższą ofertę:
+	Sprzedawca nie udostępnił dodatkowego opisu oferty.
+- 7888 opinii
+	[Procesor AMD Ryzen 9 9900X Box - Ekspresowa wysyłka 24h](https://www.ceneo.pl/Click/Offer/?e=tWGxQjwqQpX5DS_mAnmaWQGxdLvCnCxEEXvr0_1h-Hzi19bHOnEbB8sLFSWOrGUQkscAiwE7M7JYbPupYUpa8nx6yWiLe4k3lI7WN6fvIvwup7N5-gZeJWNBytZZANaztIQdqchtIHKlUEzCWQUN3aVQTMJZBQ3duXTmviybT-aIvQ95erAQBaVQTMJZBQ3dXxGG5LxMk4gJBIX4cKvFJ_PA6jvMmfhCjNOD-yGTUzEAhOikg1OVRC1e67B0YhPHasn150KmIwU0aZj_Esm9MQwH9M1dYx7msSwf0at1ODBjB4rxv2EX-Q==&ctx=CgsIsoq268ippD8QBRIkYTkzNjE0N2QtNjY1Zi0xMWYxLTg3MmUtZTI2NmI1OTMyYWViGiQ1YTM3YjQzZC02Njc4LTExZjEtYmRmNC1kMmIwZWQ0N2QwMmQ=&a=2 "Procesor AMD Ryzen 9 9900X Box - Ekspresowa wysyłka 24h")
+	Zamów dziś, u Ciebie już w pon
+	[1 403,90zł](https://www.ceneo.pl/Click/Offer/?e=tWGxQjwqQpX5DS_mAnmaWQGxdLvCnCxEEXvr0_1h-Hzi19bHOnEbB8sLFSWOrGUQkscAiwE7M7JYbPupYUpa8nx6yWiLe4k3lI7WN6fvIvwup7N5-gZeJWNBytZZANaztIQdqchtIHKlUEzCWQUN3aVQTMJZBQ3duXTmviybT-aIvQ95erAQBaVQTMJZBQ3dXxGG5LxMk4gJBIX4cKvFJ_PA6jvMmfhCjNOD-yGTUzEAhOikg1OVRC1e67B0YhPHasn150KmIwU0aZj_Esm9MQwH9M1dYx7msSwf0at1ODBjB4rxv2EX-Q==&ctx=CgsIsoq268ippD8QBRIkYTkzNjE0N2QtNjY1Zi0xMWYxLTg3MmUtZTI2NmI1OTMyYWViGiQ1YTM3YjQzZC02Njc4LTExZjEtYmRmNC1kMmIwZWQ0N2QwMmQ=&a=2)
+	Darmowa wysyłka
+	Wysyłka w 1 dzień
+	[Idź do sklepu](https://www.ceneo.pl/Click/Offer/?e=tWGxQjwqQpX5DS_mAnmaWQGxdLvCnCxEEXvr0_1h-Hzi19bHOnEbB8sLFSWOrGUQkscAiwE7M7JYbPupYUpa8nx6yWiLe4k3lI7WN6fvIvwup7N5-gZeJWNBytZZANaztIQdqchtIHKlUEzCWQUN3aVQTMJZBQ3duXTmviybT-aIvQ95erAQBaVQTMJZBQ3dXxGG5LxMk4gJBIX4cKvFJ_PA6jvMmfhCjNOD-yGTUzEAhOikg1OVRC1e67B0YhPHasn150KmIwU0aZj_Esm9MQwH9M1dYx7msSwf0at1ODBjB4rxv2EX-Q==&ctx=CgsIsoq268ippD8QBRIkYTkzNjE0N2QtNjY1Zi0xMWYxLTg3MmUtZTI2NmI1OTMyYWViGiQ1YTM3YjQzZC02Njc4LTExZjEtYmRmNC1kMmIwZWQ0N2QwMmQ=&a=2)
+	- [Dane i opinie o Sferis](https://www.ceneo.pl/sklepy/sferis.pl-s4614#tab=info)
+	- Warianty (2)
+	- Zgłoś uwagi
+	#### Warianty tego produktu
+	- ![Procesor AMD Ryzen 9 9900X Box - Ekspresowa wysyłka 24h](https://image.ceneostatic.pl/offercandidates/9QDgAElodHRwczovL3d3dy5zZmVyaXMucGwvaW1nL29yZy8zZWNmMjgvSDZGMXYyRTFFMFMwTzF6N1MyRDEwOXo4SDRUMDA0WDEuanBn)
+		1 403,90zł
+		Procesor AMD Ryzen 9 9900X Box - Ekspresowa wysyłka 24h
+	- ![Procesor AMD Ryzen 9 9900X Tray - Ekspresowa wysyłka 24h](https://image.ceneostatic.pl/offercandidates/9QDgAElodHRwczovL3d3dy5zZmVyaXMucGwvaW1nL29yZy9iNjIzZTgvRDAzOTYyQTAzMHcwQzFUNzU0bzBPNjY1eTByNE42bTQuanBn)
+		1 633,90zł
+		Procesor AMD Ryzen 9 9900X Tray - Ekspresowa wysyłka 24h
+	Dokonując zakupu akceptujesz poniższą ofertę:
+	Sprzedawca nie udostępnił dodatkowego opisu oferty.
+- 163 opinie
+	[DARMOWA DOSTAWA! - DARMOWA DOSTAWA! - AMD Ryzen 9 9900X 5.6GHZ AM5 12C/24T 120W 76MB TRAY](https://www.ceneo.pl/Click/Offer/?e=BGKcDfJofXxzL7LX731tPTbN2eap57e6kXlGDLcEkOmtMgwqrNu1gwhGR3Bvhsrb7kxNv8YmZLk2zsUHLlGEez5HjBl-7UM4mTAmdYZQ_sO-zFVUtS5miN-0LsBiND2gkDQZ65qb3DRMn0tedRUog2M4b8L9dLzZ9qgZ2G_Vnu85eFzmI4OfDKVQTMJZBQ3dpVBMwlkFDd0QOGruJOmFGvm5s7IWtKsKpVBMwlkFDd3xh_dixO5SxQyPnUCiCDIBykzMGHy-7h6M04P7IZNTMQCE6KSDU5VELV7rsHRiE8dqyfXnQqYjBeeZxA-p2C_E5tS0OqP8UID8mWQvyDb0RTr5tIzEca4KzAuC5nmTpqw=&ctx=CgsIsoq268ippD8QBRIkYTkzNjE0N2QtNjY1Zi0xMWYxLTg3MmUtZTI2NmI1OTMyYWViGiQ1YTM3YjQzZC02Njc4LTExZjEtYmRmNC1kMmIwZWQ0N2QwMmQ=&a=2 "DARMOWA DOSTAWA ! - DARMOWA DOSTAWA ! - AMD Ryzen 9 9900X 5.6GHZ AM5 12C/24T 120W 76MB TRAY")
+	[1 437,06zł](https://www.ceneo.pl/Click/Offer/?e=BGKcDfJofXxzL7LX731tPTbN2eap57e6kXlGDLcEkOmtMgwqrNu1gwhGR3Bvhsrb7kxNv8YmZLk2zsUHLlGEez5HjBl-7UM4mTAmdYZQ_sO-zFVUtS5miN-0LsBiND2gkDQZ65qb3DRMn0tedRUog2M4b8L9dLzZ9qgZ2G_Vnu85eFzmI4OfDKVQTMJZBQ3dpVBMwlkFDd0QOGruJOmFGvm5s7IWtKsKpVBMwlkFDd3xh_dixO5SxQyPnUCiCDIBykzMGHy-7h6M04P7IZNTMQCE6KSDU5VELV7rsHRiE8dqyfXnQqYjBeeZxA-p2C_E5tS0OqP8UID8mWQvyDb0RTr5tIzEca4KzAuC5nmTpqw=&ctx=CgsIsoq268ippD8QBRIkYTkzNjE0N2QtNjY1Zi0xMWYxLTg3MmUtZTI2NmI1OTMyYWViGiQ1YTM3YjQzZC02Njc4LTExZjEtYmRmNC1kMmIwZWQ0N2QwMmQ=&a=2)
+	Darmowa wysyłka
+	Wysyłka do 3 dni
+	[Idź do sklepu](https://www.ceneo.pl/Click/Offer/?e=BGKcDfJofXxzL7LX731tPTbN2eap57e6kXlGDLcEkOmtMgwqrNu1gwhGR3Bvhsrb7kxNv8YmZLk2zsUHLlGEez5HjBl-7UM4mTAmdYZQ_sO-zFVUtS5miN-0LsBiND2gkDQZ65qb3DRMn0tedRUog2M4b8L9dLzZ9qgZ2G_Vnu85eFzmI4OfDKVQTMJZBQ3dpVBMwlkFDd0QOGruJOmFGvm5s7IWtKsKpVBMwlkFDd3xh_dixO5SxQyPnUCiCDIBykzMGHy-7h6M04P7IZNTMQCE6KSDU5VELV7rsHRiE8dqyfXnQqYjBeeZxA-p2C_E5tS0OqP8UID8mWQvyDb0RTr5tIzEca4KzAuC5nmTpqw=&ctx=CgsIsoq268ippD8QBRIkYTkzNjE0N2QtNjY1Zi0xMWYxLTg3MmUtZTI2NmI1OTMyYWViGiQ1YTM3YjQzZC02Njc4LTExZjEtYmRmNC1kMmIwZWQ0N2QwMmQ=&a=2)
+	- [Dane i opinie o net-s.pl](https://www.ceneo.pl/sklepy/net-s.pl-s3653#tab=info)
+	- Warianty (3)
+	- Zgłoś uwagi
+	#### Warianty tego produktu
+	- ![DARMOWA DOSTAWA ! - DARMOWA DOSTAWA ! - AMD Ryzen 9 9900X 5.6GHZ AM5 12C/24T 120W 76MB TRAY](https://image.ceneostatic.pl/offercandidates/9QDgAMUBaHR0cHM6Ly96ZGplY2lhdGVzdHkubmV0LXMucGwvZzE3MTkwMDAvTm93b3NjaV9FbGVrdHJvbmlrYV9Lb21wb25lbnR5X1Byb2Nlc29yeV9DUFVfUHJvY2Vzb3J5X2RvX2tvbXB1dGVyb3dfc3RhY2pvbmFybnljaF9BTURfMTAwMDAwMDAwNjYyXzAwMDA0NzMwNzAxMzVfODU5Mjk3ODU2Mjc2Ml80MjUxNTM4ODE5Mjk5XzE3MTk0NzlfMV9pNy5qcGc%3d)
+		1 437,06zł
+		DARMOWA DOSTAWA! - DARMOWA DOSTAWA! - AMD Ryzen 9 9900X 5.6GHZ AM5 12C/24T 120W 76MB TRAY
+	- ![TANIA DOSTAWA ! - TANIA DOSTAWA ! - amd Procesor Ryzen 9 9900X 5,6GHz 100-100000662WOF](https://image.ceneostatic.pl/offercandidates/9QDgAIkBaHR0cHM6Ly96ZGplY2lhdGVzdHkubmV0LXMucGwvZzE2NTIwMDAvTm93b3NjaV9FbGVrdHJvbmlrYV9Qcm9jZXNvcnlfQU1EX0FNRF8xMDAxMDAwMDA2NjJXT0ZfNzMwMTQzMzE1Mjk2XzA3MzAxNDMzMTUyOTZfMTY1MjY0MV8xMF9pNy5qcGc%3d)
+		1 487,64zł
+		TANIA DOSTAWA! - TANIA DOSTAWA! - amd Procesor Ryzen 9 9900X 5,6GHz 100-100000662WOF
+	- ![TANIA DOSTAWA ! - TANIA DOSTAWA ! - AMD AMD Ryzen 9 9900X](https://image.ceneostatic.pl/offercandidates/9QDgAKcBaHR0cHM6Ly96ZGplY2lhdGVzdHkubmV0LXMucGwvZzE2MzcwMDAvTm93b3NjaV9FbGVrdHJvbmlrYV9Lb21wb25lbnR5X0tvbXBvbmVudHlfa29tcHV0ZXJvd2VfUHJvY2Vzb3J5X0FNRF8xMDAxMDAwMDA2NjJXT0ZfNzMwMTQzMzE1Mjk2XzA3MzAxNDMzMTUyOTZfMTYzNzkxOV8xMl9pNy5qcGc%3d)
+		1 498,68zł
+		TANIA DOSTAWA! - TANIA DOSTAWA! - AMD AMD Ryzen 9 9900X
+	Dokonując zakupu akceptujesz poniższą ofertę:
+	Sprzedawca nie udostępnił dodatkowego opisu oferty.
+- 0 opinii
+	[Amd procesor ryzen 9 9900x 5,6ghz 100-100000662wof](https://www.ceneo.pl/Click/Offer/?e=M260unB5kmqv4V_eLubd0CCleDpBCt-41idlWqn2NF-75zNYaL1-8HsHe8zEnwd4Xk_1cHutfgJ3LS6cXsAMiRtPJjJSuB7hVEW0zQ669bWqDjxmi5IAREdzshIb9gGLkXP6c7W1vWcsOJB8M_FADgkBaguN2JnGOXhc5iODnwylUEzCWQUN3aVQTMJZBQ3dEDhq7iTphRr5ubOyFrSrCqVQTMJZBQ3dEZ1tIj2IwRHwz8AdgMM02fPA6jvMmfhCjNOD-yGTUzEAhOikg1OVRC1e67B0YhPHasn150KmIwXnmcQPqdgvxObUtDqj_FCA_JlkL8g29EU6-bSMxHGuCswLguZ5k6as&ctx=CgsIsoq268ippD8QBRIkYTkzNjE0N2QtNjY1Zi0xMWYxLTg3MmUtZTI2NmI1OTMyYWViGiQ1YTM3YjQzZC02Njc4LTExZjEtYmRmNC1kMmIwZWQ0N2QwMmQ=&a=2 "Amd procesor ryzen 9 9900x 5,6ghz 100-100000662wof")
+	[1 439,00zł](https://www.ceneo.pl/Click/Offer/?e=M260unB5kmqv4V_eLubd0CCleDpBCt-41idlWqn2NF-75zNYaL1-8HsHe8zEnwd4Xk_1cHutfgJ3LS6cXsAMiRtPJjJSuB7hVEW0zQ669bWqDjxmi5IAREdzshIb9gGLkXP6c7W1vWcsOJB8M_FADgkBaguN2JnGOXhc5iODnwylUEzCWQUN3aVQTMJZBQ3dEDhq7iTphRr5ubOyFrSrCqVQTMJZBQ3dEZ1tIj2IwRHwz8AdgMM02fPA6jvMmfhCjNOD-yGTUzEAhOikg1OVRC1e67B0YhPHasn150KmIwXnmcQPqdgvxObUtDqj_FCA_JlkL8g29EU6-bSMxHGuCswLguZ5k6as&ctx=CgsIsoq268ippD8QBRIkYTkzNjE0N2QtNjY1Zi0xMWYxLTg3MmUtZTI2NmI1OTMyYWViGiQ1YTM3YjQzZC02Njc4LTExZjEtYmRmNC1kMmIwZWQ0N2QwMmQ=&a=2)
+	Darmowa wysyłka
+	Wysyłka w 1 dzień
+	[Idź do sklepu](https://www.ceneo.pl/Click/Offer/?e=M260unB5kmqv4V_eLubd0CCleDpBCt-41idlWqn2NF-75zNYaL1-8HsHe8zEnwd4Xk_1cHutfgJ3LS6cXsAMiRtPJjJSuB7hVEW0zQ669bWqDjxmi5IAREdzshIb9gGLkXP6c7W1vWcsOJB8M_FADgkBaguN2JnGOXhc5iODnwylUEzCWQUN3aVQTMJZBQ3dEDhq7iTphRr5ubOyFrSrCqVQTMJZBQ3dEZ1tIj2IwRHwz8AdgMM02fPA6jvMmfhCjNOD-yGTUzEAhOikg1OVRC1e67B0YhPHasn150KmIwXnmcQPqdgvxObUtDqj_FCA_JlkL8g29EU6-bSMxHGuCswLguZ5k6as&ctx=CgsIsoq268ippD8QBRIkYTkzNjE0N2QtNjY1Zi0xMWYxLTg3MmUtZTI2NmI1OTMyYWViGiQ1YTM3YjQzZC02Njc4LTExZjEtYmRmNC1kMmIwZWQ0N2QwMmQ=&a=2)
+	- [Dane i opinie o etroniks.pl](https://www.ceneo.pl/sklepy/etroniks.pl-s24373#tab=info)
+	- Zobacz ofertę
+	- Zgłoś uwagi
+	Dokonując zakupu akceptujesz poniższą ofertę:
+	Sprzedawca nie udostępnił dodatkowego opisu oferty.
+- 906 opinii
+	[AMD RYZEN 9 9900X BOX](https://www.ceneo.pl/Click/Offer/?e=2KQLejsBXhVzL7LX731tPfrYRxG8kGEsntdiFo720dvCnNQ_QU1HcNzsl2td1mPzFDPtnB24f4ujvxCJmF13QM65I192kB_Q4dXYuzWqVIazo-CpMbZvt4mEfXHdKYLoN3PeTzYHNZWq4xSuyHgFLqVQTMJZBQ3dpVBMwlkFDd2FgtoYFts3vdWBNxFx-jpPpVBMwlkFDd0u9P_2_yjxebcJ6clahoZ4-pUHccdWW74f99hYQRR9xO654QqhUDq62oTrNy03k6NM-qj5eWcwqQlZ8QEAuIpnkpGuBCPV_nDUfU4DIhCqmYmPCFhR2hOsP8fhmNswdm0=&ctx=CgsIsoq268ippD8QBRIkYTkzNjE0N2QtNjY1Zi0xMWYxLTg3MmUtZTI2NmI1OTMyYWViGiQ1YTM3YjQzZC02Njc4LTExZjEtYmRmNC1kMmIwZWQ0N2QwMmQ=&a=2 "AMD RYZEN 9 9900X BOX")
+	[1 440,19zł](https://www.ceneo.pl/Click/Offer/?e=2KQLejsBXhVzL7LX731tPfrYRxG8kGEsntdiFo720dvCnNQ_QU1HcNzsl2td1mPzFDPtnB24f4ujvxCJmF13QM65I192kB_Q4dXYuzWqVIazo-CpMbZvt4mEfXHdKYLoN3PeTzYHNZWq4xSuyHgFLqVQTMJZBQ3dpVBMwlkFDd2FgtoYFts3vdWBNxFx-jpPpVBMwlkFDd0u9P_2_yjxebcJ6clahoZ4-pUHccdWW74f99hYQRR9xO654QqhUDq62oTrNy03k6NM-qj5eWcwqQlZ8QEAuIpnkpGuBCPV_nDUfU4DIhCqmYmPCFhR2hOsP8fhmNswdm0=&ctx=CgsIsoq268ippD8QBRIkYTkzNjE0N2QtNjY1Zi0xMWYxLTg3MmUtZTI2NmI1OTMyYWViGiQ1YTM3YjQzZC02Njc4LTExZjEtYmRmNC1kMmIwZWQ0N2QwMmQ=&a=2)
+	Wysyłka od 12,99 zł
+	Wysyłka w 1 dzień
+	[Idź do sklepu](https://www.ceneo.pl/Click/Offer/?e=2KQLejsBXhVzL7LX731tPfrYRxG8kGEsntdiFo720dvCnNQ_QU1HcNzsl2td1mPzFDPtnB24f4ujvxCJmF13QM65I192kB_Q4dXYuzWqVIazo-CpMbZvt4mEfXHdKYLoN3PeTzYHNZWq4xSuyHgFLqVQTMJZBQ3dpVBMwlkFDd2FgtoYFts3vdWBNxFx-jpPpVBMwlkFDd0u9P_2_yjxebcJ6clahoZ4-pUHccdWW74f99hYQRR9xO654QqhUDq62oTrNy03k6NM-qj5eWcwqQlZ8QEAuIpnkpGuBCPV_nDUfU4DIhCqmYmPCFhR2hOsP8fhmNswdm0=&ctx=CgsIsoq268ippD8QBRIkYTkzNjE0N2QtNjY1Zi0xMWYxLTg3MmUtZTI2NmI1OTMyYWViGiQ1YTM3YjQzZC02Njc4LTExZjEtYmRmNC1kMmIwZWQ0N2QwMmQ=&a=2)
+	- [Dane i opinie o krsystem.pl](https://www.ceneo.pl/sklepy/krsystem.pl-s1725#tab=info)
+	- Zobacz ofertę
+	- Zgłoś uwagi
+	Dokonując zakupu akceptujesz poniższą ofertę:
+	Sprzedawca nie udostępnił dodatkowego opisu oferty.
+- 692 opinie
+	[AMD Ryzen 9 9900X - 20 RAT 0%! RRSO 0%](https://www.ceneo.pl/Click/Offer/?e=uqdHZhvjwwFkKH_XGdhMOSZKzz0Pog_pJgEGdRW85yij9TkGdLU6XxFm2J4Q5xJe3iDgJrBcsRgmVDoFCSyQoGujrp6IotbwIx1gZ7e-M7SFKo3BN9zkSI9XzOUowv-ppVBMwlkFDd2lUEzCWQUN3Q7q8m3sgx-Ahh3QM0f2Y8ClUEzCWQUN3aVQTMJZBQ3dLTMlZz_VHMV3Hjy3aLy9h7ndXUQJq5QzlnCcmTOHeJDZ-BipXgtEwSMG9z0mF3m3B0ty6P3x_AP7qx5Lti0GEQwH9M1dYx7msSwf0at1ODBjB4rxv2EX-Q==&ctx=CgsIsoq268ippD8QBRIkYTkzNjE0N2QtNjY1Zi0xMWYxLTg3MmUtZTI2NmI1OTMyYWViGiQ1YTM3YjQzZC02Njc4LTExZjEtYmRmNC1kMmIwZWQ0N2QwMmQ=&a=2 "AMD Ryzen 9 9900X - 20 RAT 0%! RRSO 0%")
+	[1 449,00zł](https://www.ceneo.pl/Click/Offer/?e=uqdHZhvjwwFkKH_XGdhMOSZKzz0Pog_pJgEGdRW85yij9TkGdLU6XxFm2J4Q5xJe3iDgJrBcsRgmVDoFCSyQoGujrp6IotbwIx1gZ7e-M7SFKo3BN9zkSI9XzOUowv-ppVBMwlkFDd2lUEzCWQUN3Q7q8m3sgx-Ahh3QM0f2Y8ClUEzCWQUN3aVQTMJZBQ3dLTMlZz_VHMV3Hjy3aLy9h7ndXUQJq5QzlnCcmTOHeJDZ-BipXgtEwSMG9z0mF3m3B0ty6P3x_AP7qx5Lti0GEQwH9M1dYx7msSwf0at1ODBjB4rxv2EX-Q==&ctx=CgsIsoq268ippD8QBRIkYTkzNjE0N2QtNjY1Zi0xMWYxLTg3MmUtZTI2NmI1OTMyYWViGiQ1YTM3YjQzZC02Njc4LTExZjEtYmRmNC1kMmIwZWQ0N2QwMmQ=&a=2)
+	Darmowa wysyłka
+	Wysyłka w 1 dzień
+	[Idź do sklepu](https://www.ceneo.pl/Click/Offer/?e=uqdHZhvjwwFkKH_XGdhMOSZKzz0Pog_pJgEGdRW85yij9TkGdLU6XxFm2J4Q5xJe3iDgJrBcsRgmVDoFCSyQoGujrp6IotbwIx1gZ7e-M7SFKo3BN9zkSI9XzOUowv-ppVBMwlkFDd2lUEzCWQUN3Q7q8m3sgx-Ahh3QM0f2Y8ClUEzCWQUN3aVQTMJZBQ3dLTMlZz_VHMV3Hjy3aLy9h7ndXUQJq5QzlnCcmTOHeJDZ-BipXgtEwSMG9z0mF3m3B0ty6P3x_AP7qx5Lti0GEQwH9M1dYx7msSwf0at1ODBjB4rxv2EX-Q==&ctx=CgsIsoq268ippD8QBRIkYTkzNjE0N2QtNjY1Zi0xMWYxLTg3MmUtZTI2NmI1OTMyYWViGiQ1YTM3YjQzZC02Njc4LTExZjEtYmRmNC1kMmIwZWQ0N2QwMmQ=&a=2)
+	- [Dane i opinie o techlord.pl](https://www.ceneo.pl/sklepy/techlord.pl-s36546#tab=info)
+	- Zobacz ofertę
+	- Zgłoś uwagi
+	Dokonując zakupu akceptujesz poniższą ofertę:
+	Sprzedawca nie udostępnił dodatkowego opisu oferty.
+- 925 opinii
+	[AMD Ryzen 9 9900X Procesor - 12 rdzeni - 4.4 GHz - AMD AM5 - AMD Boxed (bez chłodzenia)](https://www.ceneo.pl/Click/Offer/?e=fwT4Jc9xpfJG5U71ADWJSRUI0yJzO-4eVSTlNxgWt1M2SzrzW_y9Dyh9MfVxe_e2a_xhjDeM05KmJP15ytI6W2fOmpxjgIn_kTDF47wB92V9ob-5ivuAarGHFK6cQLr-0Ro8oTQ_comJnWDQVjE6um1YXDbUQzIAAQiPeTWXZ8rmes0PiZWJrj8jEdRcfYdpGhlJt7FVlRqeJvHZjbJTo47--OM1O15NnThg2C0qm2rNn7L2b_zvSOUIrPSnPNidye0voGmYmvs8Y32kXypEEtTi-foi58B3ZMPnSi1muL2lUEzCWQUN3e2BRyYzrPIJARSBeMb0GFulUEzCWQUN3aVQTMJZBQ3d_7SdlsPfyTcm32XLaylbGvqVB3HHVlu-H_fYWEEUfcTuueEKoVA6utqE6zctN5OjTPqo-XlnMKlmwb3kdMM5sZKRrgQj1f5w1H1OAyIQqpmJjwhYUdoTrD_H4ZjbMHZt&ctx=CgsIsoq268ippD8QBRIkYTkzNjE0N2QtNjY1Zi0xMWYxLTg3MmUtZTI2NmI1OTMyYWViGiQ1YTM3YjQzZC02Njc4LTExZjEtYmRmNC1kMmIwZWQ0N2QwMmQ=&a=2 "AMD Ryzen 9 9900X Procesor - 12 rdzeni - 4.4 GHz - AMD AM5 - AMD Boxed (bez chłodzenia)")
+	[1 449,00zł](https://www.ceneo.pl/Click/Offer/?e=fwT4Jc9xpfJG5U71ADWJSRUI0yJzO-4eVSTlNxgWt1M2SzrzW_y9Dyh9MfVxe_e2a_xhjDeM05KmJP15ytI6W2fOmpxjgIn_kTDF47wB92V9ob-5ivuAarGHFK6cQLr-0Ro8oTQ_comJnWDQVjE6um1YXDbUQzIAAQiPeTWXZ8rmes0PiZWJrj8jEdRcfYdpGhlJt7FVlRqeJvHZjbJTo47--OM1O15NnThg2C0qm2rNn7L2b_zvSOUIrPSnPNidye0voGmYmvs8Y32kXypEEtTi-foi58B3ZMPnSi1muL2lUEzCWQUN3e2BRyYzrPIJARSBeMb0GFulUEzCWQUN3aVQTMJZBQ3d_7SdlsPfyTcm32XLaylbGvqVB3HHVlu-H_fYWEEUfcTuueEKoVA6utqE6zctN5OjTPqo-XlnMKlmwb3kdMM5sZKRrgQj1f5w1H1OAyIQqpmJjwhYUdoTrD_H4ZjbMHZt&ctx=CgsIsoq268ippD8QBRIkYTkzNjE0N2QtNjY1Zi0xMWYxLTg3MmUtZTI2NmI1OTMyYWViGiQ1YTM3YjQzZC02Njc4LTExZjEtYmRmNC1kMmIwZWQ0N2QwMmQ=&a=2)
+	Wysyłka od 20,00 zł
+	Wysyłka w 1 dzień
+	[Idź do sklepu](https://www.ceneo.pl/Click/Offer/?e=fwT4Jc9xpfJG5U71ADWJSRUI0yJzO-4eVSTlNxgWt1M2SzrzW_y9Dyh9MfVxe_e2a_xhjDeM05KmJP15ytI6W2fOmpxjgIn_kTDF47wB92V9ob-5ivuAarGHFK6cQLr-0Ro8oTQ_comJnWDQVjE6um1YXDbUQzIAAQiPeTWXZ8rmes0PiZWJrj8jEdRcfYdpGhlJt7FVlRqeJvHZjbJTo47--OM1O15NnThg2C0qm2rNn7L2b_zvSOUIrPSnPNidye0voGmYmvs8Y32kXypEEtTi-foi58B3ZMPnSi1muL2lUEzCWQUN3e2BRyYzrPIJARSBeMb0GFulUEzCWQUN3aVQTMJZBQ3d_7SdlsPfyTcm32XLaylbGvqVB3HHVlu-H_fYWEEUfcTuueEKoVA6utqE6zctN5OjTPqo-XlnMKlmwb3kdMM5sZKRrgQj1f5w1H1OAyIQqpmJjwhYUdoTrD_H4ZjbMHZt&ctx=CgsIsoq268ippD8QBRIkYTkzNjE0N2QtNjY1Zi0xMWYxLTg3MmUtZTI2NmI1OTMyYWViGiQ1YTM3YjQzZC02Njc4LTExZjEtYmRmNC1kMmIwZWQ0N2QwMmQ=&a=2)
+	- [Dane i opinie o proshop.pl](https://www.ceneo.pl/sklepy/proshop.pl-s29068#tab=info)
+	- Warianty (2)
+	- Zgłoś uwagi
+	#### Warianty tego produktu
+	- ![AMD Ryzen 9 9900X Procesor - 12 rdzeni - 4.4 GHz - AMD AM5 - AMD Boxed (bez chłodzenia)](https://image.ceneostatic.pl/offercandidates/9QDgAEBodHRwczovL3d3dy5wcm9zaG9wLnBsL0ltYWdlcy8xMjAweDE2MDAvMzI3MzI5MV8wY2ZiODE1Y2NhODIucG5n)
+		1 449,00zł
+		AMD Ryzen 9 9900X Procesor - 12 rdzeni - 4.4 GHz - AMD AM5 - AMD Boxed (bez chłodzenia)
+	- ![AMD Ryzen 9 9900X (Tray) Procesor - 12 rdzeni - 4.4 GHz - AMD AM5 - OEM (bez chłodzenia)](https://image.ceneostatic.pl/offercandidates/9QDgAEBodHRwczovL3d3dy5wcm9zaG9wLnBsL0ltYWdlcy8xMjAweDE2MDAvMzI3MzI5MF9lM2JmMzA0NDIwOGUuanBn)
+		2 099,00zł
+		AMD Ryzen 9 9900X (Tray) Procesor - 12 rdzeni - 4.4 GHz - AMD AM5 - OEM (bez chłodzenia)
+	Dokonując zakupu akceptujesz poniższą ofertę:
+	Sprzedawca nie udostępnił dodatkowego opisu oferty.
+- 5768 opinii
+	[Procesor AMD Ryzen 9 9900X 4.4/5.6GHz AMD AM5](https://www.ceneo.pl/Click/Offer/?e=Mkx3L4M-YVI6RACzglAoWsQ6TNXxY3mdSQvKxMrorNIBYNWvcJm4cer7XfjSanSHU0LSjALJmLuXEb-9ITifj7A-PABPm1tgrhBmxV1ShDoONrOb1WTpJnHlhZp0pl88AKeAhMZ1LEQ-owBCGWAKqvN3HYNCJ6qtjDyCxrw4OZA97qlQL3kC4cbwgbsR_BvDf4wth7eR_VjU65Y5LsdelNcW2b8GQTziw8UTgd3mk3Oo15Z_9BIBm0ZFiqT8pAmE0JL94sc3cRb9j-JTlDmrW5jI0Ytns8afuNzz4d8S7io5sWbg5sZMGA_uxyEQoAeEG8Z5jGYhM-Aj3klnMTLCOB1H2h6KxNFs1b2lsWGbhNnzHvCJMiyzup7fIfmeVxirHanpfSyVW2wGUKfDsLIN07Vtyx_7P2wgOjG_5PX9y-VAljU-TdHG5_VqIyK6F7u79C1jCRDVV6xK5b6U21hM-vaIpHCaLwKReSPRjLD2OqArmhMIHLqOpsxNQ1K6YWuCLCVu4ZP0xEjGQD2AdoBfjOmWr9tO05eYTsFs4BqdgBALpuis69RXTuJpcqXIEaNz8rBD0L1GpVDvX7EsNzuQM-DBGxBseS0wQganqya_KISwEj7syC2ORJnVScC1EMsw2ZndCqfwuqzqTxgRT-L_mI6lpPFAACNR6tAmP6mSxtaFleURottn9hIjmgRCDBoj5awlZ1Rg7p98esloi3uJN5SO1jen7yL8s1Qth1a72htq9D4Cduj0PSVYwhRBDeQhpVBMwlkFDd2lUEzCWQUN3VdxGZKEYfDpH5r0V3snU1SlUEzCWQUN3YH9YrT7rZP2Zw5CjRBIURw2vUTzqxfgZ8nkIbLIXvkmKxBUsW7HTt10YYQpstg3Vev1hqhNxAzTe60GVCDZecBNKP5e4N0t5TthtEVYdHkhlG0BoNitXrgT-0nBImlWig==&ctx=CgsIsoq268ippD8QBRIkYTkzNjE0N2QtNjY1Zi0xMWYxLTg3MmUtZTI2NmI1OTMyYWViGiQ1YTM3YjQzZC02Njc4LTExZjEtYmRmNC1kMmIwZWQ0N2QwMmQ=&a=2 "Procesor AMD Ryzen 9 9900X 4.4/5.6GHz AMD AM5")
+	Sprawdź naszą wyprzedaż do-70%
+	[1 465,67zł](https://www.ceneo.pl/Click/Offer/?e=Mkx3L4M-YVI6RACzglAoWsQ6TNXxY3mdSQvKxMrorNIBYNWvcJm4cer7XfjSanSHU0LSjALJmLuXEb-9ITifj7A-PABPm1tgrhBmxV1ShDoONrOb1WTpJnHlhZp0pl88AKeAhMZ1LEQ-owBCGWAKqvN3HYNCJ6qtjDyCxrw4OZA97qlQL3kC4cbwgbsR_BvDf4wth7eR_VjU65Y5LsdelNcW2b8GQTziw8UTgd3mk3Oo15Z_9BIBm0ZFiqT8pAmE0JL94sc3cRb9j-JTlDmrW5jI0Ytns8afuNzz4d8S7io5sWbg5sZMGA_uxyEQoAeEG8Z5jGYhM-Aj3klnMTLCOB1H2h6KxNFs1b2lsWGbhNnzHvCJMiyzup7fIfmeVxirHanpfSyVW2wGUKfDsLIN07Vtyx_7P2wgOjG_5PX9y-VAljU-TdHG5_VqIyK6F7u79C1jCRDVV6xK5b6U21hM-vaIpHCaLwKReSPRjLD2OqArmhMIHLqOpsxNQ1K6YWuCLCVu4ZP0xEjGQD2AdoBfjOmWr9tO05eYTsFs4BqdgBALpuis69RXTuJpcqXIEaNz8rBD0L1GpVDvX7EsNzuQM-DBGxBseS0wQganqya_KISwEj7syC2ORJnVScC1EMsw2ZndCqfwuqzqTxgRT-L_mI6lpPFAACNR6tAmP6mSxtaFleURottn9hIjmgRCDBoj5awlZ1Rg7p98esloi3uJN5SO1jen7yL8s1Qth1a72htq9D4Cduj0PSVYwhRBDeQhpVBMwlkFDd2lUEzCWQUN3VdxGZKEYfDpH5r0V3snU1SlUEzCWQUN3YH9YrT7rZP2Zw5CjRBIURw2vUTzqxfgZ8nkIbLIXvkmKxBUsW7HTt10YYQpstg3Vev1hqhNxAzTe60GVCDZecBNKP5e4N0t5TthtEVYdHkhlG0BoNitXrgT-0nBImlWig==&ctx=CgsIsoq268ippD8QBRIkYTkzNjE0N2QtNjY1Zi0xMWYxLTg3MmUtZTI2NmI1OTMyYWViGiQ1YTM3YjQzZC02Njc4LTExZjEtYmRmNC1kMmIwZWQ0N2QwMmQ=&a=2)
+	Darmowa wysyłka
+	Wysyłka do 3 dni
+	[Idź do sklepu](https://www.ceneo.pl/Click/Offer/?e=Mkx3L4M-YVI6RACzglAoWsQ6TNXxY3mdSQvKxMrorNIBYNWvcJm4cer7XfjSanSHU0LSjALJmLuXEb-9ITifj7A-PABPm1tgrhBmxV1ShDoONrOb1WTpJnHlhZp0pl88AKeAhMZ1LEQ-owBCGWAKqvN3HYNCJ6qtjDyCxrw4OZA97qlQL3kC4cbwgbsR_BvDf4wth7eR_VjU65Y5LsdelNcW2b8GQTziw8UTgd3mk3Oo15Z_9BIBm0ZFiqT8pAmE0JL94sc3cRb9j-JTlDmrW5jI0Ytns8afuNzz4d8S7io5sWbg5sZMGA_uxyEQoAeEG8Z5jGYhM-Aj3klnMTLCOB1H2h6KxNFs1b2lsWGbhNnzHvCJMiyzup7fIfmeVxirHanpfSyVW2wGUKfDsLIN07Vtyx_7P2wgOjG_5PX9y-VAljU-TdHG5_VqIyK6F7u79C1jCRDVV6xK5b6U21hM-vaIpHCaLwKReSPRjLD2OqArmhMIHLqOpsxNQ1K6YWuCLCVu4ZP0xEjGQD2AdoBfjOmWr9tO05eYTsFs4BqdgBALpuis69RXTuJpcqXIEaNz8rBD0L1GpVDvX7EsNzuQM-DBGxBseS0wQganqya_KISwEj7syC2ORJnVScC1EMsw2ZndCqfwuqzqTxgRT-L_mI6lpPFAACNR6tAmP6mSxtaFleURottn9hIjmgRCDBoj5awlZ1Rg7p98esloi3uJN5SO1jen7yL8s1Qth1a72htq9D4Cduj0PSVYwhRBDeQhpVBMwlkFDd2lUEzCWQUN3VdxGZKEYfDpH5r0V3snU1SlUEzCWQUN3YH9YrT7rZP2Zw5CjRBIURw2vUTzqxfgZ8nkIbLIXvkmKxBUsW7HTt10YYQpstg3Vev1hqhNxAzTe60GVCDZecBNKP5e4N0t5TthtEVYdHkhlG0BoNitXrgT-0nBImlWig==&ctx=CgsIsoq268ippD8QBRIkYTkzNjE0N2QtNjY1Zi0xMWYxLTg3MmUtZTI2NmI1OTMyYWViGiQ1YTM3YjQzZC02Njc4LTExZjEtYmRmNC1kMmIwZWQ0N2QwMmQ=&a=2)
+	- [Dane i opinie o Empik](https://www.ceneo.pl/sklepy/empik.com-s25070#tab=info)
+	- Zobacz ofertę
+	- Zgłoś uwagi
+	Dokonując zakupu akceptujesz poniższą ofertę:
+	Sprzedawca nie udostępnił dodatkowego opisu oferty.
+- 615 opinii
+	[AMD RYZEN 9 9900X @ 4,4 GHz / Turbo 5,6 GHz / 12C24T / L1 0,96 MB L2 1](https://www.ceneo.pl/Click/Offer/?e=DL1zOdhrbuJzL7LX731tPYZSPOgnFBgQcDWiYHD5e7sR8LexJyVTf-62060RdZWuDArWEFirfti3X-KM7M6nRsynsyFVVf9n3WSny81UETy-bIcM_DtAvyh3VMhNvm4I6AonSeaPRh7OtgvDuQQ1ZwcBfNuyrq-fXvWejVIrA2vLzBbI9YeDCpmpO6EuykHQWYMCcXbW48y9zNaSBOPIXbZflzZ71TOppVBMwlkFDd2lUEzCWQUN3dR_PgKROHW8PmhGx7LpgBelUEzCWQUN3aVQTMJZBQ3dqgyyKqhOXWgG3kWHtX7Vd7ndXUQJq5QzlnCcmTOHeJDZ-BipXgtEwSMG9z0mF3m37MeoH1WvIMqGVB_eXXR0_fsHpQYq9BK3ERlF9lLBRAzvvtuGddNefw==&ctx=CgsIsoq268ippD8QBRIkYTkzNjE0N2QtNjY1Zi0xMWYxLTg3MmUtZTI2NmI1OTMyYWViGiQ1YTM3YjQzZC02Njc4LTExZjEtYmRmNC1kMmIwZWQ0N2QwMmQ=&a=2 "AMD RYZEN 9 9900X @ 4,4 GHz / Turbo 5,6 GHz / 12C24T / L1 0,96 MB L2 1")
+	[1 472,86zł](https://www.ceneo.pl/Click/Offer/?e=DL1zOdhrbuJzL7LX731tPYZSPOgnFBgQcDWiYHD5e7sR8LexJyVTf-62060RdZWuDArWEFirfti3X-KM7M6nRsynsyFVVf9n3WSny81UETy-bIcM_DtAvyh3VMhNvm4I6AonSeaPRh7OtgvDuQQ1ZwcBfNuyrq-fXvWejVIrA2vLzBbI9YeDCpmpO6EuykHQWYMCcXbW48y9zNaSBOPIXbZflzZ71TOppVBMwlkFDd2lUEzCWQUN3dR_PgKROHW8PmhGx7LpgBelUEzCWQUN3aVQTMJZBQ3dqgyyKqhOXWgG3kWHtX7Vd7ndXUQJq5QzlnCcmTOHeJDZ-BipXgtEwSMG9z0mF3m37MeoH1WvIMqGVB_eXXR0_fsHpQYq9BK3ERlF9lLBRAzvvtuGddNefw==&ctx=CgsIsoq268ippD8QBRIkYTkzNjE0N2QtNjY1Zi0xMWYxLTg3MmUtZTI2NmI1OTMyYWViGiQ1YTM3YjQzZC02Njc4LTExZjEtYmRmNC1kMmIwZWQ0N2QwMmQ=&a=2)
+	Wysyłka od 13,99 zł
+	Wysyłka w 1 dzień
+	[Idź do sklepu](https://www.ceneo.pl/Click/Offer/?e=DL1zOdhrbuJzL7LX731tPYZSPOgnFBgQcDWiYHD5e7sR8LexJyVTf-62060RdZWuDArWEFirfti3X-KM7M6nRsynsyFVVf9n3WSny81UETy-bIcM_DtAvyh3VMhNvm4I6AonSeaPRh7OtgvDuQQ1ZwcBfNuyrq-fXvWejVIrA2vLzBbI9YeDCpmpO6EuykHQWYMCcXbW48y9zNaSBOPIXbZflzZ71TOppVBMwlkFDd2lUEzCWQUN3dR_PgKROHW8PmhGx7LpgBelUEzCWQUN3aVQTMJZBQ3dqgyyKqhOXWgG3kWHtX7Vd7ndXUQJq5QzlnCcmTOHeJDZ-BipXgtEwSMG9z0mF3m37MeoH1WvIMqGVB_eXXR0_fsHpQYq9BK3ERlF9lLBRAzvvtuGddNefw==&ctx=CgsIsoq268ippD8QBRIkYTkzNjE0N2QtNjY1Zi0xMWYxLTg3MmUtZTI2NmI1OTMyYWViGiQ1YTM3YjQzZC02Njc4LTExZjEtYmRmNC1kMmIwZWQ0N2QwMmQ=&a=2)
+	- [Dane i opinie o mironet.pl](https://www.ceneo.pl/sklepy/mironet.pl-s49890#tab=info)
+	- Zobacz ofertę
+	- Zgłoś uwagi
+	Dokonując zakupu akceptujesz poniższą ofertę:
+	Sprzedawca nie udostępnił dodatkowego opisu oferty.
+
+Pokaż wszystkie 33 oferty?
+
+## Historia cen - trend cenowy
+
+Aktualnie najniższa cena: 1 349,00zł
+
+Zobacz ceny z 6 miesięcy
+
+## AMD Ryzen 9 9900X 4.4 GHz BOX (100-000000662) - Pytania i odpowiedzi
+
+Pytanie o produkt
+
+## Zobacz także
+
+- [AMD Ryzen 9 7900X 4,7GHz BOX (100100000589WOF)](https://www.ceneo.pl/140261854#tag=emb)
+- [AMD Ryzen 9 9950X 4.3 GHz BOX (000001277)](https://www.ceneo.pl/171263435#tag=emb)
+- [AMD Ryzen 7 9700X 3.8 GHZ BOX (100100001404WOF)](https://www.ceneo.pl/171280719#tag=emb)
+- [AMD Ryzen 5 9600X 3.9 GHz BOX (100-000001405)](https://www.ceneo.pl/171280884#tag=emb)
+- [AMD RYZEN 9 9900X3D BOX 120W 4,4GHz 100-100001368WOF](https://www.ceneo.pl/181611039#tag=emb)
