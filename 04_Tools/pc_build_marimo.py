@@ -387,14 +387,14 @@ def _(mo):
             margin-bottom: 4px;
           }
           .pc-section {
-            margin-top: 6px;
+            margin-top: 14px;
             margin-bottom: 0px !important;
           }
           .pc-panel {
             margin-top: 10px;
             margin-bottom: 0px !important;
             padding: 16px 20px;
-            padding-bottom: 0px !important;
+            padding-bottom: 20px !important;
             border: 1px solid #e2e8f0;
             border-radius: 16px;
             background: #fbfdff;
@@ -634,7 +634,9 @@ def _(mo):
             border: 1px solid #e2e8f0;
             border-radius: 14px;
             background: #ffffff;
-            padding: 14px 16px 12px;
+            padding: 16px 18px 20px;
+            display: flex;
+            flex-direction: column;
           }
           .pc-basket-title {
             font-size: 15px;
@@ -653,8 +655,8 @@ def _(mo):
             align-items: baseline;
             gap: 12px;
             border-top: 1px solid #d8dee8;
-            margin-top: 8px;
-            padding-top: 10px;
+            margin-top: auto;
+            padding-top: 14px;
             font-weight: 700;
           }
           .pc-kicker {

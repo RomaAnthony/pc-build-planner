@@ -45,3 +45,10 @@ Purpose: quick editing notes for the Marimo PC build planner.
 ## Last Fix
 
 The hosted page was missing the main builder because `pc_build_marimo_WASM_SAFE.py` had stale embedded data and an invalid default build name. Some build presets referenced case/cooler IDs that existed in the live CSV but not in `PARTS_CSV_DATA`. The app width was also changed from invalid WASM value `wide` to `full`.
+
+## Future Ideas To Keep Small
+
+- For now, keep the build selector simple. One best-value build is enough until Roman gives the next exact build option to add.
+- A product-comparison tab can come later, but it is not needed for the current Dad-facing planner. The current dropdowns plus the selected build table already cover the buying decision.
+- Price updates should prefer Arukereso/Ceneo broad pages for fast refreshes, then exact seller pages only for parts close to purchase. This keeps updates practical instead of re-downloading every retailer page every time.
+- If a comparison tab is added later, start with one category at a time: selected part vs same-category alternatives, price difference, market/store, risk, and short note.

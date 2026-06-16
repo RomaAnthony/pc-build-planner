@@ -433,7 +433,7 @@ def _(mo):
           }
           .pc-panel {
             margin-top: 10px;
-            padding: 16px 20px;
+            padding: 16px 20px 20px;
             border: 1px solid #e2e8f0;
             border-radius: 16px;
             background: #fbfdff;
@@ -557,7 +557,9 @@ def _(mo):
             border: 1px solid #e2e8f0;
             border-radius: 12px;
             background: #ffffff;
-            padding: 14px;
+            padding: 16px 18px 20px;
+            display: flex;
+            flex-direction: column;
           }
           .pc-basket-title {
             font-size: 15px;
@@ -573,8 +575,8 @@ def _(mo):
             display: flex;
             justify-content: space-between;
             gap: 12px;
-            margin-top: 10px;
-            padding-top: 10px;
+            margin-top: auto;
+            padding-top: 14px;
             border-top: 1px solid #e2e8f0;
             font-weight: 750;
             color: #111111;
