@@ -1,0 +1,15 @@
+- Higher `R` → stronger HUF (you need fewer HUF to buy the same amount of UAH).
+- Lower `R` → weaker HUF.
+
+---
+
+## 3. How to Show the Purchase in Foreign Currency
+
+When recording the transaction, show both:
+1. The original foreign currency amount – `P_UAH`
+2. The converted home currency amount at the **current rate** – `P_HUF`
+
+```text
+Purchase amount: 10,000 UAH
+Exchange rate (HUF→UAH): 1.25
+HUF equivalent: 8,000 HUF

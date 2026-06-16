@@ -42,7 +42,7 @@ Why this matters:
 
 ## Payment / FX Logic
 
-Date: 2026-06-15
+Date: 2026-06-16
 
 The dashboard must not treat exchange rates as a tiny background detail. Roman's real payment paths can change the best market:
 
@@ -55,17 +55,35 @@ The dashboard must not treat exchange rates as a tiny background detail. Roman's
 
 Current app rule:
 
-- Show live/default rate assumptions at the top.
-- Recalculate displayed HUF equivalents from original item currency (`PLN`, `HUF`, `EUR`) instead of trusting old hardcoded `HUF_Est`.
-- Use Monobank/card-path rates as the first practical approximation for UAH-card payments.
-- Keep ECB-style reference rates as a clean market benchmark.
-- Keep manual overrides because K&H / Credit Agricole / exact card rates may be the real purchase rate on the day.
+- Use **Monobank public card/payment rates only** for live FX logic.
+- Treat **UAH as the main decision currency** because the real payment path is Ukrainian-card reality.
+- Keep **HUF as the secondary comparison currency** because Hungary market references are listed in HUF.
+- Derive `PLN -> HUF` from Monobank only:
+  - `PLN -> HUF = (PLN -> UAH) / (HUF -> UAH)`
+- Derive `EUR -> HUF` from Monobank only when needed:
+  - `EUR -> HUF = (EUR -> UAH) / (HUF -> UAH)`
+- Do not mix Monobank with ECB/Frankfurter inside the live dashboard logic. Mixed sources make savings jump around and confuse the decision story.
+- Recalculate displayed UAH and HUF from original item currency (`PLN`, `HUF`, `EUR`) instead of trusting old hardcoded `HUF_Est`.
 
 Before purchase:
 
 - Check exact bank/card rate for the actual payment path.
-- Use the app's manual rate boxes if Monobank/K&H/Credit Agricole rates differ from public reference rates.
+- Use the app's manual rate boxes if Monobank/K&H/Credit Agricole rates differ from the public Monobank snapshot on the day.
 - Treat displayed savings as decision estimates until the payment path is confirmed.
+
+Important interpretation rule:
+
+- It is possible to pay **more** in absolute UAH than yesterday and still save **more** versus Hungary.
+- That happens when both Poland and Hungary become more expensive for UAH, but Hungary worsens faster.
+- So the dashboard must separate:
+  - absolute cost (`Total price`)
+  - relative advantage (`Estimated saving vs Hungarian references`)
+
+Current dashboard presentation rule:
+
+- Main summary cards should be **UAH-first**.
+- HUF stays visible underneath as a market-comparison reference.
+- EUR is informational only; it is not the main planning currency for this project.
 
 ## EU Lowest-Price Sanity Checks
 
@@ -278,7 +296,7 @@ Before improving the app design, audit the source data:
 - Recheck every row in `02_PC_Builds/parts_options_seed.csv` against the working Markdown notes.
 - Confirm which savings are exact same-model comparisons and which are only equivalent-part comparisons.
 - Fix the RAM saving logic labels: Patriot Viper Venom 64GB Poland can now be compared to Hungary as a same-model comparison using the cleaner Elektroshock Hungary offer. Patriot Viper Venom 32GB Poland can now be compared to Hungary using the Alza Hungary offer from the new Arukereso capture.
-- Live exchange-rate loading is now started in the Marimo app: Monobank/card path, ECB reference, and manual override controls.
+- Live exchange-rate loading is now standardized around Monobank/card-path logic, with cache fallback and UAH-first dashboard presentation.
 - Redesign the Marimo view for a non-technical reader: fewer columns, bigger decision cards, clear "buy in Hungary" / "buy in Poland" labels, and one simple total.
 - Verify the published Pages link after every export. The app should load without the red Marimo internal-error box.
 - Verify the exact Dad link is `/planner.html`; the root URL should redirect there after the latest commit is pushed and Pages refreshes.

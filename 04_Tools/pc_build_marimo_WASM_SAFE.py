@@ -1,7 +1,7 @@
 import marimo
 
 __generated_with = "0.23.9"
-app = marimo.App(width="medium")
+app = marimo.App(width="full")
 
 
 @app.cell
@@ -48,10 +48,21 @@ PSU_03_PL,PSU,3,Corsair RM1000x ATX 3.1,Poland,Ceneo lead,647,PLN,53746,Backup,M
 COOL_01_HU,Cooler,1,Arctic Liquid Freezer III Pro 360 A-RGB Black,Hungary,Arukereso lead,31500,HUF,31500,Pick,Low,Preferred clean visual cooler,Raw_Captures/Case_Cooling
 COOL_02_HU,Cooler,2,Arctic Liquid Freezer III Pro 360 Black,Hungary,Arukereso lead,29200,HUF,29200,Backup,Low,Saves little versus A-RGB; good if lights do not matter,Raw_Captures/Case_Cooling
 COOL_02_PL,Cooler,2,Arctic Liquid Freezer III Pro 360 Black,Poland,Ceneo lead,324,PLN,26915,Compare,Medium,Cheap but cooler is easy to buy locally; not worth trouble alone,Raw_Captures/Case_Cooling
+COOL_03_HU,Cooler,3,DeepCool LE360 V2 ARGB Black,Hungary,Arukereso broad search,22499,HUF,22499,Backup,Medium,Cheap visual 360 AIO backup if Arctic direction changes,Raw_Captures/Case_Cooling
+COOL_04_HU,Cooler,4,MSI MAG CoreLiquid A13 360 Black,Hungary,Arukereso broad search,27777,HUF,27777,Watch,Medium,MSI-branded visual alternative; still less trusted than Arctic on value,Raw_Captures/Case_Cooling
+COOL_05_HU,Cooler,5,Gigabyte GME 360 Gaming CPU Cooler Black,Hungary,Arukereso broad search,31800,HUF,31800,Watch,Medium,Looks fine on paper but not clearly better than Arctic at similar money,Raw_Captures/Case_Cooling
+COOL_06_HU,Cooler,6,be quiet! Pure Loop 3 LX 360mm Black,Hungary,Arukereso broad search,34801,HUF,34801,Watch,Low,Premium quiet-brand alternative if aesthetics or brand preference matter,Raw_Captures/Case_Cooling
 CASE_01_HU,Case,1,Corsair 3500X ARGB Black,Hungary,Arukereso lead,31990,HUF,31990,Pick,Low,Current case baseline; local because glass case logistics,Raw_Captures/Case_Cooling
 CASE_02_HU,Case,2,Corsair 3500X Black plain,Hungary,Arukereso lead,21326,HUF,21326,Watch,Low,Cheapest Corsair path; fan planning needed,Raw_Captures/Case_Cooling
 CASE_03_HU,Case,3,Phanteks XT View TG D-RGB Black,Hungary,Arukereso lead,27901,HUF,27901,Backup,Medium,Cheap visual backup; check clearance/build quality,Raw_Captures/Case_Cooling
 CASE_04_HU,Case,4,NZXT H6 Flow RGB All Black,Hungary,Arukereso lead,44444,HUF,44444,Watch,Low,Nice case but Corsair is cheaper,Raw_Captures/Case_Cooling
+CASE_05_HU,Case,5,Lian Li O11 Vision Compact Black,Hungary,Arukereso lead,43290,HUF,43290,Compare,Medium,Best compact premium look for Ventus-sized GPU; fan cost still needs to be added,Raw_Captures/Case_Cooling
+CASE_06_HU,Case,6,NZXT H9 Flow Black,Hungary,oaziscomputer.hu,54190,HUF,54190,Compare,Low,Best roomy clean-look case if pairing with larger premium GPU; includes fans,Raw_Captures/Case_Cooling
+CASE_07_HU,Case,7,Montech KING 95 PRO TG ARGB Black,Hungary,Arukereso lead,55790,HUF,55790,Compare,Medium,Best all-in value if included fans are counted honestly,Raw_Captures/Case_Cooling
+CASE_08_HU,Case,8,Lian Li O11D EVO RGB TG Black,Hungary,Arukereso lead,59990,HUF,59990,Watch,Medium,Beautiful premium Lian Li direction but real cost rises after fans,Raw_Captures/Case_Cooling
+CASE_09_HU,Case,9,Lian Li O11 Dynamic Mini V2 TG Black,Hungary,Arukereso lead,33090,HUF,33090,Watch,Medium,Compact and pretty but more experimental for Ryzen 9 plus future RTX 5080,Raw_Captures/Case_Cooling
+CASE_10_HU,Case,10,Phanteks NV9 MK2 Black,Hungary,Arukereso lead,84499,HUF,84499,Avoid,Medium,Beautiful oversized showcase case but too expensive and fan cost still needs to be added,Raw_Captures/Case_Cooling
+CASE_11_HU,Case,11,Lian Li O11 Dynamic EVO XL Black,Hungary,Arukereso lead,89900,HUF,89900,Avoid,Medium,Too expensive and too large for the current build logic,Raw_Captures/Case_Cooling
 GPU_00_NONE,GPU,0,No GPU yet,No GPU,Local,0,HUF,0,Pick,Low,First purchase excludes expensive GPU; phase 1 uses Ryzen integrated graphics,RTX5080_WORKING_SHORTLIST
 GPU_01_PL,GPU,1,MSI RTX 5080 Ventus 3X OC 16GB,Poland,x-kom.pl,4899,PLN,406960,Watch,Medium,Best RTX 5080 value lead; 303mm 16-pin 36-month warranty shown,Raw_Captures/GPU
 GPU_01_HU,GPU,1,MSI RTX 5080 Ventus 3X OC 16GB,Hungary,Arukereso lead,499090,HUF,499090,Compare,Medium,Same model local route; much more expensive at current FX,Raw_Captures/GPU
@@ -139,42 +150,75 @@ def _(datetime, json):
 @app.cell
 def _():
     builds = {
-        "Main 64GB, GPU later": {
-            "CPU": "CPU_01_PL",
-            "Main board": "MB_01_PL",
-            "Memory": "RAM_01_PL",
-            "Storage": "SSD_01_PL",
-            "Power supply": "PSU_03_PL",
-            "Cooler": "COOL_01_HU",
-            "Case": "CASE_01_HU",
-            "Graphics card": "GPU_00_NONE",
-        },
-        "Budget 32GB, GPU later": {
-            "CPU": "CPU_01_PL",
-            "Main board": "MB_01_PL",
+        "Budget: Ventus + 32GB Viper": {
+            "CPU": "CPU_02_HU",
+            "Main board": "MB_02_HU",
             "Memory": "RAM_04_PL",
-            "Storage": "SSD_01_PL",
-            "Power supply": "PSU_03_PL",
-            "Cooler": "COOL_01_HU",
-            "Case": "CASE_01_HU",
-            "Graphics card": "GPU_00_NONE",
+            "Storage": "SSD_02_HU",
+            "Power supply": "PSU_01_HU",
+            "Cooler": "COOL_03_HU",
+            "Case": "CASE_03_HU",
+            "Graphics card": "GPU_01_PL",
         },
-        "Full build with RTX 5080": {
+        "Budget: Ventus + 32GB Kingston": {
+            "CPU": "CPU_02_HU",
+            "Main board": "MB_02_HU",
+            "Memory": "RAM_04_HU",
+            "Storage": "SSD_01_PL",
+            "Power supply": "PSU_01_HU",
+            "Cooler": "COOL_03_HU",
+            "Case": "CASE_03_HU",
+            "Graphics card": "GPU_01_PL",
+        },
+        "Mid: Ventus + 64GB Viper (no GPU)": {
             "CPU": "CPU_01_PL",
             "Main board": "MB_01_PL",
             "Memory": "RAM_01_PL",
             "Storage": "SSD_01_PL",
-            "Power supply": "PSU_03_PL",
-            "Cooler": "COOL_01_HU",
-            "Case": "CASE_01_HU",
+            "Power supply": "PSU_01_HU",
+            "Cooler": "COOL_02_HU",
+            "Case": "CASE_05_HU",
+            "Graphics card": "GPU_00_NONE",
+        },
+        "Mid: Ventus + 64GB Viper": {
+            "CPU": "CPU_01_PL",
+            "Main board": "MB_01_PL",
+            "Memory": "RAM_01_PL",
+            "Storage": "SSD_01_PL",
+            "Power supply": "PSU_01_HU",
+            "Cooler": "COOL_02_HU",
+            "Case": "CASE_05_HU",
             "Graphics card": "GPU_01_PL",
+        },
+        "Showcase: Trio + 64GB Viper": {
+            "CPU": "CPU_01_PL",
+            "Main board": "MB_04_HU",
+            "Memory": "RAM_01_PL",
+            "Storage": "SSD_03_HU",
+            "Power supply": "PSU_03_HU",
+            "Cooler": "COOL_01_HU",
+            "Case": "CASE_06_HU",
+            "Graphics card": "GPU_02_PL",
+        },
+        "Luxury: Gigabyte OC + 64GB Kingston": {
+            "CPU": "CPU_03_HU",
+            "Main board": "MB_04_HU",
+            "Memory": "RAM_02_HU",
+            "Storage": "SSD_03_HU",
+            "Power supply": "PSU_03_HU",
+            "Cooler": "COOL_06_HU",
+            "Case": "CASE_11_HU",
+            "Graphics card": "GPU_03_HU",
         },
     }
 
     build_descriptions = {
-        "Main 64GB, GPU later": "Strong work PC now. Expensive graphics card can be bought later.",
-        "Budget 32GB, GPU later": "Lower first price, but weaker long-term memory setup.",
-        "Full build with RTX 5080": "Full setup including the high-end graphics card for the 4K OLED monitor.",
+        "Budget: Ventus + 32GB Viper": "Best value entry: 9700X + 32GB Viper PL + MSI Ventus PL. Lowest total cost, great 1440p gaming.",
+        "Budget: Ventus + 32GB Kingston": "Budget build with safer HU RAM + KC3000 SSD. Good if you prefer local warranty.",
+        "Mid: Ventus + 64GB Viper (no GPU)": "Mid-range without GPU. 9900X + 64GB Viper PL + KC3000 PL. Buy GPU later.",
+        "Mid: Ventus + 64GB Viper": "Mid-range complete. 9900X + 64GB Viper PL + Ventus PL. Best price/performance.",
+        "Showcase: Trio + 64GB Viper": "Premium mid: X870E Aorus + Trio + Samsung 990 PRO + H9 Flow. Looks as good as it performs.",
+        "Luxury: Gigabyte OC + 64GB Kingston": "Top-end: 9950X + X870E Aorus + Gigabyte Gaming OC + O11 XL. No compromises.",
     }
 
     compare_ids = {
@@ -220,8 +264,24 @@ def _(eu_lowest, html, parts, pd, rates):
             return price * rates["eur_to_huf"]
         return float(fallback)
 
+    def price_value_to_uah(price, currency, fallback=0):
+        currency = str(currency).upper()
+        price = float(price)
+        if currency == "UAH":
+            return price
+        if currency == "HUF":
+            return price * rates["huf_to_uah"]
+        if currency == "PLN":
+            return price * rates["pln_to_uah"]
+        if currency == "EUR":
+            return price * rates["eur_to_uah"]
+        return float(fallback)
+
     def price_to_huf(item):
         return price_value_to_huf(item["Price"], item["Currency"], item["HUF_Est"])
+
+    def price_to_uah(item):
+        return price_value_to_uah(item["Price"], item["Currency"], 0)
 
     def original_price(item):
         currency = str(item["Currency"]).upper()
@@ -233,14 +293,20 @@ def _(eu_lowest, html, parts, pd, rates):
         for part_name, item_id in build_parts.items():
             item = parts_by_id.loc[item_id]
             huf = price_to_huf(item)
-            uah = huf * rates["huf_to_uah"]
+            uah = price_to_uah(item)
             compare_id = compare_map.get(item_id, "")
             compare_huf = (
                 price_to_huf(parts_by_id.loc[compare_id])
                 if compare_id in parts_by_id.index
                 else 0
             )
+            compare_uah = (
+                price_to_uah(parts_by_id.loc[compare_id])
+                if compare_id in parts_by_id.index
+                else 0
+            )
             saving = max(0, compare_huf - huf) if compare_huf else 0
+            saving_uah = max(0, compare_uah - uah) if compare_uah else 0
             rows.append(
                 {
                     "ID": item_id,
@@ -248,10 +314,13 @@ def _(eu_lowest, html, parts, pd, rates):
                     "Model": item["Option"],
                     "Market": item["Market"],
                     "Store": item["Store"],
+                    "Currency": str(item["Currency"]).upper(),
+                    "RawPrice": float(item["Price"]),
                     "Price": original_price(item),
                     "HUF": int(round(huf)),
                     "UAH": int(round(uah)),
                     "Saving": int(round(saving)),
+                    "Saving_UAH": int(round(saving_uah)),
                 }
             )
         return pd.DataFrame(rows)
@@ -362,6 +431,33 @@ def _(mo):
           .pc-section {
             margin-top: 30px;
           }
+          .pc-panel {
+            margin-top: 10px;
+            padding: 16px 20px;
+            border: 1px solid #e2e8f0;
+            border-radius: 16px;
+            background: #fbfdff;
+            box-shadow: 0 1px 3px rgba(15, 23, 42, 0.04);
+          }
+          .pc-control-shell {
+            padding: 14px 18px 12px;
+            border: 1px solid #e2e8f0;
+            border-radius: 16px;
+            background: #fbfdff;
+            box-shadow: 0 1px 3px rgba(15, 23, 42, 0.04);
+          }
+          .pc-section-title {
+            margin: 0 0 2px;
+            font-size: 16px;
+            font-weight: 700;
+            color: #111111;
+          }
+          .pc-section-subtitle {
+            color: #64748b;
+            font-size: 13px;
+            line-height: 1.4;
+            margin-bottom: 10px;
+          }
           .pc-card-row {
             display: grid;
             grid-template-columns: repeat(3, minmax(0, 1fr));
@@ -451,6 +547,44 @@ def _(mo):
             padding: 10px;
             border-radius: 4px;
           }
+          .pc-basket-grid {
+            display: grid;
+            grid-template-columns: repeat(2, minmax(0, 1fr));
+            gap: 14px;
+            margin-top: 12px;
+          }
+          .pc-basket-card {
+            border: 1px solid #e2e8f0;
+            border-radius: 12px;
+            background: #ffffff;
+            padding: 14px;
+          }
+          .pc-basket-title {
+            font-size: 15px;
+            font-weight: 750;
+            color: #111111;
+          }
+          .pc-basket-subtitle {
+            color: #64748b;
+            font-size: 12px;
+            margin-top: 3px;
+          }
+          .pc-basket-total {
+            display: flex;
+            justify-content: space-between;
+            gap: 12px;
+            margin-top: 10px;
+            padding-top: 10px;
+            border-top: 1px solid #e2e8f0;
+            font-weight: 750;
+            color: #111111;
+          }
+          @media (max-width: 900px) {
+            .pc-card-row,
+            .pc-basket-grid {
+              grid-template-columns: 1fr;
+            }
+          }
           input, select, textarea {
             background: #ffffff !important;
             color: #111111 !important;
@@ -472,11 +606,30 @@ def _(mo):
 def _(builds, mo):
     build_choice = mo.ui.dropdown(
         options=list(builds.keys()),
-        value="Main 64GB, GPU later",
-        label="Choose build",
+        value="Mid: Ventus + 64GB Viper (no GPU)",
+        label="",
         full_width=True,
     )
-    build_choice
+    mo.vstack(
+        [
+            mo.Html(
+                """
+                <div class="pc-wrap pc-section" style="margin-top: 0;">
+                  <div class="pc-control-shell">
+                    <div class="pc-section-title">Build selection</div>
+                    <div class="pc-section-subtitle">Start from a prepared build, then fine-tune parts below.</div>
+                """
+            ),
+            build_choice,
+            mo.Html(
+                """
+                  </div>
+                </div>
+                """
+            ),
+        ],
+        gap=0,
+    )
     return (build_choice,)
 
 
@@ -713,6 +866,138 @@ def _(huf_text, mo, number_text, rates, selected_table):
         """
     )
     return pay_hungary, pay_poland, total_huf, total_saving
+
+
+@app.cell
+def _(esc, mo, number_text, selected_table):
+    def _basket_rows(df):
+        rows = []
+        for _, row in df.iterrows():
+            rows.append(
+                f"""
+                <tr>
+                  <td>{esc(row["Part"])}</td>
+                  <td>{esc(row["Model"])}</td>
+                  <td class="pc-num">{esc(row["Price"])}</td>
+                  <td class="pc-num">{number_text(row["UAH"])} UAH</td>
+                </tr>
+                """
+            )
+        return "".join(rows)
+
+    poland_df = selected_table[selected_table["Market"].eq("Poland")].copy()
+    hungary_df = selected_table[selected_table["Market"].eq("Hungary")].copy()
+
+    poland_pln_total = poland_df.loc[poland_df["Currency"].eq("PLN"), "RawPrice"].sum()
+    hungary_huf_total = hungary_df.loc[hungary_df["Currency"].eq("HUF"), "RawPrice"].sum()
+    poland_uah_total = int(poland_df["UAH"].sum())
+    hungary_uah_total = int(hungary_df["UAH"].sum())
+
+    mo.Html(
+        f"""
+        <div class="pc-wrap pc-section">
+          <div class="pc-panel">
+            <div class="pc-section-title">Purchase baskets</div>
+            <div class="pc-section-subtitle">Parts automatically move between Poland and Hungary based on the selected store.</div>
+            <div class="pc-basket-grid">
+              <div class="pc-basket-card">
+                <div class="pc-basket-title">Poland basket</div>
+                <div class="pc-basket-subtitle">Paid in PLN where possible, then converted to UAH for the real spend view.</div>
+                <table class="pc-table">
+                  <thead>
+                    <tr>
+                      <th>Part</th>
+                      <th>Selected model</th>
+                      <th class="pc-num">Store price</th>
+                      <th class="pc-num">UAH</th>
+                    </tr>
+                  </thead>
+                  <tbody>{_basket_rows(poland_df)}</tbody>
+                </table>
+                <div class="pc-basket-total">
+                  <span>Subtotal</span>
+                  <span>{number_text(poland_pln_total)} PLN / {number_text(poland_uah_total)} UAH</span>
+                </div>
+              </div>
+              <div class="pc-basket-card">
+                <div class="pc-basket-title">Hungary basket</div>
+                <div class="pc-basket-subtitle">Local items stay in HUF and are also shown in UAH.</div>
+                <table class="pc-table">
+                  <thead>
+                    <tr>
+                      <th>Part</th>
+                      <th>Selected model</th>
+                      <th class="pc-num">Store price</th>
+                      <th class="pc-num">UAH</th>
+                    </tr>
+                  </thead>
+                  <tbody>{_basket_rows(hungary_df)}</tbody>
+                </table>
+                <div class="pc-basket-total">
+                  <span>Subtotal</span>
+                  <span>{number_text(hungary_huf_total)} HUF / {number_text(hungary_uah_total)} UAH</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        """
+    )
+    return
+
+
+@app.cell
+def _(mo, rates):
+    huf_per_pln = rates["pln_to_huf"]
+    uah_per_pln = rates["pln_to_uah"]
+    uah_per_100_huf = rates["huf_to_uah"] * 100
+    if huf_per_pln < 82:
+        fx_takeaway = "Lower PLN/HUF helps Poland. The Polish basket converts into fewer HUF, so savings vs Hungary rise."
+    elif huf_per_pln > 83:
+        fx_takeaway = "Higher PLN/HUF hurts Poland. The Polish basket converts into more HUF, so savings vs Hungary fall."
+    else:
+        fx_takeaway = "Poland is still cheaper at this rate, but small PLN/HUF moves can still swing the saving by a few thousand HUF."
+
+    mo.Html(
+        f"""
+        <div class="pc-wrap pc-section">
+          <div class="pc-panel">
+            <h2>FX logic</h2>
+            <div class="pc-muted">
+              Monobank-only view: UAH is the real payment currency first, and HUF is the comparison view for Poland vs Hungary.
+            </div>
+            <table class="pc-table" style="margin-top: 12px;">
+              <thead>
+                <tr>
+                  <th>What we watch</th>
+                  <th class="pc-num">Live rate</th>
+                  <th>Why it matters</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>1 PLN on Ukrainian card</td>
+                  <td class="pc-num">{uah_per_pln:.4f} UAH</td>
+                  <td>This is the direct cost of paying Polish stores from Monobank / Ukrainian cards.</td>
+                </tr>
+                <tr>
+                  <td>100 HUF on Ukrainian card</td>
+                  <td class="pc-num">{uah_per_100_huf:.2f} UAH</td>
+                  <td>This is the Ukrainian-card feel of Hungarian local prices.</td>
+                </tr>
+                <tr>
+                  <td>1 PLN compared with Hungary</td>
+                  <td class="pc-num">{huf_per_pln:.2f} HUF</td>
+                  <td>This is derived from Monobank only: PLN to UAH divided by HUF to UAH.</td>
+                </tr>
+              </tbody>
+            </table>
+            <div class="pc-note" style="margin-top: 12px;">{fx_takeaway}</div>
+          </div>
+        </div>
+        """
+    )
+    return
 
 
 @app.cell

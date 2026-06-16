@@ -10,7 +10,7 @@ This is the temporary working note for RTX 5080 research. It should stay short a
 - RAM: 64GB DDR5-6000 CL30.
 - SSD: 2TB Gen4 NVMe.
 - PSU target: 1000W ATX 3.1 / PCIe 5.1 with native 12V-2x6.
-- Case target: black glass airflow case, likely Corsair 3500X style or similar.
+- Case target: black glass airflow case, now more likely to split between compact Lian Li O11 direction for Ventus-class cards and NZXT H9 Flow direction for larger premium cards.
 - Monitor context: LG UltraGear 32GS95UV-B.AEU 32-inch flat 4K 240Hz FreeSync OLED as the main display, plus 4K 60Hz and 1080p 144Hz secondary displays.
 - Buy timing: build PC first, buy GPU later when price/seller/warranty are right.
 
@@ -243,6 +243,35 @@ The current best long-term-value shortlist is:
 - Gainward RTX 5080 Phoenix / Phoenix GS as backup.
 - Gigabyte RTX 5080 Gaming OC or MSI Gaming Trio OC only if the price gap becomes reasonable.
 - Palit RTX 5080 GamingPro OC and PNY Triple Fan OC as secondary backups.
+
+## Visual Pairing Logic - 2026-06-16
+
+- Roman's latest thinking is correct: the case choice now depends heavily on the physical GPU choice, not only the raw GPU performance.
+- **MSI Ventus 3X OC** is still the rational price/value baseline.
+- But Ventus is visually smaller and more modest, so it fits better with a compact premium case than with a huge showcase case.
+
+Current pairing logic:
+
+- **Ventus + Lian Li O11 Vision Compact / O11 family**
+  Better visual balance, cleaner compact build, and better overall money logic.
+
+- **MSI Gaming Trio / Gigabyte Gaming OC + NZXT H9 Flow**
+  Better if the goal becomes fuller showcase presence, larger cooler, and more premium physical feel.
+
+Value read:
+
+- Moving from about **4,899 PLN Ventus** to about **5,600 PLN Gaming Trio / Gaming OC class** is roughly **700 PLN** more, around **165 EUR** at current FX.
+- For Roman's actual use, that premium is mostly:
+  - bigger cooler
+  - slightly lower temperatures
+  - slightly quieter behavior
+  - stronger visual presence in a large case
+- It is not a strong productivity or non-competitive-gaming upgrade.
+
+Practical read:
+
+- If the goal is smartest value: keep **Ventus**.
+- If the goal is premium visual build and the case becomes **H9 Flow**, then the larger GPU class makes more emotional sense.
 
 ## x-kom MSI Ventus Product Page Check - 2026-06-13
 

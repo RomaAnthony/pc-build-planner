@@ -115,6 +115,8 @@ Important warning:
 - Some listings say XMP3 only.
 - The Ceneo product specification table looks partly wrong: it shows 800MHz and CL40, while the product title and model are 6000 CL30.
 - Because of this, we trust the exact model number first, then seller page/spec sheet, not the aggregator table.
+- New 2026-06-15 check confirms the exact CL30 SKU is **PVV564G600C30K / EAN 4711378428216**. Do not mix it with the separate CL36 SKU **PVV564G600C36K / EAN 4711378425598** shown in GPUtracker search results.
+- Allegro Poland and Allegro Hungary both show the CL30 product page for the same product family. GPUtracker also shows CL30 and CL36 as separate rows, which explains the earlier confusion.
 
 ### Poland Offers From Ceneo Capture
 
@@ -131,6 +133,25 @@ Poland read:
 - The 2,941.98 PLN direct Allegro offer is excellent, but we still need to know the seller and return/warranty situation before buying.
 - RTV EURO AGD / OleOle at 3,209 PLN look like better practical options if the cheapest offer is unclear.
 - Above about 3,500 PLN, this Patriot kit becomes less interesting because Kingston/G.Skill may be close enough.
+
+### New Allegro Poland Compare Page, 2026-06-15
+
+This is a product-offers page, not one seller page. It groups many sellers under the same Patriot Viper Venom 64GB 6000 CL30 product card, so prices differ.
+
+| Seller | Price | Price with delivery | Seller signal | Warranty shown | Read |
+|---|---:|---:|---|---|---|
+| COMLINE_PL | 2,939.59 PLN | 2,950.08 PLN | Super Seller, 100.0%, 1,092 ratings | Not shown in capture | Cheapest top offer; verify warranty/returns before buying |
+| abhgroup | 2,939.42 PLN | 2,949.91 PLN | Super Seller, 99.4%, 504 ratings | 12 months | Cheapest captured offer; current dashboard price |
+| SPECMEDIA_EU | 2,999.00 PLN | 3,013.99 PLN | Super Seller, 99.5%, 1,176 ratings | 36 months | Better practical balance if 36-month warranty is real |
+| OleOlepl | 3,209.00 PLN | Free delivery | Super Seller, 97.7%, 114,539 ratings | Lifetime | Safer big-retail route, but +270 PLN vs cheapest |
+| X-KOM_PL | 3,629.00 PLN | 3,639.49 PLN | Super Seller, 98.8%, 23,690 ratings | Lifetime | Safe but poor value for this RAM |
+
+Decision from this page:
+
+- The cheap price is not a mistake; multiple sellers have the exact CL30 product around 2,940 PLN.
+- For final checkout, compare **abhgroup / COMLINE_PL / SPECMEDIA_EU** first.
+- If the cheap sellers have weak warranty, unclear invoice, or payment/delivery problems, SPECMEDIA_EU at 2,999 PLN may be the cleaner pick.
+- OleOle is safe-looking but only worth it if we want big-retail comfort more than savings.
 
 ### Hungary Offers From Arukereso Capture
 
@@ -389,7 +410,7 @@ Trident conclusion:
 
 | Rank | Model | Best seen price | Why |
 |---:|---|---:|---|
-| 1 | Patriot Viper Venom PVV564G600C30K, Poland | 2,941.98 PLN | Best value if seller is clear |
+| 1 | Patriot Viper Venom PVV564G600C30K, Poland | 2,939.42-2,941.98 PLN | Best value if seller is clear; new Allegro product capture still confirms CL30 |
 | 2 | Patriot Viper Venom PVV564G600C30K, Poland safe-store route | 3,209 PLN | Best practical value if RTV/OleOle seller path checks out |
 | 3 | GOODRAM IRDM IR6000D564L3064GDC, Poland | 3,333 PLN | Good value backup if Patriot seller is weak |
 | 4 | Kingston Fury Beast White RGB KF560C30BWEAK264, Poland | 3,417.77 PLN | Strong Kingston option, surprisingly cheaper than black non-RGB in Poland |
@@ -411,8 +432,15 @@ New 2026-06-15 Patriot Hungary capture:
 - Exact Arukereso product page exists for Patriot Viper Venom PVV564G600C30K.
 - Lowest shown offer: 325,965 HUF, but it is marked as a possible marketplace offer, so do not use it as the clean Dad-facing warranty comparison.
 - Better clean comparison offer: Elektroshock, 328,435 HUF, free delivery, in stock, 36 months warranty + EU + 2-3 day delivery shown.
+- Allegro Hungary product capture also shows the same CL30 family at 325,965 HUF, but treat it as a marketplace-style route and verify delivery/payment before using it as a real purchase option.
 - PCLand direct capture: 436,289 HUF, available with local pickup/delivery timing, but too expensive to use as value comparison.
 - Conclusion: Patriot Poland vs Patriot Hungary is now a valid same-model comparison, but use the 328,435 HUF safer Hungary reference unless we verify the cheapest marketplace seller.
+
+New 2026-06-15 wider-EU sanity check:
+
+- GPUtracker search clearly separates CL30 and CL36 Patriot Viper Venom 64GB kits.
+- Exact CL30 row points to Proshop Poland at about 900 EUR / 3,818.01 PLN, model PVV564G600C30K.
+- This is useful proof that the exact CL30 SKU exists in wider EU listings, but it is not a better buy than the current Allegro/Ceneo Poland lead.
 
 Practical decision tree:
 

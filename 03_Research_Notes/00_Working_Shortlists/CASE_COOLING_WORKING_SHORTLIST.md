@@ -1,85 +1,115 @@
 # Case and Cooling Working Shortlist
 
-Updated: 2026-06-13
+Updated: 2026-06-16
 
 ## Current Direction
 
-Case direction:
-- **Corsair 3500X ARGB Black**, preferably bought locally/Hungary because the case is big and fragile.
-- If saving money matters, the plain **Corsair 3500X Black** is very cheap, but it may require extra fan planning.
-
 Cooler direction:
-- **ARCTIC Liquid Freezer III Pro 360 black**.
-- Choose **A-RGB** if the clean visual look matters more.
-- Choose **non-RGB black** if saving money matters more.
+- **ARCTIC Liquid Freezer III Pro 360 A-RGB Black** remains the main cooler pick.
+- The non-RGB black version is still the money-saving fallback if needed.
+- Poland does not currently beat Hungary enough on this cooler to matter.
 
-This is a good match for Ryzen 9 9900X and the planned black glass airflow build.
+Case direction:
+- The old default **Corsair 3500X ARGB Black** is no longer the main case direction.
+- The real choice now depends on the GPU size and the visual balance of the build.
+- If the GPU stays **MSI RTX 5080 Ventus 3X OC**, smaller and cleaner cases now make more sense.
+- If the GPU becomes a larger **MSI Gaming Trio / Gigabyte Gaming OC class** card, roomier showcase cases make more sense.
 
-## Captured Live Prices - 2026-06-13
+Current pair logic:
+- **Ventus + Lian Li O11 family** = smarter compact premium path.
+- **Bigger premium GPU + NZXT H9 Flow** = fuller showcase path.
+
+## Captured Live Prices - 2026-06-16
 
 ### Cooler
 
 | Exact model | Market / store | Captured price | Verdict |
 |---|---|---:|---|
-| ARCTIC Liquid Freezer III Pro 360 A-RGB black (ACFRE00184A) | Hungary / Arukereso broad search | 31,500 HUF | New best visual/value lead. Use this as the current baseline if seller page is clean. |
-| ARCTIC Liquid Freezer III Pro 360 black (ACFRE00180A) | Hungary / Arukereso broad search | 29,200 HUF | Cheapest sensible version. Saves only about 2,300 HUF versus A-RGB, so not the current visual pick. |
-| ARCTIC Liquid Freezer III Pro 360 black (ACFRE00180A) | Poland / Ceneo | 324 PLN | About 30,132 HUF before shipping. Not better than Hungary. |
-| ARCTIC Liquid Freezer III Pro 360 black (ACFRE00180A) | Hungary / PCX older capture | 34,889 HUF | Superseded by newer Arukereso broad capture at 29,200 HUF. |
-| ARCTIC Liquid Freezer III Pro 360 A-RGB black (ACFRE00184A) | Hungary / PCX older capture | 37,589 HUF | Superseded by newer Arukereso broad capture at 31,500 HUF. |
-| ARCTIC Liquid Freezer III Pro 360 SI OEM (ACFRE00165A) | Hungary / PCX | 34,190 HUF | Cheap, but OEM/SI details should be checked before choosing it over retail. |
-| ARCTIC Liquid Freezer III Pro 360 black (ACFRE00180A) | Poland / Morele | 369 PLN | Good, but not clearly better than Hungary after conversion/logistics. |
-| ARCTIC Liquid Freezer III Pro 360 A-RGB black (ACFRE00184A) | Poland / Morele | 429 PLN | Worse than Hungary on captured price. |
+| ARCTIC Liquid Freezer III Pro 360 A-RGB Black (ACFRE00184A) | Hungary / Arukereso broad search | 31,500 HUF | Current main visual/value cooler lead. |
+| ARCTIC Liquid Freezer III Pro 360 Black (ACFRE00180A) | Hungary / Arukereso broad search | 29,200 HUF | Cheapest sensible fallback; save only if every HUF matters. |
+| ARCTIC Liquid Freezer III Pro 360 Black (ACFRE00180A) | Poland / Ceneo | 324 PLN | Not better enough than Hungary after conversion/logistics. |
 
 ### Case
 
-| Exact model | Market / store | Captured price | Verdict |
-|---|---|---:|---|
-| Corsair 3500X ARGB Black (CC-9011278-WW) | Hungary / Arukereso broad search | 31,990 HUF | Current case baseline. Clean look, local price, no Poland case logistics. |
-| Corsair 3500X Black (CC-9011276-WW) | Hungary / Arukereso broad search | 21,326 HUF | Cheapest 3500X path, but fan setup/value must be checked. |
-| Corsair 3500X RS-R ARGB Black (CC-9011322-WW) | Hungary / Arukereso broad search | 33,407 HUF | Very close to standard ARGB. Good backup if the seller/fans are better. |
-| Phanteks XT View TG D-RGB black (PH-XT523V1_DBK01) | Hungary / Arukereso broad search | 27,901 HUF | Cheap visual backup; check build quality and GPU/radiator clearance. |
-| NZXT H6 Flow RGB All Black (CC-H61FB-R1) | Hungary / Arukereso broad search | 44,444 HUF | Nice but no longer first because Corsair 3500X ARGB is much cheaper. |
-| Montech King 95 Pro TG ARGB black | Hungary / Arukereso | 55,790 HUF | Good-looking premium backup, but too expensive versus Corsair now. |
-| Corsair 3500X ARGB black (CC-9011278-WW) | Poland / Morele | 341.33 PLN | Best captured price for the exact standard black ARGB 3500X. Poland looks strong here. |
-| Corsair 3500X black, non-ARGB (CC-9011276-WW) | Poland / Morele | 299 PLN | Cheapest 3500X path, but loses included ARGB fan value/look. |
-| Corsair 3500X RSR ARGB black (CC-9011322-WW) | Hungary / PCX older capture | 49,190 HUF | Superseded by newer Arukereso broad capture at 33,407 HUF. |
-| Corsair 3500X RSR ARGB black (CC-9011322-WW) | Poland / Morele | 478.27 PLN | Not worth it versus standard 3500X ARGB unless there is a clear feature reason. |
-| Corsair 3500X LX-R RGB iCUE Link black (CC-9011324-WW) | Hungary / PCX | 66,391 HUF | Too expensive for this build unless going full Corsair iCUE Link ecosystem. |
-| Corsair 3500X LX-R RGB iCUE Link black (CC-9011324-WW) | Poland / Morele | 456.77 PLN | Better than Hungary but still probably unnecessary. |
+| Exact model | Market / store | Captured price | Fans situation | Verdict |
+|---|---|---:|---|---|
+| NZXT H9 Flow Black (CM-H92FB-01) | Hungary / Arukereso | 54,190 HUF | Includes fans | Best roomy clean-look direction if we want more space than Corsair 3500X. |
+| Lian Li O11 Vision Compact Black (O11VPX) | Hungary / Arukereso | 43,290 HUF | Fan cost still needs to be added | Very attractive if pairing with Ventus and aiming for compact premium look. |
+| Lian Li O11D EVO RGB TG Black (O11DERGBX) | Hungary / Arukereso | 59,990 HUF | Fan cost still needs to be added | Premium black showcase option below H9/NV9 madness, but real total is higher after fans. |
+| Lian Li O11 Dynamic Mini V2 TG Black (O11DMIV2X) | Hungary / Arukereso | 33,090 HUF | Fan cost still needs to be added | Cheap and pretty, but more of a compact experiment than the safest Ryzen 9 + future 5080 path. |
+| Corsair 3500X ARGB Black (CC-9011278-WW) | Hungary / Arukereso broad search | 31,990 HUF | Included ARGB fans | Good cheap backup, but no longer the dream case direction. |
+| Montech KING 95 PRO TG ARGB Black | Hungary / previous Arukereso capture | 55,790 HUF | Includes 6 ARGB fans | Best all-in value if the look works for Roman. Strong alternative to H9. |
+| Phanteks NV9 MK2 Black (PH-NV923TG_DBK02) | Hungary / Arukereso | 84,499 HUF | No included fans shown | Beautiful but too expensive for this build. |
+| Lian Li O11 Dynamic EVO XL Black (O11DEXL-X) | Hungary / Arukereso | 89,900 HUF | Fan cost still needs to be added | Too expensive and too large for the current budget logic. |
+
+## Real Price Logic
+
+Important:
+- Some pretty Lian Li / Phanteks cases look cheaper than they really are because they still need fans.
+- **H9 Flow** and **Montech KING 95 PRO** are stronger real-value options because they are closer to a ready build.
+- **O11 Vision Compact** and **O11D EVO RGB** can still win on beauty, but only if we accept extra fan cost.
+
+This means:
+- **O11 Vision Compact at about 43k HUF** is not really a 43k HUF final case decision.
+- **O11D EVO RGB at about 60k HUF** also climbs once fan cost is included.
+- **Montech KING 95 PRO at about 56k HUF** is much stronger than it first looks because the fan package is already there.
 
 ## Current Decision Logic
 
-Cooler:
-- Buy the **ARCTIC Liquid Freezer III Pro 360 A-RGB black** in Hungary if the final seller page is clean.
-- If saving money matters, the non-RGB black version is enough and is cheaper.
-- Poland does not look better for the cooler right now.
+If Roman keeps the cheaper GPU:
+- **MSI RTX 5080 Ventus 3X OC + Lian Li O11 Vision Compact** is now one of the best-looking balanced directions.
+- This avoids the "small GPU floating in a huge case" problem.
 
-Case:
-- Because the case is big and shipping/logistics are annoying, use the current Hungary captures first.
-- The new Hungary broad search makes **Corsair 3500X ARGB Black at 31,990 HUF** the current practical pick.
-- The plain Corsair 3500X at 21,326 HUF is very cheap, but only makes sense if fan planning still stays cheap.
-- Do not overpay for iCUE Link / LX-R unless the whole build becomes Corsair ecosystem focused.
+If Roman pays more for the GPU:
+- **MSI Gaming Trio / Gigabyte Gaming OC + NZXT H9 Flow** becomes the cleaner premium pairing.
+- The bigger card visually fills the case better and makes more sense emotionally if already paying more.
+
+Value read:
+- For Roman's real use, a move from **Ventus around 4,899 PLN** to a larger premium 5080 around **5,600 PLN** is mostly a luxury upgrade, not a rational productivity/gaming need.
+- So unless the visual side matters enough to justify the spend, **Ventus remains the smarter GPU buy**.
+
+## Current Ranking
+
+1. **Montech KING 95 PRO Black**
+   Best overall case value if included fans are counted honestly.
+
+2. **NZXT H9 Flow Black**
+   Best roomy clean black-glass choice if we want a bigger build and easier cable/radiator comfort.
+
+3. **Lian Li O11 Vision Compact Black**
+   Best compact premium case if the build stays on Ventus and the smaller visual balance is intentional.
+
+4. **Lian Li O11D EVO RGB TG Black**
+   Premium Lian Li direction if extra fan cost is acceptable.
+
+5. **Corsair 3500X ARGB Black**
+   Cheap fallback, no longer the aspirational/main direction.
+
+6. **Phanteks NV9 MK2 / O11 EVO XL**
+   Too expensive for the current logic.
 
 ## Fit Notes
 
-- Arctic Liquid Freezer III Pro 360 has a thick radiator class, so verify top/side radiator clearance in the exact case configuration.
-- For the Corsair 3500X-style build, prefer side or top 360mm radiator mounting depending on motherboard VRM clearance and cable routing.
-- Keep future RTX 5080 length and 12V-2x6 cable bend space in mind.
-- With a 360mm AIO, RAM height is less of a problem than with a large air cooler.
+- Keep the **thick Arctic 360 radiator** in mind. Not every "pretty" compact case is equally comfortable once radiator, tubes, GPU, and cable bend are all installed together.
+- The case decision is now linked to:
+  - GPU visual size
+  - top/side 360 radiator comfort
+  - cable management space
+  - whether the case includes fans or not
 
 ## Next Checks Before Buying
 
-Cooler:
-- confirm exact model number: ACFRE00184A for A-RGB black, ACFRE00180A for non-RGB black
-- confirm AM5 support
-- confirm retail package, not unwanted OEM/bulk variant
-- check warranty and seller return policy
-
 Case:
-- confirm exact model number: CC-9011278-WW for standard Corsair 3500X ARGB black
-- confirm included fans
-- confirm radiator support and GPU clearance
-- compare shipping cost from Poland because case is large and fragile
-- check whether Hungary has the same exact standard ARGB model from another seller, not only RSR/LX-R variants
+- confirm exact included-fan count on each finalist
+- confirm top/side 360 support for the Arctic
+- confirm GPU clearance with future 5080 and 12V-2x6 bend space
+- compare the real all-in cost: case + extra fans if needed
 
-Short version: **cooler from Hungary, case from Hungary/local**. The case logistics changed the decision more than the raw Poland price.
+Cooler:
+- confirm exact model number: `ACFRE00184A` for A-RGB black
+- keep Hungary as the main route unless price changes sharply
+
+Short version:
+- **Cooler still Hungary**
+- **Case is no longer locked**
+- **Main visual/value split is now Ventus + O11 vs bigger GPU + H9**

@@ -14,6 +14,8 @@ Exception:
 - [[03_Research_Notes/00_Working_Shortlists/MOTHERBOARD_WORKING_SHORTLIST]] is the current motherboard shortlist.
 - [[03_Research_Notes/00_Working_Shortlists/PSU_WORKING_SHORTLIST]] is the current PSU shortlist.
 - [[03_Research_Notes/00_Working_Shortlists/CASE_COOLING_WORKING_SHORTLIST]] is the current case and CPU-cooling shortlist.
+- [[03_Research_Notes/00_Working_Shortlists/CAPTURE_SOURCE_INDEX]] is the fast lookup note for exact product captures and current source quality.
+- [[03_Research_Notes/01_Raw_Captures/README]] is the raw-captures navigation note for faster folder search and file naming.
 - [[02_PC_Builds/BUILD_OPTIONS_CSV_PREP]] is the current prep note for the future CSV/Excel comparison.
 - [[02_PC_Builds/DAD_PC_BUILD_SUMMARY]] is the clean Dad-facing summary of current options, Hungary vs Poland savings, and why the PC makes sense.
 - [[04_Tools/PC_BUILD_TOOLING]] is the current Marimo/Python tooling note for the live build comparison app.
@@ -58,10 +60,10 @@ Current working direction:
 - SSD: 2TB Gen4 TLC NVMe; Poland pick Kingston KC3000 2TB, Hungary value pick Lexar NM790 2TB, Hungary safer pick KC3000/FURY Renegade.
 - PSU: 1000W ATX 3.1 / PCIe 5.1 with native 12V-2x6; current leads are be quiet! Pure Power 13 M 1000W for value and Seasonic Focus GX-1000 2024 for safest pick.
 - Cooler: ARCTIC Liquid Freezer III Pro 360 black, likely A-RGB version for the clean black glass look; new Hungary broad capture shows A-RGB around 31,500 HUF and non-RGB around 29,200 HUF.
-- Case: Corsair 3500X black style is the visual baseline, but buy case locally/Hungary because large glass case logistics from Poland are not worth it. New Hungary broad capture shows Corsair 3500X ARGB Black around 31,990 HUF.
-- GPU: build around RTX 5080 if the right offer is found
+- Case: no longer locked to Corsair 3500X. Current real split is Ventus-sized GPU plus compact Lian Li O11 direction, or larger premium GPU plus NZXT H9 Flow direction. Cases should still be bought locally/Hungary.
+- GPU: build around RTX 5080 if the right offer is found; current value baseline remains MSI Ventus 3X OC Poland, but premium MSI/Gigabyte cards are still in play if the visual/cooler upgrade is worth it.
 - GPU price target: about HUF 500,000
-- Current research focus: PSU/case/cooling final platform choices before GPU purchase timing.
+- Current research focus: case and GPU pairing logic, then final platform polish before GPU purchase timing.
 
 Status:
 
@@ -71,7 +73,7 @@ Status:
 - RTX 5080 broad-market pass is done. Next step is exact seller-page checks, not more broad pages.
 - Motherboard light shortlist is started. Next step is Hungary/Poland market captures for exact board prices.
 - PSU wide-market pass is done. Next PSU step is exact seller-page checking, not more broad pages.
-- Case/cooling first pass is done: cooler likely Hungary; case local/Hungary because it is too large and fragile for the Poland route.
+- Case/cooling first pass is done, but the shortlist has shifted: cooler still likely Hungary; case should still be local/Hungary, but the actual finalists are now H9 / O11 / Montech rather than default Corsair.
 - Build comparison tooling has moved away from manual Excel as the main brain. Current working path is CSV data plus a Marimo app in `04_Tools/pc_build_marimo.py`.
 
 ## Current Tooling
@@ -84,7 +86,7 @@ Current build-comparison workflow:
 - Use `04_Tools/pc_build_marimo.py` for local work. This file reads `02_PC_Builds/parts_options_seed.csv` directly and is the fast development version.
 - Use `04_Tools/pc_build_marimo_WASM_SAFE.py` for GitHub Pages / Dad sharing. This file embeds the CSV data because browser/WASM export cannot reliably read live local project files.
 - Use Excel only as an export/presentation option later, not as the main working model.
-- Exchange-rate logic matters because the real payment path may be EUR salary -> UAH card, EUR cash/card in Hungary, Hungarian card, or Polish PLN card/payment conversion. The Marimo app now has live/default rates plus manual override controls.
+- Exchange-rate logic matters because the real payment path may be EUR salary -> UAH card, EUR cash/card in Hungary, Hungarian card, or Polish PLN card/payment conversion. Current dashboard rule: Monobank-only live rates, UAH-first display, HUF as secondary comparison view.
 - GitHub Pages is published from `docs/`. The working share link points to `docs/planner.html`, generated from the WASM-safe file. The root `docs/index.html` is now only a redirect to `planner.html`.
 
 ## Project Structure Index
@@ -100,6 +102,8 @@ Use this as the map of the project:
 | `02_PC_Builds/DAD_PC_BUILD_SUMMARY.md` | Dad-facing explanation | Use for the story and logic, not raw data |
 | `02_PC_Builds/99_Archive_Excel_Attempt/` | Old Excel attempt | Archive only; do not use as current model |
 | `03_Research_Notes/00_Working_Shortlists/` | Clean category conclusions | One working shortlist per part category |
+| `03_Research_Notes/00_Working_Shortlists/CAPTURE_SOURCE_INDEX.md` | Exact-source lookup | Check this before re-downloading a product page or asking "which seller did this row come from?" |
+| `03_Research_Notes/01_Raw_Captures/README.md` | Raw-capture navigation | Use this when you need the fastest path to the right category folder or want the current naming rule |
 | `03_Research_Notes/01_Raw_Captures/` | Captured market pages | Store Arukereso/Ceneo/retailer captures here by category |
 | `03_Research_Notes/99_Imported_Research/` | Imported outside research | Keep separated from current conclusions |
 | `04_Tools/pc_build_marimo.py` | Local dashboard app | Reads the CSV directly; use for daily work |
@@ -126,6 +130,7 @@ Known cleanup / improvement list:
 - Keep `docs/index.html` as a tiny redirect to `planner.html` so the root GitHub Pages URL does not open an old export.
 - Add a clearer "last updated" line in the dashboard that includes the price-data date and exchange-rate date separately.
 - Add source links to the parts database only when the dashboard needs them; keep the Dad view simple.
+- Replace remaining `Ceneo lead` / `Arukereso lead` rows in the active dashboard with exact seller names whenever an exact page is already captured.
 - Decide whether CPU/motherboard/PSU from Poland are "default buy" or only "bundle if already ordering RAM/GPU/SSD."
 - Keep the public/shared dashboard simple: one build selected, one parts table, numbers at the end.
 
