@@ -548,10 +548,7 @@ def _(mo):
           }
           .pc-col-huf-est,
           .pc-col-uah-est {
-            width: 10%;
-          }
-          .pc-col-delta {
-            width: 4%;
+            width: 12%;
           }
           .pc-build-grid {
             display: grid;
@@ -1117,9 +1114,7 @@ def _(cell_deltas, cell_diffs, esc, mo, number_text, revision, row_diffs, select
               <td>{esc(_row["Store"])}</td>
               <td class="pc-num pc-col-price">{esc(_row["Price"])}</td>
               <td class="pc-num pc-col-huf {_diff_class_table(f"{row_key}:huf")}">{number_text(_row["HUF"])} HUF</td>
-              <td class="pc-num pc-delta {_delta_class(f"{row_key}:huf")}">{_delta_text(f"{row_key}:huf")}</td>
               <td class="pc-num pc-col-uah {_diff_class_table(f"{row_key}:uah")}">{number_text(_row["UAH"])} UAH</td>
-              <td class="pc-num pc-delta {_delta_class(f"{row_key}:uah")}">{_delta_text(f"{row_key}:uah")}</td>
             </tr>
             """
         )
@@ -1138,9 +1133,7 @@ def _(cell_deltas, cell_diffs, esc, mo, number_text, revision, row_diffs, select
               <col class="pc-col-store">
               <col class="pc-col-store-price">
               <col class="pc-col-huf-est">
-              <col class="pc-col-delta">
               <col class="pc-col-uah-est">
-              <col class="pc-col-delta">
             </colgroup>
             <thead>
               <tr>
@@ -1150,9 +1143,7 @@ def _(cell_deltas, cell_diffs, esc, mo, number_text, revision, row_diffs, select
                 <th>Store</th>
                 <th class="pc-num pc-col-head-price">Store price</th>
                 <th class="pc-num pc-col-head-huf"><span class="pc-head-compact">HUF<br>est.</span></th>
-                <th class="pc-num pc-th-delta"><span class="pc-head-compact">Δ<br>HUF</span></th>
                 <th class="pc-num pc-col-head-uah"><span class="pc-head-compact">UAH<br>est.</span></th>
-                <th class="pc-num pc-th-delta"><span class="pc-head-compact">Δ<br>UAH</span></th>
               </tr>
             </thead>
             <tbody>{''.join(body_rows)}</tbody>
@@ -1160,9 +1151,7 @@ def _(cell_deltas, cell_diffs, esc, mo, number_text, revision, row_diffs, select
               <tr>
                 <td colspan="5" class="pc-col-total">Total estimate</td>
                 <td class="pc-num pc-col-huf pc-col-total {_diff_class_table("build-total:huf")}">{number_text(_total_huf)} HUF</td>
-                <td class="pc-num pc-delta"></td>
                 <td class="pc-num pc-col-uah pc-col-total {_diff_class_table("build-total:uah")}">{number_text(_total_uah)} UAH</td>
-                <td class="pc-num pc-delta"></td>
               </tr>
             </tfoot>
           </table>
