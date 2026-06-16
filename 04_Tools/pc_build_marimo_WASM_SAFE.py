@@ -21,21 +21,21 @@ CPU_01_PL,CPU,1,AMD Ryzen 9 9900X Box,Poland,x-kom.pl,1349,PLN,112061,Compare,Me
 CPU_01_PL_AMZ,CPU,1,AMD Ryzen 9 9900X Box,Poland,Amazon.pl,1398.99,PLN,116214,Backup,Low,Safe seller but worse than x-kom and local warranty still matters,Raw_Captures/CPU
 CPU_02_HU,CPU,2,AMD Ryzen 7 9700X Box,Hungary,Arukereso lead,103490,HUF,103490,Backup,Low,Budget fallback if platform cost must drop,CPU_WORKING_SHORTLIST
 CPU_03_HU,CPU,3,AMD Ryzen 9 9950X Box,Hungary,Konzolvilag,174090,HUF,174090,Watch,Medium,16-core productivity upgrade; not default value choice,Raw_Captures/CPU
-MB_01_HU,Motherboard,1,MSI MAG B850 Tomahawk MAX WiFi,Hungary,Arukereso lead,82340,HUF,82340,Pick,Low,Default motherboard choice,Raw_Captures/Motherboard
+MB_01_HU,Motherboard,1,MSI MAG B850 Tomahawk MAX WiFi,Hungary,oaziscomputer.hu,82340,HUF,82340,Pick,Low,Default motherboard choice; exact Hungary capture shows oaziscomputer.hu on Arukereso page,Raw_Captures/Motherboard
 MB_01_PL,Motherboard,1,MSI MAG B850 Tomahawk MAX WiFi,Poland,Amazon.pl,792.95,PLN,65870,Compare,Medium,Cheaper at current FX; verify exact MAX model and warranty route,Raw_Captures/Motherboard
 MB_02_HU,Motherboard,2,ASRock X870 PRO RS WiFi,Hungary,Arukereso lead,72290,HUF,72290,Backup,Medium,Strong value challenger if comfortable with ASRock,Raw_Captures/Motherboard
 MB_03_HU,Motherboard,3,MSI MAG B850 Tomahawk WiFi non-MAX,Hungary,Arukereso lead,68590,HUF,68590,Watch,Medium,Cheaper MSI path; check what is lost vs MAX,Raw_Captures/Motherboard
 MB_04_HU,Motherboard,4,Gigabyte X870E AORUS Elite WiFi7,Hungary,Arukereso lead,109899,HUF,109899,Watch,Medium,Premium board; probably unnecessary unless features matter,Raw_Captures/Motherboard
-RAM_01_PL,RAM,1,Patriot Viper Venom 64GB 2x32 DDR5-6000 CL30,Poland,Allegro,2941.98,PLN,244390,Pick,Medium,Best value RAM if seller/warranty are clean,Raw_Captures/RAM
+RAM_01_PL,RAM,1,Patriot Viper Venom 64GB 2x32 DDR5-6000 CL30,Poland,allegro.pl offer 18208200258,2939.42,PLN,243619,Pick,Medium,Best value RAM if seller/warranty are clean; exact CL30 SKU PVV564G600C30K confirmed again on 2026-06-15,Raw_Captures/RAM
 RAM_01_HU,RAM,1,Patriot Viper Venom 64GB 2x32 DDR5-6000 CL30,Hungary,elektroshock.hu,328435,HUF,328435,Compare,Medium,Same model local comparison; Arukereso capture shows 36-month warranty plus EU and 2-3 day delivery,Raw_Captures/RAM
 RAM_02_HU,RAM,2,Kingston Fury Beast EXPO 64GB 2x32 DDR5-6000 CL30,Hungary,foramax.hu,339890,HUF,339890,Backup,Low,Safest RAM option; better warranty comfort,Raw_Captures/RAM
-RAM_02_PL,RAM,2,Kingston Fury Beast EXPO 64GB 2x32 DDR5-6000 CL30,Poland,KR System / Ceneo lead,3635.5,PLN,302001,Backup,Medium,Safer RAM option from Poland but not as cheap as Patriot,Raw_Captures/RAM
+RAM_02_PL,RAM,2,Kingston Fury Beast EXPO 64GB 2x32 DDR5-6000 CL30,Poland,KR System,3635.5,PLN,302001,Backup,Medium,Safer RAM option from Poland but not as cheap as Patriot,Raw_Captures/RAM
 RAM_03_PL,RAM,3,GOODRAM IRDM 64GB 2x32 DDR5-6000 CL30,Poland,Allegro,3333,PLN,276872,Backup,Medium,Third practical 64GB option,Raw_Captures/RAM
 RAM_03_HU,RAM,3,GOODRAM IRDM 64GB 2x32 DDR5-6000 CL30,Hungary,sky-frames.hu,332760,HUF,332760,Backup,Medium,Local GOODRAM option; not cheaper than Kingston enough,Raw_Captures/RAM
-RAM_04_PL,RAM,4,Patriot Viper Venom 32GB 2x16 DDR5-6000 CL30,Poland,Ceneo lead,1589.9,PLN,132073,Watch,Medium,Budget branch; saves money but halves RAM,Raw_Captures/RAM
+RAM_04_PL,RAM,4,Patriot Viper Venom 32GB 2x16 DDR5-6000 CL30,Poland,vist.eu,1589.9,PLN,132073,Watch,Medium,Budget branch; saves money but halves RAM,Raw_Captures/RAM
 RAM_04_HU,RAM,4,Patriot Viper Venom 32GB 2x16 DDR5-6000 CL30,Hungary,alza.hu,150290,HUF,150290,Compare,Low,Same model local comparison from Arukereso capture; Alza stock offer plus 1390 HUF delivery,Raw_Captures/RAM
-SSD_01_PL,SSD,1,Kingston KC3000 2TB,Poland,Ceneo lead,939,PLN,78003,Pick,Medium,Best current SSD value from Poland,Raw_Captures/SSD
-SSD_01_HU,SSD,1,Kingston KC3000 2TB,Hungary,Arukereso lead,106336,HUF,106336,Compare,Low,Same SSD local route; more expensive but simpler warranty,Raw_Captures/SSD
+SSD_01_PL,SSD,1,Kingston KC3000 2TB,Poland,Avans / OleOle,939,PLN,78003,Pick,Medium,Best current SSD value from Poland; same low price is visible at Avans and OleOle in the capture,Raw_Captures/SSD
+SSD_01_HU,SSD,1,Kingston KC3000 2TB,Hungary,oaziscomputer.hu,106336,HUF,106336,Compare,Low,Same SSD local route; more expensive but simpler warranty,Raw_Captures/SSD
 SSD_02_HU,SSD,2,Lexar NM790 2TB,Hungary,Arukereso lead,96695,HUF,96695,Backup,Low,Best Hungary SSD value; DRAM-less/HMB,Raw_Captures/SSD
 SSD_02_PL,SSD,2,Lexar NM790 2TB,Poland,Ceneo lead,1038.03,PLN,86229,Backup,Medium,Good SSD but KC3000 Poland is cleaner value,Raw_Captures/SSD
 SSD_03_HU,SSD,3,Samsung 990 PRO 2TB,Hungary,Alza / Arukereso lead,119990,HUF,119990,Watch,Low,Premium SSD; only if close to KC3000 price,Raw_Captures/SSD
@@ -43,11 +43,11 @@ SSD_03_PL,SSD,3,Samsung 990 PRO 2TB,Poland,Ceneo lead,1469,PLN,122030,Avoid,Medi
 PSU_01_HU,PSU,1,be quiet! Pure Power 13 M 1000W,Hungary,Arukereso lead,49100,HUF,49100,Pick,Low,Current value PSU; 1000W ATX 3.1 / PCIe 5.1 direction,Raw_Captures/PSU
 PSU_02_HU,PSU,2,Seasonic Focus GX-1000 2024,Hungary,Arukereso lead,59990,HUF,59990,Backup,Low,Safer premium PSU option,Raw_Captures/PSU
 PSU_02_PL,PSU,2,Seasonic Focus GX-1000 v4,Poland,Ceneo lead,687,PLN,57069,Compare,Medium,Good unit; Poland price now competitive but warranty/logistics decide,Raw_Captures/PSU
-PSU_03_HU,PSU,3,Corsair RM1000x ATX 3.1,Hungary,Arukereso lead,66200,HUF,66200,Watch,Low,Strong premium PSU but pricier,Raw_Captures/PSU
-PSU_03_PL,PSU,3,Corsair RM1000x ATX 3.1,Poland,Ceneo lead,647,PLN,53746,Backup,Medium,Strong Poland PSU option if bundling,Raw_Captures/PSU
+PSU_03_HU,PSU,3,Corsair RM1000x ATX 3.1,Hungary,oaziscomputer.hu,66200,HUF,66200,Watch,Low,Strong premium PSU but pricier,Raw_Captures/PSU
+PSU_03_PL,PSU,3,Corsair RM1000x ATX 3.1,Poland,Amazon.pl,647,PLN,53746,Backup,Medium,Strong Poland PSU option if bundling; Amazon is already visible at the lead price in the capture,Raw_Captures/PSU
 COOL_01_HU,Cooler,1,Arctic Liquid Freezer III Pro 360 A-RGB Black,Hungary,Arukereso lead,31500,HUF,31500,Pick,Low,Preferred clean visual cooler,Raw_Captures/Case_Cooling
-COOL_02_HU,Cooler,2,Arctic Liquid Freezer III Pro 360 Black,Hungary,Arukereso lead,29200,HUF,29200,Backup,Low,Saves little versus A-RGB; good if lights do not matter,Raw_Captures/Case_Cooling
-COOL_02_PL,Cooler,2,Arctic Liquid Freezer III Pro 360 Black,Poland,Ceneo lead,324,PLN,26915,Compare,Medium,Cheap but cooler is easy to buy locally; not worth trouble alone,Raw_Captures/Case_Cooling
+COOL_02_HU,Cooler,2,Arctic Liquid Freezer III Pro 360 Black,Hungary,oaziscomputer.hu,29200,HUF,29200,Backup,Low,Saves little versus A-RGB; good if lights do not matter,Raw_Captures/Case_Cooling
+COOL_02_PL,Cooler,2,Arctic Liquid Freezer III Pro 360 Black,Poland,it-shop24.pl,324,PLN,26915,Compare,Medium,Cheap but cooler is easy to buy locally; not worth trouble alone,Raw_Captures/Case_Cooling
 COOL_03_HU,Cooler,3,DeepCool LE360 V2 ARGB Black,Hungary,Arukereso broad search,22499,HUF,22499,Backup,Medium,Cheap visual 360 AIO backup if Arctic direction changes,Raw_Captures/Case_Cooling
 COOL_04_HU,Cooler,4,MSI MAG CoreLiquid A13 360 Black,Hungary,Arukereso broad search,27777,HUF,27777,Watch,Medium,MSI-branded visual alternative; still less trusted than Arctic on value,Raw_Captures/Case_Cooling
 COOL_05_HU,Cooler,5,Gigabyte GME 360 Gaming CPU Cooler Black,Hungary,Arukereso broad search,31800,HUF,31800,Watch,Medium,Looks fine on paper but not clearly better than Arctic at similar money,Raw_Captures/Case_Cooling
@@ -65,18 +65,18 @@ CASE_10_HU,Case,10,Phanteks NV9 MK2 Black,Hungary,Arukereso lead,84499,HUF,84499
 CASE_11_HU,Case,11,Lian Li O11 Dynamic EVO XL Black,Hungary,Arukereso lead,89900,HUF,89900,Avoid,Medium,Too expensive and too large for the current build logic,Raw_Captures/Case_Cooling
 GPU_00_NONE,GPU,0,No GPU yet,No GPU,Local,0,HUF,0,Pick,Low,First purchase excludes expensive GPU; phase 1 uses Ryzen integrated graphics,RTX5080_WORKING_SHORTLIST
 GPU_01_PL,GPU,1,MSI RTX 5080 Ventus 3X OC 16GB,Poland,x-kom.pl,4899,PLN,406960,Watch,Medium,Best RTX 5080 value lead; 303mm 16-pin 36-month warranty shown,Raw_Captures/GPU
-GPU_01_HU,GPU,1,MSI RTX 5080 Ventus 3X OC 16GB,Hungary,Arukereso lead,499090,HUF,499090,Compare,Medium,Same model local route; much more expensive at current FX,Raw_Captures/GPU
+GPU_01_HU,GPU,1,MSI RTX 5080 Ventus 3X OC 16GB,Hungary,oaziscomputer.hu,499090,HUF,499090,Compare,Medium,Same model local route; much more expensive at current FX,Raw_Captures/GPU
 GPU_02_PL,GPU,2,MSI RTX 5080 Gaming Trio OC 16GB,Poland,Ceneo lead,5599,PLN,465109,Backup,Medium,Better cooler/class than Ventus; costs more,Raw_Captures/GPU
-GPU_02_HU,GPU,2,MSI RTX 5080 Gaming Trio OC 16GB,Hungary,Arukereso lead,528465,HUF,528465,Compare,Medium,Premium MSI local comparison,Raw_Captures/GPU
+GPU_02_HU,GPU,2,MSI RTX 5080 Gaming Trio OC 16GB,Hungary,oaziscomputer.hu,528465,HUF,528465,Compare,Medium,Premium MSI local comparison,Raw_Captures/GPU
 GPU_03_PL,GPU,3,Gigabyte RTX 5080 Gaming OC 16GB,Poland,Ceneo lead,5799,PLN,481723,Backup,Medium,Good long-term Gigabyte option; compare seller/warranty,Raw_Captures/GPU
-GPU_03_HU,GPU,3,Gigabyte RTX 5080 Gaming OC 16GB,Hungary,Arukereso lead,526400,HUF,526400,Compare,Medium,Best Gigabyte Hungary premium-value comparison,Raw_Captures/GPU
+GPU_03_HU,GPU,3,Gigabyte RTX 5080 Gaming OC 16GB,Hungary,oaziscomputer.hu,526400,HUF,526400,Compare,Medium,Best Gigabyte Hungary premium-value comparison,Raw_Captures/GPU
 GPU_04_HU,GPU,4,Inno3D RTX 5080 X3 OC 16GB,Hungary,Arukereso lead,465640,HUF,465640,Backup,Medium,Best cheap Hungary RTX 5080 value lead,RTX5080_WORKING_SHORTLIST
 GPU_05_PL,GPU,5,Gigabyte RTX 5080 Windforce OC SFF 16GB,Poland,Ceneo lead,5343.54,PLN,443888,Watch,High,Cheap but SFF/basic cooler risk; not first long-term choice,Raw_Captures/GPU
 GPU_05_HU,GPU,5,Gigabyte RTX 5080 Windforce OC SFF 16GB,Hungary,Arukereso lead,470000,HUF,470000,Watch,High,Cheap local option but SFF cooler risk,RTX5080_WORKING_SHORTLIST"""
 
     EU_LOWEST_CSV_DATA = """Selected_ID,EU_Model,EU_Price,EU_Currency,EU_Store,EU_Country,Match_Quality,Note,Source
 GPU_01_PL,MSI RTX 5080 Ventus 3X OC 16GB,1332,EUR,GPUTracker low range,EU market,Good,"Exact model appeared around 1332-1373 EUR in wider EU tracker listings; verify seller/shipping/warranty before treating as buyable.",PC_BUILD_TOOLING.md
-RAM_01_PL,Patriot Viper Venom 64GB 2x32 DDR5-6000 CL30,,,,,Need exact capture,"Current EU-wide RAM capture is too broad; many listings are laptop SO-DIMM or wrong speed/latency. Need exact PVV564G600C30K EU-low capture.",PC_BUILD_TOOLING.md
+RAM_01_PL,Patriot Viper Venom 64GB 2x32 DDR5-6000 CL30,900,EUR,Proshop.pl,Poland,Good,"Exact PVV564G600C30K / CL30 wider-EU sanity check from GPUtracker/Proshop. Not cheaper than the Allegro/Ceneo Poland lead, but confirms CL30 and separates it from CL36 SKU PVV564G600C36K.",Raw_Captures/RAM
 RAM_02_PL,Kingston Fury Beast EXPO 64GB 2x32 DDR5-6000 CL30,,,,,Need exact capture,"Need exact EU-low capture for Kingston 64GB DDR5-6000 CL30 EXPO kit, not generic 64GB DDR5 search.",PC_BUILD_TOOLING.md
 RAM_03_PL,GOODRAM IRDM 64GB 2x32 DDR5-6000 CL30,,,,,Need exact capture,"Need exact EU-low capture for GOODRAM IRDM 64GB 6000 CL30 kit.",PC_BUILD_TOOLING.md
 RAM_04_PL,Patriot Viper Venom 32GB 2x16 DDR5-6000 CL30,,,,,Need exact capture,"Need exact PVV532G600C30K EU-low capture. Current Poland/Hungary comparison exists, but wider EU-low is not locked.",PC_BUILD_TOOLING.md"""
@@ -335,7 +335,7 @@ def _(mo):
     mo.Html(
         """
         <style>
-          /* LIGHT, HIGH-CONTRAST THEME – WORKS IN ANY BROWSER */
+          /* ===== WIDER, CONSISTENT LAYOUT ===== */
           body {
             background: #ffffff;
             color: #111111;
@@ -349,47 +349,70 @@ def _(mo):
           }
           h2 {
             color: #111111;
-            font-weight: 650;
-            letter-spacing: 0;
+            font-weight: 700;
+            letter-spacing: -0.01em;
+            font-size: 18px;
+            margin: 0 0 8px;
           }
 
           .pc-wrap {
-            max-width: 1080px;
-            margin: 0 auto;
-            padding: 20px;
+            width: 100% !important;
+            max-width: 98% !important;
+            margin-left: auto !important;
+            margin-right: auto !important;
+            padding: 0 16px !important;
             background: #ffffff;
             color: #111111;
             font-family: system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
           }
           .pc-title {
-            font-size: 42px;
+            font-size: 26px;
             font-weight: 700;
-            margin: 8px 0 8px;
+            margin: 0 0 4px;
             color: #111111;
+            letter-spacing: -0.01em;
           }
           .pc-subtitle {
             color: #4a5568;
-            font-size: 16px;
+            font-size: 13px;
             max-width: 780px;
-            margin-bottom: 24px;
+            line-height: 1.4;
+            margin-bottom: 4px;
           }
           .pc-section {
-            margin-top: 30px;
+            margin-top: 14px;
+            margin-bottom: 0px !important;
           }
           .pc-panel {
             margin-top: 10px;
-            padding: 16px 20px 20px;
+            margin-bottom: 0px !important;
+            padding: 16px 20px;
+            padding-bottom: 20px !important;
             border: 1px solid #e2e8f0;
             border-radius: 16px;
             background: #fbfdff;
             box-shadow: 0 1px 3px rgba(15, 23, 42, 0.04);
           }
+          .pc-panel-tight {
+            padding-top: 14px;
+            padding-bottom: 14px;
+          }
           .pc-control-shell {
+            margin-top: 0;
             padding: 14px 18px 12px;
             border: 1px solid #e2e8f0;
             border-radius: 16px;
             background: #fbfdff;
             box-shadow: 0 1px 3px rgba(15, 23, 42, 0.04);
+            width: 100%;
+            max-width: 100%;
+            box-sizing: border-box;
+          }
+          .pc-control-shell .pc-section-title {
+            margin-bottom: 2px;
+          }
+          .pc-control-shell .pc-section-subtitle {
+            margin-bottom: 10px;
           }
           .pc-section-title {
             margin: 0 0 2px;
@@ -401,37 +424,50 @@ def _(mo):
             color: #64748b;
             font-size: 13px;
             line-height: 1.4;
-            margin-bottom: 10px;
+            margin-bottom: 6px;
+          }
+          .pc-divider {
+            height: 1px;
+            background: #e2e8f0;
+            margin: 14px 0 0;
           }
           .pc-card-row {
             display: grid;
-            grid-template-columns: repeat(3, minmax(0, 1fr));
-            gap: 14px;
-            margin-top: 14px;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 12px;
+            margin-top: 8px;
           }
           .pc-card {
             border: 1px solid #e2e8f0;
             border-radius: 12px;
             background: #f7fafc;
-            padding: 16px;
+            padding: 14px;
             box-shadow: 0 1px 2px rgba(0,0,0,0.05);
+            transition: border-color 1.8s ease-out, box-shadow 1.8s ease-out, background-color 1.8s ease-out;
           }
           .pc-label {
             color: #4a5568;
-            font-size: 12px;
+            font-size: 11px;
             text-transform: uppercase;
-            letter-spacing: .03em;
+            letter-spacing: .05em;
+            font-weight: 600;
           }
           .pc-value {
             color: #111111;
-            font-size: 26px;
+            font-size: 22px;
             font-weight: 800;
-            margin-top: 8px;
+            margin-top: 6px;
+          }
+          .pc-value-small {
+            font-size: 16px;
+            font-weight: 750;
+            margin-top: 4px;
           }
           .pc-muted {
             color: #718096;
-            font-size: 13px;
-            margin-top: 6px;
+            font-size: 12px;
+            margin-top: 4px;
+            line-height: 1.4;
           }
           .pc-save {
             color: #2c7a4d;
@@ -440,29 +476,44 @@ def _(mo):
           .pc-table {
             width: 100%;
             border-collapse: collapse;
-            margin-top: 16px;
-            font-size: 15px;
+            margin-top: 8px;
+            font-size: 12.5px;
             background: #ffffff;
+          }
+          .pc-table-main {
+            table-layout: fixed;
           }
           .pc-table th {
             color: #4a5568;
             text-align: left;
-            padding: 10px 8px;
-            border-bottom: 1px solid #e2e8f0;
-            background: #f8fafc;
+            padding: 7px 6px;
+            border-bottom: 1px solid #d8dee8;
+            background: #eef4ff;
+            line-height: 1.2;
+            vertical-align: bottom;
+            font-weight: 600;
+            transition: background-color 800ms ease, color 800ms ease;
           }
           .pc-table th.pc-num {
             text-align: right;
           }
+          .pc-head-compact {
+            display: inline-block;
+            line-height: 1.1;
+          }
           .pc-table td {
-            padding: 11px 8px;
+            padding: 7px 6px;
             border-bottom: 1px solid #e2e8f0;
-            vertical-align: top;
+            vertical-align: middle;
             color: #111111;
+            background: transparent;
+            transition: background-color 1.8s ease-out, color 1.8s ease-out, box-shadow 1.8s ease-out;
           }
           .pc-table tfoot td {
-            background: #f8fafc;
-            border-top: 2px solid #cbd5e1;
+            background: #eef4ff;
+          }
+          .pc-table tfoot td {
+            border-top: 2px solid #d8dee8;
             font-weight: 750;
           }
           .pc-num {
@@ -470,21 +521,158 @@ def _(mo):
             white-space: nowrap;
             font-variant-numeric: tabular-nums;
           }
-          .pc-pill {
-            display: inline-block;
-            padding: 3px 9px;
-            border-radius: 999px;
-            font-size: 12px;
-            background: #e2e8f0;
+          .pc-col-price,
+          .pc-col-huf,
+          .pc-col-uah,
+          .pc-col-total {
+            background: transparent !important;
+          }
+          .pc-col-part {
+            width: 7%;
+          }
+          .pc-col-model {
+            width: 30%;
+          }
+          .pc-col-market {
+            width: 5%;
+          }
+          .pc-col-store {
+            width: 14%;
+          }
+          .pc-col-store-price {
+            width: 10%;
+          }
+          .pc-col-huf-est,
+          .pc-col-uah-est {
+            width: 10%;
+          }
+          .pc-col-delta {
+            width: 4%;
+          }
+          .pc-build-grid {
+            display: grid;
+            grid-template-columns: 140px minmax(0, 1fr);
+            gap: 10px 16px;
+            align-items: center;
+            margin-top: 6px;
+          }
+          .pc-build-stack {
+            margin-top: 4px;
+          }
+          .pc-build-label {
+            font-weight: 600;
+            color: #1f2937;
+            font-size: 13px;
+            min-width: 120px;
+            white-space: nowrap;
+          }
+          .pc-select-block select {
+            min-height: 38px;
+            border-radius: 10px !important;
+            box-shadow: 0 1px 2px rgba(15, 23, 42, 0.05);
+            width: 100% !important;
+            max-width: 100% !important;
+          }
+          .pc-hstack-wrapper {
+            width: 100%;
+          }
+          .pc-hstack-wrapper {
+            width: 100%;
+          }
+          .pc-hstack-wrapper select {
+            flex: 1 1 auto !important;
+            width: 100% !important;
+            min-width: 0 !important;
+          }
+          /* Make marimo hstack rows in Change Parts fill width */
+          .pc-parts-shell .x-rows > div {
+            width: 100% !important;
+          }
+          .pc-parts-shell .x-rows > div > div {
+            flex: 1 1 100% !important;
+          }
+          .pc-parts-shell select {
+            width: 100% !important;
+            max-width: 100% !important;
+          }
+          .pc-parts-shell > .x-rows > div {
+            width: 100% !important;
+          }
+          .pc-select-block {
+            margin-top: 0;
+            margin-bottom: 6px;
+          }
+          .pc-table-kicker {
+            margin: 0 0 10px;
+            font-size: 16px;
+            font-weight: 700;
             color: #111111;
           }
-          .pc-pol {
-            background: #e6fffa;
-            color: #234e52;
+          .pc-table thead th.pc-th-delta {
+            color: #64748b;
+            font-size: 12px;
+            letter-spacing: 0.01em;
           }
-          .pc-hu {
-            background: #e0f2fe;
-            color: #075985;
+          .pc-table thead th.pc-th-delta .pc-head-compact {
+            font-weight: 700;
+          }
+          .pc-fx-stack {
+            display: grid;
+            gap: 14px;
+          }
+          .pc-basket-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 16px;
+            margin-top: 14px;
+          }
+          .pc-basket-card {
+            border: 1px solid #e2e8f0;
+            border-radius: 14px;
+            background: #ffffff;
+            padding: 16px 18px 20px;
+            display: flex;
+            flex-direction: column;
+          }
+          .pc-basket-title {
+            font-size: 15px;
+            font-weight: 700;
+            color: #111111;
+            margin: 0 0 4px;
+          }
+          .pc-basket-subtitle {
+            color: #64748b;
+            font-size: 12px;
+            margin: 0 0 10px;
+          }
+          .pc-basket-total {
+            display: flex;
+            justify-content: space-between;
+            align-items: baseline;
+            gap: 12px;
+            border-top: 1px solid #d8dee8;
+            margin-top: auto;
+            padding-top: 14px;
+            font-weight: 700;
+          }
+          .pc-kicker {
+            display: inline-block;
+            margin-bottom: 10px;
+            padding: 4px 10px;
+            border-radius: 999px;
+            background: #eef4ff;
+            color: #334155;
+            font-size: 11px;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 0.04em;
+          }
+          .pc-note-soft {
+            border: 1px solid #dbeafe;
+            background: #f8fbff;
+            border-radius: 12px;
+            padding: 12px 14px;
+            color: #334155;
           }
           .pc-note {
             border-left: 3px solid #3182ce;
@@ -494,47 +682,112 @@ def _(mo):
             background: #ebf8ff;
             padding: 10px;
             border-radius: 4px;
-          }
-          .pc-basket-grid {
-            display: grid;
-            grid-template-columns: repeat(2, minmax(0, 1fr));
-            gap: 14px;
-            margin-top: 12px;
-          }
-          .pc-basket-card {
-            border: 1px solid #e2e8f0;
-            border-radius: 12px;
-            background: #ffffff;
-            padding: 16px 18px 20px;
-            display: flex;
-            flex-direction: column;
-          }
-          .pc-basket-title {
-            font-size: 15px;
-            font-weight: 750;
-            color: #111111;
-          }
-          .pc-basket-subtitle {
-            color: #64748b;
             font-size: 12px;
-            margin-top: 3px;
+            line-height: 1.45;
           }
-          .pc-basket-total {
-            display: flex;
-            justify-content: space-between;
-            gap: 12px;
-            margin-top: auto;
-            padding-top: 14px;
-            border-top: 1px solid #e2e8f0;
-            font-weight: 750;
-            color: #111111;
-          }
-          @media (max-width: 900px) {
-            .pc-card-row,
+          @media (max-width: 980px) {
+            .pc-card-row {
+              grid-template-columns: 1fr;
+              gap: 8px;
+            }
             .pc-basket-grid {
               grid-template-columns: 1fr;
+              gap: 12px;
+            }
+            .pc-build-grid {
+              grid-template-columns: 1fr;
+              gap: 6px;
+            }
+            .pc-build-label {
+              margin-top: 4px;
+            }
+            .pc-wrap {
+              padding: 0 14px !important;
             }
           }
+
+          .pc-flash-up-a,
+          .pc-flash-up-b {
+            animation: pcFlashUp 5s ease-out;
+          }
+          .pc-flash-down-a,
+          .pc-flash-down-b {
+            animation: pcFlashDown 5s ease-out;
+          }
+          .pc-flash-neutral-a,
+          .pc-flash-neutral-b {
+            animation: pcFlashNeutral 5s ease-out;
+          }
+          .pc-card-flash-up-a,
+          .pc-card-flash-up-b {
+            animation: pcCardFlashUp 5s ease-out;
+          }
+          .pc-card-flash-down-a,
+          .pc-card-flash-down-b {
+            animation: pcCardFlashDown 5s ease-out;
+          }
+          .pc-card-flash-neutral-a,
+          .pc-card-flash-neutral-b {
+            animation: pcCardFlashNeutral 5s ease-out;
+          }
+          .pc-delta {
+            min-width: 64px;
+            font-size: 12px;
+            font-weight: 700;
+            opacity: 0;
+          }
+          .pc-delta-up-a,
+          .pc-delta-up-b {
+            animation: pcDeltaUp 5s ease-out forwards;
+          }
+          .pc-delta-down-a,
+          .pc-delta-down-b {
+            animation: pcDeltaDown 5s ease-out forwards;
+          }
+
+          @keyframes pcFlashNeutral {
+            0% { background: #fff3bf; box-shadow: inset 0 0 0 999px rgba(255, 243, 191, 0.82); }
+            100% { background: transparent; box-shadow: inset 0 0 0 999px rgba(255, 243, 191, 0); }
+          }
+
+          @keyframes pcFlashUp {
+            0% { background: #ffe3e3; color: #8b1e1e; box-shadow: inset 0 0 0 999px rgba(255, 227, 227, 0.92); }
+            100% { background: transparent; color: inherit; box-shadow: inset 0 0 0 999px rgba(255, 227, 227, 0); }
+          }
+
+          @keyframes pcFlashDown {
+            0% { background: #d8f5dc; color: #1b5e20; box-shadow: inset 0 0 0 999px rgba(216, 245, 220, 0.95); }
+            100% { background: transparent; color: inherit; box-shadow: inset 0 0 0 999px rgba(216, 245, 220, 0); }
+          }
+
+          @keyframes pcCardFlashUp {
+            0% { border-color: #ef9a9a; box-shadow: 0 0 0 4px rgba(239, 154, 154, 0.38); background: #fffafa; }
+            100% { border-color: #e2e8f0; box-shadow: 0 0 0 0 rgba(239, 154, 154, 0); background: #f7fafc; }
+          }
+
+          @keyframes pcCardFlashDown {
+            0% { border-color: #86d993; box-shadow: 0 0 0 4px rgba(134, 217, 147, 0.40); background: #fbfffc; }
+            100% { border-color: #e2e8f0; box-shadow: 0 0 0 0 rgba(134, 217, 147, 0); background: #f7fafc; }
+          }
+
+          @keyframes pcCardFlashNeutral {
+            0% { border-color: #f2cc60; box-shadow: 0 0 0 4px rgba(242, 204, 96, 0.38); background: #fffef8; }
+            100% { border-color: #e2e8f0; box-shadow: 0 0 0 0 rgba(242, 204, 96, 0); background: #f7fafc; }
+          }
+
+          @keyframes pcDeltaUp {
+            0% { color: #8b1e1e; opacity: 1; }
+            70% { color: #8b1e1e; opacity: 1; }
+            100% { color: transparent; opacity: 0; }
+          }
+
+          @keyframes pcDeltaDown {
+            0% { color: #1b5e20; opacity: 1; }
+            70% { color: #1b5e20; opacity: 1; }
+            100% { color: transparent; opacity: 0; }
+          }
+
+          /* .pc-pill, .pc-pol, .pc-hu, .pc-note — defined above in first stylesheet */
           input, select, textarea {
             background: #ffffff !important;
             color: #111111 !important;
@@ -544,7 +797,7 @@ def _(mo):
         <div class="pc-wrap">
           <div class="pc-title">PC Build Planner</div>
           <div class="pc-subtitle">
-            Choose one build. The parts list changes below. Totals, exchange rate, and estimated saving are shown at the end.
+            Choose one build, then adjust any part if needed. Totals, live FX, and estimated saving update below.
           </div>
         </div>
         """
@@ -560,11 +813,11 @@ def _(builds, mo):
         label="",
         full_width=True,
     )
-    mo.vstack(
+    build_selector_ui = mo.vstack(
         [
             mo.Html(
                 """
-                <div class="pc-wrap pc-section" style="margin-top: 0;">
+                <div class="pc-wrap pc-select-block" style="margin-top: 0; margin-bottom: 8px;">
                   <div class="pc-control-shell">
                     <div class="pc-section-title">Build selection</div>
                     <div class="pc-section-subtitle">Start from a prepared build, then fine-tune parts below.</div>
@@ -580,7 +833,16 @@ def _(builds, mo):
         ],
         gap=0,
     )
+    build_selector_ui
     return (build_choice,)
+
+
+@app.cell
+def _(mo):
+    get_previous_snapshot, set_previous_snapshot = mo.state(
+        {"row_ids": {}, "values": {}, "revision": 0}
+    )
+    return get_previous_snapshot, set_previous_snapshot
 
 
 @app.cell
@@ -651,20 +913,34 @@ def _(build_choice, builds, mo, parts):
         full_width=True,
     )
 
-    mo.vstack(
+    parts_ui = mo.vstack(
         [
-            mo.md("## Change Parts"),
-            mo.Html('<div class="pc-muted">Optional: change any part and the numbers below update.</div>'),
-            mo.hstack([mo.md("**CPU**"), cpu_choice]),
-            mo.hstack([mo.md("**Main board**"), board_choice]),
-            mo.hstack([mo.md("**Memory**"), memory_choice]),
-            mo.hstack([mo.md("**Storage**"), storage_choice]),
-            mo.hstack([mo.md("**Power supply**"), psu_choice]),
-            mo.hstack([mo.md("**Cooler**"), cooler_choice]),
-            mo.hstack([mo.md("**Case**"), case_choice]),
-            mo.hstack([mo.md("**Graphics card**"), gpu_choice]),
-        ]
+            mo.Html(
+                """
+                <div class="pc-wrap pc-section" style="margin-top: 0;">
+                  <div class="pc-control-shell pc-parts-shell" style="padding-top: 12px; padding-bottom: 12px;">
+                    <div class="pc-section-title">Change Parts</div>
+                    <div class="pc-section-subtitle" style="margin-bottom: 10px;">Optional: change any part and the numbers below update.</div>
+                """
+            ),
+            mo.hstack([mo.Html('<div class="pc-build-label">CPU</div>'), cpu_choice], justify="start"),
+            mo.hstack([mo.Html('<div class="pc-build-label">Main board</div>'), board_choice], justify="start"),
+            mo.hstack([mo.Html('<div class="pc-build-label">Memory</div>'), memory_choice], justify="start"),
+            mo.hstack([mo.Html('<div class="pc-build-label">Storage</div>'), storage_choice], justify="start"),
+            mo.hstack([mo.Html('<div class="pc-build-label">Power supply</div>'), psu_choice], justify="start"),
+            mo.hstack([mo.Html('<div class="pc-build-label">Cooler</div>'), cooler_choice], justify="start"),
+            mo.hstack([mo.Html('<div class="pc-build-label">Case</div>'), case_choice], justify="start"),
+            mo.hstack([mo.Html('<div class="pc-build-label">Graphics card</div>'), gpu_choice], justify="start"),
+            mo.Html(
+                """
+                  </div>
+                </div>
+                """
+            ),
+        ],
+        gap=0,
     )
+    parts_ui
     return (
         board_choice,
         case_choice,
@@ -681,14 +957,16 @@ def _(build_choice, builds, mo, parts):
 def _(
     board_choice,
     build_choice,
-    build_descriptions,
     case_choice,
     compare_ids,
     cooler_choice,
     cpu_choice,
     gpu_choice,
+    get_previous_snapshot,
     memory_choice,
     psu_choice,
+    rates,
+    set_previous_snapshot,
     storage_choice,
     build_table,
     eu_lowest_table,
@@ -706,27 +984,138 @@ def _(
     }
     selected_table = build_table(selected_parts, compare_ids)
     selected_eu_table = eu_lowest_table(selected_table)
-    selected_description = build_descriptions[selected_name]
-    return selected_description, selected_eu_table, selected_name, selected_table
+
+    previous_snapshot = get_previous_snapshot()
+    previous_row_ids = previous_snapshot.get("row_ids", {})
+    previous_values = previous_snapshot.get("values", {})
+    previous_revision = int(previous_snapshot.get("revision", 0))
+
+    current_values = {}
+    cell_diffs = {}
+    cell_deltas = {}
+    row_diffs = {}
+
+    for _, _row in selected_table.iterrows():
+        part_key = str(_row["Part"])
+        current_row_id = str(_row["ID"])
+        current_values[f"{part_key}:price"] = str(_row["Price"])
+        current_values[f"{part_key}:huf"] = int(_row["HUF"])
+        current_values[f"{part_key}:uah"] = int(_row["UAH"])
+        row_diffs[part_key] = previous_row_ids.get(part_key) not in (None, current_row_id)
+        for suffix in ("price", "huf", "uah"):
+            key = f"{part_key}:{suffix}"
+            prev_value = previous_values.get(key)
+            now_value = current_values[key]
+            if prev_value is None or prev_value == now_value:
+                cell_diffs[key] = "same"
+                cell_deltas[key] = 0
+            elif suffix == "price":
+                cell_diffs[key] = "changed"
+                cell_deltas[key] = 0
+            else:
+                cell_diffs[key] = "down" if now_value < prev_value else "up"
+                cell_deltas[key] = now_value - prev_value
+
+    total_huf = int(selected_table["HUF"].sum())
+    total_uah = int(selected_table["UAH"].sum())
+    total_saving = int(selected_table["Saving"].sum())
+    total_saving_uah = int(selected_table["Saving_UAH"].sum())
+    pay_poland = int(selected_table.loc[selected_table["Market"].eq("Poland"), "HUF"].sum())
+    pay_hungary = int(selected_table.loc[selected_table["Market"].eq("Hungary"), "HUF"].sum())
+    total_eur = int(round(total_huf / rates["eur_to_huf"]))
+
+    summary_values = {
+        "build-total:huf": total_huf,
+        "build-total:uah": total_uah,
+        "summary-total:huf": total_huf,
+        "summary-total:uah": total_uah,
+        "summary-total:eur": total_eur,
+        "summary-poland:huf": pay_poland,
+        "summary-hungary:huf": pay_hungary,
+        "summary-saving:huf": total_saving,
+        "summary-saving:uah": total_saving_uah,
+    }
+
+    for key, now_value in summary_values.items():
+        prev_value = previous_values.get(key)
+        if prev_value is None or prev_value == now_value:
+            cell_diffs[key] = "same"
+            cell_deltas[key] = 0
+        elif isinstance(now_value, int):
+            cell_diffs[key] = "down" if now_value < prev_value else "up"
+            cell_deltas[key] = now_value - prev_value
+        else:
+            cell_diffs[key] = "changed"
+            cell_deltas[key] = 0
+        current_values[key] = now_value
+
+    has_any_change = any(state != "same" for state in cell_diffs.values())
+    revision = previous_revision + 1 if has_any_change else previous_revision
+
+    set_previous_snapshot(
+        {
+            "row_ids": {str(_row["Part"]): str(_row["ID"]) for _, _row in selected_table.iterrows()},
+            "values": current_values,
+            "revision": revision,
+        }
+    )
+
+    return cell_deltas, cell_diffs, revision, row_diffs, selected_eu_table, selected_name, selected_table
 
 
 @app.cell
-def _(esc, mo, number_text, selected_description, selected_name, selected_table):
+def _(cell_deltas, cell_diffs, esc, mo, number_text, revision, row_diffs, selected_name, selected_table):
+    def _flash_class(state):
+        if state == "same":
+            return ""
+        suffix = "a" if revision % 2 == 0 else "b"
+        if state == "down":
+            return f"pc-flash-down-{suffix}"
+        if state == "up":
+            return f"pc-flash-up-{suffix}"
+        return f"pc-flash-neutral-{suffix}"
+
+    def _diff_class_table(key):
+        return _flash_class(cell_diffs.get(key, "same"))
+
+    def _delta_class(key):
+        state = cell_diffs.get(key, "same")
+        if state == "same":
+            return ""
+        suffix = "a" if revision % 2 == 0 else "b"
+        if state == "down":
+            return f"pc-delta-down-{suffix}"
+        if state == "up":
+            return f"pc-delta-up-{suffix}"
+        return ""
+
+    def _delta_text(key):
+        delta = int(cell_deltas.get(key, 0) or 0)
+        if delta == 0:
+            return ""
+        sign = "+" if delta > 0 else "-"
+        return f"{sign}{number_text(abs(delta))}"
+
     body_rows = []
     _total_uah = int(selected_table["UAH"].sum())
-    for _, row in selected_table.iterrows():
-        market_class = "pc-pol" if row["Market"] == "Poland" else "pc-hu"
-        if row["Market"] == "No GPU":
+    _total_huf = int(selected_table["HUF"].sum())
+    for _, _row in selected_table.iterrows():
+        market_class = "pc-pol" if _row["Market"] == "Poland" else "pc-hu"
+        if _row["Market"] == "No GPU":
             market_class = ""
+        row_key = str(_row["Part"])
         body_rows.append(
             f"""
-            <tr>
-              <td>{esc(row["Part"])}</td>
-              <td>{esc(row["Model"])}</td>
-              <td><span class="pc-pill {market_class}">{esc(row["Market"])}</span></td>
-              <td>{esc(row["Store"])}</td>
-              <td class="pc-num">{esc(row["Price"])}</td>
-              <td class="pc-num">{number_text(row["UAH"])} UAH</td>
+            <tr class="pc-compare-row">
+              <td>{esc(_row["Part"])}</td>
+              <td>{esc(_row["Model"])}</td>
+              <td><span class="pc-pill {market_class}">{esc(_row["Market"])}</span></td>
+              <td>{esc(_row["Store"])}</td>
+              <td class="pc-num pc-col-price">{esc(_row["Price"])}</td>
+              <td class="pc-num pc-col-huf {_diff_class_table(f"{row_key}:huf")}">{number_text(_row["HUF"])} HUF</td>
+              <td class="pc-num pc-delta {_delta_class(f"{row_key}:huf")}">{_delta_text(f"{row_key}:huf")}</td>
+              <td class="pc-num pc-col-uah {_diff_class_table(f"{row_key}:uah")}">{number_text(_row["UAH"])} UAH</td>
+              <td class="pc-num pc-delta {_delta_class(f"{row_key}:uah")}">{_delta_text(f"{row_key}:uah")}</td>
             </tr>
             """
         )
@@ -734,17 +1123,46 @@ def _(esc, mo, number_text, selected_description, selected_name, selected_table)
     mo.Html(
         f"""
         <div class="pc-wrap pc-section">
-          <h2>{esc(selected_name)}</h2>
-          <div class="pc-note">{esc(selected_description)}</div>
-          <table class="pc-table">
+          <div class="pc-panel">
+          <div class="pc-kicker">Current build</div>
+          <h2 style="margin-top: 0; margin-bottom: 10px;">{esc(selected_name)}</h2>
+          <table class="pc-table pc-table-main">
+            <colgroup>
+              <col class="pc-col-part">
+              <col class="pc-col-model">
+              <col class="pc-col-market">
+              <col class="pc-col-store">
+              <col class="pc-col-store-price">
+              <col class="pc-col-huf-est">
+              <col class="pc-col-delta">
+              <col class="pc-col-uah-est">
+              <col class="pc-col-delta">
+            </colgroup>
             <thead>
-              <tr><th>Part</th><th>Selected model</th><th>Buy from</th><th>Store</th><th class="pc-num">Store price</th><th class="pc-num">UAH estimate</th></tr>
+              <tr>
+                <th>Part</th>
+                <th>Selected model</th>
+                <th>Buy from</th>
+                <th>Store</th>
+                <th class="pc-num pc-col-head-price">Store price</th>
+                <th class="pc-num pc-col-head-huf"><span class="pc-head-compact">HUF<br>est.</span></th>
+                <th class="pc-num pc-th-delta"><span class="pc-head-compact">Δ<br>HUF</span></th>
+                <th class="pc-num pc-col-head-uah"><span class="pc-head-compact">UAH<br>est.</span></th>
+                <th class="pc-num pc-th-delta"><span class="pc-head-compact">Δ<br>UAH</span></th>
+              </tr>
             </thead>
             <tbody>{''.join(body_rows)}</tbody>
             <tfoot>
-              <tr><td colspan="5">Total UAH estimate</td><td class="pc-num">{number_text(_total_uah)} UAH</td></tr>
+              <tr>
+                <td colspan="5" class="pc-col-total">Total estimate</td>
+                <td class="pc-num pc-col-huf pc-col-total {_diff_class_table("build-total:huf")}">{number_text(_total_huf)} HUF</td>
+                <td class="pc-num pc-delta"></td>
+                <td class="pc-num pc-col-uah pc-col-total {_diff_class_table("build-total:uah")}">{number_text(_total_uah)} UAH</td>
+                <td class="pc-num pc-delta"></td>
+              </tr>
             </tfoot>
           </table>
+          </div>
         </div>
         """
     )
@@ -752,70 +1170,71 @@ def _(esc, mo, number_text, selected_description, selected_name, selected_table)
 
 
 @app.cell
-def _(huf_text, mo, number_text, rates, selected_table):
-    total_huf = int(selected_table["HUF"].sum())
-    total_eur = int(round(total_huf / rates["eur_to_huf"]))
-    total_uah = int(selected_table["UAH"].sum())
-    total_saving = int(selected_table["Saving"].sum())
-    pay_poland = int(selected_table.loc[selected_table["Market"].eq("Poland"), "HUF"].sum())
-    pay_hungary = int(selected_table.loc[selected_table["Market"].eq("Hungary"), "HUF"].sum())
+def _(cell_diffs, huf_text, mo, number_text, rates, revision, selected_table):
+    def _flash_class(state, prefix="pc-flash"):
+        if state == "same":
+            return ""
+        suffix = "a" if revision % 2 == 0 else "b"
+        if state == "down":
+            return f"{prefix}-down-{suffix}"
+        if state == "up":
+            return f"{prefix}-up-{suffix}"
+        return f"{prefix}-neutral-{suffix}"
+
+    def _diff_class_summary(key):
+        return _flash_class(cell_diffs.get(key, "same"))
+
+    def _card_state(*keys):
+        states = [cell_diffs.get(key, "same") for key in keys]
+        states = [state for state in states if state != "same"]
+        if not states:
+            return "same"
+        if "up" in states and "down" in states:
+            return "changed"
+        if "up" in states:
+            return "up"
+        if "down" in states:
+            return "down"
+        return "changed"
+
+    _total_huf = int(selected_table["HUF"].sum())
+    _total_uah = int(selected_table["UAH"].sum())
+    _total_eur = int(round(_total_uah / rates["eur_to_uah"]))
+    _total_saving = int(selected_table["Saving"].sum())
+    _total_saving_uah = int(selected_table["Saving_UAH"].sum())
+    _pay_poland = int(selected_table.loc[selected_table["Market"].eq("Poland"), "UAH"].sum())
+    _pay_hungary = int(selected_table.loc[selected_table["Market"].eq("Hungary"), "UAH"].sum())
+    _pay_poland_huf = int(selected_table.loc[selected_table["Market"].eq("Poland"), "HUF"].sum())
+    _pay_hungary_huf = int(selected_table.loc[selected_table["Market"].eq("Hungary"), "HUF"].sum())
 
     mo.Html(
         f"""
-        <div class="pc-wrap" style="padding-top: 8px;">
+        <div class="pc-wrap pc-section" style="margin-top: 14px; padding-top: 0;">
           <div class="pc-card-row">
-            <div class="pc-card">
+            <div class="pc-card {_flash_class(_card_state('summary-total:huf', 'summary-total:uah'), 'pc-card-flash')}">
               <div class="pc-label">Total price</div>
-              <div class="pc-value">{huf_text(total_huf)}</div>
-              <div class="pc-muted">{number_text(total_eur)} EUR / {number_text(total_uah)} UAH</div>
+              <div class="pc-value {_diff_class_summary("summary-total:uah")}">{number_text(_total_uah)} UAH</div>
+              <div class="pc-muted pc-col-huf {_diff_class_summary("summary-total:huf")}">{huf_text(_total_huf)} / {number_text(_total_eur)} EUR</div>
             </div>
-            <div class="pc-card">
+            <div class="pc-card {_flash_class(_card_state('summary-poland:huf', 'summary-hungary:huf'), 'pc-card-flash')}">
               <div class="pc-label">Where money goes</div>
-              <div class="pc-muted">Polish stores: {huf_text(pay_poland)}</div>
-              <div class="pc-muted">Hungarian stores: {huf_text(pay_hungary)}</div>
+              <div class="pc-muted {_diff_class_summary("summary-poland:huf")}">Paid to Poland stores: {number_text(_pay_poland)} UAH / {huf_text(_pay_poland_huf)}</div>
+              <div class="pc-muted {_diff_class_summary("summary-hungary:huf")}">Paid to Hungary stores: {number_text(_pay_hungary)} UAH / {huf_text(_pay_hungary_huf)}</div>
             </div>
-            <div class="pc-card">
+            <div class="pc-card {_flash_class(_card_state('summary-saving:huf', 'summary-saving:uah'), 'pc-card-flash')}">
               <div class="pc-label">Estimated saving</div>
-              <div class="pc-value pc-save">{huf_text(total_saving)}</div>
+              <div class="pc-value pc-save {_diff_class_summary("summary-saving:uah")}">{number_text(_total_saving_uah)} UAH</div>
+              <div class="pc-value-small pc-save {_diff_class_summary("summary-saving:huf")}">{huf_text(_total_saving)}</div>
               <div class="pc-muted">Compared with Hungarian reference prices</div>
             </div>
           </div>
           <div class="pc-note" style="margin-top: 14px;">
-            Exchange assumption: 1 PLN = {rates["pln_to_huf"]:.2f} HUF. Source: {rates["source"]}. Checked: {rates["checked"]}.
-          </div>
-          
-          <h2 style="margin-top: 40px;">Payment Options (Your Cards)</h2>
-          <p class="pc-muted" style="margin-bottom: 16px;">Compare what you pay with different cards</p>
-          <table class="pc-table">
-            <thead>
-              <tr>
-                <th>Build</th>
-                <th>HUF (Hungarian card)</th>
-                <th>UAH (Ukrainian card)</th>
-                <th>Better option</th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <td><strong>Main 64GB, GPU later</strong></td>
-                <td style="color: #68d391; font-weight: 600;">{huf_text(total_huf)}</td>
-                <td>{number_text(total_uah)} UAH</td>
-                <td><span class="pc-pill" style="background: rgba(104,211,145,.2); color: #68d391;">HUF card saves</span></td>
-              </tr>
-              <tr>
-                <td><strong>Current vs Hungarian ref</strong></td>
-                <td colspan="2" style="color: #68d391; font-weight: 600;">Save {huf_text(total_saving)} HUF by buying from Poland</td>
-                <td></td>
-              </tr>
-            </tbody>
-          </table>
-          <div class="pc-note">
-            <strong>Tip:</strong> Check the real card rate before purchase. The current build saves {huf_text(total_saving)} by buying selected parts from Poland instead of Hungarian reference prices.
+            Monobank rates used. 1 PLN = {rates["pln_to_uah"]:.4f} UAH, 100 HUF = {(rates["huf_to_uah"] * 100):.2f} UAH, so 1 PLN = {rates["pln_to_huf"]:.2f} HUF. Checked: {rates["checked"]}.
           </div>
         </div>
         """
     )
-    return pay_hungary, pay_poland, total_huf, total_saving
+    return _pay_hungary, _pay_poland, _total_huf, _total_saving
 
 
 @app.cell
@@ -852,7 +1271,7 @@ def _(esc, mo, number_text, selected_table):
             <div class="pc-basket-grid">
               <div class="pc-basket-card">
                 <div class="pc-basket-title">Poland basket</div>
-                <div class="pc-basket-subtitle">Paid in PLN where possible, then converted to UAH for the real spend view.</div>
+                <div class="pc-basket-subtitle">Paid in store currency, then converted to UAH for your real spend view.</div>
                 <table class="pc-table">
                   <thead>
                     <tr>
@@ -871,7 +1290,7 @@ def _(esc, mo, number_text, selected_table):
               </div>
               <div class="pc-basket-card">
                 <div class="pc-basket-title">Hungary basket</div>
-                <div class="pc-basket-subtitle">Local items stay in HUF and are also shown in UAH.</div>
+                <div class="pc-basket-subtitle">Local-market items stay in HUF and are also shown in UAH for direct comparison.</div>
                 <table class="pc-table">
                   <thead>
                     <tr>
@@ -902,9 +1321,9 @@ def _(mo, rates):
     uah_per_pln = rates["pln_to_uah"]
     uah_per_100_huf = rates["huf_to_uah"] * 100
     if huf_per_pln < 82:
-        fx_takeaway = "Lower PLN/HUF helps Poland. The Polish basket converts into fewer HUF, so savings vs Hungary rise."
+        fx_takeaway = "Lower PLN/HUF helps Poland. Your Polish basket converts into fewer HUF, so savings vs Hungary rise."
     elif huf_per_pln > 83:
-        fx_takeaway = "Higher PLN/HUF hurts Poland. The Polish basket converts into more HUF, so savings vs Hungary fall."
+        fx_takeaway = "Higher PLN/HUF hurts Poland. Your Polish basket converts into more HUF, so savings vs Hungary fall."
     else:
         fx_takeaway = "Poland is still cheaper at this rate, but small PLN/HUF moves can still swing the saving by a few thousand HUF."
 
@@ -912,37 +1331,39 @@ def _(mo, rates):
         f"""
         <div class="pc-wrap pc-section">
           <div class="pc-panel">
-            <h2>FX logic</h2>
-            <div class="pc-muted">
-              Monobank-only view: UAH is the real payment currency first, and HUF is the comparison view for Poland vs Hungary.
-            </div>
-            <table class="pc-table" style="margin-top: 12px;">
-              <thead>
-                <tr>
-                  <th>What we watch</th>
-                  <th class="pc-num">Live rate</th>
-                  <th>Why it matters</th>
-                </tr>
-              </thead>
-              <tbody>
-                <tr>
-                  <td>1 PLN on Ukrainian card</td>
-                  <td class="pc-num">{uah_per_pln:.4f} UAH</td>
-                  <td>This is the direct cost of paying Polish stores from Monobank / Ukrainian cards.</td>
-                </tr>
-                <tr>
-                  <td>100 HUF on Ukrainian card</td>
-                  <td class="pc-num">{uah_per_100_huf:.2f} UAH</td>
-                  <td>This is the Ukrainian-card feel of Hungarian local prices.</td>
-                </tr>
-                <tr>
-                  <td>1 PLN compared with Hungary</td>
-                  <td class="pc-num">{huf_per_pln:.2f} HUF</td>
-                  <td>This is derived from Monobank only: PLN to UAH divided by HUF to UAH.</td>
-                </tr>
-              </tbody>
-            </table>
-            <div class="pc-note" style="margin-top: 12px;">{fx_takeaway}</div>
+          <h2>FX logic</h2>
+          <div class="pc-muted">
+            Monobank-only view: UAH is the real payment currency first, and HUF is the comparison view for Poland vs Hungary.
+          </div>
+          <table class="pc-table" style="margin-top: 12px;">
+            <thead>
+              <tr>
+                <th>What we watch</th>
+                <th class="pc-num">Live rate</th>
+                <th>Why it matters</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>1 PLN on Ukrainian card</td>
+                <td class="pc-num">{uah_per_pln:.4f} UAH</td>
+                <td>This is the direct cost of paying Polish stores from Monobank / Ukrainian cards.</td>
+              </tr>
+              <tr>
+                <td>100 HUF on Ukrainian card</td>
+                <td class="pc-num">{uah_per_100_huf:.2f} UAH</td>
+                <td>This is the Ukrainian-card feel of Hungarian local prices.</td>
+              </tr>
+              <tr>
+                <td>1 PLN compared with Hungary</td>
+                <td class="pc-num">{huf_per_pln:.2f} HUF</td>
+                <td>This is derived from Monobank only: PLN→UAH divided by HUF→UAH.</td>
+              </tr>
+            </tbody>
+          </table>
+          <div class="pc-note" style="margin-top: 12px;">
+            {fx_takeaway}
+          </div>
           </div>
         </div>
         """
@@ -986,9 +1407,10 @@ def _(esc, huf_text, mo, number_text, selected_eu_table):
     mo.Html(
         f"""
         <div class="pc-wrap pc-section">
+          <div class="pc-panel">
           <h2>EU lowest-price check</h2>
           <div class="pc-muted">
-            This is only a sanity check: it shows whether the selected part looks expensive compared with wider EU listings.
+            A quick sanity check against wider EU listings. Empty rows need exact product captures.
           </div>
           <table class="pc-table">
             <thead>
@@ -1005,6 +1427,7 @@ def _(esc, huf_text, mo, number_text, selected_eu_table):
             </thead>
             <tbody>{''.join(rows)}</tbody>
           </table>
+          </div>
         </div>
         """
     )
