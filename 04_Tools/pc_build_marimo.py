@@ -133,18 +133,28 @@ def _():
 
     compare_ids = {
         "CPU_01_PL": "CPU_01_HU",
+        "CPU_02_PL": "CPU_02_HU",
+        "CPU_03_PL": "CPU_03_HU",
         "MB_01_PL": "MB_01_HU",
+        "MB_02_PL": "MB_02_HU",
+        "MB_04_PL": "MB_04_HU",
         "RAM_01_PL": "RAM_01_HU",
         "RAM_02_PL": "RAM_02_HU",
         "RAM_03_PL": "RAM_03_HU",
         "RAM_04_PL": "RAM_04_HU",
         "SSD_01_PL": "SSD_01_HU",
         "SSD_02_PL": "SSD_02_HU",
+        "COOL_02_PL": "COOL_02_HU",
+        "COOL_03_PL": "COOL_03_HU",
+        "COOL_04_PL": "COOL_04_HU",
+        "COOL_06_PL": "COOL_06_HU",
         "PSU_02_PL": "PSU_02_HU",
         "PSU_03_PL": "PSU_03_HU",
         "GPU_01_PL": "GPU_01_HU",
         "GPU_02_PL": "GPU_02_HU",
         "GPU_03_PL": "GPU_03_HU",
+        "GPU_04_PL": "GPU_04_HU",
+        "GPU_05_PL": "GPU_05_HU",
     }
     return builds, compare_ids
 
