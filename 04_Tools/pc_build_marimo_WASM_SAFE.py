@@ -150,75 +150,20 @@ def _(datetime, json):
 @app.cell
 def _():
     builds = {
-        "Budget: Ventus + 32GB Viper": {
-            "CPU": "CPU_02_HU",
-            "Main board": "MB_02_HU",
-            "Memory": "RAM_04_PL",
-            "Storage": "SSD_02_HU",
-            "Power supply": "PSU_01_HU",
-            "Cooler": "COOL_03_HU",
-            "Case": "CASE_03_HU",
-            "Graphics card": "GPU_01_PL",
-        },
-        "Budget: Ventus + 32GB Kingston": {
-            "CPU": "CPU_02_HU",
-            "Main board": "MB_02_HU",
-            "Memory": "RAM_04_HU",
-            "Storage": "SSD_01_PL",
-            "Power supply": "PSU_01_HU",
-            "Cooler": "COOL_03_HU",
-            "Case": "CASE_03_HU",
-            "Graphics card": "GPU_01_PL",
-        },
-        "Mid: Ventus + 64GB Viper (no GPU)": {
+        "Best value: Poland + Lian Li": {
             "CPU": "CPU_01_PL",
             "Main board": "MB_01_PL",
             "Memory": "RAM_01_PL",
             "Storage": "SSD_01_PL",
-            "Power supply": "PSU_01_HU",
-            "Cooler": "COOL_02_HU",
-            "Case": "CASE_05_HU",
-            "Graphics card": "GPU_00_NONE",
-        },
-        "Mid: Ventus + 64GB Viper": {
-            "CPU": "CPU_01_PL",
-            "Main board": "MB_01_PL",
-            "Memory": "RAM_01_PL",
-            "Storage": "SSD_01_PL",
-            "Power supply": "PSU_01_HU",
-            "Cooler": "COOL_02_HU",
+            "Power supply": "PSU_03_PL",
+            "Cooler": "COOL_02_PL",
             "Case": "CASE_05_HU",
             "Graphics card": "GPU_01_PL",
-        },
-        "Showcase: Trio + 64GB Viper": {
-            "CPU": "CPU_01_PL",
-            "Main board": "MB_04_HU",
-            "Memory": "RAM_01_PL",
-            "Storage": "SSD_03_HU",
-            "Power supply": "PSU_03_HU",
-            "Cooler": "COOL_01_HU",
-            "Case": "CASE_06_HU",
-            "Graphics card": "GPU_02_PL",
-        },
-        "Luxury: Gigabyte OC + 64GB Kingston": {
-            "CPU": "CPU_03_HU",
-            "Main board": "MB_04_HU",
-            "Memory": "RAM_02_HU",
-            "Storage": "SSD_03_HU",
-            "Power supply": "PSU_03_HU",
-            "Cooler": "COOL_06_HU",
-            "Case": "CASE_11_HU",
-            "Graphics card": "GPU_03_HU",
         },
     }
 
     build_descriptions = {
-        "Budget: Ventus + 32GB Viper": "Best value entry: 9700X + 32GB Viper PL + MSI Ventus PL. Lowest total cost, great 1440p gaming.",
-        "Budget: Ventus + 32GB Kingston": "Budget build with safer HU RAM + KC3000 SSD. Good if you prefer local warranty.",
-        "Mid: Ventus + 64GB Viper (no GPU)": "Mid-range without GPU. 9900X + 64GB Viper PL + KC3000 PL. Buy GPU later.",
-        "Mid: Ventus + 64GB Viper": "Mid-range complete. 9900X + 64GB Viper PL + Ventus PL. Best price/performance.",
-        "Showcase: Trio + 64GB Viper": "Premium mid: X870E Aorus + Trio + Samsung 990 PRO + H9 Flow. Looks as good as it performs.",
-        "Luxury: Gigabyte OC + 64GB Kingston": "Top-end: 9950X + X870E Aorus + Gigabyte Gaming OC + O11 XL. No compromises.",
+        "Best value: Poland + Lian Li": "Best current value route: buy the expensive and easy-to-carry parts from Poland, keep the Lian Li case local in Hungary.",
     }
 
     compare_ids = {
@@ -506,6 +451,9 @@ def _(mo):
             border-bottom: 1px solid #e2e8f0;
             background: #f8fafc;
           }
+          .pc-table th.pc-num {
+            text-align: right;
+          }
           .pc-table td {
             padding: 11px 8px;
             border-bottom: 1px solid #e2e8f0;
@@ -608,7 +556,7 @@ def _(mo):
 def _(builds, mo):
     build_choice = mo.ui.dropdown(
         options=list(builds.keys()),
-        value="Mid: Ventus + 64GB Viper (no GPU)",
+        value="Best value: Poland + Lian Li",
         label="",
         full_width=True,
     )

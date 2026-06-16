@@ -119,65 +119,15 @@ def _(Path, Request, datetime, json, urlopen):
 @app.cell
 def _():
     builds = {
-        "Budget: Ventus + 32GB Viper": {
-            "CPU": "CPU_02_HU",
-            "Main board": "MB_02_HU",
-            "Memory": "RAM_04_PL",
-            "Storage": "SSD_02_HU",
-            "Power supply": "PSU_01_HU",
-            "Cooler": "COOL_03_HU",
-            "Case": "CASE_03_HU",
-            "Graphics card": "GPU_01_PL",
-        },
-        "Budget: Ventus + 32GB Kingston": {
-            "CPU": "CPU_02_HU",
-            "Main board": "MB_02_HU",
-            "Memory": "RAM_04_HU",
-            "Storage": "SSD_01_PL",
-            "Power supply": "PSU_01_HU",
-            "Cooler": "COOL_03_HU",
-            "Case": "CASE_03_HU",
-            "Graphics card": "GPU_01_PL",
-        },
-        "Mid: Ventus + 64GB Viper (no GPU)": {
+        "Best value: Poland + Lian Li": {
             "CPU": "CPU_01_PL",
             "Main board": "MB_01_PL",
             "Memory": "RAM_01_PL",
             "Storage": "SSD_01_PL",
-            "Power supply": "PSU_01_HU",
-            "Cooler": "COOL_02_HU",
-            "Case": "CASE_05_HU",
-            "Graphics card": "GPU_00_NONE",
-        },
-        "Mid: Ventus + 64GB Viper": {
-            "CPU": "CPU_01_PL",
-            "Main board": "MB_01_PL",
-            "Memory": "RAM_01_PL",
-            "Storage": "SSD_01_PL",
-            "Power supply": "PSU_01_HU",
-            "Cooler": "COOL_02_HU",
+            "Power supply": "PSU_03_PL",
+            "Cooler": "COOL_02_PL",
             "Case": "CASE_05_HU",
             "Graphics card": "GPU_01_PL",
-        },
-        "Showcase: Trio + 64GB Viper": {
-            "CPU": "CPU_01_PL",
-            "Main board": "MB_04_HU",
-            "Memory": "RAM_01_PL",
-            "Storage": "SSD_03_HU",
-            "Power supply": "PSU_03_HU",
-            "Cooler": "COOL_01_HU",
-            "Case": "CASE_06_HU",
-            "Graphics card": "GPU_02_PL",
-        },
-        "Luxury: Gigabyte OC + 64GB Kingston": {
-            "CPU": "CPU_03_HU",
-            "Main board": "MB_04_HU",
-            "Memory": "RAM_02_HU",
-            "Storage": "SSD_03_HU",
-            "Power supply": "PSU_03_HU",
-            "Cooler": "COOL_06_HU",
-            "Case": "CASE_11_HU",
-            "Graphics card": "GPU_03_HU",
         },
     }
 
@@ -501,6 +451,9 @@ def _(mo):
             font-weight: 600;
             transition: background-color 800ms ease, color 800ms ease;
           }
+          .pc-table th.pc-num {
+            text-align: right;
+          }
           .pc-head-compact {
             display: inline-block;
             line-height: 1.1;
@@ -813,7 +766,7 @@ def _(mo):
 def _(builds, mo):
     build_choice = mo.ui.dropdown(
         options=list(builds.keys()),
-        value="Mid: Ventus + 64GB Viper (no GPU)",
+        value="Best value: Poland + Lian Li",
         label="",
         full_width=True,
     )
