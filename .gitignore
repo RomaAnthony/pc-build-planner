@@ -1,7 +1,21 @@
-.venv_marimo/
-.config/
-__pycache__/
-*.pyc
+# Keep only what's needed for the public PC builder
+01_Market_Data/
+03_Research_Notes/
+02_PC_Builds/99_Archive_Excel_Attempt/
+02_PC_Builds/BUILD_OPTIONS_CSV_PREP.md
+02_PC_Builds/DAD_PC_BUILD_SUMMARY.md
+README.md
+DEEP_SEARCH_PROMPT.md
+
+# Tooling notes (internal)
+04_Tools/.rate_cache.json
+04_Tools/PC_BUILD_CODE_MAP.md
+04_Tools/PC_BUILD_TOOLING.md
+04_Tools/requirements-marimo.txt
+
+# OS / IDE
 .DS_Store
-00_Hub/
-docs_tmp/
+Thumbs.db
+*.swp
+*.swo
+.obsidian/
