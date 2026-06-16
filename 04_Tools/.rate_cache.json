@@ -1,10 +1,10 @@
 {
   "source": "Monobank public card/payment rates",
-  "checked": "2026-06-16 19:54",
-  "eur_to_huf": 350.04280936454853,
+  "checked": "2026-06-16 20:49",
+  "eur_to_huf": 349.5751503006012,
   "eur_to_uah": 52.3314,
-  "pln_to_uah": 12.3543,
-  "huf_to_uah": 0.1495,
-  "pln_to_huf": 82.63745819397994,
-  "fetched_at": "2026-06-16T19:54:48"
+  "pln_to_uah": 12.3641,
+  "huf_to_uah": 0.1497,
+  "pln_to_huf": 82.59251837007348,
+  "fetched_at": "2026-06-16T20:49:50"
 }
