@@ -42,9 +42,32 @@ Purpose: quick editing notes for the Marimo PC build planner.
 .venv_marimo/bin/marimo export html-wasm 04_Tools/pc_build_marimo_WASM_SAFE.py -o docs/planner.html
 ```
 
+## Current Hosted Sync Rule
+
+The local app and hosted app must stay visually matched. The safe update flow is:
+
+1. Edit `02_PC_Builds/parts_options_seed.csv`.
+2. Mirror the CSV text into `PARTS_CSV_DATA` in `pc_build_marimo_WASM_SAFE.py`.
+3. If layout changes were made in `pc_build_marimo.py`, copy the matching UI/rendering cells into `pc_build_marimo_WASM_SAFE.py`.
+4. Export `docs/planner.html`.
+5. Verify the exported HTML, not only the Python notebook.
+
+GitHub Pages is static. It cannot save a named build back into the repo by itself. A future "Name build and save" button can save in browser storage for that device, but real GitHub persistence would need manual export/commit or a backend/GitHub-auth flow.
+
 ## Last Fix
 
 The hosted page was missing the main builder because `pc_build_marimo_WASM_SAFE.py` had stale embedded data and an invalid default build name. Some build presets referenced case/cooler IDs that existed in the live CSV but not in `PARTS_CSV_DATA`. The app width was also changed from invalid WASM value `wide` to `full`.
+
+The final local/hosted mismatch came from editing the local app while the WASM-safe hosted app still had older UI cells. When the screenshots look different, compare both Python files, not only `docs/planner.html`.
+
+## Lessons Learned
+
+- Do not delete useful comparison columns just to make a table cleaner. The `Delta HUF` and `Delta UAH` columns are part of the buying logic.
+- Numeric cells and numeric headers both need `pc-num`; otherwise the numbers can align correctly while the headers sit in the wrong place.
+- Generated `docs/planner.html` can hold stale text until the WASM-safe notebook is exported again.
+- Avoid many temporary guide files. Keep durable knowledge in this code map, `PC_BUILD_TOOLING.md`, and the main `README.md`.
+- Raw captures can keep exact offer IDs as evidence, but the dashboard store labels should stay clean for reading.
+- Marimo is a good Python/data dashboard for this project. It is not a full app backend, so static GitHub Pages features should stay simple.
 
 ## Future Ideas To Keep Small
 
