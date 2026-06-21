@@ -84,4 +84,4 @@ Notes: warranty/delivery/stock
 
 - Current app has Poland and Hungary only; Ukraine will need either new rows in `parts_options_seed.csv` or a small app update if we want Ukraine baskets/cards displayed separately.
 - Existing source CSV was sorted on 2026-06-21 by Part > Priority > Option > Market.
-- `price_changes_2026-06-21.csv` is the working log for old price vs new price.
+- `price_changes.csv` is the working log for old price vs new price.
