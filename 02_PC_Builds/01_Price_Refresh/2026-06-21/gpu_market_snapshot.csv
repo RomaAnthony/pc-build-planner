@@ -1,0 +1,16 @@
+Check_Date,Country,Product,Price,Currency,UAH_Est,Evidence,Rank_Group,Decision,Notes,Source
+2026-06-21,Ukraine,MSI GeForce RTX 5080 16G VENTUS 3X OC,59250,UAH,59250,Exact_Product,GPU_TOP,Watch,"Best current exact GPU evidence; still capture seller/warranty/payment details",01_Market_Data/2026-06-21/GPU
+2026-06-21,Ukraine,MSI GeForce RTX 5080 16G GAMING TRIO OC,65400,UAH,65400,Exact_Product,GPU_TOP,Watch,"Better cooler/class than Ventus; exact product page with offer rows",01_Market_Data/2026-06-21/GPU
+2026-06-21,Poland,Inno3D GeForce RTX 5080 X3 16GB,5099,PLN,62708,Broad_Search,GPU_TOP,Candidate,"Strong broad Ceneo lead; exact store page needed",01_Market_Data/2026-06-21/GPU
+2026-06-21,Poland,Zotac GeForce RTX 5080 Solid Core OC 16GB,5199,PLN,63938,Broad_Search,GPU_TOP,Candidate,"Good broad Ceneo lead; exact store page needed",01_Market_Data/2026-06-21/GPU
+2026-06-21,Poland,Palit RTX 5080 GamingPro 16GB,5275.47,PLN,64878,Broad_Search,GPU_TOP,Candidate,"Good broad Ceneo lead; exact store page needed",01_Market_Data/2026-06-21/GPU
+2026-06-21,Poland,Gainward RTX 5080 Phoenix 16GB,5299,PLN,65168,Broad_Search,GPU_TOP,Candidate,"Good broad Ceneo lead; exact store page needed",01_Market_Data/2026-06-21/GPU
+2026-06-21,Hungary,Gainward RTX 5080 Phoenix V1 16GB,450690,HUF,66882,Broad_Search,GPU_TOP,Candidate,"Best current Hungary broad lead; exact store page needed",01_Market_Data/2026-06-21/GPU
+2026-06-21,Hungary,Gainward RTX 5080 Phoenix 16GB,458390,HUF,68025,Broad_Search,GPU_TOP,Candidate,"Local broad backup; exact store page needed",01_Market_Data/2026-06-21/GPU
+2026-06-21,Hungary,Palit RTX 5080 GamingPro 16GB,458390,HUF,68025,Broad_Search,GPU_TOP,Candidate,"Local broad backup; exact store page needed",01_Market_Data/2026-06-21/GPU
+2026-06-21,Hungary,Inno3D RTX 5080 X3 OC 16GB,465640,HUF,69101,Broad_Search,GPU_TOP,Candidate,"Matches older app candidate; exact store page still preferred",01_Market_Data/2026-06-21/GPU
+2026-06-21,Hungary,Gigabyte RTX 5080 Windforce OC SFF 16GB,469990,HUF,69747,Broad_Search,GPU_WATCH,Candidate,"Cheap local SFF/basic-cooler row; risk watch",01_Market_Data/2026-06-21/GPU
+2026-06-21,Poland,Gigabyte RTX 5080 Windforce OC SFF 16GB,5475.58,PLN,67339,Broad_Search,GPU_WATCH,Candidate,"Cheap Poland SFF/basic-cooler row; exact store/warranty needed",01_Market_Data/2026-06-21/GPU
+2026-06-21,Poland,MSI RTX 5080 Ventus 3X OC,5599.99,PLN,68869,Broad_Search,GPU_WATCH,Candidate,"Broad Ceneo row higher than old app x-kom lead; exact re-check needed",01_Market_Data/2026-06-21/GPU
+2026-06-21,Hungary,MSI RTX 5080 Ventus 3X OC,498580,HUF,73989,Broad_Search,GPU_WATCH,Candidate,"Broad Arukereso row close to old app Hungary row",01_Market_Data/2026-06-21/GPU
+2026-06-21,Hungary,MSI RTX 5080 Gaming Trio OC,538440,HUF,79825,Broad_Search,GPU_WATCH,Candidate,"Premium MSI row; currently expensive vs Ukraine",01_Market_Data/2026-06-21/GPU

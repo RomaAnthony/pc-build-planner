@@ -1,0 +1,9 @@
+Check_Date,Part,Country,Product,Price,Currency,UAH_Est,Match_Quality,Decision,Notes,Source
+2026-06-21,SSD,Poland,Kingston KC3000 2TB,1119,PLN,13759,Broad,Pick,"Still the price/performance anchor in PL",01_Market_Data/2026-06-21/SSD/2026-06-21_ssd_web_refresh.md
+2026-06-21,SSD,Poland,Samsung 990 PRO 2TB,1499,PLN,18438,Broad,Backup,"Premium option, but sizable premium over KC3000",01_Market_Data/2026-06-21/SSD/2026-06-21_ssd_web_refresh.md
+2026-06-21,SSD,Poland,Kioxia Exceria Plus G4 2TB (PCIe 5),949,PLN,11669,Broad,Watch,"Interesting PCIe 5 anomaly; merits later exact-store validation",02_PC_Builds/01_Price_Refresh/2026-06-21/ssd_market_snapshot.csv
+2026-06-21,SSD,Hungary,Kingston KC3000 2TB,114281,HUF,16959,Exact,Pick,"senetic.hu exact offer now anchors HU price",01_Market_Data/2026-06-21/SSD/2026-06-21_ssd_web_refresh.md
+2026-06-21,SSD,Hungary,Samsung 990 PRO 2TB,119990,HUF,17807,Broad,Backup,"Only a modest premium to KC3000 in HU",02_PC_Builds/01_Price_Refresh/2026-06-21/ssd_market_snapshot.csv
+2026-06-21,SSD,Ukraine,Kingston KC3000 2TB,14044,UAH,14044,Broad,Pick,"Still the most sensible mainstream SSD in UA",01_Market_Data/2026-06-21/SSD/2026-06-21_ssd_web_refresh.md
+2026-06-21,SSD,Ukraine,Samsung 990 PRO 2TB,16689,UAH,16689,Broad,Backup,"Broader premium alternative; visible Hotline sellers now confirmed",01_Market_Data/2026-06-21/SSD/2026-06-21_ssd_web_refresh.md
+2026-06-21,SSD,Ukraine,Kingston FURY Renegade G5 2TB (PCIe 5),NA,UAH,NA,Broad,Verify,"Still missing a clean current price from today",02_PC_Builds/01_Price_Refresh/2026-06-21/ssd_market_snapshot.csv

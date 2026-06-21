@@ -1,0 +1,26 @@
+Check_Date,Capacity_GB,Country,Product,Price,Currency,UAH_Est,Timing,Rank_Group,Decision,Notes,Source
+2026-06-21,64,Hungary,Silicon Power XPower Zenith 64GB 2x32 DDR5-6000 CL30 - Pepita marketplace,225090,HUF,33403,CL30,REVIEWED_HU_EXACT,Verify,"Exact spec but unusually cheap marketplace row; keep as verify, not pick",XPower Zenith 64GB (2x32GB) DDR5 6000MHz SP064GXLWU60AFDG az Arukeresőn.md
+2026-06-21,64,Hungary,Silicon Power XPower Zenith 64GB 2x32 DDR5-6000 CL30 - bluechip,383899,HUF,56971,CL30,REVIEWED_HU_EXACT,Backup,"Same exact SKU, much higher normal-store row; explains why Pepita price is suspicious",XPower Zenith 64GB (2x32GB) DDR5 6000MHz SP064GXLWU60AFDG az Arukeresőn.md
+2026-06-21,64,Hungary,GOODRAM 64GB 2x32 DDR5-6000 CL30,330580,HUF,49058,CL30,REVIEWED_HU_BROAD,Candidate,Cheapest normal broad Hungary 64GB CL30 row after suspicious Silicon Power,Árak és termékek... (1).md
+2026-06-21,64,Hungary,G.Skill Trident Z5 64GB 2x32 DDR5-6000 CL30 TZ5K,362100,HUF,53736,CL30,REVIEWED_HU_BROAD,Candidate,Valid but more expensive than GOODRAM and suspicious Silicon Power,Árak és termékek... (1).md
+2026-06-21,64,Hungary,G.Skill Ripjaws S5 64GB 2x32 DDR5-6000 CL30 RS5K,377650,HUF,56043,CL30,REVIEWED_HU_BROAD,Candidate,Valid but not price-leading,Árak és termékek... (1).md
+2026-06-21,64,Hungary,Kingston FURY Beast 64GB 2x32 DDR5-6000 CL30 White,379340,HUF,56294,CL30,REVIEWED_HU_BROAD,Candidate,Valid safer-brand row; more expensive than Poland/Ukraine leads,Árak és termékek... (2).md
+2026-06-21,64,Hungary,Silicon Power XPower Pulse 64GB 2x32 DDR5-6000,382900,HUF,56822,Unknown CL,REVIEWED_HU_BROAD,Reject/Watch,Not confirmed CL30 in row; not better than exact Zenith verify row,Árak és termékek... (1).md
+2026-06-21,64,Hungary,Patriot Viper Venom 64GB 2x32 DDR5-6000 CL30,392890,HUF,58305,CL30,REVIEWED_HU_BROAD,Candidate,Valid but far above Poland Patriot and Ukraine Patriot,Árak és termékek... (2).md
+2026-06-21,64,Hungary,G.Skill Flare X5 64GB 2x32 DDR5-6000 CL30,395794,HUF,58736,CL30,REVIEWED_HU_BROAD,Candidate,Valid but not price-leading,Árak és termékek... (2).md
+2026-06-21,64,Hungary,G.Skill Ripjaws M5 RGB 64GB 2x32 DDR5-6000 CL30,399990,HUF,59359,CL30,REVIEWED_HU_BROAD,Candidate,Valid but expensive,Árak és termékek... (1).md
+2026-06-21,64,Hungary,Patriot Viper Venom RGB 64GB 2x32 DDR5-6000 CL30,414289,HUF,61480,CL30,REVIEWED_HU_BROAD,Candidate,"Valid but RGB premium, not value leader",Árak és termékek... (1).md
+2026-06-21,64,Hungary,Corsair VENGEANCE 64GB 2x32 DDR5-6000 CL30,491020,HUF,72867,CL30,REVIEWED_HU_BROAD,Reject,Valid but too expensive for value build,Árak és termékek... (1).md
+2026-06-21,64,Hungary,Corsair VENGEANCE RGB 64GB 2x32 DDR5-6000 CL30,523930,HUF,77751,CL30,REVIEWED_HU_BROAD,Reject,Valid but too expensive and RGB premium,Árak és termékek... (2).md
+2026-06-21,32,Hungary,Patriot Viper Venom 32GB 2x16 DDR5-6000 CL30,149590,HUF,22199,CL30,REVIEWED_HU_BROAD,Candidate,Best Hungary 32GB CL30 budget-down row,Árak és termékek... (2).md
+2026-06-21,32,Hungary,Patriot Viper Venom RGB 32GB 2x16 DDR5-6000 CL30,152690,HUF,22659,CL30,REVIEWED_HU_BROAD,Candidate,Valid but RGB premium over non-RGB Patriot,Árak és termékek... (2).md
+2026-06-21,32,Hungary,Kingston FURY Beast 32GB DDR5-6000 CL30,159840,HUF,23720,CL30,REVIEWED_HU_BROAD,Candidate,Good safer-brand Hungary 32GB row,Árak és termékek... (2).md
+2026-06-21,32,Hungary,Kingston FURY Beast 32GB 2x16 DDR5-6000 CL30,167990,HUF,24930,CL30,REVIEWED_HU_BROAD,Candidate,Valid but above Patriot,Árak és termékek... (2).md
+2026-06-21,32,Hungary,ADATA XPG Lancer Blade 32GB DDR5-6000 CL30,174580,HUF,25908,CL30,REVIEWED_HU_BROAD,Candidate,Valid but not leading,Árak és termékek... (2).md
+2026-06-21,32,Hungary,G.Skill Flare X5 32GB 2x16 DDR5-6000 CL30,187000,HUF,27751,CL30,REVIEWED_HU_BROAD,Candidate,Valid but above Patriot/Kingston,Árak és termékek... (2).md
+2026-06-21,32,Hungary,Corsair VENGEANCE 32GB 2x16 DDR5-6000 CL30,213190,HUF,31637,CL30,REVIEWED_HU_BROAD,Reject,Valid but too expensive for 32GB route,Árak és termékek... (2).md
+2026-06-21,32,Hungary,G.Skill Aegis 32GB 2x16 DDR5-6000 CL36,238475,HUF,35390,CL36,REVIEWED_HU_NOISY,Reject,Pepita row is slower CL36 and more expensive than real 32GB CL30 leads,Top 9 és még 1766 PC memória.md
+2026-06-21,64,Hungary,Kingston Fury Beast DDR5 RAM 64GB 2x32 6000MHz,439281,HUF,65189,Unknown CL,REVIEWED_HU_NOISY,Reject/Watch,Pepita row lacks CL30 in title and is expensive vs better exact rows,Top 9 és még 1766 PC memória.md
+2026-06-21,64,Hungary,DDR Zeppelin 64GB 2x32 DDR5-5600,301561,HUF,44752,Not 6000 CL30,REVIEWED_HU_NOISY,Reject,Wrong speed/unknown timing; do not compare to target,Top 9 és még 1766 PC memória.md
+2026-06-21,64,Hungary,Kingston FURY Beast 64GB DDR5-5200 CL40 4x16GB,421580,HUF,62562,CL40 4x16,REVIEWED_HU_NOISY,Reject,Wrong speed/timing and 4-DIMM kit,Top 9 és még 1766 PC memória.md
+2026-06-21,64,Poland,Patriot Viper Venom 64GB 2x32 DDR5-6000 CL30 - RTV EURO AGD exact,3209,PLN,39465,CL30,EXACT_PL_STORE,Candidate,Exact store page with lifetime warranty; current best clean Poland 64GB CL30 row,Pamięć RAM Patriot Viper Venom DDR5 64GB (2 x 32GB) 6000 CL30 Szary - RTV EURO AGD.md

@@ -1,0 +1,30 @@
+Check_Date,Country,Product,Price,Currency,UAH_Est,Evidence,Rank_Group,Decision,Notes,Source
+2026-06-21,Poland,MSI RTX 5080 Shadow 3X OC 16GB,5299,PLN,65168,Broad_Search,REVIEWED_PL_BROAD,Candidate,Cheap Poland row but only 2 shops; exact store/warranty needed,5080 Karty graficzne.md
+2026-06-21,Poland,Palit RTX 5080 GamingPro OC 16GB,5351,PLN,65807,Broad_Search,REVIEWED_PL_BROAD,Candidate,Good broad price; exact store needed,5080 Karty graficzne.md
+2026-06-21,Poland,Inno3D RTX 5080 X3 OC White 16GB,5384,PLN,66213,Broad_Search,REVIEWED_PL_BROAD,Candidate,Valid but above non-OC Inno3D X3,5080 Karty graficzne.md
+2026-06-21,Poland,PNY RTX 5080 Overclocked Triple Fan 16GB,5506.99,PLN,67726,Broad_Search,REVIEWED_PL_BROAD,Candidate,Middle-pack broad row,5080 Karty graficzne.md
+2026-06-21,Poland,ASUS RTX 5080 Prime OC 16GB,5590,PLN,68746,Broad_Search,REVIEWED_PL_BROAD,Candidate,ASUS option but not value leader,5080 Karty graficzne.md
+2026-06-21,Poland,Zotac RTX 5080 Solid Core 16GB non-OC,5599,PLN,68857,Broad_Search,REVIEWED_PL_BROAD,Candidate,Valid but above Solid Core OC captured lead,5080 Karty graficzne.md
+2026-06-21,Poland,PNY RTX 5080 ARGB Epic-X Triple Fan OC 16GB,5637.99,PLN,69337,Broad_Search,REVIEWED_PL_BROAD,Candidate,Not value leader,5080 Karty graficzne.md
+2026-06-21,Poland,MSI RTX 5080 Gaming Trio OC 16GB,5699,PLN,70087,Broad_Search,REVIEWED_PL_BROAD,Candidate,Premium cooler; still more than Ukraine Gaming Trio exact lead,5080 Karty graficzne.md
+2026-06-21,Poland,Gigabyte RTX 5080 Gaming OC 16GB,5657.75,PLN,69580,Broad_Search,REVIEWED_PL_BROAD,Candidate,Existing app row needs re-check; not value leader,5080 Karty graficzne.md
+2026-06-21,Poland,ASUS RTX 5080 TUF OC 16GB,5899,PLN,72546,Broad_Search,REVIEWED_PL_BROAD,Reject/Watch,Good model but premium price vs cheaper value cards,5080 Karty graficzne.md
+2026-06-21,Poland,Inno3D RTX 5080 iCHILL X3 16GB,6295.99,PLN,77429,Broad_Search,REVIEWED_PL_BROAD,Reject,Premium price; not value route,5080 Karty graficzne.md
+2026-06-21,Poland,ASUS RTX 5080 ROG Astral OC 16GB,6798.83,PLN,83613,Broad_Search,REVIEWED_PL_BROAD,Reject,Too expensive for value build,5080 Karty graficzne.md
+2026-06-21,Hungary,Manli RTX 5080 Nebula 16GB,460250,HUF,68301,Broad_Search,REVIEWED_HU_BROAD,Candidate,"Very cheap HU broad row; brand/cooler confidence lower, exact store needed",Árak és termékek... (1).md
+2026-06-21,Hungary,Gigabyte RTX 5080 Windforce SFF 16GB non-OC,465990,HUF,69153,Broad_Search,REVIEWED_HU_BROAD,Candidate,Cheap local Gigabyte row; exact model vs OC row needs care,Árak és termékek... (1).md
+2026-06-21,Hungary,Gainward RTX 5080 Phoenix GS 16GB,473690,HUF,70296,Broad_Search,REVIEWED_HU_BROAD,Candidate,Valid local row but above Phoenix V1,Árak és termékek... (1).md
+2026-06-21,Hungary,ASUS RTX 5080 Prime OC 16GB,487590,HUF,72358,Broad_Search,REVIEWED_HU_BROAD,Candidate,ASUS option but above cheapest HU cards,Árak és termékek.md
+2026-06-21,Hungary,Palit RTX 5080 GamingPro OC 16GB,488100,HUF,72434,Broad_Search,REVIEWED_HU_BROAD,Candidate,OC row; non-OC Palit is cheaper,Árak és termékek... (1).md
+2026-06-21,Hungary,Inno3D RTX 5080 X3 OC White 16GB,488590,HUF,72507,Broad_Search,REVIEWED_HU_BROAD,Candidate,White/premium variant; not value leader,Árak és termékek... (1).md
+2026-06-21,Hungary,MSI RTX 5080 Ventus 3X OC PLUS 16GB,578890,HUF,85907,Broad_Search,REVIEWED_HU_BROAD,Reject,Too expensive vs normal Ventus and other HU cards,Árak és termékek... (1).md
+2026-06-21,Hungary,ASUS RTX 5080 ROG Astral OC 16GB,590815,HUF,87677,Broad_Search,REVIEWED_HU_BROAD,Reject,Too expensive for value build,Árak és termékek.md
+2026-06-21,Hungary,ASUS RTX 5080 Noctua Edition 16GB,654900,HUF,97187,Broad_Search,REVIEWED_HU_BROAD,Reject,Special/noise-focused premium; not value route,Árak és termékek.md
+2026-06-21,Ukraine,MSI RTX 5080 Gaming Trio OC 16GB offer row 2,70796,UAH,70796,Exact_Product,REVIEWED_UA_EXACT,Watch,"12 month warranty; not as good as 65,400 row, but available today",MSI Gaming Trio Hotline.md
+2026-06-21,Ukraine,MSI RTX 5080 Gaming Trio OC 16GB offer row 3,71248,UAH,71248,Exact_Product,REVIEWED_UA_EXACT,Reject/Watch,Only 3 month shop warranty and card-card payment fee; weak despite stock,MSI Gaming Trio Hotline.md
+2026-06-21,Ukraine,MSI RTX 5080 Gaming Trio OC 16GB offer row 4,73485,UAH,73485,Exact_Product,REVIEWED_UA_EXACT,Watch,36 month manufacturer warranty; higher price but cleaner seller terms,MSI Gaming Trio Hotline.md
+2026-06-21,Poland,Inno3D RTX 5080 X3 16GB - Techberg exact,5099,PLN,62708,Exact_Store,EXACT_PL_STORE,Candidate,Best exact Poland row so far; store/warranty/stock still needs final confidence check,Karta graficzna INNO3D GeForce RTX 5080 X3 16 GB GDDR7 DLSS4.md
+2026-06-21,Poland,Zotac RTX 5080 Solid Core OC 16GB - Allegro exact,5199,PLN,63938,Exact_Store,EXACT_PL_STORE,Candidate,Exact Allegro offer; check seller/warranty before pick,Karta graficzna ZOTAC RTX 5080 SOLID Core OC 16 GB GDDR7 DLSS 4.md
+2026-06-21,Poland,Gainward RTX 5080 Phoenix 16GB - x-kom exact,5299,PLN,65168,Exact_Store,EXACT_PL_STORE,Candidate,Exact x-kom offer; stronger store confidence than marketplace rows,Gainward GeForce RTX 5080 Phoenix 16GB GDDR7 DLSS4 - x-kom.md
+2026-06-21,Poland,Palit RTX 5080 GamingPro OC 16GB - Allegro exact,5351,PLN,65807,Exact_Store,EXACT_PL_STORE,Candidate,Exact Allegro offer; check seller/warranty before pick,Karta Palit GeForce RTX 5080 GamingPro OC 16GB GDDR7 256bit DLSS 4.md
+2026-06-21,Ukraine,MSI RTX 5080 Ventus 3X OC 16GB - LuckyLink exact,59250,UAH,59250,Exact_Store,EXACT_UA_STORE,Candidate,Exact store page confirms Hotline price; still capture warranty/payment/delivery if visible,Відеокарта MSI GeForce RTX 5080 16G VENTUS 3X OC - LuckyLink.md

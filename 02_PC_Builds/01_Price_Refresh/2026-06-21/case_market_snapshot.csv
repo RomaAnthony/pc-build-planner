@@ -1,0 +1,3 @@
+Check_Date,Part,Country,Product,Price,Currency,UAH_Est,Rank_Group,Decision,Notes,Source
+2026-06-21,Case,Hungary,NZXT H7 Flow 2024 All Black (CM-H72FB-01),42630,HUF,6327,TOP,watch,"Exact Arukereso product page shows current market lead at 42,630 HUF; strong airflow-oriented candidate",01_Market_Data/2026-06-21/Case/2026-06-21_case_web_refresh.md
+2026-06-21,Case,Hungary,Corsair Frame 4000D RS Wood (CC-9011340-WW),50400,HUF,7483,UPGRADE,watch,"Exact Arukereso product page states current lowest price at 50,400 HUF; premium aesthetic/airflow option",01_Market_Data/2026-06-21/Case/2026-06-21_case_web_refresh.md

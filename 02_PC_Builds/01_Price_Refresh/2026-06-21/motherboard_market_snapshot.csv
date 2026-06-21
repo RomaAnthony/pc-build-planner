@@ -1,0 +1,17 @@
+Check_Date,Board,Country,Product,Price,Currency,UAH_Est,Rank_Group,Decision,Notes,Source
+2026-06-21,B850,Poland,MSI MAG B850 Tomahawk MAX WiFi,918.90,PLN,11301,TOP,Watch,"New Ceneo broad capture shows market floor at 918.90 PLN across 30 stores; exact Amazon row still sits higher",01_Market_Data/2026-06-21/Motherboard/2026-06-21_ceneo_msi_mag_b850_tomahawk_max_wifi_broad.md
+2026-06-21,B850,Poland,MSI MAG B850 Tomahawk WiFi (non-MAX),852.37,PLN,10483,TOP,Backup,"Cheaper non-MAX variant on Ceneo",01_Market_Data/2026-06-21/Motherboard/B850 am5 Płyty główne.md
+2026-06-21,B850,Hungary,MSI MAG B850 Tomahawk MAX WiFi,82065,HUF,12178,TOP,Watch,"New Arukereso broad capture confirms 82,065 HUF floor across 21 offers; keep exact seller row separate",01_Market_Data/2026-06-21/Motherboard/2026-06-21_arukereso_msi_mag_b850_tomahawk_max_wifi_broad.md
+2026-06-21,B850,Hungary,ASUS TUF Gaming B850M-Plus WiFi7,67490,HUF,10015,TOP,Backup,"Cheaper MicroATX alternative with WiFi7",01_Market_Data/2026-06-21/Motherboard
+2026-06-21,B850,Hungary,GIGABYTE B850 AORUS Elite WiFi7,75800,HUF,11248,TOP,Backup,"WiFi7, good VRM, ATX",01_Market_Data/2026-06-21/Motherboard
+2026-06-21,B850,Hungary,MSI MAG B850 Tomahawk WiFi (non-MAX),80860,HUF,11999,TOP,Backup,"Slightly cheaper non-MAX variant AU",01_Market_Data/2026-06-21/Motherboard
+2026-06-21,B850,Hungary,ASRock B850 STEEL LEGEND WiFi,65600,HUF,9735,TOP,Backup,"Budget option, good VRM",01_Market_Data/2026-06-21/Motherboard
+2026-06-21,B850,Poland,ASRock B850 PRO RS AM5,578.11,PLN,7108,TOP,Backup,"Cheapest decent B850 option",01_Market_Data/2026-06-21/Motherboard
+2026-06-21,B850,Poland,Gigabyte B850 AORUS Elite WiFi7,751.30,PLN,9238,TOP,Backup,"WiFi7 board at great PL price",01_Market_Data/2026-06-21/Motherboard
+2026-06-21,B850,Poland,ASUS TUF Gaming B850 Plus WiFi,789.99,PLN,9714,TOP,Backup,"ASUS TUF in Poland",01_Market_Data/2026-06-21/Motherboard
+2026-06-21,B850,Ukraine,MSI MAG B850 Tomahawk MAX WiFi,8553,UAH,8553,TOP,Watch,"New Hotline exact-product capture shows 56 offers and visible seller rows; 8,553 UAH appears as the lowest captured exact offer row",01_Market_Data/2026-06-21/Motherboard/2026-06-21_hotline_msi_mag_b850_tomahawk_max_wifi_exact.md
+2026-06-21,X870,Poland,GIGABYTE X870 GAMING WiFi6,818,PLN,10058,UPGRADE,Backup,"Cheapest X870 entry; WiFi6 not WiFi7",01_Market_Data/2026-06-21/Motherboard
+2026-06-21,X870,Poland,MSI MAG X870E GAMING PLUS MAX WiFi,939,PLN,11545,UPGRADE,Watch,"X870E chipset, good value",01_Market_Data/2026-06-21/Motherboard
+2026-06-21,X870,Hungary,GIGABYTE X870 EAGLE WiFi7,75930,HUF,11269,UPGRADE,Watch,"Legit X870 at B850 prices",01_Market_Data/2026-06-21/Motherboard
+2026-06-21,X870E,Hungary,GIGABYTE X870E AORUS Elite WiFi7,108900,HUF,16163,UPGRADE,Watch,"Full spec X870E, solid",01_Market_Data/2026-06-21/Motherboard
+2026-06-21,X870E,Poland,MSI PRO X870E-P WiFi,986,PLN,12126,UPGRADE,Backup,"Entry-level X870E board",01_Market_Data/2026-06-21/Motherboard

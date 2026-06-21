@@ -119,7 +119,47 @@ def _(Path, Request, datetime, json, urlopen):
 @app.cell
 def _():
     builds = {
-        "Best value: Poland + Lian Li": {
+        "HU-core (5080)": {
+            "CPU": "CPU_01_HU",
+            "Main board": "MB_01_HU",
+            "Memory": "RAM_01_HU",
+            "Storage": "SSD_01_HU",
+            "Power supply": "PSU_01_HU",
+            "Cooler": "COOL_02_HU",
+            "Case": "CASE_12_HU",
+            "Graphics card": "GPU_01_UA",
+        },
+        "PL-core (5080)": {
+            "CPU": "CPU_01_PL",
+            "Main board": "MB_01_PL",
+            "Memory": "RAM_01_PL",
+            "Storage": "SSD_01_PL",
+            "Power supply": "PSU_01_PL",
+            "Cooler": "COOL_02_PL",
+            "Case": "CASE_12_HU",
+            "Graphics card": "GPU_01_UA",
+        },
+        "Lowest UA+PL+HU (5080)": {
+            "CPU": "CPU_01_UA",
+            "Main board": "MB_05_PL",
+            "Memory": "RAM_01_PL",
+            "Storage": "SSD_04_PL",
+            "Power supply": "PSU_01_PL",
+            "Cooler": "COOL_04_PL",
+            "Case": "CASE_02_HU",
+            "Graphics card": "GPU_01_UA",
+        },
+        "5070 Ti value mix": {
+            "CPU": "CPU_01_UA",
+            "Main board": "MB_01_PL",
+            "Memory": "RAM_01_PL",
+            "Storage": "SSD_01_PL",
+            "Power supply": "PSU_01_PL",
+            "Cooler": "COOL_02_PL",
+            "Case": "CASE_12_HU",
+            "Graphics card": "GPU_22_PL",
+        },
+        "All PL (5080)": {
             "CPU": "CPU_01_PL",
             "Main board": "MB_01_PL",
             "Memory": "RAM_01_PL",
@@ -133,28 +173,51 @@ def _():
 
     compare_ids = {
         "CPU_01_PL": "CPU_01_HU",
+        "CPU_01_UA": "CPU_01_HU",
         "CPU_02_PL": "CPU_02_HU",
         "CPU_03_PL": "CPU_03_HU",
         "MB_01_PL": "MB_01_HU",
+        "MB_01_UA": "MB_01_HU",
         "MB_02_PL": "MB_02_HU",
         "MB_04_PL": "MB_04_HU",
         "RAM_01_PL": "RAM_01_HU",
+        "RAM_01_UA": "RAM_01_HU",
         "RAM_02_PL": "RAM_02_HU",
         "RAM_03_PL": "RAM_03_HU",
         "RAM_04_PL": "RAM_04_HU",
+        "RAM_04_UA": "RAM_04_HU",
         "SSD_01_PL": "SSD_01_HU",
+        "SSD_01_UA": "SSD_01_HU",
         "SSD_02_PL": "SSD_02_HU",
+        "SSD_03_UA": "SSD_03_HU",
         "COOL_02_PL": "COOL_02_HU",
         "COOL_03_PL": "COOL_03_HU",
+        "COOL_03_UA": "COOL_03_HU",
         "COOL_04_PL": "COOL_04_HU",
+        "COOL_04_UA": "COOL_04_HU",
         "COOL_06_PL": "COOL_06_HU",
+        "COOL_06_UA": "COOL_06_HU",
+        "PSU_01_PL": "PSU_01_HU",
+        "PSU_01_UA": "PSU_01_HU",
         "PSU_02_PL": "PSU_02_HU",
+        "PSU_02_UA": "PSU_02_HU",
         "PSU_03_PL": "PSU_03_HU",
+        "PSU_03_UA": "PSU_03_HU",
         "GPU_01_PL": "GPU_01_HU",
+        "GPU_01_UA": "GPU_01_HU",
         "GPU_02_PL": "GPU_02_HU",
         "GPU_03_PL": "GPU_03_HU",
         "GPU_04_PL": "GPU_04_HU",
         "GPU_05_PL": "GPU_05_HU",
+        "GPU_16_HU": "GPU_17_HU",
+        "GPU_17_HU": "GPU_19_HU",
+        "GPU_18_HU": "GPU_19_HU",
+        "GPU_22_PL": "GPU_17_HU",
+        "GPU_23_PL": "GPU_17_HU",
+        "GPU_24_PL": "GPU_17_HU",
+        "GPU_26_PL": "GPU_18_HU",
+        "GPU_30_UA": "GPU_17_HU",
+        "GPU_31_UA": "GPU_17_HU",
     }
     return builds, compare_ids
 
@@ -178,6 +241,8 @@ def _(eu_lowest, html, parts, pd, rates):
         price = float(price)
         if currency == "HUF":
             return price
+        if currency == "UAH":
+            return price / rates["huf_to_uah"]
         if currency == "PLN":
             return price * rates["pln_to_huf"]
         if currency == "EUR":
@@ -233,6 +298,7 @@ def _(eu_lowest, html, parts, pd, rates):
                     "UAH": int(round(uah)),
                     "Saving": int(round(saving)),
                     "Saving_UAH": int(round(saving_uah)),
+                    "URL": str(item.get("URL", "")),
                 }
             )
         return pd.DataFrame(rows)
@@ -404,6 +470,26 @@ def _(mo):
             gap: 12px;
             margin-top: 8px;
           }
+          .pc-pill {
+            display: inline-block;
+            padding: 4px 9px;
+            border-radius: 999px;
+            font-size: 11px;
+            font-weight: 700;
+            line-height: 1;
+          }
+          .pc-pol {
+            background: #e8f0ff;
+            color: #1d4ed8;
+          }
+          .pc-hu {
+            background: #eafaf0;
+            color: #047857;
+          }
+          .pc-ua {
+            background: #fff4e5;
+            color: #b45309;
+          }
           .pc-card {
             border: 1px solid #e2e8f0;
             border-radius: 12px;
@@ -506,6 +592,15 @@ def _(mo):
           .pc-col-store {
             width: 14%;
           }
+          .pc-col-store a {
+            color: inherit;
+            text-decoration: underline;
+            text-decoration-style: dotted;
+          }
+          .pc-col-store a:hover {
+            color: #2563eb;
+            text-decoration-style: solid;
+          }
           .pc-col-store-price {
             width: 10%;
           }
@@ -589,7 +684,7 @@ def _(mo):
           }
           .pc-basket-grid {
             display: grid;
-            grid-template-columns: repeat(2, 1fr);
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
             gap: 16px;
             margin-top: 14px;
           }
@@ -764,7 +859,7 @@ def _(mo):
         <div class="pc-wrap">
           <div class="pc-title">PC Build Planner</div>
           <div class="pc-subtitle">
-            Choose one build, then adjust any part if needed. Totals, live FX, and estimated saving update below.
+            Ukraine-first planner for a buyer paying in UAH. Poland and Hungary stay visible as comparison or source baskets.
           </div>
         </div>
         """
@@ -776,7 +871,7 @@ def _(mo):
 def _(builds, mo):
     build_choice = mo.ui.dropdown(
         options=list(builds.keys()),
-        value="Best value: Poland + Lian Li",
+        value="HU-core (5080)",
         label="",
         full_width=True,
     )
@@ -787,7 +882,7 @@ def _(builds, mo):
                 <div class="pc-wrap pc-select-block" style="margin-top: 0; margin-bottom: 8px;">
                   <div class="pc-control-shell">
                     <div class="pc-section-title">Build selection</div>
-                    <div class="pc-section-subtitle">Start from a prepared build, then fine-tune parts below.</div>
+                    <div class="pc-section-subtitle">Start with HU-core build, then swap any part, then swap any source or part below.</div>
                 """
             ),
             build_choice,
@@ -814,71 +909,129 @@ def _(mo):
 
 @app.cell
 def _(build_choice, builds, mo, parts):
-    def options_for(part):
-        _data = parts[parts["Part"].eq(part)].copy()
-        _data = _data.sort_values(["Priority", "Market", "Store"])
+    market_order = ["Ukraine", "Poland", "Hungary", "No GPU"]
+
+    def market_for(item_id):
+        match = parts[parts["ID"].eq(item_id)]
+        if match.empty:
+            return "Ukraine"
+        return str(match.iloc[0]["Market"])
+
+    def markets_for(part):
+        available = set(parts.loc[parts["Part"].eq(part), "Market"].astype(str))
+        return [market for market in market_order if market in available]
+
+    _base_parts = builds[build_choice.value]
+
+    cpu_country = mo.ui.dropdown(
+        options=markets_for("CPU"),
+        value=market_for(_base_parts["CPU"]),
+        full_width=True,
+    )
+    board_country = mo.ui.dropdown(
+        options=markets_for("Motherboard"),
+        value=market_for(_base_parts["Main board"]),
+        full_width=True,
+    )
+    memory_country = mo.ui.dropdown(
+        options=markets_for("RAM"),
+        value=market_for(_base_parts["Memory"]),
+        full_width=True,
+    )
+    storage_country = mo.ui.dropdown(
+        options=markets_for("SSD"),
+        value=market_for(_base_parts["Storage"]),
+        full_width=True,
+    )
+    psu_country = mo.ui.dropdown(
+        options=markets_for("PSU"),
+        value=market_for(_base_parts["Power supply"]),
+        full_width=True,
+    )
+    cooler_country = mo.ui.dropdown(
+        options=markets_for("Cooler"),
+        value=market_for(_base_parts["Cooler"]),
+        full_width=True,
+    )
+    case_country = mo.ui.dropdown(
+        options=markets_for("Case"),
+        value=market_for(_base_parts["Case"]),
+        full_width=True,
+    )
+    gpu_country = mo.ui.dropdown(
+        options=markets_for("GPU"),
+        value=market_for(_base_parts["Graphics card"]),
+        full_width=True,
+    )
+    return (
+        board_country,
+        case_country,
+        cooler_country,
+        cpu_country,
+        gpu_country,
+        memory_country,
+        psu_country,
+        storage_country,
+    )
+
+
+@app.cell
+def _(
+    board_country,
+    build_choice,
+    builds,
+    case_country,
+    cooler_country,
+    cpu_country,
+    gpu_country,
+    memory_country,
+    mo,
+    parts,
+    psu_country,
+    storage_country,
+):
+    def options_for(part, market):
+        _data = parts[parts["Part"].eq(part) & parts["Market"].eq(market)].copy()
+        _data = _data.sort_values(["Priority", "Store"])
         return {
-            f'{row["Option"]} | {row["Market"]} | {row["Store"]}': row["ID"]
+            f'{row["Option"]} | {row["Store"]} | {row["Price"]:,.0f} {row["Currency"]}': row["ID"]
             for _, row in _data.iterrows()
         }
 
-    def label_for(options, item_id):
+    def label_for(options, preferred_id):
         for _label, _value in options.items():
-            if _value == item_id:
+            if _value == preferred_id:
                 return _label
         return next(iter(options))
 
-    base_parts = builds[build_choice.value]
+    def picker(part, preferred_id, country):
+        options = options_for(part, country.value)
+        return mo.ui.dropdown(
+            options=options,
+            value=label_for(options, preferred_id),
+            full_width=True,
+        )
 
-    cpu_options = options_for("CPU")
-    board_options = options_for("Motherboard")
-    memory_options = options_for("RAM")
-    storage_options = options_for("SSD")
-    psu_options = options_for("PSU")
-    cooler_options = options_for("Cooler")
-    case_options = options_for("Case")
-    gpu_options = options_for("GPU")
+    _base_parts = builds[build_choice.value]
 
-    cpu_choice = mo.ui.dropdown(
-        options=cpu_options,
-        value=label_for(cpu_options, base_parts["CPU"]),
-        full_width=True,
-    )
-    board_choice = mo.ui.dropdown(
-        options=board_options,
-        value=label_for(board_options, base_parts["Main board"]),
-        full_width=True,
-    )
-    memory_choice = mo.ui.dropdown(
-        options=memory_options,
-        value=label_for(memory_options, base_parts["Memory"]),
-        full_width=True,
-    )
-    storage_choice = mo.ui.dropdown(
-        options=storage_options,
-        value=label_for(storage_options, base_parts["Storage"]),
-        full_width=True,
-    )
-    psu_choice = mo.ui.dropdown(
-        options=psu_options,
-        value=label_for(psu_options, base_parts["Power supply"]),
-        full_width=True,
-    )
-    cooler_choice = mo.ui.dropdown(
-        options=cooler_options,
-        value=label_for(cooler_options, base_parts["Cooler"]),
-        full_width=True,
-    )
-    case_choice = mo.ui.dropdown(
-        options=case_options,
-        value=label_for(case_options, base_parts["Case"]),
-        full_width=True,
-    )
-    gpu_choice = mo.ui.dropdown(
-        options=gpu_options,
-        value=label_for(gpu_options, base_parts["Graphics card"]),
-        full_width=True,
-    )
+    cpu_choice = picker("CPU", _base_parts["CPU"], cpu_country)
+    board_choice = picker("Motherboard", _base_parts["Main board"], board_country)
+    memory_choice = picker("RAM", _base_parts["Memory"], memory_country)
+    storage_choice = picker("SSD", _base_parts["Storage"], storage_country)
+    psu_choice = picker("PSU", _base_parts["Power supply"], psu_country)
+    cooler_choice = picker("Cooler", _base_parts["Cooler"], cooler_country)
+    case_choice = picker("Case", _base_parts["Case"], case_country)
+    gpu_choice = picker("GPU", _base_parts["Graphics card"], gpu_country)
+
+    def part_row(label, country_picker, part_picker):
+        return mo.hstack(
+            [
+                mo.Html(f'<div class="pc-build-label">{label}</div>'),
+                country_picker,
+                part_picker,
+            ],
+            justify="start",
+        )
 
     parts_ui = mo.vstack(
         [
@@ -887,17 +1040,22 @@ def _(build_choice, builds, mo, parts):
                 <div class="pc-wrap pc-section" style="margin-top: 0;">
                   <div class="pc-control-shell pc-parts-shell" style="padding-top: 12px; padding-bottom: 12px;">
                     <div class="pc-section-title">Change Parts</div>
-                    <div class="pc-section-subtitle" style="margin-bottom: 10px;">Optional: change any part and the numbers below update.</div>
+                    <div class="pc-section-subtitle" style="margin-bottom: 10px;">First choose country, then choose the specific part available in that country.</div>
+                    <div class="pc-build-grid" style="grid-template-columns: 140px 160px minmax(0, 1fr); margin-bottom: 4px;">
+                      <div></div>
+                      <div class="pc-label">Change country</div>
+                      <div class="pc-label">Part option</div>
+                    </div>
                 """
             ),
-            mo.hstack([mo.Html('<div class="pc-build-label">CPU</div>'), cpu_choice], justify="start"),
-            mo.hstack([mo.Html('<div class="pc-build-label">Main board</div>'), board_choice], justify="start"),
-            mo.hstack([mo.Html('<div class="pc-build-label">Memory</div>'), memory_choice], justify="start"),
-            mo.hstack([mo.Html('<div class="pc-build-label">Storage</div>'), storage_choice], justify="start"),
-            mo.hstack([mo.Html('<div class="pc-build-label">Power supply</div>'), psu_choice], justify="start"),
-            mo.hstack([mo.Html('<div class="pc-build-label">Cooler</div>'), cooler_choice], justify="start"),
-            mo.hstack([mo.Html('<div class="pc-build-label">Case</div>'), case_choice], justify="start"),
-            mo.hstack([mo.Html('<div class="pc-build-label">Graphics card</div>'), gpu_choice], justify="start"),
+            part_row("CPU", cpu_country, cpu_choice),
+            part_row("Main board", board_country, board_choice),
+            part_row("Memory", memory_country, memory_choice),
+            part_row("Storage", storage_country, storage_choice),
+            part_row("Power supply", psu_country, psu_choice),
+            part_row("Cooler", cooler_country, cooler_choice),
+            part_row("Case", case_country, case_choice),
+            part_row("Graphics card", gpu_country, gpu_choice),
             mo.Html(
                 """
                   </div>
@@ -987,8 +1145,16 @@ def _(
     total_uah = int(selected_table["UAH"].sum())
     total_saving = int(selected_table["Saving"].sum())
     total_saving_uah = int(selected_table["Saving_UAH"].sum())
-    pay_poland = int(selected_table.loc[selected_table["Market"].eq("Poland"), "HUF"].sum())
-    pay_hungary = int(selected_table.loc[selected_table["Market"].eq("Hungary"), "HUF"].sum())
+    market_totals_huf = {
+        market: int(selected_table.loc[selected_table["Market"].eq(market), "HUF"].sum())
+        for market in selected_table["Market"].unique()
+        if market != "No GPU"
+    }
+    market_totals_uah = {
+        market: int(selected_table.loc[selected_table["Market"].eq(market), "UAH"].sum())
+        for market in selected_table["Market"].unique()
+        if market != "No GPU"
+    }
     total_eur = int(round(total_huf / rates["eur_to_huf"]))
 
     summary_values = {
@@ -997,11 +1163,13 @@ def _(
         "summary-total:huf": total_huf,
         "summary-total:uah": total_uah,
         "summary-total:eur": total_eur,
-        "summary-poland:huf": pay_poland,
-        "summary-hungary:huf": pay_hungary,
         "summary-saving:huf": total_saving,
         "summary-saving:uah": total_saving_uah,
     }
+    for _market, value in market_totals_huf.items():
+        summary_values[f"summary-market:{_market}:huf"] = value
+    for _market, value in market_totals_uah.items():
+        summary_values[f"summary-market:{_market}:uah"] = value
 
     for key, now_value in summary_values.items():
         prev_value = previous_values.get(key)
@@ -1066,10 +1234,16 @@ def _(cell_deltas, cell_diffs, esc, mo, number_text, revision, row_diffs, select
     body_rows = []
     _total_uah = int(selected_table["UAH"].sum())
     _total_huf = int(selected_table["HUF"].sum())
+    def _market_class(market):
+        if market == "Poland":
+            return "pc-pol"
+        if market == "Hungary":
+            return "pc-hu"
+        if market == "Ukraine":
+            return "pc-ua"
+        return ""
     for _, _row in selected_table.iterrows():
-        market_class = "pc-pol" if _row["Market"] == "Poland" else "pc-hu"
-        if _row["Market"] == "No GPU":
-            market_class = ""
+        market_class = _market_class(_row["Market"])
         row_key = str(_row["Part"])
         body_rows.append(
             f"""
@@ -1077,12 +1251,12 @@ def _(cell_deltas, cell_diffs, esc, mo, number_text, revision, row_diffs, select
               <td>{esc(_row["Part"])}</td>
               <td>{esc(_row["Model"])}</td>
               <td><span class="pc-pill {market_class}">{esc(_row["Market"])}</span></td>
-              <td>{esc(_row["Store"])}</td>
+              <td><a href="{esc(_row["URL"])}" target="_blank" rel="noopener">{esc(_row["Store"])}</a></td>
               <td class="pc-num pc-col-price">{esc(_row["Price"])}</td>
-              <td class="pc-num pc-col-huf {_diff_class_table(f"{row_key}:huf")}">{number_text(_row["HUF"])} HUF</td>
-              <td class="pc-num pc-delta {_delta_class(f"{row_key}:huf")}">{_delta_text(f"{row_key}:huf")}</td>
               <td class="pc-num pc-col-uah {_diff_class_table(f"{row_key}:uah")}">{number_text(_row["UAH"])} UAH</td>
               <td class="pc-num pc-delta {_delta_class(f"{row_key}:uah")}">{_delta_text(f"{row_key}:uah")}</td>
+              <td class="pc-num pc-col-huf {_diff_class_table(f"{row_key}:huf")}">{number_text(_row["HUF"])} HUF</td>
+              <td class="pc-num pc-delta {_delta_class(f"{row_key}:huf")}">{_delta_text(f"{row_key}:huf")}</td>
             </tr>
             """
         )
@@ -1100,9 +1274,9 @@ def _(cell_deltas, cell_diffs, esc, mo, number_text, revision, row_diffs, select
               <col class="pc-col-market">
               <col class="pc-col-store">
               <col class="pc-col-store-price">
-              <col class="pc-col-huf-est">
-              <col class="pc-col-delta">
               <col class="pc-col-uah-est">
+              <col class="pc-col-delta">
+              <col class="pc-col-huf-est">
               <col class="pc-col-delta">
             </colgroup>
             <thead>
@@ -1112,19 +1286,19 @@ def _(cell_deltas, cell_diffs, esc, mo, number_text, revision, row_diffs, select
                 <th>Buy from</th>
                 <th>Store</th>
                 <th class="pc-num pc-col-head-price">Store price</th>
-                <th class="pc-num pc-col-head-huf"><span class="pc-head-compact">HUF<br>est.</span></th>
-                <th class="pc-num pc-th-delta"><span class="pc-head-compact">Δ<br>HUF</span></th>
                 <th class="pc-num pc-col-head-uah"><span class="pc-head-compact">UAH<br>est.</span></th>
                 <th class="pc-num pc-th-delta"><span class="pc-head-compact">Δ<br>UAH</span></th>
+                <th class="pc-num pc-col-head-huf"><span class="pc-head-compact">HUF<br>comp.</span></th>
+                <th class="pc-num pc-th-delta"><span class="pc-head-compact">Δ<br>HUF</span></th>
               </tr>
             </thead>
             <tbody>{''.join(body_rows)}</tbody>
             <tfoot>
               <tr>
                 <td colspan="5" class="pc-col-total">Total estimate</td>
-                <td class="pc-num pc-col-huf pc-col-total {_diff_class_table("build-total:huf")}">{number_text(_total_huf)} HUF</td>
-                <td class="pc-num pc-delta"></td>
                 <td class="pc-num pc-col-uah pc-col-total {_diff_class_table("build-total:uah")}">{number_text(_total_uah)} UAH</td>
+                <td class="pc-num pc-delta"></td>
+                <td class="pc-num pc-col-huf pc-col-total {_diff_class_table("build-total:huf")}">{number_text(_total_huf)} HUF</td>
                 <td class="pc-num pc-delta"></td>
               </tr>
             </tfoot>
@@ -1169,10 +1343,14 @@ def _(cell_diffs, huf_text, mo, number_text, rates, revision, selected_table):
     _total_eur = int(round(_total_uah / rates["eur_to_uah"]))
     _total_saving = int(selected_table["Saving"].sum())
     _total_saving_uah = int(selected_table["Saving_UAH"].sum())
-    _pay_poland = int(selected_table.loc[selected_table["Market"].eq("Poland"), "UAH"].sum())
-    _pay_hungary = int(selected_table.loc[selected_table["Market"].eq("Hungary"), "UAH"].sum())
-    _pay_poland_huf = int(selected_table.loc[selected_table["Market"].eq("Poland"), "HUF"].sum())
-    _pay_hungary_huf = int(selected_table.loc[selected_table["Market"].eq("Hungary"), "HUF"].sum())
+    _active_markets = [m for m in selected_table["Market"].unique() if m != "No GPU"]
+    _market_lines = []
+    for _market in _active_markets:
+        _pay_market_uah = int(selected_table.loc[selected_table["Market"].eq(_market), "UAH"].sum())
+        _pay_market_huf = int(selected_table.loc[selected_table["Market"].eq(_market), "HUF"].sum())
+        _market_lines.append(
+            f'<div class="pc-muted {_diff_class_summary(f"summary-market:{_market}:huf")}">{_market}: {number_text(_pay_market_uah)} UAH spend view / {huf_text(_pay_market_huf)} comparison</div>'
+        )
 
     mo.Html(
         f"""
@@ -1183,10 +1361,9 @@ def _(cell_diffs, huf_text, mo, number_text, rates, revision, selected_table):
               <div class="pc-value {_diff_class_summary("summary-total:uah")}">{number_text(_total_uah)} UAH</div>
               <div class="pc-muted pc-col-huf {_diff_class_summary("summary-total:huf")}">{huf_text(_total_huf)} / {number_text(_total_eur)} EUR</div>
             </div>
-            <div class="pc-card {_flash_class(_card_state('summary-poland:huf', 'summary-hungary:huf'), 'pc-card-flash')}">
+            <div class="pc-card {_flash_class(_card_state(*[f"summary-market:{m}:huf" for m in _active_markets]), 'pc-card-flash')}">
               <div class="pc-label">Where money goes</div>
-              <div class="pc-muted {_diff_class_summary("summary-poland:huf")}">Paid to Poland stores: {number_text(_pay_poland)} UAH / {huf_text(_pay_poland_huf)}</div>
-              <div class="pc-muted {_diff_class_summary("summary-hungary:huf")}">Paid to Hungary stores: {number_text(_pay_hungary)} UAH / {huf_text(_pay_hungary_huf)}</div>
+              {''.join(_market_lines)}
             </div>
             <div class="pc-card {_flash_class(_card_state('summary-saving:huf', 'summary-saving:uah'), 'pc-card-flash')}">
               <div class="pc-label">Estimated saving</div>
@@ -1196,12 +1373,12 @@ def _(cell_diffs, huf_text, mo, number_text, rates, revision, selected_table):
             </div>
           </div>
           <div class="pc-note" style="margin-top: 14px;">
-            Monobank rates used. 1 PLN = {rates["pln_to_uah"]:.4f} UAH, 100 HUF = {(rates["huf_to_uah"] * 100):.2f} UAH, so 1 PLN = {rates["pln_to_huf"]:.2f} HUF. Checked: {rates["checked"]}.
+            UAH-first Monobank rates used. 1 PLN = {rates["pln_to_uah"]:.4f} UAH, 100 HUF = {(rates["huf_to_uah"] * 100):.2f} UAH. HUF comparison only: 1 PLN = {rates["pln_to_huf"]:.2f} HUF. Checked: {rates["checked"]}.
           </div>
         </div>
         """
     )
-    return _pay_hungary, _pay_poland, _total_huf, _total_saving
+    return _total_huf, _total_saving
 
 
 @app.cell
@@ -1214,66 +1391,57 @@ def _(esc, mo, number_text, selected_table):
                 <tr>
                   <td>{esc(row["Part"])}</td>
                   <td>{esc(row["Model"])}</td>
-                  <td class="pc-num">{esc(row["Price"])}</td>
                   <td class="pc-num">{number_text(row["UAH"])} UAH</td>
+                  <td class="pc-num">{esc(row["Price"])}</td>
                 </tr>
                 """
             )
         return "".join(rows)
-
-    poland_df = selected_table[selected_table["Market"].eq("Poland")].copy()
-    hungary_df = selected_table[selected_table["Market"].eq("Hungary")].copy()
-
-    poland_pln_total = poland_df.loc[poland_df["Currency"].eq("PLN"), "RawPrice"].sum()
-    hungary_huf_total = hungary_df.loc[hungary_df["Currency"].eq("HUF"), "RawPrice"].sum()
-    poland_uah_total = int(poland_df["UAH"].sum())
-    hungary_uah_total = int(hungary_df["UAH"].sum())
+    subtitle_map = {
+        "Poland": "Comparison and cross-border source basket; PLN is converted into the main UAH spend view.",
+        "Hungary": "Secondary source basket for bulky/local items; HUF is shown mainly as comparison.",
+        "Ukraine": "Primary buyer view: UAH prices paid directly, with HUF kept secondary.",
+    }
+    basket_cards = []
+    for _market in [m for m in selected_table["Market"].unique() if m != "No GPU"]:
+        market_df = selected_table[selected_table["Market"].eq(_market)].copy()
+        if market_df.empty:
+            continue
+        market_currency = str(market_df["Currency"].iloc[0]).upper()
+        raw_total = market_df["RawPrice"].sum()
+        uah_total = int(market_df["UAH"].sum())
+        basket_cards.append(
+            f"""
+              <div class="pc-basket-card">
+                <div class="pc-basket-title">{esc(_market)} basket</div>
+                <div class="pc-basket-subtitle">{esc(subtitle_map.get(_market, "Market-specific basket for the selected parts."))}</div>
+                <table class="pc-table">
+                  <thead>
+                    <tr>
+                      <th>Part</th>
+                      <th>Selected model</th>
+                      <th class="pc-num">UAH spend</th>
+                      <th class="pc-num">Store price</th>
+                    </tr>
+                  </thead>
+                  <tbody>{_basket_rows(market_df)}</tbody>
+                </table>
+                <div class="pc-basket-total">
+                  <span>Subtotal</span>
+                  <span>{number_text(uah_total)} UAH / {number_text(raw_total)} {market_currency}</span>
+                </div>
+              </div>
+            """
+        )
 
     mo.Html(
         f"""
         <div class="pc-wrap pc-section">
           <div class="pc-panel">
             <div class="pc-section-title">Purchase baskets</div>
-            <div class="pc-section-subtitle">Parts automatically move between Poland and Hungary based on the selected store.</div>
+            <div class="pc-section-subtitle">Ukraine is the main spend view; Poland and Hungary are source baskets for comparison or practical buying.</div>
             <div class="pc-basket-grid">
-              <div class="pc-basket-card">
-                <div class="pc-basket-title">Poland basket</div>
-                <div class="pc-basket-subtitle">Paid in store currency, then converted to UAH for your real spend view.</div>
-                <table class="pc-table">
-                  <thead>
-                    <tr>
-                      <th>Part</th>
-                      <th>Selected model</th>
-                      <th class="pc-num">Store price</th>
-                      <th class="pc-num">UAH</th>
-                    </tr>
-                  </thead>
-                  <tbody>{_basket_rows(poland_df)}</tbody>
-                </table>
-                <div class="pc-basket-total">
-                  <span>Subtotal</span>
-                  <span>{number_text(poland_pln_total)} PLN / {number_text(poland_uah_total)} UAH</span>
-                </div>
-              </div>
-              <div class="pc-basket-card">
-                <div class="pc-basket-title">Hungary basket</div>
-                <div class="pc-basket-subtitle">Local-market items stay in HUF and are also shown in UAH for direct comparison.</div>
-                <table class="pc-table">
-                  <thead>
-                    <tr>
-                      <th>Part</th>
-                      <th>Selected model</th>
-                      <th class="pc-num">Store price</th>
-                      <th class="pc-num">UAH</th>
-                    </tr>
-                  </thead>
-                  <tbody>{_basket_rows(hungary_df)}</tbody>
-                </table>
-                <div class="pc-basket-total">
-                  <span>Subtotal</span>
-                  <span>{number_text(hungary_huf_total)} HUF / {number_text(hungary_uah_total)} UAH</span>
-                </div>
-              </div>
+              {''.join(basket_cards)}
             </div>
           </div>
         </div>
@@ -1287,12 +1455,12 @@ def _(mo, rates):
     huf_per_pln = rates["pln_to_huf"]
     uah_per_pln = rates["pln_to_uah"]
     uah_per_100_huf = rates["huf_to_uah"] * 100
-    if huf_per_pln < 82:
-        fx_takeaway = "Lower PLN/HUF helps Poland. Your Polish basket converts into fewer HUF, so savings vs Hungary rise."
-    elif huf_per_pln > 83:
-        fx_takeaway = "Higher PLN/HUF hurts Poland. Your Polish basket converts into more HUF, so savings vs Hungary fall."
+    if uah_per_pln < 12:
+        fx_takeaway = "A lower PLN->UAH rate makes Polish source baskets cheaper for a Ukraine-based buyer."
+    elif uah_per_pln > 13:
+        fx_takeaway = "A higher PLN->UAH rate makes Polish source baskets less attractive against Ukraine and Hungary."
     else:
-        fx_takeaway = "Poland is still cheaper at this rate, but small PLN/HUF moves can still swing the saving by a few thousand HUF."
+        fx_takeaway = "PLN->UAH is in the normal watch zone; check the UAH total before treating a Polish lead as better."
 
     mo.Html(
         f"""
@@ -1300,7 +1468,7 @@ def _(mo, rates):
           <div class="pc-panel">
           <h2>FX logic</h2>
           <div class="pc-muted">
-            Monobank-only view: UAH is the real payment currency first, and HUF is the comparison view for Poland vs Hungary.
+            Monobank-only view: UAH is the real payment currency first. HUF is kept for Hungarian source comparison, not as the main planner currency.
           </div>
           <table class="pc-table" style="margin-top: 12px;">
             <thead>
@@ -1322,9 +1490,9 @@ def _(mo, rates):
                 <td>This is the Ukrainian-card feel of Hungarian local prices.</td>
               </tr>
               <tr>
-                <td>1 PLN compared with Hungary</td>
+                <td>1 PLN in HUF comparison</td>
                 <td class="pc-num">{huf_per_pln:.2f} HUF</td>
-                <td>This is derived from Monobank only: PLN→UAH divided by HUF→UAH.</td>
+                <td>Secondary comparison only: PLN->UAH divided by HUF->UAH.</td>
               </tr>
             </tbody>
           </table>
@@ -1342,16 +1510,16 @@ def _(mo, rates):
 def _(esc, huf_text, mo, number_text, selected_eu_table):
     rows = []
     for _, _row in selected_eu_table.iterrows():
-        if _row["Difference_HUF"] is None or str(_row["Difference_HUF"]) == "nan":
+        if _row["Difference_UAH"] is None or str(_row["Difference_UAH"]) == "nan":
             diff_text = "-"
             eu_huf_text = "-"
             eu_uah_text = "-"
         else:
-            diff_value = int(_row["Difference_HUF"])
+            diff_value = int(_row["Difference_UAH"])
             diff_text = (
-                f"+{huf_text(diff_value)}"
+                f"+{number_text(diff_value)} UAH"
                 if diff_value > 0
-                else huf_text(diff_value)
+                else f"{number_text(diff_value)} UAH"
             )
             eu_huf_text = huf_text(_row["EU_HUF"])
             eu_uah_text = f'{number_text(_row["EU_UAH"])} UAH'
@@ -1363,8 +1531,8 @@ def _(esc, huf_text, mo, number_text, selected_eu_table):
               <td>{esc(_row["Selected"])}</td>
               <td class="pc-num">{esc(_row["Our_Price"])}</td>
               <td class="pc-num">{esc(_row["EU_Low"])}</td>
-              <td class="pc-num">{eu_huf_text}</td>
               <td class="pc-num">{eu_uah_text}</td>
+              <td class="pc-num">{eu_huf_text}</td>
               <td class="pc-num">{diff_text}</td>
               <td>{esc(_row["Match"])}</td>
             </tr>
@@ -1377,7 +1545,7 @@ def _(esc, huf_text, mo, number_text, selected_eu_table):
           <div class="pc-panel">
           <h2>EU lowest-price check</h2>
           <div class="pc-muted">
-            A quick sanity check against wider EU listings. Empty rows need exact product captures.
+            A UAH-first sanity check against wider EU listings. Empty rows need exact product captures.
           </div>
           <table class="pc-table">
             <thead>
@@ -1386,9 +1554,9 @@ def _(esc, huf_text, mo, number_text, selected_eu_table):
                 <th>Selected model</th>
                 <th class="pc-num">Our store price</th>
                 <th class="pc-num">Lowest EU seen</th>
-                <th class="pc-num">EU in HUF</th>
                 <th class="pc-num">EU in UAH</th>
-                <th class="pc-num">Gap</th>
+                <th class="pc-num">EU in HUF</th>
+                <th class="pc-num">UAH gap</th>
                 <th>Data</th>
               </tr>
             </thead>

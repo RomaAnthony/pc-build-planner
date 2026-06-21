@@ -1,0 +1,10 @@
+Check_Date,Part,Country,Product,Price,Currency,UAH_Est,Match_Quality,Decision,Notes,Source
+2026-06-21,PSU,Poland,be quiet! Pure Power 13 M 1000W (BP028EU),499.00,PLN,6138,Exact,Pick,"Strongest compact 1000W value in PL right now",01_Market_Data/2026-06-21/PSU/2026-06-21_psu_web_refresh.md
+2026-06-21,PSU,Poland,Corsair RM1000x ATX 3.1 (CP9020271EU),647.00,PLN,7958,Exact,Backup,"Still a good premium ATX 3.1 route if you want Corsair",01_Market_Data/2026-06-21/PSU/2026-06-21_psu_web_refresh.md
+2026-06-21,PSU,Poland,Seasonic Focus GX-1000 v4 ATX 3.1,687.00,PLN,8450,Exact,Backup,"Seasonic remains competitive but no longer the cheapest PL 1000W pick",01_Market_Data/2026-06-21/PSU/2026-06-21_psu_web_refresh.md
+2026-06-21,PSU,Hungary,be quiet! Pure Power 13 M 1000W (BP028EU),48240,HUF,7159,Exact,Pick,"Current HU value leader",01_Market_Data/2026-06-21/PSU/2026-06-21_psu_web_refresh.md
+2026-06-21,PSU,Hungary,Seasonic Focus GX-1000 v4 ATX 3.1,57070,HUF,8469,Broad,Backup,"Safer premium option if price gap is acceptable",02_PC_Builds/01_Price_Refresh/2026-06-21/psu_market_snapshot.csv
+2026-06-21,PSU,Hungary,Corsair RM1000x ATX 3.1 (CP-9020271-EU),66200,HUF,9824,Broad,Watch,"Good unit but notably pricier in HU",02_PC_Builds/01_Price_Refresh/2026-06-21/psu_market_snapshot.csv
+2026-06-21,PSU,Ukraine,be quiet! Pure Power 13 M 1000W (BP028EU),7013,UAH,7013,Broad,Pick,"Best current UA budget/premium balance on broad market view",01_Market_Data/2026-06-21/PSU/2026-06-21_psu_web_refresh.md
+2026-06-21,PSU,Ukraine,Corsair RM1000x ATX 3.1 (CP-9020271-EU),8804,UAH,8804,Broad,Backup,"Broader seller pool; TELEMART row shows 10-year warranty",01_Market_Data/2026-06-21/PSU/2026-06-21_psu_web_refresh.md
+2026-06-21,PSU,Ukraine,Seasonic Focus GX-1000 ATX 3.1,8620,UAH,8620,Broad,Backup,"Also competitive in UA, but not clearly beating Pure Power 13 M on price",01_Market_Data/2026-06-21/PSU/2026-06-21_psu_web_refresh.md

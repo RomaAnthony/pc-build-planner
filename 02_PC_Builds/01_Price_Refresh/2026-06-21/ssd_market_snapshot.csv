@@ -1,0 +1,20 @@
+Check_Date,Part,Country,Product,Price,Currency,UAH_Est,Rank_Group,Decision,Notes,Source
+2026-06-21,SSD,Hungary,Kingston KC3000 2TB,114281,HUF,16959,TOP,pick_main,29 stores - strong lead - target SSD,01_Market_Data/2026-06-21/SSD
+2026-06-21,SSD,Hungary,Samsung 990 PRO 2TB,119990,HUF,17807,TOP,backup,53 stores - 5% premium over KC3000,01_Market_Data/2026-06-21/SSD
+2026-06-21,SSD,Hungary,Samsung 990 EVO Plus 2TB,97820,HUF,14514,TOP,backup,"Slower budget option. Listed on Arukereso, price extracted",01_Market_Data/2026-06-21/SSD
+2026-06-21,SSD,Poland,Kingston KC3000 2TB,1119,PLN,13759,TOP,backup,"41 stores on Ceneo. Market floor 1,119 PLN; many mainstream offers cluster around 1,129 PLN",01_Market_Data/2026-06-21/SSD/2026-06-21_ssd_web_refresh.md
+2026-06-21,SSD,Poland,Samsung 990 PRO 2TB,1499,PLN,18438,TOP,backup,"Current Ceneo product-page lead at 1,499 PLN; still clearly above KC3000",01_Market_Data/2026-06-21/SSD/2026-06-21_ssd_web_refresh.md
+2026-06-21,SSD,Poland,Kioxia Exceria Plus G4 2TB (PCIe 5),949,PLN,11669,UPGRADE,watch,PCIe 5 cheaper than PCIe 4 in Poland. Listed on Ceneo,01_Market_Data/2026-06-21/SSD
+2026-06-21,SSD,Poland,Corsair MP700 ELITE 2TB (PCIe 5),2278,PLN,28016,UPGRADE,backup,"PCIe 5. Price from Ceneo, 4 stores",01_Market_Data/2026-06-21/SSD
+2026-06-21,SSD,Poland,MSI Spatium M470 PRO 2TB,1026.50,PLN,12617,FILLER,check_budget,Listed on Ceneo PL page 2. PCIe 4 budget option,01_Market_Data/2026-06-21/SSD
+2026-06-21,SSD,Poland,Kingston FURY Renegade G5 2TB (PCIe 5),1475,PLN,18141,UPGRADE,backup,PCIe 5. 28 stores. CORRECTED price from detail page,01_Market_Data/2026-06-21/SSD
+2026-06-21,SSD,Poland,Samsung 9100 PRO 2TB (PCIe 5),1870.25,PLN,23007,UPGRADE,backup,"PCIe 5 high-end, listed on Ceneo page 2, 24 stores",01_Market_Data/2026-06-21/SSD
+2026-06-21,SSD,Ukraine,Kingston KC3000 2TB,14044,UAH,14044,TOP,pick_ua,"Hotline detail page now shows 14,044-22,362 UAH across 84 offers; seller rows include 60-month warranty offers",01_Market_Data/2026-06-21/SSD/2026-06-21_ssd_web_refresh.md
+2026-06-21,SSD,Ukraine,Samsung 990 PRO 2TB,16689,UAH,16689,TOP,verify_price,"Hotline now shows 16,689-20,563 UAH across 91 offers; visible sellers include mbuy24.com and WO.UA",01_Market_Data/2026-06-21/SSD/2026-06-21_ssd_web_refresh.md
+2026-06-21,SSD,Ukraine,Kingston FURY Renegade G5 2TB (PCIe 5),NEED_PRICE,UAH,NEED_PRICE,UPGRADE,verify_price,"Listed on Hotline - 62 offers. Browse page, no exact price",01_Market_Data/2026-06-21/SSD
+2026-06-21,SSD,Ukraine,WD Black SN8100 2TB,NEED_PRICE,UAH,NEED_PRICE,FILLER,verify_price,Listed on Hotline - 32 offers. Browse page,01_Market_Data/2026-06-21/SSD
+2026-06-21,SSD,Ukraine,Samsung 990 EVO Plus 2TB,NEED_PRICE,UAH,NEED_PRICE,FILLER,verify_price,Listed on Hotline - 82 offers. Browse page,01_Market_Data/2026-06-21/SSD
+2026-06-21,SSD,Ukraine,Samsung 9100 PRO 2TB (PCIe 5),NEED_PRICE,UAH,NEED_PRICE,UPGRADE,verify_price,Listed on Hotline - 76 offers. Browse page,01_Market_Data/2026-06-21/SSD
+2026-06-21,SSD,Ukraine,Crucial T705 2TB (PCIe 5),NEED_PRICE,UAH,NEED_PRICE,UPGRADE,verify_price,Listed on Hotline - 21 offers. Browse page,01_Market_Data/2026-06-21/SSD
+2026-06-21,SSD,Ukraine,Kingston FURY Renegade 2TB,NEED_PRICE,UAH,NEED_PRICE,FILLER,verify_price,Listed on Hotline UA page 3,01_Market_Data/2026-06-21/SSD
+2026-06-21,SSD,Ukraine,Samsung T7 Portable 2TB,NEED_PRICE,UAH,NEED_PRICE,FILLER,verify_price,"External drive, not relevant for build",01_Market_Data/2026-06-21/SSD

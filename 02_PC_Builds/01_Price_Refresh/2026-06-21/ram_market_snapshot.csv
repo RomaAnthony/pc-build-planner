@@ -1,0 +1,24 @@
+Check_Date,Capacity_GB,Country,Product,Price,Currency,UAH_Est,Timing,Rank_Group,Decision,Notes,Source
+2026-06-21,64,Hungary,Silicon Power XPower Zenith 64GB 2x32 DDR5-6000 CL30,225090,HUF,33403,CL30,64GB_TOP,Verify,"Suspiciously cheap; verify exact product and store before app CSV",01_Market_Data/2026-06-21/RAM
+2026-06-21,64,Poland,Patriot Viper Venom 64GB 2x32 DDR5-6000 CL30,3209,PLN,39465,CL30,64GB_TOP,Watch,"Best normal clean 64GB lead from Ceneo capture",01_Market_Data/2026-06-21/RAM
+2026-06-21,64,Poland,GOODRAM IRDM 64GB 2x32 DDR5-6000 CL30,3333,PLN,40990,CL30,64GB_TOP,Watch,"Strong Polish backup",01_Market_Data/2026-06-21/RAM
+2026-06-21,64,Poland,Kingston Fury Beast RGB 64GB DDR5-6000 CL30,3417.77,PLN,42032,CL30,64GB_TOP,Watch,"Good safer-brand backup",01_Market_Data/2026-06-21/RAM
+2026-06-21,64,Ukraine,Patriot Viper Venom 64GB 2x32 DDR5-6000 CL30,43196,UAH,43196,CL30,64GB_TOP,Watch,"Best clean Ukraine 64GB lead",01_Market_Data/2026-06-21/RAM
+2026-06-21,64,Ukraine,GOODRAM IRDM 64GB 2x32 DDR5-6000 CL30,44472,UAH,44472,CL30,64GB_TOP,Watch,"Ukraine 64GB backup",01_Market_Data/2026-06-21/RAM
+2026-06-21,64,Ukraine,Kingston Fury Beast 64GB DDR5-6000 CL30,45499,UAH,45499,CL30,64GB_TOP,Watch,"Ukraine safer-brand backup",01_Market_Data/2026-06-21/RAM
+2026-06-21,64,Hungary,Kingston Fury Beast 64GB 2x32 DDR5-6000 CL30,316420,HUF,46957,CL30,64GB_TOP,Watch,"Best normal Hungary lead",01_Market_Data/2026-06-21/RAM
+2026-06-21,64,Hungary,GOODRAM 64GB DDR5-6000 CL30,330580,HUF,49058,CL30,64GB_TOP,Watch,"Hungary 64GB backup",01_Market_Data/2026-06-21/RAM
+2026-06-21,32,Ukraine,Exceleram Aurum 32GB 2x16 DDR5-6000 CL30,18485,UAH,18485,CL30,32GB_TOP,Verify,"Cheapest 32GB; lower confidence brand",01_Market_Data/2026-06-21/RAM
+2026-06-21,32,Poland,Patriot Viper Venom 32GB 2x16 DDR5-6000 CL30,1599,PLN,19665,CL30,32GB_TOP,Watch,"Best clean 32GB budget-down lead",01_Market_Data/2026-06-21/RAM
+2026-06-21,32,Ukraine,Patriot Viper Venom 32GB 2x16 DDR5-6000 CL30,20172,UAH,20172,CL30,32GB_TOP,Watch,"Strong Ukraine budget-down option",01_Market_Data/2026-06-21/RAM
+2026-06-21,32,Poland,Lexar Ares 32GB 2x16 DDR5-6000 CL30,1666.66,PLN,20497,CL30,32GB_TOP,Watch,"Polish backup",01_Market_Data/2026-06-21/RAM
+2026-06-21,32,Ukraine,Patriot Viper Elite 5 32GB DDR5-6000 CL30,20562,UAH,20562,CL30,32GB_TOP,Watch,"Ukraine backup",01_Market_Data/2026-06-21/RAM
+2026-06-21,32,Poland,GOODRAM IRDM 32GB 2x16 DDR5-6000 CL30,1699,PLN,20894,CL30,32GB_TOP,Watch,"Good Polish backup",01_Market_Data/2026-06-21/RAM
+2026-06-21,32,Hungary,Patriot Viper Venom 32GB 2x16 DDR5-6000 CL30,149590,HUF,22199,CL30,32GB_TOP,Watch,"Best Hungary 32GB lead",01_Market_Data/2026-06-21/RAM
+2026-06-21,32,Hungary,Patriot Viper Venom RGB 32GB 2x16 DDR5-6000 CL30,152690,HUF,22659,CL30,32GB_TOP,Watch,"Hungary backup",01_Market_Data/2026-06-21/RAM
+2026-06-21,32,Hungary,Kingston Fury Beast 32GB DDR5-6000 CL30,159840,HUF,23720,CL30,32GB_TOP,Watch,"Safer-brand Hungary backup",01_Market_Data/2026-06-21/RAM
+2026-06-21,64,Ukraine,Crucial Pro 64GB DDR5-6000 CL40,36058,UAH,36058,CL40,NON_CL30_WATCH,Separate,"Much cheaper but not equal to CL30",01_Market_Data/2026-06-21/RAM
+2026-06-21,64,Poland,G.Skill Aegis 5 64GB DDR5-6000 CL36,2999,PLN,36882,CL36,NON_CL30_WATCH,Separate,"Cheaper than CL30 but slower timings",01_Market_Data/2026-06-21/RAM
+2026-06-21,64,Poland,Patriot Viper Venom 64GB DDR5-6000 CL36,3099.99,PLN,38124,CL36,NON_CL30_WATCH,Separate,"Same family as target but slower SKU",01_Market_Data/2026-06-21/RAM
+2026-06-21,64,Ukraine,G.Skill Ripjaws M5 Neo RGB 64GB DDR5-6000 CL36,39999,UAH,39999,CL36,NON_CL30_WATCH,Separate,"Good price but slower timings",01_Market_Data/2026-06-21/RAM
+2026-06-21,32,Ukraine,Crucial Pro OC 32GB DDR5-6000 CL36,16999,UAH,16999,CL36,NON_CL30_WATCH,Separate,"Cheap 32GB fallback but slower timings",01_Market_Data/2026-06-21/RAM

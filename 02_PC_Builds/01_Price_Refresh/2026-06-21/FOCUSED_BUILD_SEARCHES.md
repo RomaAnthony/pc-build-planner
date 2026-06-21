@@ -1,6 +1,13 @@
 # Focused Build Searches - 2026-06-21
 
-Goal: refresh the real buy-list for the 64GB build across Hungary Arukereso, Poland Ceneo, and Ukraine Hotline. Case target is Lian Li Lancool 207 Digital and should be bought in Hungary unless the price gap is huge.
+Goal: refresh the real buy-list across Hungary Arukereso, Poland Ceneo, and Ukraine Hotline. Current focus is RAM first; motherboard is paused until the RAM decision is clearer. Case target is Lian Li Lancool 207 Digital and should be bought in Hungary unless the price gap is huge.
+
+RAM working conclusion:
+
+- 64GB clean value: Patriot Viper Venom / GOODRAM / Kingston Fury Beast.
+- 32GB budget-down route: Patriot Viper Venom first.
+- Verify the Hungary Silicon Power 64GB 6000 CL30 row before trusting it because the captured price is unusually low.
+- Broad search pages update `ram_market_snapshot.csv`; exact store pages update `price_changes.csv`.
 
 ## Exact Build Searches
 
@@ -9,6 +16,10 @@ Goal: refresh the real buy-list for the 64GB build across Hungary Arukereso, Pol
 | CPU | AMD Ryzen 9 9900X Box | [HU](https://www.arukereso.hu/CategorySearch.php?st=AMD%20Ryzen%209%209900X%20Box) | [PL](https://www.ceneo.pl/;szukaj-AMD%20Ryzen%209%209900X%20Box) | [UA](https://hotline.ua/ua/sr/?q=AMD%20Ryzen%209%209900X%20Box) |
 | Motherboard | MSI MAG B850 Tomahawk MAX WiFi | [HU](https://www.arukereso.hu/CategorySearch.php?st=MSI%20MAG%20B850%20Tomahawk%20MAX%20WiFi) | [PL](https://www.ceneo.pl/;szukaj-MSI%20MAG%20B850%20Tomahawk%20MAX%20WiFi) | [UA](https://hotline.ua/ua/sr/?q=MSI%20MAG%20B850%20Tomahawk%20MAX%20WiFi) |
 | RAM 64GB | Patriot Viper Venom 64GB 2x32 DDR5-6000 CL30 | [HU](https://www.arukereso.hu/CategorySearch.php?st=Patriot%20Viper%20Venom%2064GB%202x32%20DDR5-6000%20CL30) | [PL](https://www.ceneo.pl/;szukaj-Patriot%20Viper%20Venom%2064GB%202x32%20DDR5-6000%20CL30) | [UA](https://hotline.ua/ua/sr/?q=Patriot%20Viper%20Venom%2064GB%202x32%20DDR5-6000%20CL30) |
+| RAM 64GB | Silicon Power XPower Zenith 64GB 2x32 DDR5-6000 CL30 | [HU verify](https://www.arukereso.hu/CategorySearch.php?st=Silicon%20Power%20XPower%20Zenith%2064GB%202x32%20DDR5%206000%20CL30) | [PL sanity](https://www.ceneo.pl/;szukaj-Silicon%20Power%20XPower%20Zenith%2064GB%202x32%20DDR5%206000%20CL30) | [UA sanity](https://hotline.ua/ua/sr/?q=Silicon%20Power%20XPower%20Zenith%2064GB%202x32%20DDR5%206000%20CL30) |
+| RAM 64GB | GOODRAM IRDM 64GB 2x32 DDR5-6000 CL30 | [HU](https://www.arukereso.hu/CategorySearch.php?st=GOODRAM%20IRDM%2064GB%202x32%20DDR5-6000%20CL30) | [PL](https://www.ceneo.pl/;szukaj-GOODRAM%20IRDM%2064GB%202x32%20DDR5-6000%20CL30) | [UA](https://hotline.ua/ua/sr/?q=GOODRAM%20IRDM%2064GB%202x32%20DDR5-6000%20CL30) |
+| RAM 64GB | Kingston Fury Beast 64GB 2x32 DDR5-6000 CL30 | [HU](https://www.arukereso.hu/CategorySearch.php?st=Kingston%20Fury%20Beast%2064GB%202x32%20DDR5-6000%20CL30) | [PL](https://www.ceneo.pl/;szukaj-Kingston%20Fury%20Beast%2064GB%202x32%20DDR5-6000%20CL30) | [UA](https://hotline.ua/ua/sr/?q=Kingston%20Fury%20Beast%2064GB%202x32%20DDR5-6000%20CL30) |
+| RAM 32GB | Patriot Viper Venom 32GB 2x16 DDR5-6000 CL30 | [HU](https://www.arukereso.hu/CategorySearch.php?st=Patriot%20Viper%20Venom%2032GB%202x16%20DDR5-6000%20CL30) | [PL](https://www.ceneo.pl/;szukaj-Patriot%20Viper%20Venom%2032GB%202x16%20DDR5-6000%20CL30) | [UA](https://hotline.ua/ua/sr/?q=Patriot%20Viper%20Venom%2032GB%202x16%20DDR5-6000%20CL30) |
 | SSD | Kingston KC3000 2TB | [HU](https://www.arukereso.hu/CategorySearch.php?st=Kingston%20KC3000%202TB) | [PL](https://www.ceneo.pl/;szukaj-Kingston%20KC3000%202TB) | [UA](https://hotline.ua/ua/sr/?q=Kingston%20KC3000%202TB) |
 | PSU | Corsair RM1000x ATX 3.1 1000W | [HU](https://www.arukereso.hu/CategorySearch.php?st=Corsair%20RM1000x%20ATX%203.1%201000W) | [PL](https://www.ceneo.pl/;szukaj-Corsair%20RM1000x%20ATX%203.1%201000W) | [UA](https://hotline.ua/ua/sr/?q=Corsair%20RM1000x%20ATX%203.1%201000W) |
 | Cooler | Arctic Liquid Freezer III Pro 360 Black | [HU](https://www.arukereso.hu/CategorySearch.php?st=Arctic%20Liquid%20Freezer%20III%20Pro%20360%20Black) | [PL](https://www.ceneo.pl/;szukaj-Arctic%20Liquid%20Freezer%20III%20Pro%20360%20Black) | [UA](https://hotline.ua/ua/sr/?q=Arctic%20Liquid%20Freezer%20III%20Pro%20360%20Black) |
@@ -27,6 +38,7 @@ Use these if the exact product got expensive and you want to see all candidates 
 | Motherboard | B850 WiFi AM5 ATX | [HU](https://www.arukereso.hu/CategorySearch.php?st=B850%20WiFi%20AM5%20ATX) | [PL](https://www.ceneo.pl/;szukaj-B850%20WiFi%20AM5%20ATX) | [UA](https://hotline.ua/ua/sr/?q=B850%20WiFi%20AM5%20ATX) |
 | Motherboard premium | X870 WiFi AM5 ATX | [HU](https://www.arukereso.hu/CategorySearch.php?st=X870%20WiFi%20AM5%20ATX) | [PL](https://www.ceneo.pl/;szukaj-X870%20WiFi%20AM5%20ATX) | [UA](https://hotline.ua/ua/sr/?q=X870%20WiFi%20AM5%20ATX) |
 | RAM 64GB | DDR5 64GB 6000 CL30 2x32 | [HU](https://www.arukereso.hu/CategorySearch.php?st=DDR5%2064GB%206000%20CL30%202x32) | [PL](https://www.ceneo.pl/;szukaj-DDR5%2064GB%206000%20CL30%202x32) | [UA](https://hotline.ua/ua/sr/?q=DDR5%2064GB%206000%20CL30%202x32) |
+| RAM 32GB | DDR5 32GB 6000 CL30 2x16 | [HU](https://www.arukereso.hu/CategorySearch.php?st=DDR5%2032GB%206000%20CL30%202x16) | [PL](https://www.ceneo.pl/;szukaj-DDR5%2032GB%206000%20CL30%202x16) | [UA](https://hotline.ua/ua/sr/?q=DDR5%2032GB%206000%20CL30%202x16) |
 | SSD PCIe 4 | SSD 2TB PCIe 4 NVMe | [HU](https://www.arukereso.hu/CategorySearch.php?st=SSD%202TB%20PCIe%204%20NVMe) | [PL](https://www.ceneo.pl/;szukaj-SSD%202TB%20PCIe%204%20NVMe) | [UA](https://hotline.ua/ua/sr/?q=SSD%202TB%20PCIe%204%20NVMe) |
 | SSD PCIe 5 | SSD 2TB PCIe 5 NVMe | [HU](https://www.arukereso.hu/CategorySearch.php?st=SSD%202TB%20PCIe%205%20NVMe) | [PL](https://www.ceneo.pl/;szukaj-SSD%202TB%20PCIe%205%20NVMe) | [UA](https://hotline.ua/ua/sr/?q=SSD%202TB%20PCIe%205%20NVMe) |
 | PSU | 1000W ATX 3.1 PCIe 5.1 | [HU](https://www.arukereso.hu/CategorySearch.php?st=1000W%20ATX%203.1%20PCIe%205.1) | [PL](https://www.ceneo.pl/;szukaj-1000W%20ATX%203.1%20PCIe%205.1) | [UA](https://hotline.ua/ua/sr/?q=1000W%20ATX%203.1%20PCIe%205.1) |
@@ -37,8 +49,19 @@ Use these if the exact product got expensive and you want to see all candidates 
 
 ## Capture Priority
 
-1. Exact build rows first.
-2. Broad GPU and RAM searches second because those can swing the most money.
-3. Case only needs Hungary exact price unless Poland/Ukraine is much cheaper.
-4. For Ukraine, capture final store price and delivery/pickup note if Hotline shows it.
+1. RAM exact rows first.
+2. RAM broad searches second because they can swing the most money.
+3. Exact build rows after RAM.
+4. Broad GPU searches after RAM and exact build rows.
+5. Case only needs Hungary exact price unless Poland/Ukraine is much cheaper.
+6. For Ukraine, capture final store price and delivery/pickup note if Hotline shows it.
 
+## RAM Direct Store Checks
+
+Use these after price-comparison pages find a candidate:
+
+| Country | Direct store checks |
+|---|---|
+| Poland | x-kom, Morele, Komputronik, Proshop, Amazon.pl, Allegro seller page if seller is safe |
+| Hungary | Alza.hu, iPon, Aqua, Oazis, Foramax, exact stores shown by Arukereso product page |
+| Ukraine | Hotline-linked top stores first, then TELEMART, CAN.UA, Rozetka, MOYO, ITbox / Brain if exact SKU appears |

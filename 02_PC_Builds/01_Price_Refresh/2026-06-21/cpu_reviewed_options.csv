@@ -1,0 +1,4 @@
+Check_Date,Part,Country,Product,Price,Currency,UAH_Est,Match_Quality,Decision,Notes,Source
+2026-06-21,CPU,Poland,AMD Ryzen 9 9900X Box,1398.99,PLN,17205,Broad,Compare,"Useful Poland comparison row, but not a freshly rechecked exact seller page",01_Market_Data/2026-06-21/CPU/2026-06-21_cpu_web_refresh.md
+2026-06-21,CPU,Hungary,AMD Ryzen 9 9900X Box,123050,HUF,18260,Exact,Pick,"Strong local warranty route and now freshly captured",01_Market_Data/2026-06-21/CPU/2026-06-21_cpu_web_refresh.md
+2026-06-21,CPU,Ukraine,AMD Ryzen 9 9900X Box,15549,UAH,15549,Exact,Watch,"Attractive price lead; store-level warranty comfort still matters",01_Market_Data/2026-06-21/CPU/2026-06-21_cpu_web_refresh.md

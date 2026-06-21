@@ -5,12 +5,86 @@ Goal: collect fresh Hungary Arukereso, Poland Ceneo, and Ukraine Hotline prices 
 ## Capture Rules
 
 - Save each capture as Markdown in `01_Market_Data/2026-06-21/`.
+- If you are still collecting quickly, drop files into `00_Hub/`; Codex will sort them into `01_Market_Data/2026-06-21/<Part>/`.
 - Use one file per product per market when possible.
 - Capture the product title, lowest price, store name, currency, product URL, and whether it is exact or only a broad-search match.
 - For CPUs, keep BOX vs Tray separate. Do not replace a Box row with Tray unless we intentionally choose Tray.
 - For GPUs and cases, match exact model/color when possible.
 - For PSU, only count ATX 3.0/3.1 and native 12V-2x6/12VHPWR units unless we explicitly choose otherwise.
 - If a site shows a cheaper non-exact item, write it in notes but do not use it as the real comparison price.
+
+## Spec Tier Rules
+
+Do not treat every non-target row as useless. The workflow has two different jobs:
+
+1. Find the best exact target part.
+2. If target parts are too expensive, keep a controlled list of downgrade/value alternatives.
+
+For RAM, the target tier is `64GB or 32GB, 2-stick kit, DDR5-6000, CL30`. Fallback tiers are allowed and should be recorded when they save real money:
+
+- Tier A: exact target, 6000 CL30.
+- Tier B: same capacity, 6000 CL32/CL34/CL36 if much cheaper.
+- Tier C: same capacity, 5600 CL30/CL36 or 6000 CL40 if the saving is large.
+- Reject only when the row is clearly wrong for the build: DDR4, laptop/server RAM, single stick when we need a kit, 4-stick kit for AM5 unless intentional, weird capacity, unclear SKU, or price not competitive.
+
+For GPU, the target tier is RTX 5080 16GB. Fallback tiers like RTX 5070 Ti and RTX 4080 Super are future separate snapshots, not mixed into the RTX 5080 file.
+
+Snapshot files should therefore have:
+
+- `*_market_snapshot.csv`: shortlist and decision candidates.
+- `*_reviewed_options.csv`: wider audit list, including exact target rows, fallback rows, and rejected rows with reasons.
+
+## Hub To CSV Rules
+
+When new files arrive in `00_Hub/`, process them in this order:
+
+1. Move raw captures to `01_Market_Data/<date>/<part>/`.
+2. Update that part folder's `_capture_index.csv`.
+3. If the capture is a broad category/search page, update the part snapshot file, not the app CSV.
+4. If the capture is an exact product/store page with clear price, update `price_changes.csv`.
+5. If the new price changes the actual planned build, update `parts_options_seed.csv`.
+6. After changing `parts_options_seed.csv`, sync `04_Tools/pc_build_marimo_WASM_SAFE.py` and export `docs/planner.html`.
+
+Do not let broad-search rows overwrite exact app rows. Broad search tells us what to investigate next; exact store/product pages tell us what to buy.
+
+## Current RAM Focus
+
+Motherboard is paused for now. RAM is the active market study because it can change the build price by around 20k UAH if we step down from 64GB to 32GB.
+
+Use:
+
+- `RAM_MARKET_SNAPSHOT.md` for the current conclusion.
+- `ram_market_snapshot.csv` for ranked candidate rows.
+- `ram_reviewed_options.csv` for the wider audit list, including valid backups and rejected/noisy market rows.
+- `price_changes.csv` only after exact store/product verification.
+
+Capture priority:
+
+1. Verify Silicon Power XPower Zenith 64GB 6000 CL30 in Hungary because the captured price is unusually low.
+2. Exact Patriot Viper Venom 64GB CL30 store/product pages in Poland and Ukraine.
+3. Exact GOODRAM IRDM 64GB CL30 store/product pages in Poland and Ukraine.
+4. Exact Kingston Fury Beast 64GB CL30 store/product pages in Poland, Hungary, and Ukraine.
+5. Exact Patriot Viper Venom 32GB CL30 store/product pages in Poland, Hungary, and Ukraine.
+
+Price-comparison pages are allowed for market discovery. Direct store pages are preferred for final price updates.
+
+## Current GPU Focus
+
+RTX 5080 now follows the same workflow as RAM:
+
+- `GPU_MARKET_SNAPSHOT.md` for the current conclusion.
+- `gpu_market_snapshot.csv` for ranked candidate rows.
+- `gpu_reviewed_options.csv` for the wider audit list, including non-winning Poland/Hungary variants and Ukraine seller-row notes.
+- `price_changes.csv` only after exact store/product verification.
+
+Capture priority:
+
+1. Ukraine MSI RTX 5080 Ventus 3X OC exact seller rows: store, warranty, payment fee, delivery, stock.
+2. Poland Inno3D RTX 5080 X3 / X3 OC, Gigabyte Windforce OC SFF, and MSI Ventus exact store rows.
+3. Ukraine MSI Gaming Trio exact seller rows if premium cooler is still interesting.
+4. Hungary Gainward Phoenix V1, Palit GamingPro, Inno3D X3 OC, and Gigabyte Windforce exact store rows if local warranty matters.
+
+For GPU, do not choose purely by lowest broad-search price. Warranty, seller quality, payment fees, and cooler class can matter more than a few thousand UAH.
 
 ## How To Send Back
 

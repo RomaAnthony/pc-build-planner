@@ -1,0 +1,4 @@
+Check_Date,Part,Country,Product,Price,Currency,UAH_Est,Rank_Group,Decision,Notes,Source
+2026-06-21,CPU,Poland,AMD Ryzen 9 9900X Box,1398.99,PLN,17205,TOP,compare,"Current Ceneo broad lead for the target retail-box CPU",01_Market_Data/2026-06-21/CPU/2026-06-21_cpu_web_refresh.md
+2026-06-21,CPU,Hungary,AMD Ryzen 9 9900X Box,123050,HUF,18260,TOP,pick_main,"Current Arukereso floor for the target CPU",01_Market_Data/2026-06-21/CPU/2026-06-21_cpu_web_refresh.md
+2026-06-21,CPU,Ukraine,AMD Ryzen 9 9900X Box,15549,UAH,15549,TOP,watch,"Hotline exact product page range starts at 15,549 UAH",01_Market_Data/2026-06-21/CPU/2026-06-21_cpu_web_refresh.md

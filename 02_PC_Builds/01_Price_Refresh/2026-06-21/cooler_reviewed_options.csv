@@ -1,0 +1,9 @@
+Check_Date,Part,Country,Product,Price,Currency,UAH_Est,Match_Quality,Decision,Notes,Source
+2026-06-21,Cooler,Hungary,Arctic Liquid Freezer III Pro 360 Black,32190,HUF,4779,Broad,Pick,"Best current HU balance among captured 360 mm options",01_Market_Data/2026-06-21/Cooler/2026-06-21_cooler_web_refresh.md
+2026-06-21,Cooler,Poland,Arctic Liquid Freezer III Pro 360 Black,324.00,PLN,3985,Broad,Pick,"Still the cleanest PL value anchor among captured 360 mm AIOs",01_Market_Data/2026-06-21/Cooler/2026-06-21_cooler_web_refresh.md
+2026-06-21,Cooler,Ukraine,DeepCool LE360 V2 Black,3979,UAH,3979,Broad,Pick,"Cheapest confidently captured UA 360 mm option today",01_Market_Data/2026-06-21/Cooler/2026-06-21_cooler_web_refresh.md
+2026-06-21,Cooler,Hungary,Arctic Liquid Freezer III Pro 360 A-RGB Black,37888,HUF,5621,Broad,Backup,"ARGB premium if aesthetics matter more than price floor",01_Market_Data/2026-06-21/Cooler/2026-06-21_cooler_web_refresh.md
+2026-06-21,Cooler,Poland,Arctic Liquid Freezer III Pro 360 A-RGB Black,399.00,PLN,4908,Broad,Backup,"Good premium RGB step-up in PL",01_Market_Data/2026-06-21/Cooler/2026-06-21_cooler_web_refresh.md
+2026-06-21,Cooler,Ukraine,MSI MAG CoreLiquid A13 360 Black,3355,UAH,3355,Broad,Watch,"Lowest captured UA floor; merits later product-level quality sanity check",01_Market_Data/2026-06-21/Cooler/2026-06-21_cooler_web_refresh.md
+2026-06-21,Cooler,Hungary,be quiet! Pure Loop 3 LX 360mm Black,34600,HUF,5136,Broad,Backup,"Premium quieter alternative in HU",01_Market_Data/2026-06-21/Cooler/2026-06-21_cooler_web_refresh.md
+2026-06-21,Cooler,Poland,be quiet! Pure Loop 3 LX 360mm Black,429.00,PLN,5277,Broad,Backup,"Premium PL alternative above Arctic",01_Market_Data/2026-06-21/Cooler/2026-06-21_cooler_web_refresh.md

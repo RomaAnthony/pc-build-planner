@@ -1,0 +1,22 @@
+Check_Date,Part,Country,Product,Price,Currency,UAH_Est,Rank_Group,Decision,Notes,Source
+2026-06-21,PSU,Hungary,be quiet! Pure Power 13 M 1000W (BP028EU),48240,HUF,7159,TOP,pick_budget_hu,"27 stores. 150mm compact. Fresh: 48,240 HUF",01_Market_Data/2026-06-21/PSU
+2026-06-21,PSU,Hungary,be quiet! Power Zone 2 1000W Platinum (BP008EU),57836,HUF,8583,UPGRADE,check,Platinum. 150mm. 23 stores,01_Market_Data/2026-06-21/PSU
+2026-06-21,PSU,Hungary,Seasonic Focus GX-1000 v4 ATX 3.1,57070,HUF,8469,TOP,check,29 stores. 150mm,01_Market_Data/2026-06-21/PSU
+2026-06-21,PSU,Hungary,Corsair RM1000x ATX 3.1 (CP-9020271-EU),66200,HUF,9824,TOP,pick_main_hu,27 stores. 180mm,01_Market_Data/2026-06-21/PSU
+2026-06-21,PSU,Hungary,Corsair RM1000e 2025 ATX 3.1 (CP-9020297-EU),52790,HUF,7834,FILLER,check,29 stores. 160mm,01_Market_Data/2026-06-21/PSU
+2026-06-21,PSU,Hungary,CHIEFTEC Stealth 1000W Platinum (SPX-1000-FC),45000,HUF,6678,FILLER,check_budget,Cheapest Plat in HU. 12 stores,01_Market_Data/2026-06-21/PSU
+2026-06-21,PSU,Hungary,be quiet! Pure Power 12 1000W (BP005EU),46900,HUF,6959,FILLER,check_budget,Older gen ATX 3.1. 34 stores. 150mm,01_Market_Data/2026-06-21/PSU
+2026-06-21,PSU,Hungary,Corsair HX1000i 1000W Platinum (CP-9020259-EU),82901,HUF,12302,UPGRADE,premium,26 stores,01_Market_Data/2026-06-21/PSU
+2026-06-21,PSU,Poland,Corsair RM1000x ATX 3.1 (CP9020271EU),647,PLN,7957,TOP,pick_main_pl,VERIFIED. 29 stores. 180mm,01_Market_Data/2026-06-21/PSU
+2026-06-21,PSU,Poland,be quiet! Pure Power 13 M 1000W,499.00,PLN,6138,TOP,pick_budget_pl,"Media Expert and Avans exact offers on Ceneo at 499 PLN; strong value if 150mm depth matters",01_Market_Data/2026-06-21/PSU/2026-06-21_psu_web_refresh.md
+2026-06-21,PSU,Poland,Seasonic Focus GX-1000 v4 ATX 3.1,687,PLN,8449,TOP,check_pl,"proshop.pl exact on Ceneo. Shipping from 20 PLN, 1-day dispatch",01_Market_Data/2026-06-21/PSU/2026-06-21_psu_web_refresh.md
+2026-06-21,PSU,Poland,be quiet! Power Zone 2 1000W Platinum (BP008EU),639.99,PLN,7868,UPGRADE,check_pl,Platinum at Gold price,01_Market_Data/2026-06-21/PSU
+2026-06-21,PSU,Ukraine,be quiet! Pure Power 13 M 1000W (BP028EU),7013,UAH,7013,TOP,pick_budget_ua,"14 stores. 7,013-9,200 UAH. 150mm compact. Seller rows with 10-year warranty visible on Hotline",01_Market_Data/2026-06-21/PSU/2026-06-21_psu_web_refresh.md
+2026-06-21,PSU,Ukraine,be quiet! Power Zone 2 1000W Platinum (BP008EU),8630,UAH,8630,UPGRADE,check_ua,"35 stores. 8,630-11,435 UAH. 150mm. ATX 3.1",01_Market_Data/2026-06-21/PSU
+2026-06-21,PSU,Ukraine,Seasonic Focus GX-1000 ATX 3.1,8620,UAH,8620,TOP,check_ua,"38 stores. 8,620-11,400 UAH",01_Market_Data/2026-06-21/PSU/2026-06-21_psu_web_refresh.md
+2026-06-21,PSU,Ukraine,Corsair RM1000x ATX 3.1 (CP-9020271),8804,UAH,8804,TOP,pick_main_ua,"49 stores. 8,804-12,279 UAH. 180mm. TELEMART row shows 10-year manufacturer warranty",01_Market_Data/2026-06-21/PSU/2026-06-21_psu_web_refresh.md
+2026-06-21,PSU,Ukraine,CHIEFTEC Stealth 1000W Platinum (SPX-1000-FC),6453,UAH,6453,FILLER,check_budget,"55 stores. 6,453-8,400 UAH. Cheapest Plat in UA",01_Market_Data/2026-06-21/PSU
+2026-06-21,PSU,Ukraine,be quiet! Dark Power 14 1000W (BP020),11920,UAH,11920,UPGRADE,premium,"28 stores. 11,920-14,897 UAH. Premium tier",01_Market_Data/2026-06-21/PSU
+2026-06-21,PSU,Ukraine,MSI MAG A1000GL PCIE5,6043,UAH,6043,FILLER,check_budget,"39 stores. 6,043-9,510 UAH. 850W target competitor",01_Market_Data/2026-06-21/PSU
+2026-06-21,PSU,Ukraine,FSP Hydro G PRO ATX 3.0 1000W,7521,UAH,7521,FILLER,check_budget,ATX 3.0 not 3.1. 33 stores,01_Market_Data/2026-06-21/PSU
+2026-06-21,PSU,Ukraine,Fractal Design Ion 3 Gold 1000W,9548,UAH,9548,FILLER,premium,"38 stores. 9,548-12,036 UAH",01_Market_Data/2026-06-21/PSU
