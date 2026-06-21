@@ -19,3 +19,10 @@ Thumbs.db
 *.swp
 *.swo
 .obsidian/
+
+# Local/generated runtime noise
+.config/
+.venv_marimo/
+__pycache__/
+*/__pycache__/
+docs/CLAUDE.md
