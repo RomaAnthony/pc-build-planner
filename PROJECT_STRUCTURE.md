@@ -2,6 +2,14 @@
 
 This project has three lanes. Keep them separate so price refreshes stay easy.
 
+## 0. Capture Inbox
+
+Use `00_Hub/` as the only drop zone while collecting.
+
+- Put unsorted browser exports, Markdown files, and screenshots there.
+- Do not rename everything while collecting unless it is easy.
+- Codex sorts Hub files into `01_Market_Data/<date>/<part>/` after upload.
+
 ## 1. Active App Data
 
 These files feed the Marimo planner.
@@ -54,4 +62,3 @@ Focused 64GB build:
 - Arctic 360 AIO
 - Lian Li Lancool 207 Digital from Hungary if possible
 - cheapest sensible RTX 5080 candidate across HU/PL/UA
-
