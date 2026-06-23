@@ -7,10 +7,7 @@ app = marimo.App(width="full")
 @app.cell
 def _():
     import html
-    import json
-    from datetime import datetime
     from pathlib import Path
-    from urllib.request import Request, urlopen
 
     import marimo as mo
     import pandas as pd
@@ -22,93 +19,27 @@ def _():
     parts = pd.read_csv(PARTS_CSV)
     parts["Price"] = pd.to_numeric(parts["Price"], errors="coerce").fillna(0)
     parts["HUF_Est"] = pd.to_numeric(parts["HUF_Est"], errors="coerce").fillna(0)
+    if "Paid_UAH" not in parts.columns:
+        parts["Paid_UAH"] = 0
+    parts["Paid_UAH"] = pd.to_numeric(parts["Paid_UAH"], errors="coerce").fillna(0)
     eu_lowest = pd.read_csv(EU_LOWEST_CSV)
     eu_lowest["EU_Price"] = pd.to_numeric(eu_lowest["EU_Price"], errors="coerce")
-    return Path, Request, datetime, eu_lowest, html, json, mo, parts, pd, urlopen
+    return eu_lowest, html, mo, parts, pd
 
 
 @app.cell
-def _(Path, Request, datetime, json, urlopen):
+def _():
     def load_rates():
-        cache_path = (
-            Path(__file__).resolve().parents[1]
-            / "04_Tools"
-            / ".rate_cache.json"
-        )
-        cache_ttl_minutes = 15
+        # Fixed order-planning rates. Paid rows use exact receipt UAH via
+        # Paid_UAH; pending/unpaid rows use these stable rates until receipts exist.
         rates = {
-            "source": "saved fallback",
-            "checked": "offline fallback",
-            "eur_to_huf": 352.88,
-            "eur_to_uah": 52.3396,
-            "pln_to_uah": 12.2981,
-            "huf_to_uah": 0.1484,
+            "source": "fixed order-planning rates plus exact receipt UAH",
+            "checked": "locked from 2026-06-22 to 2026-06-23 order receipts",
+            "eur_to_uah": 51.709,
+            "pln_to_uah": 12.1970,
+            "huf_to_uah": 0.1477,
         }
-
-        cached_rates = None
-        if cache_path.exists():
-            try:
-                cached_rates = json.loads(cache_path.read_text(encoding="utf-8"))
-            except Exception:
-                cached_rates = None
-
-        if cached_rates:
-            fetched_at = cached_rates.get("fetched_at")
-            if fetched_at:
-                try:
-                    fetched_dt = datetime.fromisoformat(fetched_at)
-                    age_minutes = (
-                        datetime.now() - fetched_dt
-                    ).total_seconds() / 60
-                    if age_minutes <= cache_ttl_minutes:
-                        return cached_rates
-                except Exception:
-                    pass
-
-        mono_ok = False
-        try:
-            req = Request(
-                "https://api.monobank.ua/bank/currency",
-                headers={"User-Agent": "pc-build-research/1.0"},
-            )
-            mono = json.load(urlopen(req, timeout=6))
-            mono_ok = True
-            for row in mono:
-                pair = (row.get("currencyCodeA"), row.get("currencyCodeB"))
-                if pair == (978, 980):
-                    rates["eur_to_uah"] = float(row.get("rateSell") or row.get("rateCross"))
-                elif pair == (985, 980):
-                    rates["pln_to_uah"] = float(row.get("rateCross"))
-                elif pair == (348, 980):
-                    rates["huf_to_uah"] = float(row.get("rateCross"))
-        except Exception:
-            if cached_rates:
-                cached_rates["source"] = (
-                    f'{cached_rates.get("source", "cached live snapshot")} (cached)'
-                )
-                cached_rates["checked"] = (
-                    f'{cached_rates.get("checked", "unknown")} | reused after Monobank limit'
-                )
-                return cached_rates
-            mono_ok = False
-
-        if mono_ok:
-            rates["eur_to_huf"] = rates["eur_to_uah"] / rates["huf_to_uah"]
-            rates["source"] = "Monobank public card/payment rates"
-            rates["checked"] = datetime.now().strftime("%Y-%m-%d %H:%M")
-            rates["pln_to_huf"] = rates["pln_to_uah"] / rates["huf_to_uah"]
-            rates["fetched_at"] = datetime.now().isoformat(timespec="seconds")
-
-            try:
-                cache_path.write_text(
-                    json.dumps(rates, ensure_ascii=True, indent=2),
-                    encoding="utf-8",
-                )
-            except Exception:
-                pass
-
-            return rates
-
+        rates["eur_to_huf"] = rates["eur_to_uah"] / rates["huf_to_uah"]
         rates["pln_to_huf"] = rates["pln_to_uah"] / rates["huf_to_uah"]
         return rates
 
@@ -119,60 +50,25 @@ def _(Path, Request, datetime, json, urlopen):
 @app.cell
 def _():
     builds = {
-        "HU-core (5080)": {
-            "CPU": "CPU_01_HU",
-            "Main board": "MB_01_HU",
-            "Memory": "RAM_01_HU",
-            "Storage": "SSD_01_HU",
+        "Current real build": {
+            "CPU": "CPU_01_PL_AMZ",
+            "Main board": "MB_04_PL",
+            "Memory": "RAM_01_PL",
+            "Storage": "SSD_01_PL",
             "Power supply": "PSU_01_HU",
-            "Cooler": "COOL_02_HU",
-            "Case": "CASE_12_HU",
-            "Graphics card": "GPU_01_UA",
-        },
-        "PL-core (5080)": {
-            "CPU": "CPU_01_PL",
-            "Main board": "MB_01_PL",
-            "Memory": "RAM_01_PL",
-            "Storage": "SSD_01_PL",
-            "Power supply": "PSU_01_PL",
-            "Cooler": "COOL_02_PL",
-            "Case": "CASE_12_HU",
-            "Graphics card": "GPU_01_UA",
-        },
-        "Lowest UA+PL+HU (5080)": {
-            "CPU": "CPU_01_UA",
-            "Main board": "MB_05_PL",
-            "Memory": "RAM_01_PL",
-            "Storage": "SSD_04_PL",
-            "Power supply": "PSU_01_PL",
-            "Cooler": "COOL_04_PL",
-            "Case": "CASE_02_HU",
-            "Graphics card": "GPU_01_UA",
-        },
-        "5070 Ti value mix": {
-            "CPU": "CPU_01_UA",
-            "Main board": "MB_01_PL",
-            "Memory": "RAM_01_PL",
-            "Storage": "SSD_01_PL",
-            "Power supply": "PSU_01_PL",
-            "Cooler": "COOL_02_PL",
-            "Case": "CASE_12_HU",
-            "Graphics card": "GPU_22_PL",
-        },
-        "All PL (5080)": {
-            "CPU": "CPU_01_PL",
-            "Main board": "MB_01_PL",
-            "Memory": "RAM_01_PL",
-            "Storage": "SSD_01_PL",
-            "Power supply": "PSU_03_PL",
-            "Cooler": "COOL_02_PL",
-            "Case": "CASE_05_HU",
-            "Graphics card": "GPU_01_PL",
+            "Cooler": "COOL_01_HU",
+            "Case": "CASE_14_HU",
+            "Extra fans": "FAN_04_HU",
+            "Thermal paste": "PASTE_01_PL",
+            "Graphics card": "GPU_02_PL",
         },
     }
 
+    # Hungarian references for the savings card. Prefer exact model matches;
+    # use same-class snapshot rows only where an exact Hungary row is absent.
     compare_ids = {
         "CPU_01_PL": "CPU_01_HU",
+        "CPU_01_PL_AMZ": "CPU_01_HU",
         "CPU_01_UA": "CPU_01_HU",
         "CPU_02_PL": "CPU_02_HU",
         "CPU_03_PL": "CPU_03_HU",
@@ -180,35 +76,72 @@ def _():
         "MB_01_UA": "MB_01_HU",
         "MB_02_PL": "MB_02_HU",
         "MB_04_PL": "MB_04_HU",
+        "MB_08_PL": "MB_03_HU",
+        "MB_05_PL": "MB_05_HU",
+        "MB_06_PL": "MB_07_HU",
+        "MB_09_PL": "MB_08_HU",
+        "MB_10_PL": "MB_10_HU",
+        "MB_11_PL": "MB_10_HU",
+        "MB_12_PL": "MB_08_HU",
+        "MB_13_PL": "MB_04_HU",
+        "MB_14_PL": "MB_10_HU",
+        "MB_15_PL": "MB_03_HU",
         "RAM_01_PL": "RAM_01_HU",
         "RAM_01_UA": "RAM_01_HU",
         "RAM_02_PL": "RAM_02_HU",
         "RAM_03_PL": "RAM_03_HU",
         "RAM_04_PL": "RAM_04_HU",
         "RAM_04_UA": "RAM_04_HU",
+        "RAM_05_UA": "RAM_03_HU",
         "SSD_01_PL": "SSD_01_HU",
         "SSD_01_UA": "SSD_01_HU",
         "SSD_02_PL": "SSD_02_HU",
+        "SSD_03_PL": "SSD_03_HU",
         "SSD_03_UA": "SSD_03_HU",
+        "SSD_04_PL": "SSD_04_HU",
         "COOL_02_PL": "COOL_02_HU",
         "COOL_03_PL": "COOL_03_HU",
-        "COOL_03_UA": "COOL_03_HU",
+        "COOL_03_UA": "COOL_07_HU",
         "COOL_04_PL": "COOL_04_HU",
         "COOL_04_UA": "COOL_04_HU",
         "COOL_06_PL": "COOL_06_HU",
         "COOL_06_UA": "COOL_06_HU",
+        "COOL_07_PL": "COOL_01_HU",
+        "COOL_08_PL": "COOL_07_HU",
         "PSU_01_PL": "PSU_01_HU",
         "PSU_01_UA": "PSU_01_HU",
         "PSU_02_PL": "PSU_02_HU",
         "PSU_02_UA": "PSU_02_HU",
         "PSU_03_PL": "PSU_03_HU",
         "PSU_03_UA": "PSU_03_HU",
+        "PSU_04_PL": "PSU_06_HU",
+        "PSU_04_UA": "PSU_04_HU",
+        "PSU_06_UA": "PSU_06_HU",
+        "PSU_10_PL": "PSU_05_HU",
+        "PSU_10_UA": "PSU_05_HU",
+        "PSU_11_PL": "PSU_12_HU",
+        "PSU_11_UA": "PSU_12_HU",
+        "PSU_12_UA": "PSU_14_HU",
+        "PSU_15_UA": "PSU_09_UA",
+        "PSU_16_UA": "PSU_15_HU",
+        "PSU_12_PL": "PSU_15_HU",
+        "PSU_13_PL": "PSU_15_HU",
+        "FAN_01_PL": "FAN_01_HU",
+        "FAN_01_UA": "FAN_01_HU",
         "GPU_01_PL": "GPU_01_HU",
         "GPU_01_UA": "GPU_01_HU",
         "GPU_02_PL": "GPU_02_HU",
+        "GPU_02_UA": "GPU_02_HU",
+        "GPU_03_UA": "GPU_02_HU",
+        "GPU_04_UA": "GPU_02_HU",
         "GPU_03_PL": "GPU_03_HU",
         "GPU_04_PL": "GPU_04_HU",
         "GPU_05_PL": "GPU_05_HU",
+        "GPU_07_PL": "GPU_07_HU",
+        "GPU_08_PL": "GPU_13_HU",
+        "GPU_10_PL": "GPU_14_HU",
+        "GPU_12_PL": "GPU_12_HU",
+        "GPU_15_PL": "GPU_08_HU",
         "GPU_16_HU": "GPU_17_HU",
         "GPU_17_HU": "GPU_19_HU",
         "GPU_18_HU": "GPU_19_HU",
@@ -216,8 +149,11 @@ def _():
         "GPU_23_PL": "GPU_17_HU",
         "GPU_24_PL": "GPU_17_HU",
         "GPU_26_PL": "GPU_18_HU",
+        "GPU_27_PL": "GPU_20_HU",
         "GPU_30_UA": "GPU_17_HU",
         "GPU_31_UA": "GPU_17_HU",
+        "GPU_34_UA": "GPU_20_HU",
+        "GPU_35_UA": "GPU_21_HU",
     }
     return builds, compare_ids
 
@@ -262,10 +198,20 @@ def _(eu_lowest, html, parts, pd, rates):
             return price * rates["eur_to_uah"]
         return float(fallback)
 
+    def item_paid_uah(item):
+        try:
+            paid_uah = float(item.get("Paid_UAH", 0) or 0)
+        except Exception:
+            paid_uah = 0
+        return paid_uah
+
     def price_to_huf(item):
         return price_value_to_huf(item["Price"], item["Currency"], item["HUF_Est"])
 
     def price_to_uah(item):
+        paid_uah = item_paid_uah(item)
+        if paid_uah > 0:
+            return paid_uah
         return price_value_to_uah(item["Price"], item["Currency"], 0)
 
     def original_price(item):
@@ -296,6 +242,7 @@ def _(eu_lowest, html, parts, pd, rates):
                     "Price": original_price(item),
                     "HUF": int(round(huf)),
                     "UAH": int(round(uah)),
+                    "UAH_Mode": "receipt" if item_paid_uah(item) > 0 else "rate estimate",
                     "Saving": int(round(saving)),
                     "Saving_UAH": int(round(saving_uah)),
                     "URL": str(item.get("URL", "")),
@@ -871,7 +818,7 @@ def _(mo):
 def _(builds, mo):
     build_choice = mo.ui.dropdown(
         options=list(builds.keys()),
-        value="HU-core (5080)",
+        value="Current real build",
         label="",
         full_width=True,
     )
@@ -882,7 +829,7 @@ def _(builds, mo):
                 <div class="pc-wrap pc-select-block" style="margin-top: 0; margin-bottom: 8px;">
                   <div class="pc-control-shell">
                     <div class="pc-section-title">Build selection</div>
-                    <div class="pc-section-subtitle">Start with HU-core build, then swap any part, then swap any source or part below.</div>
+                    <div class="pc-section-subtitle">Current paid/pending build from the hub. Swap only if a real order changes.</div>
                 """
             ),
             build_choice,
@@ -953,9 +900,19 @@ def _(build_choice, builds, mo, parts):
         value=market_for(_base_parts["Cooler"]),
         full_width=True,
     )
+    paste_country = mo.ui.dropdown(
+        options=markets_for("Thermal paste"),
+        value=market_for(_base_parts["Thermal paste"]),
+        full_width=True,
+    )
     case_country = mo.ui.dropdown(
         options=markets_for("Case"),
         value=market_for(_base_parts["Case"]),
+        full_width=True,
+    )
+    fan_country = mo.ui.dropdown(
+        options=markets_for("Fan"),
+        value=market_for(_base_parts["Extra fans"]),
         full_width=True,
     )
     gpu_country = mo.ui.dropdown(
@@ -968,8 +925,10 @@ def _(build_choice, builds, mo, parts):
         case_country,
         cooler_country,
         cpu_country,
+        fan_country,
         gpu_country,
         memory_country,
+        paste_country,
         psu_country,
         storage_country,
     )
@@ -983,9 +942,11 @@ def _(
     case_country,
     cooler_country,
     cpu_country,
+    fan_country,
     gpu_country,
     memory_country,
     mo,
+    paste_country,
     parts,
     psu_country,
     storage_country,
@@ -1020,7 +981,9 @@ def _(
     storage_choice = picker("SSD", _base_parts["Storage"], storage_country)
     psu_choice = picker("PSU", _base_parts["Power supply"], psu_country)
     cooler_choice = picker("Cooler", _base_parts["Cooler"], cooler_country)
+    paste_choice = picker("Thermal paste", _base_parts["Thermal paste"], paste_country)
     case_choice = picker("Case", _base_parts["Case"], case_country)
+    fan_choice = picker("Fan", _base_parts["Extra fans"], fan_country)
     gpu_choice = picker("GPU", _base_parts["Graphics card"], gpu_country)
 
     def part_row(label, country_picker, part_picker):
@@ -1054,7 +1017,9 @@ def _(
             part_row("Storage", storage_country, storage_choice),
             part_row("Power supply", psu_country, psu_choice),
             part_row("Cooler", cooler_country, cooler_choice),
+            part_row("Thermal paste", paste_country, paste_choice),
             part_row("Case", case_country, case_choice),
+            part_row("Extra fans", fan_country, fan_choice),
             part_row("Graphics card", gpu_country, gpu_choice),
             mo.Html(
                 """
@@ -1071,8 +1036,10 @@ def _(
         case_choice,
         cooler_choice,
         cpu_choice,
+        fan_choice,
         gpu_choice,
         memory_choice,
+        paste_choice,
         psu_choice,
         storage_choice,
     )
@@ -1086,9 +1053,11 @@ def _(
     compare_ids,
     cooler_choice,
     cpu_choice,
+    fan_choice,
     gpu_choice,
     get_previous_snapshot,
     memory_choice,
+    paste_choice,
     psu_choice,
     rates,
     set_previous_snapshot,
@@ -1104,7 +1073,9 @@ def _(
         "Storage": storage_choice.value,
         "Power supply": psu_choice.value,
         "Cooler": cooler_choice.value,
+        "Thermal paste": paste_choice.value,
         "Case": case_choice.value,
+        "Extra fans": fan_choice.value,
         "Graphics card": gpu_choice.value,
     }
     selected_table = build_table(selected_parts, compare_ids)
@@ -1286,7 +1257,7 @@ def _(cell_deltas, cell_diffs, esc, mo, number_text, revision, row_diffs, select
                 <th>Buy from</th>
                 <th>Store</th>
                 <th class="pc-num pc-col-head-price">Store price</th>
-                <th class="pc-num pc-col-head-uah"><span class="pc-head-compact">UAH<br>est.</span></th>
+                <th class="pc-num pc-col-head-uah"><span class="pc-head-compact">UAH<br>cash</span></th>
                 <th class="pc-num pc-th-delta"><span class="pc-head-compact">Δ<br>UAH</span></th>
                 <th class="pc-num pc-col-head-huf"><span class="pc-head-compact">HUF<br>comp.</span></th>
                 <th class="pc-num pc-th-delta"><span class="pc-head-compact">Δ<br>HUF</span></th>
@@ -1373,7 +1344,7 @@ def _(cell_diffs, huf_text, mo, number_text, rates, revision, selected_table):
             </div>
           </div>
           <div class="pc-note" style="margin-top: 14px;">
-            UAH-first Monobank rates used. 1 PLN = {rates["pln_to_uah"]:.4f} UAH, 100 HUF = {(rates["huf_to_uah"] * 100):.2f} UAH. HUF comparison only: 1 PLN = {rates["pln_to_huf"]:.2f} HUF. Checked: {rates["checked"]}.
+            UAH cash view uses exact receipt UAH where paid. Pending/unpaid rows use locked order-planning rates: 1 PLN = {rates["pln_to_uah"]:.4f} UAH, 100 HUF = {(rates["huf_to_uah"] * 100):.2f} UAH. HUF comparison only: 1 PLN = {rates["pln_to_huf"]:.2f} HUF.
           </div>
         </div>
         """
@@ -1455,12 +1426,10 @@ def _(mo, rates):
     huf_per_pln = rates["pln_to_huf"]
     uah_per_pln = rates["pln_to_uah"]
     uah_per_100_huf = rates["huf_to_uah"] * 100
-    if uah_per_pln < 12:
-        fx_takeaway = "A lower PLN->UAH rate makes Polish source baskets cheaper for a Ukraine-based buyer."
-    elif uah_per_pln > 13:
-        fx_takeaway = "A higher PLN->UAH rate makes Polish source baskets less attractive against Ukraine and Hungary."
-    else:
-        fx_takeaway = "PLN->UAH is in the normal watch zone; check the UAH total before treating a Polish lead as better."
+    fx_takeaway = (
+        "These are locked accounting rates for the current build, not live Monobank rates. "
+        "Paid rows use receipt UAH first; rates only fill pending rows and comparisons."
+    )
 
     mo.Html(
         f"""
@@ -1468,31 +1437,31 @@ def _(mo, rates):
           <div class="pc-panel">
           <h2>FX logic</h2>
           <div class="pc-muted">
-            Monobank-only view: UAH is the real payment currency first. HUF is kept for Hungarian source comparison, not as the main planner currency.
+            UAH is the real cash view. Receipt UAH wins for paid items; fixed order-planning rates keep pending items and comparisons stable.
           </div>
           <table class="pc-table" style="margin-top: 12px;">
             <thead>
               <tr>
-                <th>What we watch</th>
-                <th class="pc-num">Live rate</th>
+                <th>What we use</th>
+                <th class="pc-num">Locked rate</th>
                 <th>Why it matters</th>
               </tr>
             </thead>
             <tbody>
               <tr>
-                <td>1 PLN on Ukrainian card</td>
+                <td>1 PLN order-planning rate</td>
                 <td class="pc-num">{uah_per_pln:.4f} UAH</td>
-                <td>This is the direct cost of paying Polish stores from Monobank / Ukrainian cards.</td>
+                <td>Used for pending Polish rows and stable PLN comparisons until exact payment receipts exist.</td>
               </tr>
               <tr>
-                <td>100 HUF on Ukrainian card</td>
+                <td>100 HUF order-planning rate</td>
                 <td class="pc-num">{uah_per_100_huf:.2f} UAH</td>
-                <td>This is the Ukrainian-card feel of Hungarian local prices.</td>
+                <td>Used for pending Hungarian rows and stable HUF comparisons where exact UAH receipt is absent.</td>
               </tr>
               <tr>
                 <td>1 PLN in HUF comparison</td>
                 <td class="pc-num">{huf_per_pln:.2f} HUF</td>
-                <td>Secondary comparison only: PLN->UAH divided by HUF->UAH.</td>
+                <td>Secondary comparison only: fixed PLN->UAH divided by fixed HUF->UAH.</td>
               </tr>
             </tbody>
           </table>

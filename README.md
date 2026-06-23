@@ -1,48 +1,55 @@
-# PC Build Planner
+# PC Build Ordering Hub
 
-Token-smart entry point for the PC build price tracker.
+Ukraine-first PC build planner, price evidence folder, and live order hub.
 
-## Read First
+## Start Here
 
-1. `PROJECT_STRUCTURE.md` - folders, files, and workflow rules.
-2. `02_PC_Builds/01_Price_Refresh/2026-06-21/PRICE_COLLECTION.md` - current three-market collection checklist.
-3. Part snapshots before raw pages:
-   - `02_PC_Builds/01_Price_Refresh/2026-06-21/RAM_MARKET_SNAPSHOT.md`
-   - `02_PC_Builds/01_Price_Refresh/2026-06-21/GPU_MARKET_SNAPSHOT.md`
+1. `00_Hub/Current_Order/README.md` - real purchase status, order folders, delivery details.
+2. `00_Hub/Current_Order/REMAINING_PARTS.md` - remaining pending approvals and final open status.
+3. `VAULT_NAVIGATION.md` - surgical map for Codex/AI helpers, current build row IDs, and where to edit.
+4. `PROJECT_STRUCTURE.md` - where every kind of file belongs.
+5. `04_Tools/PC_BUILD_CODE_MAP.md` - where to edit the Marimo planner, if app work is needed.
 
-## Token Order (always)
+## Current Truth
 
-1. `PROJECT_STRUCTURE.md`
-2. active `PRICE_COLLECTION.md`
-3. part `*_MARKET_SNAPSHOT.md`
-4. part `*_market_snapshot.csv`
-5. part `*_reviewed_options.csv`
-6. `01_Market_Data/<date>/<part>/_capture_index.csv`
-7. raw `.md` capture only when extracting, auditing, or asked.
+- `00_Hub/Current_Order/` is the source of truth for real purchases, receipts, pending orders, and Robert delivery notes.
+- `02_PC_Builds/parts_options_seed.csv` is the planner data file, not the proof of what was actually bought.
+- `01_Market_Data/` and `02_PC_Builds/01_Price_Refresh/` are price evidence and candidate snapshots.
+- `05_Knowledge_Base/` is long-term part research: PSU, cooling, motherboard, RAM, GPU, SSD, case.
 
-## Active App Files
+## Current Purchase State
 
-- `02_PC_Builds/parts_options_seed.csv` - main planner data.
-- `04_Tools/pc_build_marimo.py` - local app.
-- `04_Tools/pc_build_marimo_WASM_SAFE.py` - GitHub Pages-safe app.
+Ordered/paid or pending:
+
+- GPU: MSI RTX 5080 Gaming Trio OC from KR System.
+- RAM: Patriot Viper Venom 64GB 6000 CL30 from RTV EURO AGD.
+- SSD: Kingston KC3000 2TB from Empik / Okazje-Centrum.
+- Case: NZXT H7 Flow RGB Black from Compzone.
+- CPU cooler: ARCTIC Liquid Freezer III Pro 360 A-RGB from PCGO.
+- PSU: be quiet! Pure Power 13 M 1000W from AQUA.
+- Extra fans: ARCTIC P12 Pro A-RGB set from AQUA.
+- Amazon.pl pending: Ryzen 9 9900X, Gigabyte X870E AORUS Elite WiFi7, ARCTIC MX-7.
+
+Remaining live issue: Amazon.pl CPU/motherboard/paste approval. No unchosen part remains after the fan order.
+
+## Planner App Files
+
+- `04_Tools/pc_build_marimo.py` - normal local Marimo app.
+- `04_Tools/pc_build_marimo_WASM_SAFE.py` - WASM/GitHub Pages version. Do not touch for small local edits unless explicitly asked.
 - `docs/planner.html` - exported hosted app.
+- `02_PC_Builds/parts_options_seed.csv` - main product and price database.
 
-## Active Refresh
+## Price Refresh Workflow
 
-Current refresh folder: `02_PC_Builds/01_Price_Refresh/2026-06-21/`
+For a new price update:
 
-Current raw market folder: `01_Market_Data/2026-06-21/`
-
-Drop new captures into: `00_Hub/`
-
-## Knowledge Base (Part Research)
-
-`05_Knowledge_Base/` - permanent research on part specs, tradeoffs, and what to pick.
-
-Populated after each price refresh. See `PROJECT_STRUCTURE.md` §4 for the planned layout.
+1. Put raw captures in `00_Hub/` first.
+2. Sort them into `01_Market_Data/<date>/<part>/`.
+3. Update or create the matching `02_PC_Builds/01_Price_Refresh/<date>/<part>_market_snapshot.csv`.
+4. Update `02_PC_Builds/parts_options_seed.csv` only after a row is useful for the planner.
+5. Touch the WASM app and `docs/planner.html` only for a deliberate export/update pass.
 
 ## Archive
 
-Old long README: `99_Archive/README_History/README_FULL_HISTORY_2026-06-21.md`
-
-Older shortlists: `99_Archive/Old_Shortlists/00_Working_Shortlists_2026-06-21/`
+- `99_Archive/` contains old history, backups, and retired working files.
+- `02_PC_Builds/99_Archive_Excel_Attempt/` is an old spreadsheet attempt and is not active planner logic.

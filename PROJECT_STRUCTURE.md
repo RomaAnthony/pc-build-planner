@@ -1,10 +1,33 @@
 # PC Build Planner Structure
 
-This project has **four lanes**. Keep them separate.
+This project has **five lanes**. Keep them separate.
 
-## 0. Capture Inbox
+## 0. Active Order Hub
 
-Use `00_Hub/` as the only drop zone while collecting.
+Use `00_Hub/Current_Order/` for real purchase status, receipts, delivery notes, and what is still left to buy.
+
+Current order folders:
+
+- `00_Hub/Current_Order/GPU_RTX_5080/`
+- `00_Hub/Current_Order/RAM_64GB_CL30/`
+- `00_Hub/Current_Order/SSD_KC3000/`
+- `00_Hub/Current_Order/CASE_NZXT_H7_FLOW_RGB/`
+- `00_Hub/Current_Order/CPU_COOLER_ARCTIC_LFIII_PRO_360_ARGB/`
+- `00_Hub/Current_Order/PSU_BEQUIET_PURE_POWER_13_M_1000W/`
+- `00_Hub/Current_Order/FANS_ARCTIC_P12_PRO_ARGB/`
+- `00_Hub/Current_Order/AMAZON_PL_CPU_MOTHERBOARD_PASTE/`
+
+Read first:
+
+- `00_Hub/Current_Order/README.md` - current purchase table.
+- `00_Hub/Current_Order/REMAINING_PARTS.md` - remaining live buy decisions.
+- `00_Hub/Current_Order/ROBERT_DELIVERY_SUMMARY.md` - delivery summary for Robert.
+
+Rule: order PDFs, receipts, payment confirmations, and store order pages stay inside the matching part folder until the build is physically complete. Do not move completed order files into market data.
+
+## 1. Capture Inbox
+
+Use `00_Hub/` as the only drop zone while collecting new unsorted captures.
 
 - Put unsorted browser exports, Markdown files, and screenshots there.
 - Do not rename everything while collecting unless it is easy.
@@ -14,7 +37,7 @@ Use `00_Hub/` as the only drop zone while collecting.
   - broad market evidence for a dated snapshot CSV;
   - rejected/mismatch evidence that stays only in raw market data.
 
-## 1. Active App Data
+## 2. Active App Data
 
 These files feed the Marimo planner.
 
@@ -24,9 +47,11 @@ These files feed the Marimo planner.
 - `04_Tools/pc_build_marimo_WASM_SAFE.py` - GitHub Pages/WASM-safe app with embedded CSV.
 - `docs/planner.html` - exported hosted app.
 
-Rule: after editing `parts_options_seed.csv`, sync the embedded CSV in `pc_build_marimo_WASM_SAFE.py` and export `docs/planner.html`.
+Rule: for quick local ordering work, update `pc_build_marimo.py` and `parts_options_seed.csv` only when needed. Touch `pc_build_marimo_WASM_SAFE.py` and `docs/planner.html` only for an explicit export/sync pass.
 
-## 2. Active Price Refresh
+Current local planner state: the normal Marimo app has one active preset, `Current real build`. The exact row IDs and current paid/pending prices are documented in `VAULT_NAVIGATION.md`.
+
+## 3. Active Price Refresh
 
 Use one dated folder per refresh round.
 
@@ -54,7 +79,7 @@ Snapshot naming pattern:
 - `<part>_market_snapshot.csv` - ranked candidate rows for filtering and later app updates.
 - `<part>_reviewed_options.csv` - wider audit list with fallback rows and rejects.
 
-## 3. Raw Market Evidence
+## 4. Raw Market Evidence
 
 Raw pages live in `01_Market_Data/<date>/<part>/`.
 
@@ -69,7 +94,7 @@ Each active raw folder should have `_capture_index.csv`. Read that first; it map
 
 Rule: raw captures are evidence, not conclusions. Do not edit the app CSV from memory; every new price should point back to a capture path in the `Source` column or to a clearly named working note.
 
-## 4. Knowledge Base (Part Research)
+## 5. Knowledge Base (Part Research)
 
 Permanent deep research — what parts mean, why you'd pick one over another, what tradeoffs exist.
 
@@ -115,34 +140,33 @@ Structure:
 
 ## Archive / Notes
 
-- `02_PC_Builds/99_Archive_Excel_Attempt/` - old spreadsheet attempt, not active app logic.
 - `99_Archive/README_History/README_FULL_HISTORY_2026-06-21.md` - old long README/project memory.
 - `99_Archive/Old_Shortlists/00_Working_Shortlists_2026-06-21/` - older shortlist thinking.
+- `99_Archive/Backups/` - old active-file backups moved out of the working folders.
+- `99_Archive/OldPlans/` - old Dad/CSV prep notes moved out of active build data.
+- `99_Archive/ExcelOld/` - old spreadsheet attempt, not active app logic.
+- `99_Archive/OldTools/` - older tooling explanation replaced by `04_Tools/PC_BUILD_CODE_MAP.md`.
+- `99_Archive/LegacyRaw/` - old raw captures from before the cleaner `01_Market_Data/<date>/<part>/` system.
+- `99_Archive/PATH_RENAMES_2026-06-22.csv` - mapping from long browser-capture filenames to OneDrive-safe short names.
 - `01_Market_Data/archived/2026-06-16/` - previous refresh raw captures.
 - `04_Tools/PC_BUILD_CODE_MAP.md` - quick map for editing the Marimo code.
 
-## Current Refresh Target
+## Current Build State
 
-Focused 64GB build:
+Main build, based on current real orders:
 
 - Ryzen 9 9900X
-- MSI MAG B850 Tomahawk MAX WiFi
+- Gigabyte X870E AORUS Elite WiFi7
 - 64GB DDR5-6000 CL30
-- Kingston KC3000 2TB unless PCIe 5 becomes close in price
-- 1000W ATX 3.1 PSU
-- Arctic 360 AIO
-- Lian Li Lancool 207 Digital from Hungary if possible
-- cheapest sensible RTX 5080 candidate across HU/PL/UA
+- Kingston KC3000 2TB
+- be quiet! Pure Power 13 M 1000W
+- ARCTIC Liquid Freezer III Pro 360 A-RGB
+- NZXT H7 Flow RGB Black
+- ARCTIC P12 Pro A-RGB fan set
+- ARCTIC MX-7 thermal paste
+- MSI RTX 5080 Gaming Trio OC
 
-Current RAM focus:
+Current remaining focus:
 
-- Leave motherboard alone until RAM is clearer.
-- Verify the suspicious Hungary Silicon Power 64GB 6000 CL30 lead before treating it as real.
-- Capture exact Patriot, GOODRAM, and Kingston 64GB CL30 store pages in Poland and Ukraine.
-- Capture Patriot 32GB CL30 in Poland, Ukraine, and Hungary for the budget-down build.
-
-Current GPU focus:
-
-- Treat Ukraine MSI RTX 5080 Ventus at 59,250 UAH as the strongest exact lead, pending seller/warranty/payment details.
-- Verify Poland Inno3D X3, Gigabyte Windforce, and MSI Ventus exact store rows.
-- Verify Hungary Gainward / Palit / Inno3D exact store rows only if local warranty convenience matters.
+- Amazon.pl CPU, motherboard, and paste order is pending Amazon account/payment approval, not fully paid yet.
+- Keep RGB simple: 5V 3-pin ARGB, hidden wiring, and no unnecessary controller complexity if the motherboard headers and included case control cover the layout.

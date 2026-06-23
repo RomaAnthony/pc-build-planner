@@ -1,4 +1,4 @@
-# Next Chat Handoff - PC Build Market Workflow
+# Next Chat Handoff - PC Build Ordering Workflow
 
 Workspace:
 
@@ -10,72 +10,74 @@ Be token-smart. Do not open raw captures first.
 
 1. `README.md`
 2. `PROJECT_STRUCTURE.md`
-3. `02_PC_Builds/01_Price_Refresh/2026-06-21/PRICE_COLLECTION.md`
-4. Relevant part snapshot CSV/MD
-5. Relevant `01_Market_Data/2026-06-21/<Part>/_capture_index.csv`
-6. Raw `.md` capture only when extracting/auditing a specific source
+3. `VAULT_NAVIGATION.md`
+4. `00_Hub/Current_Order/README.md`
+5. `00_Hub/Current_Order/REMAINING_PARTS.md`
+6. Relevant part `ORDER_SUMMARY.md`
+7. `02_PC_Builds/parts_options_seed.csv` only if planner prices/options need updating
+8. Raw market captures only when extracting or auditing a specific source
+
+## Current Purchase State
+
+Real purchases and pending orders live in `00_Hub/Current_Order/`.
+
+Ordered/paid or pending:
+
+- GPU: MSI RTX 5080 Gaming Trio OC from KR System.
+- RAM: Patriot Viper Venom 64GB 6000 CL30 from RTV EURO AGD.
+- SSD: Kingston KC3000 2TB from Empik / Okazje-Centrum.
+- Case: NZXT H7 Flow RGB Black from Compzone.
+- CPU cooler: ARCTIC Liquid Freezer III Pro 360 A-RGB from PCGO.
+- PSU: be quiet! Pure Power 13 M 1000W from AQUA.
+- Extra fans: ARCTIC P12 Pro A-RGB set from AQUA.
+- Amazon.pl pending: Ryzen 9 9900X, Gigabyte X870E AORUS Elite WiFi7, ARCTIC MX-7.
+
+Remaining live decision:
+
+- No unchosen part remains. Amazon.pl CPU/motherboard/paste is ordered but still waiting for account/payment approval.
+
+The normal local planner now has one active preset, `Current real build`, using the paid/pending order rows listed in `VAULT_NAVIGATION.md`.
 
 ## Current Workflow
 
-User drops market captures into `00_Hub/`.
+For purchase/order work:
 
-Process Hub like this:
+1. Start in `00_Hub/Current_Order/README.md`.
+2. Update the relevant part folder's `ORDER_SUMMARY.md`.
+3. Keep PDFs, receipts, and store pages in the matching part folder.
+4. Update `ROBERT_DELIVERY_SUMMARY.md` when delivery/payment details change.
+5. Update `REMAINING_PARTS.md` when a part is ordered or the remaining plan changes.
 
-1. Move captures into `01_Market_Data/2026-06-21/<Part>/`.
-2. Rebuild that part folder's `_capture_index.csv`.
-3. Broad search pages update part market snapshot/reviewed options.
-4. Exact store/product pages update `price_changes.csv`.
-5. Only update `02_PC_Builds/parts_options_seed.csv` when the row is confident enough for the actual build.
-6. If app CSV changes, sync `04_Tools/pc_build_marimo_WASM_SAFE.py` and export `docs/planner.html`.
+For new price research:
 
-## Current State
+1. Drop new captures in `00_Hub/`.
+2. Sort captures into `01_Market_Data/<date>/<part>/`.
+3. Update matching dated snapshot files in `02_PC_Builds/01_Price_Refresh/<date>/`.
+4. Update `02_PC_Builds/parts_options_seed.csv` only when a row is useful for the planner.
+5. Do not touch `04_Tools/pc_build_marimo_WASM_SAFE.py` or `docs/planner.html` unless the user asks for a deliberate hosted export/sync pass.
 
-RAM is already deeply captured.
+## Important App Notes
 
-- Target: 64GB or 32GB, 2-stick DDR5-6000 CL30.
-- Controlled fallback tiers matter if prices are too high: 6000 CL32/CL36, 5600 CL30/CL36, 6000 CL40 only if savings are real.
-- Exact Poland Patriot Viper Venom 64GB CL30 from RTV EURO AGD is captured at 3,209 PLN with lifetime warranty.
-- Hungary Silicon Power XPower Zenith 64GB CL30 at 225,090 HUF is suspicious/verify, not final pick.
+- Normal local Marimo app: `04_Tools/pc_build_marimo.py`
+- WASM/GitHub Pages app: `04_Tools/pc_build_marimo_WASM_SAFE.py`
+- Hosted export: `docs/planner.html`
+- Code map: `04_Tools/PC_BUILD_CODE_MAP.md`
 
-GPU is also enough for now.
+The user is sensitive about breaking the WASM version. For small ordering/pricing work, keep changes local to data files or the normal Marimo app unless explicitly asked.
 
-- Best current lead: Ukraine MSI RTX 5080 Ventus 3X OC at 59,250 UAH from LuckyLink/Hotline, needs warranty/payment/delivery confidence.
-- Poland exact candidates captured: Inno3D X3, Zotac Solid Core OC, Gainward Phoenix x-kom, Palit GamingPro OC.
-- Future GPU options like RTX 5070 Ti and RTX 4080 Super belong in later snapshots, not mixed into RTX 5080.
+## Folder Cleanup State
 
-Newer captures now exist for motherboard, PSU, and SSD. Their snapshots exist:
+Safe cleanup done on 2026-06-22:
 
-- `motherboard_market_snapshot.csv`
-- `psu_market_snapshot.csv`
-- `ssd_market_snapshot.csv`
+- Removed `.DS_Store`, `__pycache__`, `.pyc`, and Marimo rate cache junk outside active data.
+- Moved old active-file backups to `99_Archive/Backups/`.
+- Moved legacy raw research from `03_Research_Notes/` to `99_Archive/LegacyRaw/`.
+- Moved old Dad/Excel planning notes out of `02_PC_Builds/` to `99_Archive/OldPlans/` and `99_Archive/ExcelOld/`.
+- Moved old tooling narrative from `04_Tools/PC_BUILD_TOOLING.md` to `99_Archive/OldTools/`.
+- Deleted exact duplicate PSU legacy captures after confirming identical copies exist in `01_Market_Data/2026-06-21/PSU/`.
+- Shortened long raw-capture filenames for OneDrive; see `99_Archive/PATH_RENAMES_2026-06-22.csv` for original-name mapping.
+- Left `.venv_marimo/` in place because it is large but useful for running the normal local app.
 
-## Current Active Raw Folders
+## User Preference
 
-- `01_Market_Data/2026-06-21/CPU/`
-- `01_Market_Data/2026-06-21/Motherboard/`
-- `01_Market_Data/2026-06-21/RAM/`
-- `01_Market_Data/2026-06-21/GPU/`
-- `01_Market_Data/2026-06-21/PSU/`
-- `01_Market_Data/2026-06-21/SSD/`
-
-Each has `_capture_index.csv`.
-
-## Knowledge Base Plan
-
-`05_Knowledge_Base/` is for deep technical research, not prices.
-
-Use it later to write durable guides:
-
-- RAM timing/capacity tiers
-- RTX 5080 vs 5070 Ti vs 4080 Super
-- B850 vs X870/X870E motherboards
-- PCIe 4 vs PCIe 5 SSDs
-- ATX 3.1 / 12V-2x6 PSU rules
-- Lancool 207 Digital and case airflow
-- 360 AIO cooling choices
-
-Do this after market captures are organized.
-
-## Important User Preference
-
-The user wants professional file sorting and low token use. Be decisive and avoid rereading huge raw captures unless necessary. Preserve data; archive before deleting. Broad pages are discovery; exact product/store pages are buy evidence.
+Be practical and careful. Preserve data, archive before deleting, and keep order facts separate from market/research captures.

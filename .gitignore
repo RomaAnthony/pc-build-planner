@@ -3,16 +3,11 @@
 00_Hub/*
 !00_Hub/README.md
 01_Market_Data/
-03_Research_Notes/
 99_Archive/
-02_PC_Builds/99_Archive_Excel_Attempt/
-02_PC_Builds/BUILD_OPTIONS_CSV_PREP.md
-02_PC_Builds/DAD_PC_BUILD_SUMMARY.md
 /DEEP_SEARCH_PROMPT.md
 
 # Tooling notes (internal)
 04_Tools/.rate_cache.json
-04_Tools/PC_BUILD_TOOLING.md
 04_Tools/requirements-marimo.txt
 
 # OS / IDE

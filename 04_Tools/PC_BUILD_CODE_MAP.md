@@ -1,6 +1,6 @@
 # PC Build App Code Map
 
-Date: 2026-06-16
+Date: 2026-06-22
 
 Purpose: quick editing notes for the Marimo PC build planner.
 
@@ -10,24 +10,43 @@ Purpose: quick editing notes for the Marimo PC build planner.
 - `04_Tools/pc_build_marimo_WASM_SAFE.py`: browser/GitHub Pages app. Embeds CSV text near the top.
 - `docs/planner.html`: exported hosted page. Do not edit by hand; regenerate from the WASM-safe file.
 
+## Current Local App State
+
+The normal local app currently has one active build preset: `Current real build`.
+
+Active row IDs:
+
+- CPU: `CPU_01_PL_AMZ`
+- Main board: `MB_04_PL`
+- Memory: `RAM_01_PL`
+- Storage: `SSD_01_PL`
+- Power supply: `PSU_01_HU`
+- Cooler: `COOL_01_HU`
+- Thermal paste: `PASTE_01_PL`
+- Case: `CASE_14_HU`
+- Extra fans: `FAN_04_HU`
+- Graphics card: `GPU_02_PL`
+
+`FAN_04_HU` is the paid AQUA fan order: ARCTIC reverse 3-pack for bottom intake plus one normal P12 Pro A-RGB rear exhaust fan.
+
 ## Main Data Flow
 
 1. `parts` comes from `parts_options_seed.csv` locally, or `PARTS_CSV_DATA` in the WASM file.
 2. `eu_lowest` comes from `eu_lowest_price_seed.csv` locally, or `EU_LOWEST_CSV_DATA` in the WASM file.
 3. `builds` maps build names to selected row IDs.
-4. `compare_ids` maps Poland rows to Hungary reference rows for savings.
-5. `build_table()` converts selected row IDs into the display table with HUF, UAH, savings, raw currency, and store data.
+4. `compare_ids` maps Poland/Ukraine rows to Hungary reference rows for savings.
+5. `build_table()` converts selected row IDs into the display table with HUF, UAH, savings, raw currency, and store data. UAH uses `Paid_UAH` from the seed when present; otherwise it uses fixed order-planning rates.
 6. The local `Change Parts` UI is two-stage: first country dropdowns, then part dropdowns filtered to that country.
 7. UI cells render in order: title, build selector, country/part dropdowns, selected build table, summary cards, purchase baskets, FX logic, EU check, raw database.
 
 ## Common Edit Points
 
-- Add or change a part: edit `02_PC_Builds/parts_options_seed.csv`, then sync the WASM embedded `PARTS_CSV_DATA`.
+- Add or change a part: edit `02_PC_Builds/parts_options_seed.csv`. Sync the WASM embedded `PARTS_CSV_DATA` only during an explicit hosted/export pass.
 - Add a build preset: edit the `builds` dictionary. Every ID in a build must exist in the active parts data.
 - Change default build: edit the `value=` in the `build_choice = mo.ui.dropdown(...)` cell.
 - Change the country-first part picker: edit the cells around `markets_for()`, `options_for(part, market)`, and `part_row(...)` in `pc_build_marimo.py`.
-- Change savings logic: edit `compare_ids` and `build_table()`.
-- Change FX logic: edit `load_rates()` and the `FX logic` display cell.
+- Change savings logic: edit `compare_ids` and `build_table()`. Every selected Poland/Ukraine build row needs a Hungarian reference, and every exact Hungary model match should be mapped.
+- Change FX/accounting logic: edit `load_rates()`, `price_to_uah()`, and the `FX logic` display cell. The current build intentionally uses fixed order-planning rates, not live Monobank rates.
 - Change hosted layout: edit `pc_build_marimo_WASM_SAFE.py`, export, then verify `docs/planner.html` in browser.
 
 ## Fast Price Refresh Loop
@@ -35,17 +54,18 @@ Purpose: quick editing notes for the Marimo PC build planner.
 Use this when prices change next week and the goal is a quick surgical update:
 
 1. Update or add rows in the dated snapshot/review CSVs under `02_PC_Builds/01_Price_Refresh/<date>/`.
-2. Run `python3 04_Tools/audit_parts_seed_against_refresh.py` from the project root.
+2. Run `python3 04_Tools/audit_parts_seed_against_refresh.py` from the project root. It checks planner integrity first: build IDs, compare references, and exact Hungary reference coverage.
 3. Review the printed queue. Add only planner-worthy rows to `02_PC_Builds/parts_options_seed.csv`.
-4. Keep suspicious rows as `Watch`/`High` risk. Do not overwrite known protected rows, such as the cleaner `MB_01_UA` 12,989 UAH row, with suspicious lower rows.
-5. Run:
+4. If a new Poland/Ukraine row has an exact Hungary row, add it to `compare_ids`; if it is used in a build without an exact Hungary row, add the nearest same-class Hungary reference and keep that choice conservative.
+5. Keep suspicious rows as `Watch`/`High` risk. Do not overwrite known protected rows, such as the cleaner `MB_01_UA` 12,989 UAH row, with suspicious lower rows.
+6. Run:
 
 ```bash
 python3 -m py_compile 04_Tools/pc_build_marimo.py
 marimo check 04_Tools/pc_build_marimo.py
 ```
 
-6. Only after the local app looks correct, sync `PARTS_CSV_DATA` in `pc_build_marimo_WASM_SAFE.py` and export `docs/planner.html`.
+7. Only after the local app looks correct and the user asks for hosted sync, run `python3 04_Tools/audit_parts_seed_against_refresh.py --check-wasm`, sync `PARTS_CSV_DATA` in `pc_build_marimo_WASM_SAFE.py`, and export `docs/planner.html`.
 
 ## WASM Safety Rules
 
@@ -78,6 +98,8 @@ GitHub Pages is static. It cannot save a named build back into the repo by itsel
 The hosted page was missing the main builder because `pc_build_marimo_WASM_SAFE.py` had stale embedded data and an invalid default build name. Some build presets referenced case/cooler IDs that existed in the live CSV but not in `PARTS_CSV_DATA`. The app width was also changed from invalid WASM value `wide` to `full`.
 
 The final local/hosted mismatch came from editing the local app while the WASM-safe hosted app still had older UI cells. When the screenshots look different, compare both Python files, not only `docs/planner.html`.
+
+Savings can silently undercount when a selected Poland/Ukraine row is missing from `compare_ids`. The audit helper now fails on missing build references and exact Hungary matches.
 
 ## Lessons Learned
 
